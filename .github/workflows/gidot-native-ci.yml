@@ -1,0 +1,38 @@
+name: Gidot-Native ZIP validation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "NYAMIST_RECOVERED_CETO.zip"
+      - ".github/workflows/gidot-native-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check archive exists
+        run: test -s NYAMIST_RECOVERED_CETO.zip
+
+      - name: Validate ZIP integrity
+        run: unzip -tq NYAMIST_RECOVERED_CETO.zip
+
+      - name: Generate archive report
+        run: |
+          echo "## ZIP archive report" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- File: NYAMIST_RECOVERED_CETO.zip" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Size: $(stat -c%s NYAMIST_RECOVERED_CETO.zip) bytes" >> "$GITHUB_STEP_SUMMARY"
+          echo "- SHA-256: $(sha256sum NYAMIST_RECOVERED_CETO.zip | cut -d' ' -f1)" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "### Archive entries (first 200)" >> "$GITHUB_STEP_SUMMARY"
+          echo '~~~text' >> "$GITHUB_STEP_SUMMARY"
+          unzip -Z1 NYAMIST_RECOVERED_CETO.zip | head -n 200 >> "$GITHUB_STEP_SUMMARY"
+          echo '~~~' >> "$GITHUB_STEP_SUMMARY"
