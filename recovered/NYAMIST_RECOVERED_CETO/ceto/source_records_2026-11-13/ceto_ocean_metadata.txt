@@ -1,0 +1,2697 @@
+STRANDED DEEP - OCEAN / CETO METADATA REPORT
+Assembly: /sdcard/Download/3zip/Stranded Deep/Stranded_Deep_Data/Managed/Assembly-CSharp.dll
+
+=== TYPE DEFINITIONS AND METHODS ===
+
+TYPE: SimpleBuoyancy
+  Beam.IQueryWaves.get_WaveQueries | RVA=0x16fe3
+  Beam.IQueryWaves.InRange | RVA=0x1700a
+  Beam.IQueryWaves.OutOfRange | RVA=0x1700c
+  get_Active | RVA=0x1700e
+  get_Rate | RVA=0x1702b
+  OnEnable | RVA=0x1702e
+  OnDisable | RVA=0x17051
+  Beam.IFixedTick.FixedTick | RVA=0x17074
+  .ctor | RVA=0x170e6
+
+TYPE: Epic.OnlineServices.ContinuanceToken
+  .ctor | RVA=0x2f0f0
+  ToString | RVA=0x2f0fc
+  EOS_ContinuanceToken_ToString | RVA=0x0
+
+TYPE: Epic.OnlineServices.PageQuery
+  get_ApiVersion | RVA=0x2f1a6
+  get_StartIndex | RVA=0x2f1a9
+  set_StartIndex | RVA=0x2f1b1
+  get_MaxCount | RVA=0x2f1ba
+  set_MaxCount | RVA=0x2f1c2
+  .ctor | RVA=0x2f1cb
+
+TYPE: Epic.OnlineServices.PageQueryInternal
+  get_ApiVersion | RVA=0x2f1d4
+  set_ApiVersion | RVA=0x2f1f6
+  get_StartIndex | RVA=0x2f208
+  set_StartIndex | RVA=0x2f22a
+  get_MaxCount | RVA=0x2f23c
+  set_MaxCount | RVA=0x2f25e
+  Dispose | RVA=0x2f26d
+
+TYPE: Epic.OnlineServices.UserInfo.OnQueryUserInfoByDisplayNameCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.UserInfo.OnQueryUserInfoByDisplayNameCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.UserInfo.OnQueryUserInfoByExternalAccountCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.UserInfo.OnQueryUserInfoByExternalAccountCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.UserInfo.OnQueryUserInfoCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.UserInfo.OnQueryUserInfoCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.UserInfo.QueryUserInfoByDisplayNameCallbackInfo
+  get_ResultCode | RVA=0x2f993
+  set_ResultCode | RVA=0x2f99b
+  get_ClientData | RVA=0x2f9a4
+  set_ClientData | RVA=0x2f9ac
+  get_LocalUserId | RVA=0x2f9b5
+  set_LocalUserId | RVA=0x2f9bd
+  get_TargetUserId | RVA=0x2f9c6
+  set_TargetUserId | RVA=0x2f9ce
+  get_DisplayName | RVA=0x2f9d7
+  set_DisplayName | RVA=0x2f9df
+  .ctor | RVA=0x2f9e8
+
+TYPE: Epic.OnlineServices.UserInfo.QueryUserInfoByDisplayNameCallbackInfoInternal
+  get_ResultCode | RVA=0x2f9f0
+  get_ClientData | RVA=0x2fa14
+  get_ClientDataAddress | RVA=0x2fa36
+  get_LocalUserId | RVA=0x2fa40
+  get_TargetUserId | RVA=0x2fa64
+  get_DisplayName | RVA=0x2fa88
+
+TYPE: Epic.OnlineServices.UserInfo.QueryUserInfoByDisplayNameOptions
+  get_ApiVersion | RVA=0x2faaa
+  get_LocalUserId | RVA=0x2faad
+  set_LocalUserId | RVA=0x2fab5
+  get_DisplayName | RVA=0x2fabe
+  set_DisplayName | RVA=0x2fac6
+  .ctor | RVA=0x2facf
+
+TYPE: Epic.OnlineServices.UserInfo.QueryUserInfoByDisplayNameOptionsInternal
+  get_ApiVersion | RVA=0x2fad8
+  set_ApiVersion | RVA=0x2fafa
+  get_LocalUserId | RVA=0x2fb0c
+  set_LocalUserId | RVA=0x2fb2e
+  get_DisplayName | RVA=0x2fb40
+  set_DisplayName | RVA=0x2fb62
+  Dispose | RVA=0x2fb71
+
+TYPE: Epic.OnlineServices.UserInfo.QueryUserInfoByExternalAccountCallbackInfo
+  get_ResultCode | RVA=0x2fb73
+  set_ResultCode | RVA=0x2fb7b
+  get_ClientData | RVA=0x2fb84
+  set_ClientData | RVA=0x2fb8c
+  get_LocalUserId | RVA=0x2fb95
+  set_LocalUserId | RVA=0x2fb9d
+  get_ExternalAccountId | RVA=0x2fba6
+  set_ExternalAccountId | RVA=0x2fbae
+  get_AccountType | RVA=0x2fbb7
+  set_AccountType | RVA=0x2fbbf
+  get_TargetUserId | RVA=0x2fbc8
+  set_TargetUserId | RVA=0x2fbd0
+  .ctor | RVA=0x2fbd9
+
+TYPE: Epic.OnlineServices.UserInfo.QueryUserInfoByExternalAccountCallbackInfoInternal
+  get_ResultCode | RVA=0x2fbe4
+  get_ClientData | RVA=0x2fc08
+  get_ClientDataAddress | RVA=0x2fc2a
+  get_LocalUserId | RVA=0x2fc34
+  get_ExternalAccountId | RVA=0x2fc58
+  get_AccountType | RVA=0x2fc7c
+  get_TargetUserId | RVA=0x2fca0
+
+TYPE: Epic.OnlineServices.UserInfo.QueryUserInfoByExternalAccountOptions
+  get_ApiVersion | RVA=0x2fcc2
+  get_LocalUserId | RVA=0x2fcc5
+  set_LocalUserId | RVA=0x2fccd
+  get_ExternalAccountId | RVA=0x2fcd6
+  set_ExternalAccountId | RVA=0x2fcde
+  get_AccountType | RVA=0x2fce7
+  set_AccountType | RVA=0x2fcef
+  .ctor | RVA=0x2fcf8
+
+TYPE: Epic.OnlineServices.UserInfo.QueryUserInfoByExternalAccountOptionsInternal
+  get_ApiVersion | RVA=0x2fd00
+  set_ApiVersion | RVA=0x2fd22
+  get_LocalUserId | RVA=0x2fd34
+  set_LocalUserId | RVA=0x2fd56
+  get_ExternalAccountId | RVA=0x2fd68
+  set_ExternalAccountId | RVA=0x2fd8a
+  get_AccountType | RVA=0x2fd9c
+  set_AccountType | RVA=0x2fdbe
+  Dispose | RVA=0x2fdcd
+
+TYPE: Epic.OnlineServices.UserInfo.QueryUserInfoCallbackInfo
+  get_ResultCode | RVA=0x2fdcf
+  set_ResultCode | RVA=0x2fdd7
+  get_ClientData | RVA=0x2fde0
+  set_ClientData | RVA=0x2fde8
+  get_LocalUserId | RVA=0x2fdf1
+  set_LocalUserId | RVA=0x2fdf9
+  get_TargetUserId | RVA=0x2fe02
+  set_TargetUserId | RVA=0x2fe0a
+  .ctor | RVA=0x2fe13
+
+TYPE: Epic.OnlineServices.UserInfo.QueryUserInfoCallbackInfoInternal
+  get_ResultCode | RVA=0x2fe1c
+  get_ClientData | RVA=0x2fe40
+  get_ClientDataAddress | RVA=0x2fe62
+  get_LocalUserId | RVA=0x2fe6c
+  get_TargetUserId | RVA=0x2fe90
+
+TYPE: Epic.OnlineServices.UserInfo.QueryUserInfoOptions
+  get_ApiVersion | RVA=0x2feb2
+  get_LocalUserId | RVA=0x2feb5
+  set_LocalUserId | RVA=0x2febd
+  get_TargetUserId | RVA=0x2fec6
+  set_TargetUserId | RVA=0x2fece
+  .ctor | RVA=0x2fed7
+
+TYPE: Epic.OnlineServices.UserInfo.QueryUserInfoOptionsInternal
+  get_ApiVersion | RVA=0x2fee0
+  set_ApiVersion | RVA=0x2ff02
+  get_LocalUserId | RVA=0x2ff14
+  set_LocalUserId | RVA=0x2ff36
+  get_TargetUserId | RVA=0x2ff48
+  set_TargetUserId | RVA=0x2ff6a
+  Dispose | RVA=0x2ff79
+
+TYPE: Epic.OnlineServices.TitleStorage.OnQueryFileCompleteCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.TitleStorage.OnQueryFileCompleteCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.TitleStorage.OnQueryFileListCompleteCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.TitleStorage.OnQueryFileListCompleteCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.TitleStorage.QueryFileCallbackInfo
+  get_ResultCode | RVA=0x3126f
+  set_ResultCode | RVA=0x31277
+  get_ClientData | RVA=0x31280
+  set_ClientData | RVA=0x31288
+  get_LocalUserId | RVA=0x31291
+  set_LocalUserId | RVA=0x31299
+  .ctor | RVA=0x312a2
+
+TYPE: Epic.OnlineServices.TitleStorage.QueryFileCallbackInfoInternal
+  get_ResultCode | RVA=0x312ac
+  get_ClientData | RVA=0x312d0
+  get_ClientDataAddress | RVA=0x312f2
+  get_LocalUserId | RVA=0x312fc
+
+TYPE: Epic.OnlineServices.TitleStorage.QueryFileListCallbackInfo
+  get_ResultCode | RVA=0x3131e
+  set_ResultCode | RVA=0x31326
+  get_ClientData | RVA=0x3132f
+  set_ClientData | RVA=0x31337
+  get_LocalUserId | RVA=0x31340
+  set_LocalUserId | RVA=0x31348
+  get_FileCount | RVA=0x31351
+  set_FileCount | RVA=0x31359
+  .ctor | RVA=0x31362
+
+TYPE: Epic.OnlineServices.TitleStorage.QueryFileListCallbackInfoInternal
+  get_ResultCode | RVA=0x3136c
+  get_ClientData | RVA=0x31390
+  get_ClientDataAddress | RVA=0x313b2
+  get_LocalUserId | RVA=0x313bc
+  get_FileCount | RVA=0x313e0
+
+TYPE: Epic.OnlineServices.TitleStorage.QueryFileListOptions
+  get_ApiVersion | RVA=0x31402
+  get_LocalUserId | RVA=0x31405
+  set_LocalUserId | RVA=0x3140d
+  get_ListOfTags | RVA=0x31416
+  set_ListOfTags | RVA=0x3141e
+  .ctor | RVA=0x31427
+
+TYPE: Epic.OnlineServices.TitleStorage.QueryFileListOptionsInternal
+  get_ApiVersion | RVA=0x31430
+  set_ApiVersion | RVA=0x31452
+  get_LocalUserId | RVA=0x31464
+  set_LocalUserId | RVA=0x31486
+  get_ListOfTags | RVA=0x31498
+  set_ListOfTags | RVA=0x314c0
+  Dispose | RVA=0x314d5
+
+TYPE: Epic.OnlineServices.TitleStorage.QueryFileOptions
+  get_ApiVersion | RVA=0x314e3
+  get_LocalUserId | RVA=0x314e6
+  set_LocalUserId | RVA=0x314ee
+  get_Filename | RVA=0x314f7
+  set_Filename | RVA=0x314ff
+  .ctor | RVA=0x31508
+
+TYPE: Epic.OnlineServices.TitleStorage.QueryFileOptionsInternal
+  get_ApiVersion | RVA=0x31510
+  set_ApiVersion | RVA=0x31532
+  get_LocalUserId | RVA=0x31544
+  set_LocalUserId | RVA=0x31566
+  get_Filename | RVA=0x31578
+  set_Filename | RVA=0x3159a
+  Dispose | RVA=0x315a9
+
+TYPE: Epic.OnlineServices.Stats.OnQueryStatsCompleteCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Stats.OnQueryStatsCompleteCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Stats.OnQueryStatsCompleteCallbackInfo
+  get_ResultCode | RVA=0x3221b
+  set_ResultCode | RVA=0x32223
+  get_ClientData | RVA=0x3222c
+  set_ClientData | RVA=0x32234
+  get_LocalUserId | RVA=0x3223d
+  set_LocalUserId | RVA=0x32245
+  get_TargetUserId | RVA=0x3224e
+  set_TargetUserId | RVA=0x32256
+  .ctor | RVA=0x3225f
+
+TYPE: Epic.OnlineServices.Stats.OnQueryStatsCompleteCallbackInfoInternal
+  get_ResultCode | RVA=0x32268
+  get_ClientData | RVA=0x3228c
+  get_ClientDataAddress | RVA=0x322ae
+  get_LocalUserId | RVA=0x322b8
+  get_TargetUserId | RVA=0x322dc
+
+TYPE: Epic.OnlineServices.Stats.QueryStatsOptions
+  get_ApiVersion | RVA=0x322fe
+  get_LocalUserId | RVA=0x32301
+  set_LocalUserId | RVA=0x32309
+  get_StartTime | RVA=0x32312
+  set_StartTime | RVA=0x3231a
+  get_EndTime | RVA=0x32323
+  set_EndTime | RVA=0x3232b
+  get_StatNames | RVA=0x32334
+  set_StatNames | RVA=0x3233c
+  get_TargetUserId | RVA=0x32345
+  set_TargetUserId | RVA=0x3234d
+  .ctor | RVA=0x32356
+
+TYPE: Epic.OnlineServices.Stats.QueryStatsOptionsInternal
+  get_ApiVersion | RVA=0x32360
+  set_ApiVersion | RVA=0x32382
+  get_LocalUserId | RVA=0x32394
+  set_LocalUserId | RVA=0x323b6
+  get_StartTime | RVA=0x323c8
+  set_StartTime | RVA=0x323ea
+  get_EndTime | RVA=0x323fc
+  set_EndTime | RVA=0x3241e
+  get_StatNames | RVA=0x32430
+  set_StatNames | RVA=0x32458
+  get_TargetUserId | RVA=0x32470
+  set_TargetUserId | RVA=0x32492
+  Dispose | RVA=0x324a1
+
+TYPE: Epic.OnlineServices.Sessions.OnQueryInvitesCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Sessions.OnQueryInvitesCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Sessions.QueryInvitesCallbackInfo
+  get_ResultCode | RVA=0x33b13
+  set_ResultCode | RVA=0x33b1b
+  get_ClientData | RVA=0x33b24
+  set_ClientData | RVA=0x33b2c
+  get_LocalUserId | RVA=0x33b35
+  set_LocalUserId | RVA=0x33b3d
+  .ctor | RVA=0x33b46
+
+TYPE: Epic.OnlineServices.Sessions.QueryInvitesCallbackInfoInternal
+  get_ResultCode | RVA=0x33b50
+  get_ClientData | RVA=0x33b74
+  get_ClientDataAddress | RVA=0x33b96
+  get_LocalUserId | RVA=0x33ba0
+
+TYPE: Epic.OnlineServices.Sessions.QueryInvitesOptions
+  get_ApiVersion | RVA=0x33bc2
+  get_LocalUserId | RVA=0x33bc5
+  set_LocalUserId | RVA=0x33bcd
+  .ctor | RVA=0x33bd6
+
+TYPE: Epic.OnlineServices.Sessions.QueryInvitesOptionsInternal
+  get_ApiVersion | RVA=0x33be0
+  set_ApiVersion | RVA=0x33c02
+  get_LocalUserId | RVA=0x33c14
+  set_LocalUserId | RVA=0x33c36
+  Dispose | RVA=0x33c45
+
+TYPE: Epic.OnlineServices.Presence.OnQueryPresenceCompleteCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Presence.OnQueryPresenceCompleteCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Presence.QueryPresenceCallbackInfo
+  get_ResultCode | RVA=0x37483
+  set_ResultCode | RVA=0x3748b
+  get_ClientData | RVA=0x37494
+  set_ClientData | RVA=0x3749c
+  get_LocalUserId | RVA=0x374a5
+  set_LocalUserId | RVA=0x374ad
+  get_TargetUserId | RVA=0x374b6
+  set_TargetUserId | RVA=0x374be
+  .ctor | RVA=0x374c7
+
+TYPE: Epic.OnlineServices.Presence.QueryPresenceCallbackInfoInternal
+  get_ResultCode | RVA=0x374d0
+  get_ClientData | RVA=0x374f4
+  get_ClientDataAddress | RVA=0x37516
+  get_LocalUserId | RVA=0x37520
+  get_TargetUserId | RVA=0x37544
+
+TYPE: Epic.OnlineServices.Presence.QueryPresenceOptions
+  get_ApiVersion | RVA=0x37566
+  get_LocalUserId | RVA=0x37569
+  set_LocalUserId | RVA=0x37571
+  get_TargetUserId | RVA=0x3757a
+  set_TargetUserId | RVA=0x37582
+  .ctor | RVA=0x3758b
+
+TYPE: Epic.OnlineServices.Presence.QueryPresenceOptionsInternal
+  get_ApiVersion | RVA=0x37594
+  set_ApiVersion | RVA=0x375b6
+  get_LocalUserId | RVA=0x375c8
+  set_LocalUserId | RVA=0x375ea
+  get_TargetUserId | RVA=0x375fc
+  set_TargetUserId | RVA=0x3761e
+  Dispose | RVA=0x3762d
+
+TYPE: Epic.OnlineServices.PlayerDataStorage.OnQueryFileCompleteCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.PlayerDataStorage.OnQueryFileCompleteCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.PlayerDataStorage.OnQueryFileListCompleteCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.PlayerDataStorage.OnQueryFileListCompleteCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.PlayerDataStorage.QueryFileCallbackInfo
+  get_ResultCode | RVA=0x38458
+  set_ResultCode | RVA=0x38460
+  get_ClientData | RVA=0x38469
+  set_ClientData | RVA=0x38471
+  get_LocalUserId | RVA=0x3847a
+  set_LocalUserId | RVA=0x38482
+  .ctor | RVA=0x3848b
+
+TYPE: Epic.OnlineServices.PlayerDataStorage.QueryFileCallbackInfoInternal
+  get_ResultCode | RVA=0x38494
+  get_ClientData | RVA=0x384b8
+  get_ClientDataAddress | RVA=0x384da
+  get_LocalUserId | RVA=0x384e4
+
+TYPE: Epic.OnlineServices.PlayerDataStorage.QueryFileListCallbackInfo
+  get_ResultCode | RVA=0x38506
+  set_ResultCode | RVA=0x3850e
+  get_ClientData | RVA=0x38517
+  set_ClientData | RVA=0x3851f
+  get_LocalUserId | RVA=0x38528
+  set_LocalUserId | RVA=0x38530
+  get_FileCount | RVA=0x38539
+  set_FileCount | RVA=0x38541
+  .ctor | RVA=0x3854a
+
+TYPE: Epic.OnlineServices.PlayerDataStorage.QueryFileListCallbackInfoInternal
+  get_ResultCode | RVA=0x38554
+  get_ClientData | RVA=0x38578
+  get_ClientDataAddress | RVA=0x3859a
+  get_LocalUserId | RVA=0x385a4
+  get_FileCount | RVA=0x385c8
+
+TYPE: Epic.OnlineServices.PlayerDataStorage.QueryFileListOptions
+  get_ApiVersion | RVA=0x385ea
+  get_LocalUserId | RVA=0x385ed
+  set_LocalUserId | RVA=0x385f5
+  .ctor | RVA=0x385fe
+
+TYPE: Epic.OnlineServices.PlayerDataStorage.QueryFileListOptionsInternal
+  get_ApiVersion | RVA=0x38608
+  set_ApiVersion | RVA=0x3862a
+  get_LocalUserId | RVA=0x3863c
+  set_LocalUserId | RVA=0x3865e
+  Dispose | RVA=0x3866d
+
+TYPE: Epic.OnlineServices.PlayerDataStorage.QueryFileOptions
+  get_ApiVersion | RVA=0x3866f
+  get_LocalUserId | RVA=0x38672
+  set_LocalUserId | RVA=0x3867a
+  get_Filename | RVA=0x38683
+  set_Filename | RVA=0x3868b
+  .ctor | RVA=0x38694
+
+TYPE: Epic.OnlineServices.PlayerDataStorage.QueryFileOptionsInternal
+  get_ApiVersion | RVA=0x3869c
+  set_ApiVersion | RVA=0x386be
+  get_LocalUserId | RVA=0x386d0
+  set_LocalUserId | RVA=0x386f2
+  get_Filename | RVA=0x38704
+  set_Filename | RVA=0x38726
+  Dispose | RVA=0x38735
+
+TYPE: Epic.OnlineServices.P2P.OnQueryNATTypeCompleteCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.P2P.OnQueryNATTypeCompleteCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.P2P.OnQueryNATTypeCompleteInfo
+  get_ResultCode | RVA=0x39fde
+  set_ResultCode | RVA=0x39fe6
+  get_ClientData | RVA=0x39fef
+  set_ClientData | RVA=0x39ff7
+  get_NATType | RVA=0x3a000
+  set_NATType | RVA=0x3a008
+  .ctor | RVA=0x3a011
+
+TYPE: Epic.OnlineServices.P2P.OnQueryNATTypeCompleteInfoInternal
+  get_ResultCode | RVA=0x3a01c
+  get_ClientData | RVA=0x3a040
+  get_ClientDataAddress | RVA=0x3a062
+  get_NATType | RVA=0x3a06c
+
+TYPE: Epic.OnlineServices.P2P.QueryNATTypeOptions
+  get_ApiVersion | RVA=0x3a650
+  .ctor | RVA=0x3a653
+
+TYPE: Epic.OnlineServices.P2P.QueryNATTypeOptionsInternal
+  get_ApiVersion | RVA=0x3a65c
+  set_ApiVersion | RVA=0x3a67e
+  Dispose | RVA=0x3a68d
+
+TYPE: Epic.OnlineServices.Lobby.OnQueryInvitesCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Lobby.OnQueryInvitesCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Lobby.QueryInvitesCallbackInfo
+  get_ResultCode | RVA=0x3eb1b
+  set_ResultCode | RVA=0x3eb23
+  get_ClientData | RVA=0x3eb2c
+  set_ClientData | RVA=0x3eb34
+  get_LocalUserId | RVA=0x3eb3d
+  set_LocalUserId | RVA=0x3eb45
+  .ctor | RVA=0x3eb4e
+
+TYPE: Epic.OnlineServices.Lobby.QueryInvitesCallbackInfoInternal
+  get_ResultCode | RVA=0x3eb58
+  get_ClientData | RVA=0x3eb7c
+  get_ClientDataAddress | RVA=0x3eb9e
+  get_LocalUserId | RVA=0x3eba8
+
+TYPE: Epic.OnlineServices.Lobby.QueryInvitesOptions
+  get_ApiVersion | RVA=0x3ebca
+  get_LocalUserId | RVA=0x3ebcd
+  set_LocalUserId | RVA=0x3ebd5
+  .ctor | RVA=0x3ebde
+
+TYPE: Epic.OnlineServices.Lobby.QueryInvitesOptionsInternal
+  get_ApiVersion | RVA=0x3ebe8
+  set_ApiVersion | RVA=0x3ec0a
+  get_LocalUserId | RVA=0x3ec1c
+  set_LocalUserId | RVA=0x3ec3e
+  Dispose | RVA=0x3ec4d
+
+TYPE: Epic.OnlineServices.Leaderboards.OnQueryLeaderboardDefinitionsCompleteCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Leaderboards.OnQueryLeaderboardDefinitionsCompleteCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Leaderboards.OnQueryLeaderboardDefinitionsCompleteCallbackInfo
+  get_ResultCode | RVA=0x3fdf7
+  set_ResultCode | RVA=0x3fdff
+  get_ClientData | RVA=0x3fe08
+  set_ClientData | RVA=0x3fe10
+  .ctor | RVA=0x3fe19
+
+TYPE: Epic.OnlineServices.Leaderboards.OnQueryLeaderboardDefinitionsCompleteCallbackInfoInternal
+  get_ResultCode | RVA=0x3fe24
+  get_ClientData | RVA=0x3fe48
+  get_ClientDataAddress | RVA=0x3fe6a
+
+TYPE: Epic.OnlineServices.Leaderboards.OnQueryLeaderboardRanksCompleteCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Leaderboards.OnQueryLeaderboardRanksCompleteCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Leaderboards.OnQueryLeaderboardRanksCompleteCallbackInfo
+  get_ResultCode | RVA=0x3fe72
+  set_ResultCode | RVA=0x3fe7a
+  get_ClientData | RVA=0x3fe83
+  set_ClientData | RVA=0x3fe8b
+  .ctor | RVA=0x3fe94
+
+TYPE: Epic.OnlineServices.Leaderboards.OnQueryLeaderboardRanksCompleteCallbackInfoInternal
+  get_ResultCode | RVA=0x3fe9c
+  get_ClientData | RVA=0x3fec0
+  get_ClientDataAddress | RVA=0x3fee2
+
+TYPE: Epic.OnlineServices.Leaderboards.OnQueryLeaderboardUserScoresCompleteCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Leaderboards.OnQueryLeaderboardUserScoresCompleteCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Leaderboards.OnQueryLeaderboardUserScoresCompleteCallbackInfo
+  get_ResultCode | RVA=0x3feea
+  set_ResultCode | RVA=0x3fef2
+  get_ClientData | RVA=0x3fefb
+  set_ClientData | RVA=0x3ff03
+  .ctor | RVA=0x3ff0c
+
+TYPE: Epic.OnlineServices.Leaderboards.OnQueryLeaderboardUserScoresCompleteCallbackInfoInternal
+  get_ResultCode | RVA=0x3ff14
+  get_ClientData | RVA=0x3ff38
+  get_ClientDataAddress | RVA=0x3ff5a
+
+TYPE: Epic.OnlineServices.Leaderboards.QueryLeaderboardDefinitionsOptions
+  get_ApiVersion | RVA=0x3ff62
+  get_StartTime | RVA=0x3ff65
+  set_StartTime | RVA=0x3ff6d
+  get_EndTime | RVA=0x3ff76
+  set_EndTime | RVA=0x3ff7e
+  .ctor | RVA=0x3ff87
+
+TYPE: Epic.OnlineServices.Leaderboards.QueryLeaderboardDefinitionsOptionsInternal
+  get_ApiVersion | RVA=0x3ff90
+  set_ApiVersion | RVA=0x3ffb2
+  get_StartTime | RVA=0x3ffc4
+  set_StartTime | RVA=0x3ffe6
+  get_EndTime | RVA=0x3fff8
+  set_EndTime | RVA=0x4001a
+  Dispose | RVA=0x40029
+
+TYPE: Epic.OnlineServices.Leaderboards.QueryLeaderboardRanksOptions
+  get_ApiVersion | RVA=0x4002b
+  get_LeaderboardId | RVA=0x4002e
+  set_LeaderboardId | RVA=0x40036
+  .ctor | RVA=0x4003f
+
+TYPE: Epic.OnlineServices.Leaderboards.QueryLeaderboardRanksOptionsInternal
+  get_ApiVersion | RVA=0x40048
+  set_ApiVersion | RVA=0x4006a
+  get_LeaderboardId | RVA=0x4007c
+  set_LeaderboardId | RVA=0x4009e
+  Dispose | RVA=0x400ad
+
+TYPE: Epic.OnlineServices.Leaderboards.QueryLeaderboardUserScoresOptions
+  get_ApiVersion | RVA=0x400af
+  get_UserIds | RVA=0x400b2
+  set_UserIds | RVA=0x400ba
+  get_StatInfo | RVA=0x400c3
+  set_StatInfo | RVA=0x400cb
+  get_StartTime | RVA=0x400d4
+  set_StartTime | RVA=0x400dc
+  get_EndTime | RVA=0x400e5
+  set_EndTime | RVA=0x400ed
+  .ctor | RVA=0x400f6
+
+TYPE: Epic.OnlineServices.Leaderboards.QueryLeaderboardUserScoresOptionsInternal
+  get_ApiVersion | RVA=0x40100
+  set_ApiVersion | RVA=0x40122
+  get_UserIds | RVA=0x40134
+  set_UserIds | RVA=0x4015c
+  get_StatInfo | RVA=0x40174
+  set_StatInfo | RVA=0x4019c
+  get_StartTime | RVA=0x401b4
+  set_StartTime | RVA=0x401d6
+  get_EndTime | RVA=0x401e8
+  set_EndTime | RVA=0x4020a
+  Dispose | RVA=0x40219
+
+TYPE: Epic.OnlineServices.Leaderboards.UserScoresQueryStatInfo
+  get_ApiVersion | RVA=0x40233
+  get_StatName | RVA=0x40236
+  set_StatName | RVA=0x4023e
+  get_Aggregation | RVA=0x40247
+  set_Aggregation | RVA=0x4024f
+  .ctor | RVA=0x40258
+
+TYPE: Epic.OnlineServices.Leaderboards.UserScoresQueryStatInfoInternal
+  get_ApiVersion | RVA=0x40260
+  set_ApiVersion | RVA=0x40282
+  get_StatName | RVA=0x40294
+  set_StatName | RVA=0x402b6
+  get_Aggregation | RVA=0x402c8
+  set_Aggregation | RVA=0x402ea
+  Dispose | RVA=0x402f9
+
+TYPE: Epic.OnlineServices.Friends.OnQueryFriendsCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Friends.OnQueryFriendsCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Friends.QueryFriendsCallbackInfo
+  get_ResultCode | RVA=0x40b3a
+  set_ResultCode | RVA=0x40b42
+  get_ClientData | RVA=0x40b4b
+  set_ClientData | RVA=0x40b53
+  get_LocalUserId | RVA=0x40b5c
+  set_LocalUserId | RVA=0x40b64
+  .ctor | RVA=0x40b6d
+
+TYPE: Epic.OnlineServices.Friends.QueryFriendsCallbackInfoInternal
+  get_ResultCode | RVA=0x40b78
+  get_ClientData | RVA=0x40b9c
+  get_ClientDataAddress | RVA=0x40bbe
+  get_LocalUserId | RVA=0x40bc8
+
+TYPE: Epic.OnlineServices.Friends.QueryFriendsOptions
+  get_ApiVersion | RVA=0x40bea
+  get_LocalUserId | RVA=0x40bed
+  set_LocalUserId | RVA=0x40bf5
+  .ctor | RVA=0x40bfe
+
+TYPE: Epic.OnlineServices.Friends.QueryFriendsOptionsInternal
+  get_ApiVersion | RVA=0x40c08
+  set_ApiVersion | RVA=0x40c2a
+  get_LocalUserId | RVA=0x40c3c
+  set_LocalUserId | RVA=0x40c5e
+  Dispose | RVA=0x40c6d
+
+TYPE: Epic.OnlineServices.Ecom.OnQueryEntitlementsCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Ecom.OnQueryEntitlementsCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Ecom.OnQueryOffersCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Ecom.OnQueryOffersCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Ecom.OnQueryOwnershipCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Ecom.OnQueryOwnershipCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Ecom.OnQueryOwnershipTokenCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Ecom.OnQueryOwnershipTokenCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Ecom.QueryEntitlementsCallbackInfo
+  get_ResultCode | RVA=0x437df
+  set_ResultCode | RVA=0x437e7
+  get_ClientData | RVA=0x437f0
+  set_ClientData | RVA=0x437f8
+  get_LocalUserId | RVA=0x43801
+  set_LocalUserId | RVA=0x43809
+  .ctor | RVA=0x43812
+
+TYPE: Epic.OnlineServices.Ecom.QueryEntitlementsCallbackInfoInternal
+  get_ResultCode | RVA=0x4381c
+  get_ClientData | RVA=0x43840
+  get_ClientDataAddress | RVA=0x43862
+  get_LocalUserId | RVA=0x4386c
+
+TYPE: Epic.OnlineServices.Ecom.QueryEntitlementsOptions
+  get_ApiVersion | RVA=0x4388e
+  get_LocalUserId | RVA=0x43891
+  set_LocalUserId | RVA=0x43899
+  get_EntitlementNames | RVA=0x438a2
+  set_EntitlementNames | RVA=0x438aa
+  get_IncludeRedeemed | RVA=0x438b3
+  set_IncludeRedeemed | RVA=0x438bb
+  .ctor | RVA=0x438c4
+
+TYPE: Epic.OnlineServices.Ecom.QueryEntitlementsOptionsInternal
+  get_ApiVersion | RVA=0x438cc
+  set_ApiVersion | RVA=0x438ee
+  get_LocalUserId | RVA=0x43900
+  set_LocalUserId | RVA=0x43922
+  get_EntitlementNames | RVA=0x43934
+  set_EntitlementNames | RVA=0x4395c
+  get_IncludeRedeemed | RVA=0x43974
+  set_IncludeRedeemed | RVA=0x43996
+  Dispose | RVA=0x439a5
+
+TYPE: Epic.OnlineServices.Ecom.QueryOffersCallbackInfo
+  get_ResultCode | RVA=0x439b3
+  set_ResultCode | RVA=0x439bb
+  get_ClientData | RVA=0x439c4
+  set_ClientData | RVA=0x439cc
+  get_LocalUserId | RVA=0x439d5
+  set_LocalUserId | RVA=0x439dd
+  .ctor | RVA=0x439e6
+
+TYPE: Epic.OnlineServices.Ecom.QueryOffersCallbackInfoInternal
+  get_ResultCode | RVA=0x439f0
+  get_ClientData | RVA=0x43a14
+  get_ClientDataAddress | RVA=0x43a36
+  get_LocalUserId | RVA=0x43a40
+
+TYPE: Epic.OnlineServices.Ecom.QueryOffersOptions
+  get_ApiVersion | RVA=0x43a62
+  get_LocalUserId | RVA=0x43a65
+  set_LocalUserId | RVA=0x43a6d
+  get_OverrideCatalogNamespace | RVA=0x43a76
+  set_OverrideCatalogNamespace | RVA=0x43a7e
+  .ctor | RVA=0x43a87
+
+TYPE: Epic.OnlineServices.Ecom.QueryOffersOptionsInternal
+  get_ApiVersion | RVA=0x43a90
+  set_ApiVersion | RVA=0x43ab2
+  get_LocalUserId | RVA=0x43ac4
+  set_LocalUserId | RVA=0x43ae6
+  get_OverrideCatalogNamespace | RVA=0x43af8
+  set_OverrideCatalogNamespace | RVA=0x43b1a
+  Dispose | RVA=0x43b29
+
+TYPE: Epic.OnlineServices.Ecom.QueryOwnershipCallbackInfo
+  get_ResultCode | RVA=0x43b2b
+  set_ResultCode | RVA=0x43b33
+  get_ClientData | RVA=0x43b3c
+  set_ClientData | RVA=0x43b44
+  get_LocalUserId | RVA=0x43b4d
+  set_LocalUserId | RVA=0x43b55
+  get_ItemOwnership | RVA=0x43b5e
+  set_ItemOwnership | RVA=0x43b66
+  .ctor | RVA=0x43b6f
+
+TYPE: Epic.OnlineServices.Ecom.QueryOwnershipCallbackInfoInternal
+  get_ResultCode | RVA=0x43b78
+  get_ClientData | RVA=0x43b9c
+  get_ClientDataAddress | RVA=0x43bbe
+  get_LocalUserId | RVA=0x43bc8
+  get_ItemOwnership | RVA=0x43bec
+
+TYPE: Epic.OnlineServices.Ecom.QueryOwnershipOptions
+  get_ApiVersion | RVA=0x43c14
+  get_LocalUserId | RVA=0x43c17
+  set_LocalUserId | RVA=0x43c1f
+  get_CatalogItemIds | RVA=0x43c28
+  set_CatalogItemIds | RVA=0x43c30
+  get_CatalogNamespace | RVA=0x43c39
+  set_CatalogNamespace | RVA=0x43c41
+  .ctor | RVA=0x43c4a
+
+TYPE: Epic.OnlineServices.Ecom.QueryOwnershipOptionsInternal
+  get_ApiVersion | RVA=0x43c54
+  set_ApiVersion | RVA=0x43c76
+  get_LocalUserId | RVA=0x43c88
+  set_LocalUserId | RVA=0x43caa
+  get_CatalogItemIds | RVA=0x43cbc
+  set_CatalogItemIds | RVA=0x43ce4
+  get_CatalogNamespace | RVA=0x43cfc
+  set_CatalogNamespace | RVA=0x43d1e
+  Dispose | RVA=0x43d2d
+
+TYPE: Epic.OnlineServices.Ecom.QueryOwnershipTokenCallbackInfo
+  get_ResultCode | RVA=0x43d3b
+  set_ResultCode | RVA=0x43d43
+  get_ClientData | RVA=0x43d4c
+  set_ClientData | RVA=0x43d54
+  get_LocalUserId | RVA=0x43d5d
+  set_LocalUserId | RVA=0x43d65
+  get_OwnershipToken | RVA=0x43d6e
+  set_OwnershipToken | RVA=0x43d76
+  .ctor | RVA=0x43d7f
+
+TYPE: Epic.OnlineServices.Ecom.QueryOwnershipTokenCallbackInfoInternal
+  get_ResultCode | RVA=0x43d88
+  get_ClientData | RVA=0x43dac
+  get_ClientDataAddress | RVA=0x43dce
+  get_LocalUserId | RVA=0x43dd8
+  get_OwnershipToken | RVA=0x43dfc
+
+TYPE: Epic.OnlineServices.Ecom.QueryOwnershipTokenOptions
+  get_ApiVersion | RVA=0x43e1e
+  get_LocalUserId | RVA=0x43e21
+  set_LocalUserId | RVA=0x43e29
+  get_CatalogItemIds | RVA=0x43e32
+  set_CatalogItemIds | RVA=0x43e3a
+  get_CatalogNamespace | RVA=0x43e43
+  set_CatalogNamespace | RVA=0x43e4b
+  .ctor | RVA=0x43e54
+
+TYPE: Epic.OnlineServices.Ecom.QueryOwnershipTokenOptionsInternal
+  get_ApiVersion | RVA=0x43e5c
+  set_ApiVersion | RVA=0x43e7e
+  get_LocalUserId | RVA=0x43e90
+  set_LocalUserId | RVA=0x43eb2
+  get_CatalogItemIds | RVA=0x43ec4
+  set_CatalogItemIds | RVA=0x43eec
+  get_CatalogNamespace | RVA=0x43f04
+  set_CatalogNamespace | RVA=0x43f26
+  Dispose | RVA=0x43f35
+
+TYPE: Epic.OnlineServices.Connect.OnQueryExternalAccountMappingsCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Connect.OnQueryExternalAccountMappingsCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Connect.OnQueryProductUserIdMappingsCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Connect.OnQueryProductUserIdMappingsCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Connect.QueryExternalAccountMappingsCallbackInfo
+  get_ResultCode | RVA=0x45a46
+  set_ResultCode | RVA=0x45a4e
+  get_ClientData | RVA=0x45a57
+  set_ClientData | RVA=0x45a5f
+  get_LocalUserId | RVA=0x45a68
+  set_LocalUserId | RVA=0x45a70
+  .ctor | RVA=0x45a79
+
+TYPE: Epic.OnlineServices.Connect.QueryExternalAccountMappingsCallbackInfoInternal
+  get_ResultCode | RVA=0x45a84
+  get_ClientData | RVA=0x45aa8
+  get_ClientDataAddress | RVA=0x45aca
+  get_LocalUserId | RVA=0x45ad4
+
+TYPE: Epic.OnlineServices.Connect.QueryExternalAccountMappingsOptions
+  get_ApiVersion | RVA=0x45af6
+  get_LocalUserId | RVA=0x45af9
+  set_LocalUserId | RVA=0x45b01
+  get_AccountIdType | RVA=0x45b0a
+  set_AccountIdType | RVA=0x45b12
+  get_ExternalAccountIds | RVA=0x45b1b
+  set_ExternalAccountIds | RVA=0x45b23
+  .ctor | RVA=0x45b2c
+
+TYPE: Epic.OnlineServices.Connect.QueryExternalAccountMappingsOptionsInternal
+  get_ApiVersion | RVA=0x45b34
+  set_ApiVersion | RVA=0x45b56
+  get_LocalUserId | RVA=0x45b68
+  set_LocalUserId | RVA=0x45b8a
+  get_AccountIdType | RVA=0x45b9c
+  set_AccountIdType | RVA=0x45bbe
+  get_ExternalAccountIds | RVA=0x45bd0
+  set_ExternalAccountIds | RVA=0x45bf8
+  Dispose | RVA=0x45c0d
+
+TYPE: Epic.OnlineServices.Connect.QueryProductUserIdMappingsCallbackInfo
+  get_ResultCode | RVA=0x45c1b
+  set_ResultCode | RVA=0x45c23
+  get_ClientData | RVA=0x45c2c
+  set_ClientData | RVA=0x45c34
+  get_LocalUserId | RVA=0x45c3d
+  set_LocalUserId | RVA=0x45c45
+  .ctor | RVA=0x45c4e
+
+TYPE: Epic.OnlineServices.Connect.QueryProductUserIdMappingsCallbackInfoInternal
+  get_ResultCode | RVA=0x45c58
+  get_ClientData | RVA=0x45c7c
+  get_ClientDataAddress | RVA=0x45c9e
+  get_LocalUserId | RVA=0x45ca8
+
+TYPE: Epic.OnlineServices.Connect.QueryProductUserIdMappingsOptions
+  get_ApiVersion | RVA=0x45cca
+  get_LocalUserId | RVA=0x45ccd
+  set_LocalUserId | RVA=0x45cd5
+  get_AccountIdType_DEPRECATED | RVA=0x45cde
+  set_AccountIdType_DEPRECATED | RVA=0x45ce6
+  get_ProductUserIds | RVA=0x45cef
+  set_ProductUserIds | RVA=0x45cf7
+  .ctor | RVA=0x45d00
+
+TYPE: Epic.OnlineServices.Connect.QueryProductUserIdMappingsOptionsInternal
+  get_ApiVersion | RVA=0x45d08
+  set_ApiVersion | RVA=0x45d2a
+  get_LocalUserId | RVA=0x45d3c
+  set_LocalUserId | RVA=0x45d5e
+  get_AccountIdType_DEPRECATED | RVA=0x45d70
+  set_AccountIdType_DEPRECATED | RVA=0x45d92
+  get_ProductUserIds | RVA=0x45da4
+  set_ProductUserIds | RVA=0x45dcc
+  Dispose | RVA=0x45de1
+
+TYPE: Epic.OnlineServices.Achievements.OnQueryDefinitionsCompleteCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Achievements.OnQueryDefinitionsCompleteCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Achievements.OnQueryDefinitionsCompleteCallbackInfo
+  get_ResultCode | RVA=0x4892a
+  set_ResultCode | RVA=0x48932
+  get_ClientData | RVA=0x4893b
+  set_ClientData | RVA=0x48943
+  .ctor | RVA=0x4894c
+
+TYPE: Epic.OnlineServices.Achievements.OnQueryDefinitionsCompleteCallbackInfoInternal
+  get_ResultCode | RVA=0x48954
+  get_ClientData | RVA=0x48978
+  get_ClientDataAddress | RVA=0x4899a
+
+TYPE: Epic.OnlineServices.Achievements.OnQueryPlayerAchievementsCompleteCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Achievements.OnQueryPlayerAchievementsCompleteCallbackInternal
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: Epic.OnlineServices.Achievements.OnQueryPlayerAchievementsCompleteCallbackInfo
+  get_ResultCode | RVA=0x489a2
+  set_ResultCode | RVA=0x489aa
+  get_ClientData | RVA=0x489b3
+  set_ClientData | RVA=0x489bb
+  get_UserId | RVA=0x489c4
+  set_UserId | RVA=0x489cc
+  .ctor | RVA=0x489d5
+
+TYPE: Epic.OnlineServices.Achievements.OnQueryPlayerAchievementsCompleteCallbackInfoInternal
+  get_ResultCode | RVA=0x489e0
+  get_ClientData | RVA=0x48a04
+  get_ClientDataAddress | RVA=0x48a26
+  get_UserId | RVA=0x48a30
+
+TYPE: Epic.OnlineServices.Achievements.QueryDefinitionsOptions
+  get_ApiVersion | RVA=0x48ec7
+  get_LocalUserId | RVA=0x48eca
+  set_LocalUserId | RVA=0x48ed2
+  get_EpicUserId_DEPRECATED | RVA=0x48edb
+  set_EpicUserId_DEPRECATED | RVA=0x48ee3
+  get_HiddenAchievementIds_DEPRECATED | RVA=0x48eec
+  set_HiddenAchievementIds_DEPRECATED | RVA=0x48ef4
+  .ctor | RVA=0x48efd
+
+TYPE: Epic.OnlineServices.Achievements.QueryDefinitionsOptionsInternal
+  get_ApiVersion | RVA=0x48f08
+  set_ApiVersion | RVA=0x48f2a
+  get_LocalUserId | RVA=0x48f3c
+  set_LocalUserId | RVA=0x48f5e
+  get_EpicUserId_DEPRECATED | RVA=0x48f70
+  set_EpicUserId_DEPRECATED | RVA=0x48f92
+  get_HiddenAchievementIds_DEPRECATED | RVA=0x48fa4
+  set_HiddenAchievementIds_DEPRECATED | RVA=0x48fcc
+  Dispose | RVA=0x48fe1
+
+TYPE: Epic.OnlineServices.Achievements.QueryPlayerAchievementsOptions
+  get_ApiVersion | RVA=0x48fef
+  get_UserId | RVA=0x48ff2
+  set_UserId | RVA=0x48ffa
+  .ctor | RVA=0x49003
+
+TYPE: Epic.OnlineServices.Achievements.QueryPlayerAchievementsOptionsInternal
+  get_ApiVersion | RVA=0x4900c
+  set_ApiVersion | RVA=0x4902e
+  get_UserId | RVA=0x49040
+  set_UserId | RVA=0x49062
+  Dispose | RVA=0x49071
+
+TYPE: Ceto.ProjectedGrid
+  Start | RVA=0x6e5fc
+  OnEnable | RVA=0x6e64c
+  OnDisable | RVA=0x6e6d8
+  OnDestroy | RVA=0x6e758
+  Update | RVA=0x6e7d4
+  OceanOnPostRender | RVA=0x6e96c
+  Activate | RVA=0x6e9b0
+  UpdateGrid | RVA=0x6e9ec
+  ResetBounds | RVA=0x6ebb0
+  UpdateBounds | RVA=0x6ec60
+  UnderSideNeeded | RVA=0x6ecd4
+  TopSideNeeded | RVA=0x6ed10
+  ScreenWidth | RVA=0x6ed3d
+  ScreenHeight | RVA=0x6ed4e
+  ApplyProjection | RVA=0x6ed60
+  CreateGrid | RVA=0x6ef00
+  ClearGrid | RVA=0x6f23c
+  ResolutionToNumber | RVA=0x6f3e9
+  GroupToNumber | RVA=0x6f414
+  ChooseGroupSize | RVA=0x6f454
+  CreateScreenQuads | RVA=0x6f4b8
+  CreateQuad | RVA=0x6f588
+  .ctor | RVA=0x6f8d6
+  .cctor | RVA=0x6f8fb
+
+TYPE: Ceto.ProjectionData
+  .ctor | RVA=0x6f911
+
+TYPE: Ceto.Buoyancy
+  get_PartOfStructure | RVA=0x6f919
+  set_PartOfStructure | RVA=0x6f921
+  get_Volume | RVA=0x6f92a
+  set_Volume | RVA=0x6f932
+  get_SubmergedVolume | RVA=0x6f93b
+  set_SubmergedVolume | RVA=0x6f943
+  get_PercentageSubmerged | RVA=0x6f94c
+  get_SurfaceArea | RVA=0x6f95b
+  set_SurfaceArea | RVA=0x6f963
+  get_Mass | RVA=0x6f96c
+  set_Mass | RVA=0x6f974
+  get_WaterHeight | RVA=0x6f97d
+  set_WaterHeight | RVA=0x6f985
+  get_BuoyantForce | RVA=0x6f98e
+  set_BuoyantForce | RVA=0x6f996
+  get_DragForce | RVA=0x6f99f
+  set_DragForce | RVA=0x6f9a7
+  get_Stickyness | RVA=0x6f9b0
+  set_Stickyness | RVA=0x6f9b8
+  get_TotalForces | RVA=0x6f9c1
+  Start | RVA=0x6f9df
+  FixedUpdate | RVA=0x6f9e8
+  UpdateProperties | RVA=0x6fa40
+  UpdateForces | RVA=0x6faa0
+  CalculateSubmersion | RVA=0x6fbcc
+  GetUnitScale | RVA=0x6fc44
+  OnDrawGizmos | RVA=0x6fc8d
+  .ctor | RVA=0x6fcb8
+
+TYPE: Ceto.BuoyantStructure
+  Start | RVA=0x6fd0c
+  FixedUpdate | RVA=0x6fd48
+  .ctor | RVA=0x6fe73
+
+TYPE: Ceto.StickToSurface
+  Start | RVA=0x6fe86
+  Update | RVA=0x6fe88
+  .ctor | RVA=0x6fed8
+
+TYPE: Ceto.CameraData
+  .ctor | RVA=0x6fee0
+
+TYPE: Ceto.ViewData
+  IsViewUpdated | RVA=0x6fee8
+  ClearUpdatedViews | RVA=0x6fef0
+  SetViewAsUpdated | RVA=0x6fef9
+  .ctor | RVA=0x6ff02
+
+TYPE: Ceto.IgnoreOceanEvents
+  .ctor | RVA=0x6ff0a
+
+TYPE: Ceto.IOceanTime
+  get_Now | RVA=0x0
+
+TYPE: Ceto.IProjection
+  UpdateProjection | RVA=0x0
+  get_IsDouble | RVA=0x0
+  get_IsFlipped | RVA=0x0
+  get_TightFit | RVA=0x0
+  set_TightFit | RVA=0x0
+
+TYPE: Ceto.Ocean
+  get_Instance | RVA=0x6ff12
+  set_Instance | RVA=0x6ff19
+  get_MAX_WAVE_HEIGHT | RVA=0x6ff21
+  get_WindDirVector | RVA=0x6ff28
+  set_WindDirVector | RVA=0x6ff30
+  get_Grid | RVA=0x6ff39
+  set_Grid | RVA=0x6ff41
+  get_Reflection | RVA=0x6ff4a
+  set_Reflection | RVA=0x6ff52
+  get_Spectrum | RVA=0x6ff5b
+  set_Spectrum | RVA=0x6ff63
+  get_UnderWater | RVA=0x6ff6c
+  set_UnderWater | RVA=0x6ff74
+  get_OceanTime | RVA=0x6ff7d
+  set_OceanTime | RVA=0x6ff85
+  get_Projection | RVA=0x6ff8e
+  set_Projection | RVA=0x6ff96
+  get_PositionOffset | RVA=0x6ff9f
+  set_PositionOffset | RVA=0x6ffa7
+  get_CameraCount | RVA=0x6ffc5
+  get_OverlayManager | RVA=0x6ffd2
+  set_OverlayManager | RVA=0x6ffda
+  get_WasError | RVA=0x6ffe3
+  set_WasError | RVA=0x6ffeb
+  Awake | RVA=0x6fff4
+  Start | RVA=0x70104
+  OnEnable | RVA=0x703b8
+  OnDisable | RVA=0x703e8
+  DisableOcean | RVA=0x70419
+  Update | RVA=0x70438
+  OnDestroy | RVA=0x70848
+  OnDrawGizmos | RVA=0x70900
+  Register | RVA=0x70904
+  Deregister | RVA=0x70988
+  LogError | RVA=0x709f6
+  LogWarning | RVA=0x70a12
+  LogInfo | RVA=0x70a48
+  RunCoroutine | RVA=0x70a7e
+  UpdateOceanScheduler | RVA=0x70a88
+  CalculateWindDirVector | RVA=0x70aec
+  SunDir | RVA=0x70b30
+  SunColor | RVA=0x70b7e
+  FindCameraData | RVA=0x70bb8
+  RemoveCameraData | RVA=0x70c28
+  FindMaxDisplacement | RVA=0x70cd4
+  SetQueryWavesSampling | RVA=0x70d48
+  QueryNormal | RVA=0x70d9c
+  QueryWaves | RVA=0x70e04
+  QueryWaves | RVA=0x70e90
+  QueryWaves | RVA=0x70f30
+  QueryWaves | RVA=0x70f94
+  QueryWavesWithAsyncTask | RVA=0x7102c
+  OceanOnPreRender | RVA=0x710a8
+  OceanOnPreCull | RVA=0x71134
+  OceanOnPostRender | RVA=0x711c0
+  GetDisableAllOverlays | RVA=0x7124a
+  RenderWaveOverlays | RVA=0x71260
+  RenderReflection | RVA=0x7149c
+  RenderOceanMask | RVA=0x714c1
+  RenderOceanDepth | RVA=0x714e6
+  .ctor | RVA=0x7150c
+  .cctor | RVA=0x715e8
+
+TYPE: Ceto.OceanCameraSettings
+  .ctor | RVA=0x71684
+
+TYPE: Ceto.OceanComponent
+  get_WasError | RVA=0x716d2
+  set_WasError | RVA=0x716da
+  Awake | RVA=0x716e4
+  OnEnable | RVA=0x71738
+  OnDisable | RVA=0x71764
+  OnDestroy | RVA=0x71768
+  OceanOnPreRender | RVA=0x717b0
+  OceanOnPreCull | RVA=0x717b2
+  OceanOnPostRender | RVA=0x717b4
+  .ctor | RVA=0x717b6
+
+TYPE: Ceto.MESH_RESOLUTION
+
+TYPE: Ceto.GRID_GROUPS
+
+TYPE: Ceto.REFLECTION_RESOLUTION
+
+TYPE: Ceto.REFRACTION_RESOLUTION
+
+TYPE: Ceto.FOURIER_SIZE
+
+TYPE: Ceto.SPECTRUM_TYPE
+
+TYPE: Ceto.SPECTRUM_DISTRIBUTION
+
+TYPE: Ceto.UNDERWATER_MODE
+
+TYPE: Ceto.OVERLAY_PASS
+
+TYPE: Ceto.OVERLAY_MASK_MODE
+
+TYPE: Ceto.OVERLAY_MAP_SIZE
+
+TYPE: Ceto.OVERLAY_BLEND_MODE
+
+TYPE: Ceto.QUERY_MODE
+
+TYPE: Ceto.DEPTH_MODE
+
+TYPE: Ceto.INSCATTER_MODE
+
+TYPE: Ceto.AbsorptionModifier
+  .ctor | RVA=0x717be
+
+TYPE: Ceto.InscatterModifier
+  .ctor | RVA=0x717d5
+
+TYPE: Ceto.CausticModifier
+  .ctor | RVA=0x717f4
+
+TYPE: Ceto.FoamTexture
+  .ctor | RVA=0x7181b
+
+TYPE: Ceto.CausticTexture
+  .ctor | RVA=0x71839
+
+TYPE: Ceto.QueryGridScaling
+  .ctor | RVA=0x7184c
+
+TYPE: Ceto.QueryableOverlayResult
+
+TYPE: Ceto.OceanTime
+  get_Now | RVA=0x71854
+  .ctor | RVA=0x7186d
+
+TYPE: Ceto.OceanUtility
+  ShowLayer | RVA=0x71875
+  HideLayer | RVA=0x71884
+  ToggleLayer | RVA=0x71894
+  ShowLayer | RVA=0x718a3
+  HideLayer | RVA=0x718b2
+  ToggleLayer | RVA=0x718c2
+  CreateQuadMesh | RVA=0x718d4
+
+TYPE: Ceto.AddAutoShoreMask
+  Start | RVA=0x719df
+  Update | RVA=0x719f7
+  OnDestroy | RVA=0x71a16
+  UpdateOverlay | RVA=0x71a24
+  CreateShoreMasks | RVA=0x71c18
+  SettingsChanged | RVA=0x71e74
+  Release | RVA=0x71ec4
+  .ctor | RVA=0x71fc0
+
+TYPE: Ceto.AddFoamThruster
+  Start | RVA=0x72055
+  Update | RVA=0x72062
+  OnEnable | RVA=0x72076
+  Translate | RVA=0x72089
+  Rotation | RVA=0x72094
+  NewFoamOverlay | RVA=0x720e8
+  AddFoam | RVA=0x72150
+  UpdateOverlays | RVA=0x723a4
+  RemoveOverlays | RVA=0x72410
+  OnDrawGizmos | RVA=0x724b7
+  .ctor | RVA=0x724e4
+
+TYPE: Ceto.AddFoamTrail
+  Start | RVA=0x72585
+  Update | RVA=0x72598
+  OnEnable | RVA=0x725ac
+  Translate | RVA=0x725c5
+  Rotation | RVA=0x725e0
+  NewFoamOverlay | RVA=0x72634
+  AddFoam | RVA=0x7269c
+  UpdateOverlays | RVA=0x72904
+  RemoveOverlays | RVA=0x72970
+  OnDrawGizmos | RVA=0x72a17
+  .ctor | RVA=0x72a44
+
+TYPE: Ceto.AddShoreMask
+  Start | RVA=0x72afc
+  Update | RVA=0x72b51
+  UpdateOverlay | RVA=0x72b70
+  Rotation | RVA=0x72d98
+  OnDrawGizmos | RVA=0x72ddc
+  .ctor | RVA=0x72e8c
+
+TYPE: Ceto.AddWaveOverlay
+  Start | RVA=0x72ef0
+  Update | RVA=0x73048
+  Rotation | RVA=0x73118
+  OnDrawGizmos | RVA=0x7315c
+  .ctor | RVA=0x73200
+
+TYPE: Ceto.AddWaveOverlayBase
+  get_Overlays | RVA=0x7325c
+  get_Overlay | RVA=0x73264
+  Start | RVA=0x73272
+  Translate | RVA=0x73274
+  Update | RVA=0x732c8
+  OnEnable | RVA=0x73304
+  OnDisable | RVA=0x73344
+  OnDestroy | RVA=0x73384
+  DefaultCurve | RVA=0x733c4
+  CheckCanSampleTex | RVA=0x73434
+  .ctor | RVA=0x734a4
+
+TYPE: Ceto.FoamOverlay
+  get_Momentum | RVA=0x734b7
+  set_Momentum | RVA=0x734bf
+  get_Spin | RVA=0x734c8
+  set_Spin | RVA=0x734d0
+  get_Expansion | RVA=0x734d9
+  set_Expansion | RVA=0x734e1
+  get_Size | RVA=0x734ea
+  set_Size | RVA=0x734f2
+  .ctor | RVA=0x734fb
+  Reset | RVA=0x73530
+  UpdateOverlay | RVA=0x73590
+
+TYPE: Ceto.IOverlaySampler
+  QueryWaves | RVA=0x0
+
+TYPE: Ceto.OverlayManager
+  get_HasHeightOverlay | RVA=0x73619
+  set_HasHeightOverlay | RVA=0x73621
+  get_HasNormalOverlay | RVA=0x7362a
+  set_HasNormalOverlay | RVA=0x73632
+  get_HasFoamOverlay | RVA=0x7363b
+  set_HasFoamOverlay | RVA=0x73643
+  get_HasClipOverlay | RVA=0x7364c
+  set_HasClipOverlay | RVA=0x73654
+  get_MaxDisplacement | RVA=0x7365d
+  set_MaxDisplacement | RVA=0x73665
+  get_HeightOverlayBlendMode | RVA=0x7366e
+  set_HeightOverlayBlendMode | RVA=0x73676
+  get_FoamOverlayBlendMode | RVA=0x7367f
+  set_FoamOverlayBlendMode | RVA=0x73687
+  .ctor | RVA=0x73690
+  Release | RVA=0x737b2
+  Update | RVA=0x737c0
+  Add | RVA=0x73920
+  Remove | RVA=0x73938
+  Clear | RVA=0x73947
+  ClearBuffers | RVA=0x73954
+  DestroyBuffers | RVA=0x739a8
+  QueryableContains | RVA=0x73a00
+  GetQueryableContaining | RVA=0x73a88
+  QueryWaves | RVA=0x73b4c
+  RenderWaveOverlays | RVA=0x73e58
+  GetFrustumPlanes | RVA=0x74064
+  RenderHeightOverlays | RVA=0x742b8
+  RenderNormalOverlays | RVA=0x743f8
+  RotateY | RVA=0x7455c
+  RenderFoamOverlays | RVA=0x74640
+  RenderClipOverlays | RVA=0x747b8
+  Blit | RVA=0x7487c
+  CreateOverlays | RVA=0x749b4
+  CreateBuffer | RVA=0x74a78
+  SizeToValue | RVA=0x74b3c
+  .cctor | RVA=0x74b8a
+
+TYPE: Ceto.OverlayFoamTexture
+  get_IsDrawable | RVA=0x74bb4
+  .ctor | RVA=0x74bee
+
+TYPE: Ceto.OverlayNormalTexture
+  get_IsDrawable | RVA=0x74c1e
+  .ctor | RVA=0x74c58
+
+TYPE: Ceto.OverlayHeightTexture
+  get_IsDrawable | RVA=0x74c88
+  .ctor | RVA=0x74cc2
+
+TYPE: Ceto.OverlayClipTexture
+  get_IsDrawable | RVA=0x74ceb
+  .ctor | RVA=0x74d08
+
+TYPE: Ceto.WaveOverlay
+  get_Kill | RVA=0x74d26
+  set_Kill | RVA=0x74d2e
+  get_Hide | RVA=0x74d37
+  set_Hide | RVA=0x74d3f
+  get_Position | RVA=0x74d48
+  set_Position | RVA=0x74d50
+  get_HalfSize | RVA=0x74d59
+  set_HalfSize | RVA=0x74d61
+  get_Rotation | RVA=0x74d6a
+  set_Rotation | RVA=0x74d72
+  get_Creation | RVA=0x74d7b
+  set_Creation | RVA=0x74d83
+  get_Age | RVA=0x74d8c
+  get_Duration | RVA=0x74d9b
+  set_Duration | RVA=0x74da3
+  get_NormalizedAge | RVA=0x74dac
+  get_Corners | RVA=0x74dc0
+  set_Corners | RVA=0x74dc8
+  get_HeightTex | RVA=0x74dd1
+  set_HeightTex | RVA=0x74dd9
+  get_NormalTex | RVA=0x74de2
+  set_NormalTex | RVA=0x74dea
+  get_FoamTex | RVA=0x74df3
+  set_FoamTex | RVA=0x74dfb
+  get_ClipTex | RVA=0x74e04
+  set_ClipTex | RVA=0x74e0c
+  get_LocalToWorld | RVA=0x74e15
+  set_LocalToWorld | RVA=0x74e1d
+  get_BoundingBox | RVA=0x74e26
+  set_BoundingBox | RVA=0x74e2e
+  .ctor | RVA=0x74e38
+  .ctor | RVA=0x74ec4
+  OceanTime | RVA=0x74f48
+  Reset | RVA=0x74f6c
+  UpdateOverlay | RVA=0x74fc6
+  CalculateLocalToWorld | RVA=0x74fd4
+  CalculateBounds | RVA=0x75044
+  Contains | RVA=0x751ec
+  Contains | RVA=0x75208
+  .cctor | RVA=0x75308
+
+TYPE: Ceto.WaveOverlayData
+  .ctor | RVA=0x753a0
+
+TYPE: Ceto.Projection3d
+  get_IsDouble | RVA=0x753a8
+  get_IsFlipped | RVA=0x753ab
+  set_IsFlipped | RVA=0x753b3
+  get_TightFit | RVA=0x753bc
+  set_TightFit | RVA=0x753c4
+  .ctor | RVA=0x753d0
+  UpdateProjection | RVA=0x756f8
+  AimProjector | RVA=0x758e0
+  CreateRangeMatrix | RVA=0x75a70
+  HProject | RVA=0x75eec
+  SegmentPlaneIntersection | RVA=0x75fd4
+  LookAt | RVA=0x7605c
+  MulVector4ByMatrix | RVA=0x7623c
+  MulMatrixByMatrix | RVA=0x762d8
+  Identity | RVA=0x76338
+  CopyMatrix | RVA=0x7640c
+  CopyMatrix | RVA=0x764c0
+  CopyVector3 | RVA=0x76574
+  Normalize3 | RVA=0x76594
+  Sub3 | RVA=0x765ec
+  Sub4 | RVA=0x7660c
+  Dot3 | RVA=0x76636
+  Cross3 | RVA=0x7664f
+  Minor | RVA=0x76688
+  Determinant | RVA=0x76724
+  Adjoint | RVA=0x7677c
+  Inverse | RVA=0x76898
+  SetRow | RVA=0x768d4
+  .cctor | RVA=0x768f5
+
+TYPE: Ceto.Projection3f
+  get_IsDouble | RVA=0x7690f
+  get_IsFlipped | RVA=0x76912
+  set_IsFlipped | RVA=0x7691a
+  get_TightFit | RVA=0x76923
+  set_TightFit | RVA=0x7692b
+  .ctor | RVA=0x76934
+  UpdateProjection | RVA=0x76998
+  AimProjector | RVA=0x76ae8
+  CreateRangeMatrix | RVA=0x76c0c
+  HProject | RVA=0x76f64
+  SegmentPlaneIntersection | RVA=0x76fd8
+  LookAt | RVA=0x77028
+  .cctor | RVA=0x77210
+
+TYPE: Ceto.CoroutineWaveQueryTask
+  get_SupportsOverlays | RVA=0x773cb
+  get_QuerysPerIteration | RVA=0x773ce
+  set_QuerysPerIteration | RVA=0x773d6
+  .ctor | RVA=0x773df
+  Run | RVA=0x773f1
+
+TYPE: Ceto.ThreadedWaveQueryTask
+  get_SupportsOverlays | RVA=0x77400
+  .ctor | RVA=0x77403
+  Run | RVA=0x77410
+
+TYPE: Ceto.WaveQuery
+  .ctor | RVA=0x7748c
+  .ctor | RVA=0x774f4
+  .ctor | RVA=0x77560
+  .cctor | RVA=0x775bf
+
+TYPE: Ceto.WaveQueryTask
+  get_SupportsOverlays | RVA=0x0
+  get_OverlaySampler | RVA=0x775d2
+  set_OverlaySampler | RVA=0x775da
+  get_IsScheduled | RVA=0x775e3
+  set_IsScheduled | RVA=0x775eb
+  get_CallBack | RVA=0x775f4
+  set_CallBack | RVA=0x775fc
+  get_Querys | RVA=0x77605
+  set_Querys | RVA=0x7760d
+  get_OceanLevel | RVA=0x77616
+  set_OceanLevel | RVA=0x7761e
+  get_EnabledBuffers | RVA=0x77627
+  set_EnabledBuffers | RVA=0x7762f
+  get_Scaling | RVA=0x77638
+  set_Scaling | RVA=0x77640
+  get_BufferSize | RVA=0x77649
+  set_BufferSize | RVA=0x77651
+  .ctor | RVA=0x7765a
+  Reset | RVA=0x7767c
+  End | RVA=0x777d6
+
+TYPE: Ceto.PlanarReflection
+  Start | RVA=0x777ef
+  OnEnable | RVA=0x777fe
+  OnDisable | RVA=0x77810
+  OnDestroy | RVA=0x77824
+  Update | RVA=0x7787c
+  GetReflectionLayermask | RVA=0x778d5
+  GetDisableReflections | RVA=0x778ed
+  GetReflectionResolution | RVA=0x77900
+  RenderReflection | RVA=0x77918
+  RenderSteroReflection | RVA=0x77c74
+  CreateReflectionCameraFor | RVA=0x77cb0
+  CreateRenderTarget | RVA=0x77e44
+  ResolutionToNumber | RVA=0x77f75
+  RenderReflection | RVA=0x77f94
+  Plane | RVA=0x78082
+  CameraSpacePlane | RVA=0x780a4
+  CalculateReflectionMatrix | RVA=0x780dc
+  .ctor | RVA=0x7829c
+
+TYPE: Ceto.ReflectionData
+  DestroyCamera | RVA=0x78307
+  DestroyTargets | RVA=0x78346
+  .ctor | RVA=0x7836c
+
+TYPE: Ceto.ReflectionCameraCullingDistances
+  Start | RVA=0x78374
+  Update | RVA=0x78384
+  .ctor | RVA=0x783e7
+
+TYPE: Ceto.DisplacementBufferCPU
+  .ctor | RVA=0x78404
+  Initilize | RVA=0x78490
+  GetWriteDisplacements | RVA=0x78525
+  GetReadDisplacements | RVA=0x78533
+  Run | RVA=0x78541
+  CopyAndCreateDisplacements | RVA=0x78551
+  CopyDisplacements | RVA=0x7855f
+  SwapDisplacements | RVA=0x78570
+  MaxRange | RVA=0x785af
+  QueryWaves | RVA=0x785c0
+
+TYPE: Ceto.DisplacementBufferGPU
+  .ctor | RVA=0x785e8
+  GetReadDisplacements | RVA=0x78637
+  CopyAndCreateDisplacements | RVA=0x7863f
+  CopyDisplacements | RVA=0x7864d
+  MaxRange | RVA=0x7865b
+  QueryWaves | RVA=0x7866c
+  .cctor | RVA=0x78692
+
+TYPE: Ceto.IDisplacementBuffer
+  get_IsGPU | RVA=0x0
+  get_Size | RVA=0x0
+  GetReadDisplacements | RVA=0x0
+  CopyAndCreateDisplacements | RVA=0x0
+  CopyDisplacements | RVA=0x0
+  MaxRange | RVA=0x0
+  QueryWaves | RVA=0x0
+  EnabledBuffers | RVA=0x0
+
+TYPE: Ceto.QueryDisplacements
+  QueryWaves | RVA=0x7869c
+  SampleHeightOnly | RVA=0x78a60
+  Sample | RVA=0x78bc8
+  MaxRange | RVA=0x78e1c
+  CopyAndCreateDisplacements | RVA=0x79194
+  CopyDisplacements | RVA=0x792a4
+  .cctor | RVA=0x79375
+
+TYPE: Ceto.WaveSpectrumBuffer
+  get_Done | RVA=0x0
+  get_Size | RVA=0x0
+  get_IsGPU | RVA=0x0
+  GetTexture | RVA=0x0
+  get_TimeValue | RVA=0x79383
+  set_TimeValue | RVA=0x7938b
+  get_HasRun | RVA=0x79394
+  set_HasRun | RVA=0x7939c
+  get_BeenSampled | RVA=0x793a5
+  set_BeenSampled | RVA=0x793ad
+  get_InitMaterial | RVA=0x793b6
+  set_InitMaterial | RVA=0x793be
+  get_InitPass | RVA=0x793c7
+  set_InitPass | RVA=0x793cf
+  .ctor | RVA=0x793d8
+  Initilize | RVA=0x0
+  Run | RVA=0x0
+  EnableBuffer | RVA=0x0
+  DisableBuffer | RVA=0x0
+  EnabledBuffers | RVA=0x0
+  IsEnabledBuffer | RVA=0x0
+  Release | RVA=0x793e0
+  EnableSampling | RVA=0x793e2
+  DisableSampling | RVA=0x793e4
+
+TYPE: Ceto.WaveSpectrumBufferCPU
+  get_Done | RVA=0x793e6
+  get_Size | RVA=0x793ee
+  get_IsGPU | RVA=0x793fb
+  get_WTable | RVA=0x793fe
+  set_WTable | RVA=0x79406
+  .ctor | RVA=0x79410
+  CreateBuffer | RVA=0x79490
+  Release | RVA=0x7954c
+  GetTexture | RVA=0x7958e
+  GetWriteBuffer | RVA=0x795c7
+  GetReadBuffer | RVA=0x795fe
+  GetBuffer | RVA=0x79635
+  EnableBuffer | RVA=0x79664
+  DisableBuffer | RVA=0x796b0
+  IsDone | RVA=0x796fc
+  EnabledBuffers | RVA=0x79760
+  IsEnabledBuffer | RVA=0x79798
+  Run | RVA=0x797bc
+
+TYPE: Ceto.WaveSpectrumBufferGPU
+  get_Done | RVA=0x79928
+  get_Size | RVA=0x7992b
+  get_IsGPU | RVA=0x79938
+  .ctor | RVA=0x7993c
+  CreateBuffer | RVA=0x79a38
+  GetTexture | RVA=0x79a5c
+  Release | RVA=0x79ac0
+  Initilize | RVA=0x79b20
+  UpdateEnabledData | RVA=0x79e30
+  EnableBuffer | RVA=0x79e8c
+  DisableBuffer | RVA=0x79ee8
+  EnabledBuffers | RVA=0x79f43
+  IsEnabledBuffer | RVA=0x79f50
+  CreateTextures | RVA=0x79f78
+  Run | RVA=0x7a028
+  EnableSampling | RVA=0x7a150
+  DisableSampling | RVA=0x7a1e0
+
+TYPE: Ceto.CustomWaveSpectrumCondition
+  .ctor | RVA=0x7a270
+  GetCreateSpectrumConditionTask | RVA=0x7a300
+
+TYPE: Ceto.ISpectrum
+  Spectrum | RVA=0x0
+
+TYPE: Ceto.PhillipsSpectrum
+  .ctor | RVA=0x7a348
+  Spectrum | RVA=0x7a3d4
+
+TYPE: Ceto.PhillipsSpectrumCondition
+  .ctor | RVA=0x7a49c
+  GetCreateSpectrumConditionTask | RVA=0x7a670
+
+TYPE: Ceto.PhillipsSpectrumConditionKey
+  get_WindSpeed | RVA=0x7a6b8
+  set_WindSpeed | RVA=0x7a6c0
+  .ctor | RVA=0x7a6c9
+  Matches | RVA=0x7a6e0
+  AddToHashCode | RVA=0x7a710
+  ToString | RVA=0x7a734
+
+TYPE: Ceto.UnifiedPhillipsSpectrumCondition
+  .ctor | RVA=0x7a798
+  GetCreateSpectrumConditionTask | RVA=0x7a970
+
+TYPE: Ceto.UnifiedSpectrum
+  .ctor | RVA=0x7aa3c
+  sqr | RVA=0x7acbc
+  omega | RVA=0x7acc1
+  Spectrum | RVA=0x7ace8
+
+TYPE: Ceto.UnifiedSpectrumCondition
+  .ctor | RVA=0x7aeb8
+  GetCreateSpectrumConditionTask | RVA=0x7b090
+
+TYPE: Ceto.UnifiedSpectrumConditionKey
+  get_WindSpeed | RVA=0x7b0de
+  set_WindSpeed | RVA=0x7b0e6
+  get_WaveAge | RVA=0x7b0ef
+  set_WaveAge | RVA=0x7b0f7
+  .ctor | RVA=0x7b100
+  Matches | RVA=0x7b120
+  AddToHashCode | RVA=0x7b160
+  ToString | RVA=0x7b198
+
+TYPE: Ceto.WaveSpectrumCondition
+  get_Done | RVA=0x7b209
+  set_Done | RVA=0x7b211
+  get_GridSizes | RVA=0x7b21a
+  set_GridSizes | RVA=0x7b222
+  get_Choppyness | RVA=0x7b22b
+  set_Choppyness | RVA=0x7b233
+  get_WaveAmps | RVA=0x7b23c
+  set_WaveAmps | RVA=0x7b244
+  get_Key | RVA=0x7b24d
+  set_Key | RVA=0x7b255
+  get_Spectrum01 | RVA=0x7b25e
+  set_Spectrum01 | RVA=0x7b266
+  get_SpectrumData01 | RVA=0x7b26f
+  set_SpectrumData01 | RVA=0x7b277
+  get_Spectrum23 | RVA=0x7b280
+  set_Spectrum23 | RVA=0x7b288
+  get_SpectrumData23 | RVA=0x7b291
+  set_SpectrumData23 | RVA=0x7b299
+  get_WTable | RVA=0x7b2a2
+  set_WTable | RVA=0x7b2aa
+  get_WTableData | RVA=0x7b2b3
+  set_WTableData | RVA=0x7b2bb
+  get_LastUpdated | RVA=0x7b2c4
+  set_LastUpdated | RVA=0x7b2cc
+  get_SupportsJacobians | RVA=0x7b2d5
+  set_SupportsJacobians | RVA=0x7b2dd
+  .ctor | RVA=0x7b2e8
+  GetCreateSpectrumConditionTask | RVA=0x0
+  GetInitSpectrumDisplacementsTask | RVA=0x7b358
+  InverseGridSizes | RVA=0x7b364
+  Release | RVA=0x7b3c0
+  CreateTextures | RVA=0x7b430
+  Apply | RVA=0x7b584
+
+TYPE: Ceto.WaveSpectrumConditionKey
+  get_Size | RVA=0x7b636
+  set_Size | RVA=0x7b63e
+  get_NumGrids | RVA=0x7b647
+  set_NumGrids | RVA=0x7b64f
+  get_WindDir | RVA=0x7b658
+  set_WindDir | RVA=0x7b660
+  get_SpectrumType | RVA=0x7b669
+  set_SpectrumType | RVA=0x7b671
+  .ctor | RVA=0x7b67a
+  Matches | RVA=0x0
+  AddToHashCode | RVA=0x0
+  op_Equality | RVA=0x7b6a0
+  op_Inequality | RVA=0x7b702
+  Equals | RVA=0x7b710
+  Equals | RVA=0x7b736
+  GetHashCode | RVA=0x7b740
+
+TYPE: Ceto.CustomWaveSpectrumExample
+  get_MultiThreadTask | RVA=0x7b7ad
+  Awake | RVA=0x7b7b0
+  Start | RVA=0x7b7be
+  Update | RVA=0x7b7c0
+  CreateKey | RVA=0x7b7c2
+  CreateSpectrum | RVA=0x7b7d4
+  GetGridSizes | RVA=0x7b80f
+  GetChoppyness | RVA=0x7b848
+  GetWaveAmps | RVA=0x7b863
+  .ctor | RVA=0x7b89c
+
+TYPE: Ceto.FourierCPU
+  get_size | RVA=0x7b8af
+  get_passes | RVA=0x7b8b7
+  .ctor | RVA=0x7b8c0
+  BitReverse | RVA=0x7b920
+  ComputeButterflyLookupTable | RVA=0x7b960
+  FFT | RVA=0x7bb24
+  FFT | RVA=0x7bbcc
+  PeformFFT_SinglePacked | RVA=0x7bc28
+  PeformFFT_DoublePacked | RVA=0x7bf2c
+
+TYPE: Ceto.FourierGPU
+  get_size | RVA=0x7c32d
+  get_passes | RVA=0x7c335
+  .ctor | RVA=0x7c340
+  Release | RVA=0x7c418
+  BitReverse | RVA=0x7c450
+  Make1DTex | RVA=0x7c48d
+  ComputeButterflyLookupTable | RVA=0x7c4c0
+  PeformFFT | RVA=0x7c62c
+  PeformFFT | RVA=0x7c734
+  PeformFFT | RVA=0x7c8f0
+  PeformFFT | RVA=0x7cafc
+
+TYPE: Ceto.ICustomWaveSpectrum
+  get_MultiThreadTask | RVA=0x0
+  CreateKey | RVA=0x0
+  CreateSpectrum | RVA=0x0
+  GetGridSizes | RVA=0x0
+  GetChoppyness | RVA=0x0
+  GetWaveAmps | RVA=0x0
+
+TYPE: Ceto.FindRangeTask
+  .ctor | RVA=0x7cd5c
+  Reset | RVA=0x7cdac
+  Run | RVA=0x7ce07
+  End | RVA=0x7ce2e
+
+TYPE: Ceto.FourierTask
+  .ctor | RVA=0x7ce6c
+  Reset | RVA=0x7cf0c
+  Start | RVA=0x7cf83
+  Run | RVA=0x7cf8b
+  End | RVA=0x7cf9a
+  PerformSingleFourier | RVA=0x7cfc0
+  ProcessData | RVA=0x7d04c
+
+TYPE: Ceto.InitSpectrumDisplacementsTask
+  get_NumGrids | RVA=0x7d6bc
+  set_NumGrids | RVA=0x7d6c4
+  get_Size | RVA=0x7d6cd
+  set_Size | RVA=0x7d6d5
+  get_LastUpdated | RVA=0x7d6de
+  set_LastUpdated | RVA=0x7d6e6
+  get_TimeValue | RVA=0x7d6ef
+  set_TimeValue | RVA=0x7d6f7
+  get_SpectrumType | RVA=0x7d700
+  set_SpectrumType | RVA=0x7d708
+  get_Buffer | RVA=0x7d711
+  set_Buffer | RVA=0x7d719
+  get_Data0 | RVA=0x7d722
+  set_Data0 | RVA=0x7d72a
+  get_Data1 | RVA=0x7d733
+  set_Data1 | RVA=0x7d73b
+  get_Data2 | RVA=0x7d744
+  set_Data2 | RVA=0x7d74c
+  .ctor | RVA=0x7d758
+  Reset | RVA=0x7d7c4
+  Run | RVA=0x7d9d8
+  InitilizeGrids1 | RVA=0x7da30
+  InitilizeGrids2 | RVA=0x7dce8
+  InitilizeGrids3 | RVA=0x7e0b4
+  InitilizeGrids4 | RVA=0x7e610
+  CreateKTables | RVA=0x7ec64
+
+TYPE: Ceto.SpectrumTask
+  get_Size | RVA=0x7f042
+  set_Size | RVA=0x7f04a
+  get_NumGrids | RVA=0x7f053
+  set_NumGrids | RVA=0x7f05b
+  get_GridSizes | RVA=0x7f064
+  set_GridSizes | RVA=0x7f06c
+  get_InverseGridSizes | RVA=0x7f075
+  set_InverseGridSizes | RVA=0x7f07d
+  get_WaveAmps | RVA=0x7f086
+  set_WaveAmps | RVA=0x7f08e
+  get_Condition | RVA=0x7f097
+  set_Condition | RVA=0x7f09f
+  .ctor | RVA=0x7f0a8
+  RandomNumber | RVA=0x7f1cc
+  GaussianRandomNumber | RVA=0x7f20c
+  Start | RVA=0x7f272
+  Run | RVA=0x7f291
+  End | RVA=0x7f2a8
+  GetSpectrumSample | RVA=0x7f2f4
+  GenerateWavesSpectrum | RVA=0x7f360
+  CreateWTable | RVA=0x7f6a0
+
+TYPE: Ceto.WaveSpectrum
+  get_DisplacementMaps | RVA=0x7f98d
+  get_SlopeMaps | RVA=0x7f995
+  get_FoamMaps | RVA=0x7f99d
+  get_MaxDisplacement | RVA=0x7f9a5
+  set_MaxDisplacement | RVA=0x7f9ad
+  get_IsCreatingNewCondition | RVA=0x7f9b6
+  get_GridSizes | RVA=0x7f9cd
+  get_Choppyness | RVA=0x7f9d5
+  get_MaxConditionCacheSize | RVA=0x7f9dd
+  set_MaxConditionCacheSize | RVA=0x7f9e5
+  get_DisplacementBuffer | RVA=0x7f9ee
+  get_CustomWaveSpectrum | RVA=0x7f9fb
+  set_CustomWaveSpectrum | RVA=0x7fa03
+  Start | RVA=0x7fa0c
+  OnDisable | RVA=0x7fb38
+  OnDestroy | RVA=0x7fbc0
+  Release | RVA=0x7fc78
+  Update | RVA=0x7fdf4
+  UpdateSpectrumScheduler | RVA=0x8005c
+  UpdateQueryScaling | RVA=0x800bc
+  GenerateSlopes | RVA=0x801fc
+  GenerateDisplacement | RVA=0x803cc
+  ReadFromGPU | RVA=0x806e4
+  FindRanges | RVA=0x80810
+  GenerateFoam | RVA=0x80894
+  QueryWaves | RVA=0x80acc
+  CreateBuffers | RVA=0x80b48
+  CreateRenderTextures | RVA=0x80c64
+  CreateMap | RVA=0x80d14
+  CreateConditions | RVA=0x80d94
+  CacheCondition | RVA=0x80f24
+  CreateAndCacheCondition | RVA=0x80f98
+  NewSpectrumCondition | RVA=0x81038
+  NewSpectrumConditionKey | RVA=0x81108
+  GetFourierSize | RVA=0x811f8
+  .ctor | RVA=0x812c8
+
+TYPE: Ceto.DepthData
+  DestroyCamera | RVA=0x81399
+  DestroyTargets | RVA=0x813d8
+  .ctor | RVA=0x813fe
+
+TYPE: Ceto.IRefractionCommand
+  get_DisableCopyDepthCmd | RVA=0x0
+  set_DisableCopyDepthCmd | RVA=0x0
+  get_DisableNormalFadeCmd | RVA=0x0
+  set_DisableNormalFadeCmd | RVA=0x0
+  ClearCommands | RVA=0x0
+  UpdateCommands | RVA=0x0
+
+TYPE: Ceto.MaskData
+  DestroyCamera | RVA=0x81406
+  DestroyTargets | RVA=0x81445
+  .ctor | RVA=0x8146b
+
+TYPE: Ceto.RefractionCommand
+  get_CopyScreenCmd | RVA=0x81473
+  set_CopyScreenCmd | RVA=0x8147b
+  get_CopyDepthCmd | RVA=0x81484
+  set_CopyDepthCmd | RVA=0x8148c
+  get_NormalFadeCmd | RVA=0x81495
+  set_NormalFadeCmd | RVA=0x8149d
+  get_DisableCopyDepthCmd | RVA=0x814a6
+  set_DisableCopyDepthCmd | RVA=0x814b3
+  get_DisableNormalFadeCmd | RVA=0x814c4
+  set_DisableNormalFadeCmd | RVA=0x814d1
+  .ctor | RVA=0x814e4
+  ClearCommands | RVA=0x8155c
+  UpdateCommands | RVA=0x81618
+
+TYPE: Ceto.UnderWater
+  get_DisableCopyDepthCmd | RVA=0x81a2e
+  set_DisableCopyDepthCmd | RVA=0x81a36
+  get_DisableNormalFadeCmd | RVA=0x81a3f
+  set_DisableNormalFadeCmd | RVA=0x81a47
+  Start | RVA=0x81a50
+  OnEnable | RVA=0x81b70
+  OnDisable | RVA=0x81bc8
+  OnDestroy | RVA=0x81c20
+  Update | RVA=0x81c90
+  SetBottomActive | RVA=0x82024
+  InscatterModeToMask | RVA=0x82038
+  FitBottomToCamera | RVA=0x820ac
+  UpdateBottomBounds | RVA=0x82148
+  GetOceanDepthsLayermask | RVA=0x821bc
+  GetDisableUnderwater | RVA=0x821d4
+  RenderOceanMask | RVA=0x821e8
+  RenderSteroOceanMask | RVA=0x82398
+  RenderOceanMask | RVA=0x823ec
+  RenderOceanDepth | RVA=0x8246c
+  BindIVPMatrix | RVA=0x82718
+  RenderSteroOceanDepth | RVA=0x82740
+  RenderOceanDepth | RVA=0x82790
+  CreateMaskCameraFor | RVA=0x82814
+  CreateDepthCameraFor | RVA=0x82a7c
+  CreateRefractionCommand | RVA=0x82ce8
+  CreateBottomMesh | RVA=0x82db4
+  .ctor | RVA=0x82f68
+
+TYPE: Ceto.AddRenderTarget
+  Start | RVA=0x830c3
+  OnGUI | RVA=0x830f0
+  .ctor | RVA=0x83149
+
+TYPE: Ceto.DisplayTexture
+  Start | RVA=0x83158
+  OnGUI | RVA=0x8315c
+  FindTexture | RVA=0x8324c
+  .ctor | RVA=0x8346c
+
+TYPE: Ceto.DrawCameraFrustum
+  DrawFrustum | RVA=0x83474
+  .cctor | RVA=0x83528
+
+TYPE: Ceto.FreeCam
+  Start | RVA=0x83658
+  OnGUI | RVA=0x83686
+  Update | RVA=0x836ac
+  .ctor | RVA=0x83930
+
+TYPE: Ceto.ImageBlur
+  get_BlurMode | RVA=0x83997
+  set_BlurMode | RVA=0x8399f
+  get_BlurIterations | RVA=0x839a8
+  set_BlurIterations | RVA=0x839b0
+  get_BlurSpread | RVA=0x839b9
+  set_BlurSpread | RVA=0x839c1
+  .ctor | RVA=0x839cc
+  Blur | RVA=0x83a1c
+  FourTapCone | RVA=0x83ac0
+  DownSample | RVA=0x83b84
+
+TYPE: Ceto.ShipCamera
+  get_Ship | RVA=0x83c3e
+  Start | RVA=0x83c6c
+  LateUpdate | RVA=0x83ce8
+  OnDestroy | RVA=0x83cfc
+  MoveShip | RVA=0x83d18
+  InterpolateToTarget | RVA=0x83e80
+  ProcessInput | RVA=0x83f9c
+  .ctor | RVA=0x84230
+
+TYPE: Ceto.ShoreMaskGenerator
+  CreateHeightMap | RVA=0x842ac
+  CreateMask | RVA=0x8432c
+  CreateMask | RVA=0x843c8
+  CreateClipMask | RVA=0x844ec
+  CreateClipMask | RVA=0x84590
+
+TYPE: Ceto.Common.Unity.Utility.CBUtility
+  ReadFromRenderTexture | RVA=0x846bc
+  ReadSingleFromRenderTexture | RVA=0x847f8
+  .cctor | RVA=0x8490c
+
+TYPE: Ceto.Common.Unity.Utility.DisableFog
+  Start | RVA=0x849c1
+  OnPreRender | RVA=0x849c3
+  OnPostRender | RVA=0x849d6
+  .ctor | RVA=0x849e3
+
+TYPE: Ceto.Common.Unity.Utility.DisableGameObject
+  Update | RVA=0x849eb
+  OnEnable | RVA=0x849f9
+  .ctor | RVA=0x84a07
+
+TYPE: Ceto.Common.Unity.Utility.DisableShadows
+  Start | RVA=0x84a0f
+  OnPreRender | RVA=0x84a11
+  OnPostRender | RVA=0x84a28
+  .ctor | RVA=0x84a35
+
+TYPE: Ceto.Common.Unity.Utility.ExtendedFind
+  GetInterface | RVA=0x84a40
+  GetInterfaceInChildren | RVA=0x84a84
+  GetInterfaceImmediateChildren | RVA=0x84ac8
+  GetInterfaces | RVA=0x84b58
+  GetInterfacesInChildren | RVA=0x84ba4
+  GetInterfacesImmediateChildren | RVA=0x84bf0
+  GetComponetInImmediateParent | RVA=0x84c84
+  GetComponentsInImmediateParent | RVA=0x84cbe
+  GetComponetInImmediateChildren | RVA=0x84cec
+  GetComponetsInImmediateChildren | RVA=0x84d64
+  FindComponentOnGameObject | RVA=0x84dec
+  FindComponentsOnGameObject | RVA=0x84e1c
+  FindInterfaceOnGameObject | RVA=0x84e48
+  FindInterfacesOnGameObject | RVA=0x84e78
+
+TYPE: Ceto.Common.Unity.Utility.FPSCounter
+  get_FrameRate | RVA=0x84ea2
+  set_FrameRate | RVA=0x84eaa
+  Start | RVA=0x84eb3
+  Update | RVA=0x84ec4
+  .ctor | RVA=0x84f4f
+
+TYPE: Ceto.Common.Unity.Utility.NotifyOnEvent
+  OnEvent | RVA=0x84f64
+  AddAction | RVA=0x84fe4
+  AddAction | RVA=0x85014
+  .ctor | RVA=0x8503a
+
+TYPE: Ceto.Common.Unity.Utility.NotifyOnRenderObject
+  OnRenderObject | RVA=0x8504d
+  .ctor | RVA=0x85055
+
+TYPE: Ceto.Common.Unity.Utility.NotifyOnWillRender
+  OnWillRenderObject | RVA=0x8505d
+  .ctor | RVA=0x85065
+
+TYPE: Ceto.Common.Unity.Utility.Quit
+  OnGUI | RVA=0x8506d
+  .ctor | RVA=0x85081
+
+TYPE: Ceto.Common.Unity.Utility.RotateLight
+  Start | RVA=0x85091
+  Update | RVA=0x85094
+  .ctor | RVA=0x85174
+
+TYPE: Ceto.Common.Unity.Utility.RTSettings
+  .ctor | RVA=0x851c4
+
+TYPE: Ceto.Common.Unity.Utility.RTUtility
+  Blit | RVA=0x85210
+  Blit | RVA=0x852d4
+  Blit | RVA=0x85378
+  MultiTargetBlit | RVA=0x85424
+  MultiTargetBlit | RVA=0x85524
+  ClearColor | RVA=0x855e6
+  Release | RVA=0x8560e
+  Release | RVA=0x85620
+  ReleaseAndDestroy | RVA=0x8565f
+  ReleaseAndDestroy | RVA=0x85678
+  ReleaseTemporary | RVA=0x856c3
+  ReleaseTemporary | RVA=0x856d8
+  CheckFormat | RVA=0x85718
+  CreateRenderTexture | RVA=0x857c4
+  CreateTemporyRenderTexture | RVA=0x8584c
+
+TYPE: Ceto.Common.Unity.Utility.Wireframe
+  Start | RVA=0x858bc
+  Update | RVA=0x858be
+  OnPreRender | RVA=0x858dc
+  OnPostRender | RVA=0x858ec
+  .ctor | RVA=0x858fc
+
+TYPE: Ceto.Common.Threading.Tasks.ICancelToken
+  get_Cancelled | RVA=0x0
+
+TYPE: Ceto.Common.Threading.Tasks.IThreadedTask
+  get_RunTime | RVA=0x0
+  set_RunTime | RVA=0x0
+  get_IsThreaded | RVA=0x0
+  get_Ran | RVA=0x0
+  get_Done | RVA=0x0
+  get_NoFinish | RVA=0x0
+  set_NoFinish | RVA=0x0
+  get_Waiting | RVA=0x0
+  get_RunOnStopWaiting | RVA=0x0
+  set_RunOnStopWaiting | RVA=0x0
+  get_Started | RVA=0x0
+  get_Cancelled | RVA=0x0
+  Reset | RVA=0x0
+  Start | RVA=0x0
+  Run | RVA=0x0
+  End | RVA=0x0
+  Cancel | RVA=0x0
+  WaitOn | RVA=0x0
+  set_Scheduler | RVA=0x0
+
+TYPE: Ceto.Common.Threading.Tasks.TaskListener
+  get_ListeningTask | RVA=0x8590f
+  get_Waiting | RVA=0x85917
+  set_Waiting | RVA=0x85921
+  .ctor | RVA=0x8592c
+  OnFinish | RVA=0x8593b
+
+TYPE: Ceto.Common.Threading.Tasks.ThreadedTask
+  get_RunTime | RVA=0x85971
+  set_RunTime | RVA=0x85979
+  get_IsThreaded | RVA=0x85982
+  get_Done | RVA=0x8598a
+  get_Ran | RVA=0x85994
+  get_NoFinish | RVA=0x8599e
+  set_NoFinish | RVA=0x859a8
+  get_Waiting | RVA=0x859b3
+  get_RunOnStopWaiting | RVA=0x859c3
+  set_RunOnStopWaiting | RVA=0x859cd
+  get_Started | RVA=0x859d8
+  get_Cancelled | RVA=0x859e2
+  set_Scheduler | RVA=0x859ec
+  get_Listeners | RVA=0x859f5
+  get_Listener | RVA=0x859fd
+  .ctor | RVA=0x85a05
+  Start | RVA=0x85a3d
+  Reset | RVA=0x85a48
+  Run | RVA=0x0
+  FinishedRunning | RVA=0x85ac8
+  End | RVA=0x85b60
+  Cancel | RVA=0x85bdc
+  WaitOn | RVA=0x85c2c
+  StopWaiting | RVA=0x85cd8
+  ToString | RVA=0x85d3c
+
+TYPE: Ceto.Common.Threading.Scheduling.ICoroutine
+  RunCoroutine | RVA=0x0
+
+TYPE: Ceto.Common.Threading.Scheduling.IScheduler
+  ScheduledTasks | RVA=0x0
+  RunningTasks | RVA=0x0
+  WaitingTasks | RVA=0x0
+  FinishingTasks | RVA=0x0
+  Tasks | RVA=0x0
+  HasTasks | RVA=0x0
+  Cancel | RVA=0x0
+  Contains | RVA=0x0
+  IsScheduled | RVA=0x0
+  IsRunning | RVA=0x0
+  IsWaiting | RVA=0x0
+  IsFinishing | RVA=0x0
+  Add | RVA=0x0
+  Run | RVA=0x0
+  AddWaiting | RVA=0x0
+  StopWaiting | RVA=0x0
+
+TYPE: Ceto.Common.Threading.Scheduling.Scheduler
+  get_TasksRanThisUpdate | RVA=0x85da7
+  set_TasksRanThisUpdate | RVA=0x85daf
+  get_TasksFinishedThisUpdate | RVA=0x85db8
+  set_TasksFinishedThisUpdate | RVA=0x85dc0
+  get_MaxTasksPerUpdate | RVA=0x85dc9
+  set_MaxTasksPerUpdate | RVA=0x85dd1
+  get_MaxFinishPerUpdate | RVA=0x85dda
+  set_MaxFinishPerUpdate | RVA=0x85de2
+  get_MaxWaitTime | RVA=0x85deb
+  set_MaxWaitTime | RVA=0x85df3
+  get_MinWaitTime | RVA=0x85dfc
+  set_MinWaitTime | RVA=0x85e04
+  get_DisableMultithreading | RVA=0x85e0d
+  set_DisableMultithreading | RVA=0x85e15
+  set_ShutingDown | RVA=0x85e1e
+  .ctor | RVA=0x85e2c
+  .ctor | RVA=0x85eb0
+  Update | RVA=0x85f3c
+  RunTask | RVA=0x85fb0
+  RunThreaded | RVA=0x86080
+  FinishTasks | RVA=0x860cc
+  HasTasks | RVA=0x86220
+  Cancel | RVA=0x86248
+  CancelAllTasks | RVA=0x862c8
+  Contains | RVA=0x863e8
+  ScheduledTasks | RVA=0x86418
+  RunningTasks | RVA=0x86464
+  WaitingTasks | RVA=0x864b0
+  FinishingTasks | RVA=0x864fc
+  Tasks | RVA=0x86548
+  IsScheduled | RVA=0x86568
+  IsRunning | RVA=0x865b0
+  IsWaiting | RVA=0x865f8
+  IsFinishing | RVA=0x86640
+  Add | RVA=0x86688
+  Run | RVA=0x866e4
+  AddWaiting | RVA=0x86750
+  Finished | RVA=0x867ac
+  CheckForException | RVA=0x8681c
+  Throw | RVA=0x8686c
+  StopWaiting | RVA=0x868b0
+  Clear | RVA=0x8691c
+
+TYPE: Ceto.Common.Containers.Queues.DictionaryQueue`2
+  .ctor | RVA=0x86970
+  .ctor | RVA=0x8698e
+  get_Item | RVA=0x869b0
+  set_Item | RVA=0x869d6
+  GetEnumerator | RVA=0x869e0
+  ContainsKey | RVA=0x869ef
+  Replace | RVA=0x869fd
+  AddFirst | RVA=0x86a17
+  AddLast | RVA=0x86a37
+  get_Count | RVA=0x86a57
+  get_IsEmpty | RVA=0x86a64
+  First | RVA=0x86a74
+  Last | RVA=0x86a86
+  RemoveFirst | RVA=0x86a98
+  RemoveLast | RVA=0x86ae4
+  Remove | RVA=0x86b30
+  Clear | RVA=0x86b71
+
+TYPE: Ceto.Common.Containers.Queues.SetQueue`1
+  .ctor | RVA=0x86b89
+  .ctor | RVA=0x86ba7
+  get_Item | RVA=0x86bc6
+  set_Item | RVA=0x86bd9
+  GetEnumerator | RVA=0x86be3
+  Contains | RVA=0x86bf2
+  Replace | RVA=0x86c00
+  AddFirst | RVA=0x86c3b
+  AddLast | RVA=0x86c55
+  get_Count | RVA=0x86c6f
+  get_IsEmpty | RVA=0x86c7c
+  First | RVA=0x86c8c
+  Last | RVA=0x86c9e
+  RemoveFirst | RVA=0x86cb0
+  RemoveLast | RVA=0x86cec
+  Remove | RVA=0x86d28
+  Clear | RVA=0x86d5b
+
+TYPE: Ceto.Common.Containers.Interpolation.InterpolatedArray
+  get_Wrap | RVA=0x86d73
+  set_Wrap | RVA=0x86d7b
+  get_HalfPixelOffset | RVA=0x86d84
+  set_HalfPixelOffset | RVA=0x86d8c
+  .ctor | RVA=0x86d95
+  Index | RVA=0x86dab
+  Index | RVA=0x86de8
+
+TYPE: Ceto.Common.Containers.Interpolation.InterpolatedArray2f
+  get_Data | RVA=0x86e7a
+  get_SX | RVA=0x86e82
+  get_SY | RVA=0x86e8a
+  get_Channels | RVA=0x86e92
+  .ctor | RVA=0x86e9a
+  .ctor | RVA=0x86ed8
+  .ctor | RVA=0x86f2c
+  Clear | RVA=0x86f8d
+  Copy | RVA=0x86fa3
+  get_Item | RVA=0x86fb9
+  set_Item | RVA=0x86fd5
+  Get | RVA=0x86ff3
+  Set | RVA=0x8700f
+  Set | RVA=0x87030
+  Get | RVA=0x8706c
+  Get | RVA=0x870a8
+  Get | RVA=0x871f4
+
+TYPE: Beam.OceanWeatherEventEffect
+  InitializeEffect | RVA=0x914b4
+  UpdateEffect | RVA=0x91544
+  Cease | RVA=0x91634
+  .ctor | RVA=0x91691
+
+TYPE: Beam.WaterStillAudio
+  Awake | RVA=0x933ae
+  OnDestroy | RVA=0x933bb
+  Still_StartedCollecting | RVA=0x933ce
+  Still_StoppedCollecting | RVA=0x933f5
+  Still_Refilled | RVA=0x93413
+  Still_Collected | RVA=0x93435
+  Still_Drank | RVA=0x93457
+  Still_WaterRemoved | RVA=0x93479
+  .ctor | RVA=0x9349b
+
+TYPE: Beam.CetoSettings
+  get_BelowVisibility | RVA=0x9fb61
+  get_CurrentWaterColor | RVA=0x9fb69
+  get_CurrentUnderwaterColor | RVA=0x9fb71
+  get_CurrentScatterColor | RVA=0x9fb79
+  get_CurrentUnderwaterInscatterColor | RVA=0x9fb81
+  get_MorningWaterColor | RVA=0x9fb89
+  get_MiddayWaterColor | RVA=0x9fb91
+  get_MorningUnderwaterColor | RVA=0x9fb99
+  get_MiddayUnderwaterColor | RVA=0x9fba1
+  get_MorningScatterColor | RVA=0x9fba9
+  get_MiddayScatterColor | RVA=0x9fbb1
+  get_MorningUnderwaterInscatterColor | RVA=0x9fbb9
+  get_MiddayUnderwaterInscatterColor | RVA=0x9fbc1
+  get_Underwater | RVA=0x9fbc9
+  get_WaveSpectrum | RVA=0x9fbee
+  Start | RVA=0x9fc13
+  OnDestroy | RVA=0x9fc3b
+  OnOptionsApplied | RVA=0x9fc54
+  LoadOptions | RVA=0x9fc5c
+  SetCaustics | RVA=0x9fd58
+  Update | RVA=0x9fd82
+  UpdateWaterVisibility | RVA=0x9fdb3
+  UpdateWaterColor | RVA=0x9fddc
+  .ctor | RVA=0xa0029
+
+TYPE: Beam.PrefabSizeFitsBetweenTerrainAndOcean
+  ValidatePlacement | RVA=0xa1830
+  .ctor | RVA=0xa1876
+
+TYPE: Beam.Buoyancy
+  Beam.IQueryWaves.get_Active | RVA=0xa22fd
+  Beam.IQueryWaves.get_WaveQueries | RVA=0xa231a
+  Beam.IQueryWaves.InRange | RVA=0xa2322
+  Beam.IQueryWaves.OutOfRange | RVA=0xa232c
+  get_Rigidbody | RVA=0xa23b3
+  get_Floating | RVA=0xa23bb
+  get_IsInWater | RVA=0xa23cd
+  Awake | RVA=0xa23d8
+  CreateWaveQueries | RVA=0xa25c8
+  Start | RVA=0xa262a
+  AddWaveQueries | RVA=0xa265b
+  RemoveWaveQueries | RVA=0xa2684
+  OnDestroy | RVA=0xa26ad
+  EnableWind | RVA=0xa26b5
+  SetDampening | RVA=0xa26be
+  ResetDampening | RVA=0xa26c7
+  SliceIntoVoxels | RVA=0xa26d8
+  FindClosestPoints | RVA=0xa2828
+  OnTransformParentChanged | RVA=0xa2898
+  WeldPoints | RVA=0xa28b4
+  UpdateWaterAndQueries | RVA=0xa2915
+  FixedUpdate | RVA=0xa2934
+  CheckIfInWater | RVA=0xa2b04
+  .ctor | RVA=0xa2b60
+  <Start>b__32_0 | RVA=0xa2bad
+
+TYPE: Beam.IQueryWaves
+  get_Active | RVA=0x0
+  get_WaveQueries | RVA=0x0
+  InRange | RVA=0x0
+  OutOfRange | RVA=0x0
+
+TYPE: Beam.BuoyancyManager
+  Add | RVA=0xa2bb5
+  Remove | RVA=0xa2bc4
+  Start | RVA=0xa2bd3
+  OnDestroy | RVA=0xa2bea
+  FixedUpdate | RVA=0xa2bfd
+  LateUpdate | RVA=0xa2c23
+  DoQueries | RVA=0xa2c2c
+  Poll_InvokeRepeating | RVA=0xa2cc8
+  CheckInRangeOfPlayer | RVA=0xa2d6c
+  CheckInRangeOfActiveZone | RVA=0xa2ddc
+  .ctor | RVA=0xa2e0d
+
+TYPE: Beam.PostEffects.UnderwaterEffectController
+  OnEnable | RVA=0xbfdcc
+  OnPreRender | RVA=0xbfe0c
+  ShouldRenderEffect | RVA=0xbfebc
+  UnderWaterIsVisible | RVA=0xbff5c
+  .ctor | RVA=0xc005d
+  .cctor | RVA=0xc0078
+
+TYPE: Beam.PostEffects.UnderwaterSettings
+  .ctor | RVA=0xc0110
+
+TYPE: Beam.PostEffects.UnderwaterEffect
+  Render | RVA=0xc0118
+  .ctor | RVA=0xc01b7
+
+TYPE: Beam.PostEffects.BeamTeamWaterDistortAndDroplets
+  Awake | RVA=0xc035c
+  OnDestroy | RVA=0xc03aa
+  OnRenderImage | RVA=0xc03b8
+  .ctor | RVA=0xc03c7
+
+TYPE: Beam.Ocean.StructureBuoyancy
+  Beam.IQueryWaves.get_Active | RVA=0xc11ea
+  Beam.IQueryWaves.get_WaveQueries | RVA=0xc1207
+  Beam.IQueryWaves.InRange | RVA=0xc120f
+  Beam.IQueryWaves.OutOfRange | RVA=0xc1218
+  get_Rigidbody | RVA=0xc1285
+  get_BuoyancyCollider | RVA=0xc128d
+  get_RaftBuoyancys | RVA=0xc1295
+  set_RaftBuoyancys | RVA=0xc129d
+  Awake | RVA=0xc12a6
+  Attached | RVA=0xc12b4
+  Resize | RVA=0xc12c4
+  CreateWaveQueries | RVA=0xc14b0
+  Start | RVA=0xc1512
+  OnDestroy | RVA=0xc154d
+  EnableWind | RVA=0xc155f
+  SetDampening | RVA=0xc1568
+  ResetDampening | RVA=0xc1571
+  SliceIntoVoxels | RVA=0xc1580
+  FixedUpdate | RVA=0xc1674
+  .ctor | RVA=0xc1820
+  <Start>b__32_0 | RVA=0xc1880
+
+TYPE: Beam.Ocean.RaftBuoyancy
+  get_Collider | RVA=0xc1892
+  get_Density | RVA=0xc189a
+  get_VoxelPerAxisIncrease | RVA=0xc18a2
+  .ctor | RVA=0xc18aa
+
+TYPE: Beam.Intro.WaterRefiller
+  GetInteractionDescription | RVA=0xc6b5c
+  DoRefill | RVA=0xc6b80
+  IsRefillable | RVA=0xc6bf3
+  .ctor | RVA=0xc6c24
+
+TYPE: Beam.Crafting.ConnectorCheck_Underwater
+  Check | RVA=0xe8c3c
+  .ctor | RVA=0xe8c89
+
+TYPE: Beam.Crafting.ConstructionObject_WATERBOTTLE
+  get_CreatorId | RVA=0xec9d4
+  set_CreatorId | RVA=0xec9dc
+  get_ColliderType | RVA=0xec9e5
+  get_CraftImmediate | RVA=0xec9ed
+  get_GhostMesh | RVA=0xec9f5
+  get_GhostMaterials | RVA=0xec9fd
+  get_PlacingDistance | RVA=0xeca0a
+  Awake | RVA=0xeca12
+  OnBeginCrafting | RVA=0xeca41
+  CheckProximity | RVA=0xeca43
+  Place | RVA=0xeca46
+  OwnerPlacing | RVA=0xeca48
+  ReplicantPlacing | RVA=0xeca4b
+  OnCrafted | RVA=0xeca4e
+  .ctor | RVA=0xeca61
+  Beam.IBase.get_gameObject | RVA=0xeca74
+
+TYPE: Beam.Crafting.PlacementModifier_SnapToWater
+  Modify | RVA=0xf0c50
+  SnapToWater | RVA=0xf0cb8
+  .ctor | RVA=0xf0d48
+
+TYPE: QueryContainersCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: QueryBlobsCallback
+  .ctor | RVA=0x0
+  Invoke | RVA=0x0
+  BeginInvoke | RVA=0x0
+  EndInvoke | RVA=0x0
+
+TYPE: WaveQueryResult
+  Clear | RVA=0x10aef8
+
+TYPE: OceanProperties
+
+TYPE: <CrashImpactWater>d__59
+  .ctor | RVA=0x1157cc
+  System.IDisposable.Dispose | RVA=0x1157db
+  MoveNext | RVA=0x1157e0
+  System.Collections.Generic.IEnumerator<System.Single>.get_Current | RVA=0x1159dc
+  System.Collections.IEnumerator.Reset | RVA=0x1159e4
+  System.Collections.IEnumerator.get_Current | RVA=0x1159eb
+
+TYPE: <LandedInWater>d__60
+  .ctor | RVA=0x115a39
+  System.IDisposable.Dispose | RVA=0x115a48
+  MoveNext | RVA=0x115a4c
+  System.Collections.Generic.IEnumerator<System.Single>.get_Current | RVA=0x115da0
+  System.Collections.IEnumerator.Reset | RVA=0x115da8
+  System.Collections.IEnumerator.get_Current | RVA=0x115daf
+
+=== EXTERNAL TYPE REFERENCES ===
+TYPE REF: Steamworks.SteamUGCQueryCompleted_t
+TYPE REF: UnityEngine.QueryTriggerInteraction
+TYPE REF: Steamworks.UGCQueryHandle_t
+
+=== MEMBER REFERENCES ===
+MEMBER: GetDistanceToPoint | PARENT: <dnfile.codedindex.MemberRefParent object at 0x71d03e39b0>
+MEMBER: get_InWaterOffset | PARENT: <dnfile.codedindex.MemberRefParent object at 0x71d00a2ab0>
+MEMBER: get_InWater | PARENT: <dnfile.codedindex.MemberRefParent object at 0x71d00a2b10>
+MEMBER: set_InWaterOffset | PARENT: <dnfile.codedindex.MemberRefParent object at 0x71d00a2f30>
+MEMBER: set_InWater | PARENT: <dnfile.codedindex.MemberRefParent object at 0x71d00a2f90>
+MEMBER: CreateQueryUserUGCRequest | PARENT: <dnfile.codedindex.MemberRefParent object at 0x71d015ab70>
+MEMBER: SendQueryUGCRequest | PARENT: <dnfile.codedindex.MemberRefParent object at 0x71d015abd0>
+MEMBER: GetQueryUGCResult | PARENT: <dnfile.codedindex.MemberRefParent object at 0x71d015ae10>
+MEMBER: ReleaseQueryUGCRequest | PARENT: <dnfile.codedindex.MemberRefParent object at 0x71d015af30>
+MEMBER: get_Water | PARENT: <dnfile.codedindex.MemberRefParent object at 0x71d006d730>
+MEMBER: set_Water | PARENT: <dnfile.codedindex.MemberRefParent object at 0x71d006d7f0>
+
+=== ASSEMBLY REFERENCES ===
+mscorlib
+UnityEngine.CoreModule
+UnityEngine.AudioModule
+UnityEngine.PhysicsModule
+UnityEngine.ParticleSystemModule
+Assembly-CSharp-firstpass
+UnityEngine.AnimationModule
+udpkit
+UnityEngine.UI
+System
+System.Net.Http
+Unity.Postprocessing.Runtime
+System.Core
+bolt.user
+UnityEngine.TerrainModule
+Rewired_Core
+UnityEngine.UIModule
+bolt
+Newtonsoft.Json
+com.rlabrecque.steamworks.net
+Sirenix.Serialization
+UnityEngine.IMGUIModule
+UnityEngine.TextRenderingModule
+UnityEngine.InputLegacyModule
+udpkit.common
+udpkit.platform.photon
+UnityEngine.AssetBundleModule
+UnityEngine.UnityWebRequestModule
+Unity.TextMeshPro
+UnityEngine.VideoModule
+UnityEngine.ScreenCaptureModule
+PhotonRealtime
+Photon3Unity3D
+UnityEngine.TerrainPhysicsModule
+Rewired_Windows
+Rewired_Windows_Functions
+UnityEngine.UnityWebRequestAssetBundleModule
+UnityEngine.ImageConversionModule
+Sirenix.Utilities
+UnityEngine.JSONSerializeModule

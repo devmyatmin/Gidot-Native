@@ -1,0 +1,262 @@
+
+=================================================================
+PAYLOAD 0 PLATFORM 4
+SIZE: 10624
+HEADER: 0900000070000000f00300000000000060040000f40200000000000054070000f402000000000000480a000014040000000000005c0e00001404000000000000701200003405000000000000a41700003405000000000000d81c000054060000000000002c2300005406000000000000
+ENTRY COUNT: 9
+TABLE END: 112
+
+ENTRY 0
+  OFFSET: 112
+  SIZE: 1008
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c0f0000000800000000000000000000000200000000000000ca020000
+  TYPE: OTHER
+  PREVIEW:
+.u
+...................................................................DXBC<?<u....a...w&.Q............,...........ISGNl...........P.......................Y.......................`.......................POSITION.NORMAL.TEXCOORD....OSGNP.....
+
+ENTRY 1
+  OFFSET: 1120
+  SIZE: 756
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c110000000500000003000000000000000400000000000000b2020000
+  TYPE: OTHER
+  PREVIEW:
+.u
+...................................................................DXBCZ(...D.P!...(~..............,...........ISGNP...........8.......................D.......................SV_POSITION.TEXCOORD....OSGN,........... .....................
+
+ENTRY 2
+  OFFSET: 1876
+  SIZE: 756
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c110000000500000003000000000000000400000000000000b2020000
+  TYPE: OTHER
+  PREVIEW:
+.u
+...................................................................DXBC..7|.
+.N.z..).~H............,...........ISGNP...........8.......................D.......................SV_POSITION.TEXCOORD....OSGN,........... .....................
+
+ENTRY 3
+  OFFSET: 2632
+  SIZE: 1044
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c110000000a00000005000000000000000600000000000000d2030000
+  TYPE: OTHER
+  PREVIEW:
+.u
+.....
+.............................................................DXBC5.C.J....Hj..L.............,...........ISGNP...........8.......................D.......................SV_POSITION.TEXCOORD....OSGND...........8.....................
+
+ENTRY 4
+  OFFSET: 3676
+  SIZE: 1044
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c110000000a00000005000000000000000600000000000000d2030000
+  TYPE: OTHER
+  PREVIEW:
+.u
+.....
+.............................................................DXBC...1Yqc.X.>.................,...........ISGNP...........8.......................D.......................SV_POSITION.TEXCOORD....OSGND...........8.....................
+
+ENTRY 5
+  OFFSET: 4720
+  SIZE: 1332
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c110000000f00000007000000000000000600000000000000f2040000
+  TYPE: OTHER
+  PREVIEW:
+.u
+...................................................................DXBC..".'.M.LZ.	3...............,...........ISGNP...........8.......................D.......................SV_POSITION.TEXCOORD....OSGN\...........P.....................
+
+ENTRY 6
+  OFFSET: 6052
+  SIZE: 1332
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c110000000f00000007000000000000000600000000000000f2040000
+  TYPE: OTHER
+  PREVIEW:
+.u
+...................................................................DXBCz0.I....I.x#................,...........ISGNP...........8.......................D.......................SV_POSITION.TEXCOORD....OSGN\...........P.....................
+
+ENTRY 7
+  OFFSET: 7384
+  SIZE: 1620
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c11000000140000000900000000000000060000000000000012060000
+  TYPE: OTHER
+  PREVIEW:
+.u
+.........	.........................................................DXBC9..a.......T................,...........ISGNP...........8.......................D.......................SV_POSITION.TEXCOORD....OSGNt...........h.....................
+
+ENTRY 8
+  OFFSET: 9004
+  SIZE: 1620
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c11000000140000000900000000000000060000000000000012060000
+  TYPE: OTHER
+  PREVIEW:
+.u
+.........	.........................................................DXBC..=..d.E..WG8:..............,...........ISGNP...........8.......................D.......................SV_POSITION.TEXCOORD....OSGNt...........h.....................
+
+=================================================================
+PAYLOAD 1 PLATFORM 15
+SIZE: 29060
+HEADER: 08000000640000004c0b000000000000b00b00004c0b000000000000fc160000380d00000000000034240000380d0000000000006c3100001c0f000000000000884000001c0f000000000000a44f0000f01000000000000094600000f010000000000000ba750a0c0600000000000000
+ENTRY COUNT: 8
+TABLE END: 100
+
+ENTRY 0
+  OFFSET: 100
+  SIZE: 2892
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c0600000000000000000000000000000000000000000000004b0a0000
+  TYPE: GLSL
+  PREVIEW:
+.u
+.........................K
+..#ifdef VERTEX
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+
+ENTRY 1
+  OFFSET: 2992
+  SIZE: 2892
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c0600000000000000000000000000000000000000000000004b0a0000
+  TYPE: GLSL
+  PREVIEW:
+.u
+.........................K
+..#ifdef VERTEX
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+
+ENTRY 2
+  OFFSET: 5884
+  SIZE: 3384
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c060000000000000000000000000000000000000000000000140c0000
+  TYPE: GLSL
+  PREVIEW:
+.u
+.............................#ifdef VERTEX
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+
+ENTRY 3
+  OFFSET: 9268
+  SIZE: 3384
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c060000000000000000000000000000000000000000000000140c0000
+  TYPE: GLSL
+  PREVIEW:
+.u
+.............................#ifdef VERTEX
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+
+ENTRY 4
+  OFFSET: 12652
+  SIZE: 3868
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c060000000000000000000000000000000000000000000000d20d0000
+  TYPE: GLSL
+  PREVIEW:
+.u
+............................#ifdef VERTEX
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+
+ENTRY 5
+  OFFSET: 16520
+  SIZE: 3868
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c060000000000000000000000000000000000000000000000d20d0000
+  TYPE: GLSL
+  PREVIEW:
+.u
+............................#ifdef VERTEX
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+
+ENTRY 6
+  OFFSET: 20388
+  SIZE: 4336
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c060000000000000000000000000000000000000000000000810f0000
+  TYPE: GLSL
+  PREVIEW:
+.u
+.............................#ifdef VERTEX
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+
+ENTRY 7
+  OFFSET: 24724
+  SIZE: 4336
+  EXTRA: 0
+  RANGE VALID: True
+  PREFIX: ba750a0c060000000000000000000000000000000000000000000000810f0000
+  TYPE: GLSL
+  PREVIEW:
+.u
+.............................#ifdef VERTEX
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1

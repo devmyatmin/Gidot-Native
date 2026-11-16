@@ -1,0 +1,146 @@
+
+ENTRY 0
+  VERTEX: PASS
+  SIZE: 1385
+  SHA256: fd67c2d2df98088cf8bca7b2036cfe71f78c775ace5e21ec921c8d273a93136f
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['hlslcc_mtx4x4unity_MatrixVP', 'hlslcc_mtx4x4unity_ObjectToWorld']
+  SAMPLERS: []
+  FILE: output/ceto_fourier_stages_v2/entry_0_vertex.glsl
+  FRAGMENT: PASS
+  SIZE: 1206
+  SHA256: c8271f96fab9d237dc3f86d5f8b60395442934d594e713d93408d5c59d4be104
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0']
+  SAMPLERS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0']
+  FILE: output/ceto_fourier_stages_v2/entry_0_fragment.glsl
+
+ENTRY 1
+  VERTEX: PASS
+  SIZE: 1385
+  SHA256: fd67c2d2df98088cf8bca7b2036cfe71f78c775ace5e21ec921c8d273a93136f
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['hlslcc_mtx4x4unity_MatrixVP', 'hlslcc_mtx4x4unity_ObjectToWorld']
+  SAMPLERS: []
+  FILE: output/ceto_fourier_stages_v2/entry_1_vertex.glsl
+  FRAGMENT: PASS
+  SIZE: 1206
+  SHA256: bd6c7e61ff3f6d226a34fc001499679e6901e8cfefb29712356941cc16d499ac
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0']
+  SAMPLERS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0']
+  FILE: output/ceto_fourier_stages_v2/entry_1_fragment.glsl
+
+ENTRY 2
+  VERTEX: PASS
+  SIZE: 1385
+  SHA256: fd67c2d2df98088cf8bca7b2036cfe71f78c775ace5e21ec921c8d273a93136f
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['hlslcc_mtx4x4unity_MatrixVP', 'hlslcc_mtx4x4unity_ObjectToWorld']
+  SAMPLERS: []
+  FILE: output/ceto_fourier_stages_v2/entry_2_vertex.glsl
+  FRAGMENT: PASS
+  SIZE: 1663
+  SHA256: 95c58316080b75a4ee5cee7cae9776eeb4d76755f30c4779493f1022e2e87b4c
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0', 'Ceto_ReadBuffer1']
+  SAMPLERS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0', 'Ceto_ReadBuffer1']
+  FILE: output/ceto_fourier_stages_v2/entry_2_fragment.glsl
+
+ENTRY 3
+  VERTEX: PASS
+  SIZE: 1385
+  SHA256: fd67c2d2df98088cf8bca7b2036cfe71f78c775ace5e21ec921c8d273a93136f
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['hlslcc_mtx4x4unity_MatrixVP', 'hlslcc_mtx4x4unity_ObjectToWorld']
+  SAMPLERS: []
+  FILE: output/ceto_fourier_stages_v2/entry_3_vertex.glsl
+  FRAGMENT: PASS
+  SIZE: 1663
+  SHA256: b912942ec65e3e6d6a28b6aa7afe8811c7739ec3642c7ee08abfd9680aab8653
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0', 'Ceto_ReadBuffer1']
+  SAMPLERS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0', 'Ceto_ReadBuffer1']
+  FILE: output/ceto_fourier_stages_v2/entry_3_fragment.glsl
+
+ENTRY 4
+  VERTEX: PASS
+  SIZE: 1385
+  SHA256: fd67c2d2df98088cf8bca7b2036cfe71f78c775ace5e21ec921c8d273a93136f
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['hlslcc_mtx4x4unity_MatrixVP', 'hlslcc_mtx4x4unity_ObjectToWorld']
+  SAMPLERS: []
+  FILE: output/ceto_fourier_stages_v2/entry_4_vertex.glsl
+  FRAGMENT: PASS
+  SIZE: 2109
+  SHA256: 02848bbe69af56858656c730e96b224f8975a7a99e91d5ff5df957ddc7212d54
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0', 'Ceto_ReadBuffer1', 'Ceto_ReadBuffer2']
+  SAMPLERS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0', 'Ceto_ReadBuffer1', 'Ceto_ReadBuffer2']
+  FILE: output/ceto_fourier_stages_v2/entry_4_fragment.glsl
+
+ENTRY 5
+  VERTEX: PASS
+  SIZE: 1385
+  SHA256: fd67c2d2df98088cf8bca7b2036cfe71f78c775ace5e21ec921c8d273a93136f
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['hlslcc_mtx4x4unity_MatrixVP', 'hlslcc_mtx4x4unity_ObjectToWorld']
+  SAMPLERS: []
+  FILE: output/ceto_fourier_stages_v2/entry_5_vertex.glsl
+  FRAGMENT: PASS
+  SIZE: 2109
+  SHA256: ed76cc0825654a90d846fa06ce501cf333848498006592f5e489a5a3ba4787b8
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0', 'Ceto_ReadBuffer1', 'Ceto_ReadBuffer2']
+  SAMPLERS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0', 'Ceto_ReadBuffer1', 'Ceto_ReadBuffer2']
+  FILE: output/ceto_fourier_stages_v2/entry_5_fragment.glsl
+
+ENTRY 6
+  VERTEX: PASS
+  SIZE: 1385
+  SHA256: fd67c2d2df98088cf8bca7b2036cfe71f78c775ace5e21ec921c8d273a93136f
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['hlslcc_mtx4x4unity_MatrixVP', 'hlslcc_mtx4x4unity_ObjectToWorld']
+  SAMPLERS: []
+  FILE: output/ceto_fourier_stages_v2/entry_6_vertex.glsl
+  FRAGMENT: PASS
+  SIZE: 2540
+  SHA256: 1458d605bf1663f379c313b916cc81dd8306b22bec4e726966ee3d9557382ecb
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0', 'Ceto_ReadBuffer1', 'Ceto_ReadBuffer2', 'Ceto_ReadBuffer3']
+  SAMPLERS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0', 'Ceto_ReadBuffer1', 'Ceto_ReadBuffer2', 'Ceto_ReadBuffer3']
+  FILE: output/ceto_fourier_stages_v2/entry_6_fragment.glsl
+
+ENTRY 7
+  VERTEX: PASS
+  SIZE: 1385
+  SHA256: fd67c2d2df98088cf8bca7b2036cfe71f78c775ace5e21ec921c8d273a93136f
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['hlslcc_mtx4x4unity_MatrixVP', 'hlslcc_mtx4x4unity_ObjectToWorld']
+  SAMPLERS: []
+  FILE: output/ceto_fourier_stages_v2/entry_7_vertex.glsl
+  FRAGMENT: PASS
+  SIZE: 2540
+  SHA256: 9b459bf1051c78ec017816484521bce9a996516eb7e7b4f1b05d61fef7bea619
+  VERSION: #version 150
+  MAIN COUNT: 1
+  UNIFORMS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0', 'Ceto_ReadBuffer1', 'Ceto_ReadBuffer2', 'Ceto_ReadBuffer3']
+  SAMPLERS: ['Ceto_ButterFlyLookUp', 'Ceto_ReadBuffer0', 'Ceto_ReadBuffer1', 'Ceto_ReadBuffer2', 'Ceto_ReadBuffer3']
+  FILE: output/ceto_fourier_stages_v2/entry_7_fragment.glsl
+
+OUTPUT: output/ceto_fourier_stages_v2

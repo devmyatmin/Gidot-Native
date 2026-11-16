@@ -1,0 +1,408 @@
+===== extract_ceto_ocean_core_il.py =====
+import os
+import sys
+import dnfile
+from dncil.cil.body import CilMethodBody
+from dncil.cil.body.reader import CilMethodBodyReaderBytes
+
+DLL = (
+    "/sdcard/Download/3zip/Stranded Deep/"
+    "Stranded_Deep_Data/Managed/Assembly-CSharp.dll"
+)
+
+OUT = "logic/ceto_ocean_core_il.txt"
+
+TARGET_TYPES = {
+    "Ceto.Ocean",
+    "Ceto.WaveSpectrum",
+    "Ceto.QueryDisplacements",
+    "Ceto.SpectrumTask",
+    "Ceto.WaveSpectrumBuffer",
+    "Ceto.WaveSpectrumBufferCPU",
+    "Ceto.WaveSpectrumBufferGPU",
+    "Ceto.WaveSpectrumCondition",
+    "Ceto.Buoyancy",
+    "Ceto.DisplacementBufferCPU",
+    "Ceto.DisplacementBufferGPU",
+    "Ceto.WaveQueryTask",
+    "Ceto.WaveSpectrumConditionKey",
+}
+
+if not os.path.isfile(DLL):
+    print("ERROR: Assembly not found:", DLL)
+    sys.exit(1)
+
+pe = dnfile.dnPE(DLL)
+
+output = []
+selected = []
+extracted = 0
+failed = 0
+no_body = 0
+
+for t in pe.net.mdtables.TypeDef.rows:
+    ns = str(t.TypeNamespace or "")
+    name = str(t.TypeName)
+    full = f"{ns}.{name}" if ns else name
+
+    if full not in TARGET_TYPES:
+        continue
+
+    methods = [getattr(x, "row", x) for x in t.MethodList]
+    selected.append((full, len(methods)))
+
+    for m in methods:
+        method_name = str(m.Name)
+        rva = int(m.Rva)
+
+        output.append("\n" + "=" * 80)
+        output.append(f"CLASS: {full}")
+        output.append(f"METHOD: {method_name}")
+        output.append(f"RVA: {rva:#x}")
+
+        if rva == 0:
+            output.append("[NO METHOD BODY]")
+            no_body += 1
+            continue
+
+        try:
+            raw = pe.get_data(rva, 0x10000)
+            reader = CilMethodBodyReaderBytes(raw)
+            body = CilMethodBody(reader)
+
+            output.append(f"CODE_SIZE: {body.code_size}")
+            output.append(
+                f"INSTRUCTION_COUNT: {len(body.instructions)}"
+            )
+
+            for ins in body.instructions:
+                operand = ins.operand
+                output.append(
+                    f"IL_{ins.offset:04X}: "
+                    f"{ins.opcode.name} "
+                    f"{operand if operand is not None else ''}"
+                )
+
+            extracted += 1
+
+        except Exception as e:
+            output.append(
+                f"[DECODE_ERROR] {type(e).__name__}: {e}"
+            )
+            failed += 1
+
+os.makedirs("logic", exist_ok=True)
+
+with open(OUT, "w", encoding="utf-8") as f:
+    f.write("\n".join(output))
+
+print("CETO OCEAN CORE EXTRACTION COMPLETE")
+print("SOURCE_DLL:", DLL)
+print("SELECTED_TYPES:", len(selected))
+
+for name, count in selected:
+    print(f"TYPE: {name} | METHODS: {count}")
+
+print("METHODS_EXTRACTED:", extracted)
+print("METHODS_FAILED:", failed)
+print("METHODS_WITHOUT_BODY:", no_body)
+print("OUTPUT:", OUT)
+print("OUTPUT_LINES:", len(output))
+print("OUTPUT_BYTES:", os.path.getsize(OUT))
+
+===== extract_ceto_helpers.py =====
+import os
+import dnfile
+from dncil.cil.body import CilMethodBody
+from dncil.cil.body.reader import CilMethodBodyReaderBytes
+
+DLL = (
+    "/sdcard/Download/3zip/Stranded Deep/"
+    "Stranded_Deep_Data/Managed/Assembly-CSharp.dll"
+)
+
+METHOD_TOKENS = [0x060031CB, 0x060031CF]
+FIELD_TOKENS = [
+    0x04001CC0, 0x04001CC1,
+    0x04001CC2, 0x04001CC3
+]
+
+pe = dnfile.dnPE(DLL)
+
+def value(x):
+    return str(getattr(x, "value", x))
+
+def row_of(x):
+    return getattr(x, "row", x)
+
+def type_name(t):
+    ns = value(t.TypeNamespace)
+    name = value(t.TypeName)
+    return f"{ns}.{name}" if ns else name
+
+method_owner = {}
+field_owner = {}
+
+for t in pe.net.mdtables.TypeDef.rows:
+    owner = type_name(t)
+
+    for x in t.MethodList:
+        method_owner[id(row_of(x))] = owner
+
+    for x in t.FieldList:
+        field_owner[id(row_of(x))] = owner
+
+lines = ["CETO HELPER AND FIELD RESOLUTION"]
+
+for token in METHOD_TOKENS:
+    rid = token & 0xFFFFFF
+    rows = pe.net.mdtables.MethodDef.rows
+
+    if rid < 1 or rid > len(rows):
+        lines.append(f"\nTOKEN 0x{token:08X}: ROW NOT FOUND")
+        continue
+
+    m = rows[rid - 1]
+    owner = method_owner.get(id(m), "?")
+
+    lines += [
+        "\n" + "=" * 70,
+        f"TOKEN: 0x{token:08X}",
+        f"METHOD: {owner}::{value(m.Name)}",
+        f"RVA: 0x{int(m.Rva):X}",
+        f"SIGNATURE: {getattr(m, 'Signature', '?')}",
+    ]
+
+    if not m.Rva:
+        lines.append("[NO METHOD BODY]")
+        continue
+
+    try:
+        raw = pe.get_data(int(m.Rva), 0x10000)
+        body = CilMethodBody(CilMethodBodyReaderBytes(raw))
+
+        lines.append(f"CODE_SIZE: {body.code_size}")
+        lines.append(f"INSTRUCTIONS: {len(body.instructions)}")
+
+        for ins in body.instructions:
+            operand = ins.operand
+            lines.append(
+                f"IL_{ins.offset:04X}: "
+                f"{ins.opcode.name} "
+                f"{operand if operand is not None else ''}"
+            )
+    except Exception as e:
+        lines.append(f"DECODE_ERROR: {type(e).__name__}: {e}")
+
+for token in FIELD_TOKENS:
+    rid = token & 0xFFFFFF
+    rows = pe.net.mdtables.Field.rows
+
+    if rid < 1 or rid > len(rows):
+        lines.append(f"\nFIELD 0x{token:08X}: ROW NOT FOUND")
+        continue
+
+    f = rows[rid - 1]
+    owner = field_owner.get(id(f), "?")
+
+    lines += [
+        "\n" + "-" * 70,
+        f"FIELD TOKEN: 0x{token:08X}",
+        f"FIELD: {owner}::{value(f.Name)}",
+        f"SIGNATURE: {getattr(f, 'Signature', '?')}",
+    ]
+
+os.makedirs("logic", exist_ok=True)
+out = "logic/ceto_helper_metadata_il.txt"
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write("\n".join(lines))
+
+print("CETO HELPER EXTRACTION COMPLETE")
+print("METHODS:", len(METHOD_TOKENS))
+print("FIELDS:", len(FIELD_TOKENS))
+print("OUTPUT:", out)
+print("LINES:", len(lines))
+
+===== resolve_ceto_tokens.py =====
+import re
+import dnfile
+from collections import Counter
+
+DLL = "/sdcard/Download/3zip/Stranded Deep/Stranded_Deep_Data/Managed/Assembly-CSharp.dll"
+SRC = "logic/ceto_ocean_core_il.txt"
+REPORT = "logic/ceto_token_resolved_report.txt"
+OUT_IL = "logic/ceto_ocean_core_il_resolved.txt"
+
+pe = dnfile.dnPE(DLL)
+
+with open(SRC, encoding="utf-8") as f:
+    source = f.read()
+
+def s(value):
+    if value is None:
+        return "?"
+    try:
+        v = getattr(value, "value", value)
+        return str(v)
+    except Exception:
+        return str(value)
+
+def get_row(entry):
+    return getattr(entry, "row", entry)
+
+def type_name(row):
+    if row is None:
+        return "?"
+    ns = s(getattr(row, "TypeNamespace", ""))
+    name = s(getattr(row, "TypeName", ""))
+    if not name or name == "?":
+        name = s(getattr(row, "Name", "?"))
+    return (ns + "." + name).strip(".")
+
+def row_table(row):
+    if row is None:
+        return "?"
+    return type(row).__name__.replace("Row", "")
+
+# Build declaring-type maps for MethodDef and Field rows.
+method_owner = {}
+field_owner = {}
+
+for td in pe.net.mdtables.TypeDef.rows:
+    owner = type_name(td)
+
+    for entry in getattr(td, "MethodList", []):
+        row = get_row(entry)
+        if row is not None:
+            method_owner[id(row)] = owner
+
+    for entry in getattr(td, "FieldList", []):
+        row = get_row(entry)
+        if row is not None:
+            field_owner[id(row)] = owner
+
+def resolve_coded_parent(parent):
+    row = get_row(parent)
+    if row is None:
+        return "parent=?"
+
+    kind = row_table(row)
+
+    if kind == "TypeDef":
+        return type_name(row)
+    if kind == "TypeRef":
+        return type_name(row)
+    if kind == "MethodDef":
+        owner = method_owner.get(id(row), "?")
+        return f"{owner}::{s(row.Name)}"
+    if kind == "TypeSpec":
+        return "TypeSpec"
+    return f"{kind}:{s(getattr(row, 'Name', '?'))}"
+
+def resolve_token(token):
+    table = (token >> 24) & 0xFF
+    rid = token & 0xFFFFFF
+
+    if table == 0x70:
+        return f"USERSTRING(offset=0x{rid:X})"
+
+    table_map = {
+        0x01: "TypeRef",
+        0x02: "TypeDef",
+        0x04: "Field",
+        0x06: "MethodDef",
+        0x0A: "MemberRef",
+        0x1B: "TypeSpec",
+        0x2B: "MethodSpec",
+    }
+
+    name = table_map.get(table)
+    if not name:
+        return f"UNKNOWN_TABLE_0x{table:02X}(RID={rid})"
+
+    md = getattr(pe.net.mdtables, name, None)
+    if md is None or rid < 1 or rid > len(md.rows):
+        return f"{name}(RID={rid}, ROW_UNAVAILABLE)"
+
+    row = md.rows[rid - 1]
+
+    if table == 0x01:
+        return f"TYPE {type_name(row)}"
+
+    if table == 0x02:
+        return f"TYPE {type_name(row)}"
+
+    if table == 0x04:
+        owner = field_owner.get(id(row), "?")
+        return f"FIELD {owner}::{s(row.Name)}"
+
+    if table == 0x06:
+        owner = method_owner.get(id(row), "?")
+        return f"METHOD {owner}::{s(row.Name)} [RVA=0x{int(row.Rva):X}]"
+
+    if table == 0x0A:
+        parent = resolve_coded_parent(row.Class)
+        return f"MEMBER {parent}::{s(row.Name)}"
+
+    if table == 0x1B:
+        return f"TYPESPEC RID={rid}"
+
+    if table == 0x2B:
+        method = resolve_coded_parent(row.Method)
+        return f"METHODSPEC {method}"
+
+    return f"{name}(RID={rid})"
+
+tokens = [
+    int(x, 16)
+    for x in re.findall(r"token\(0x([0-9A-Fa-f]{8})\)", source)
+]
+
+unique = sorted(set(tokens))
+counts = Counter(tokens)
+
+lines = []
+lines.append("CETO TOKEN RESOLUTION REPORT")
+lines.append(f"TOTAL REFERENCES: {len(tokens)}")
+lines.append(f"UNIQUE TOKENS: {len(unique)}")
+lines.append("")
+
+resolved = {}
+
+for token in unique:
+    result = resolve_token(token)
+    resolved[token] = result
+    lines.append(
+        f"0x{token:08X} | COUNT={counts[token]:4d} | {result}"
+    )
+
+with open(REPORT, "w", encoding="utf-8") as f:
+    f.write("\\n".join(lines) + "\\n")
+
+def replace_token(match):
+    token = int(match.group(1), 16)
+    result = resolved.get(token, resolve_token(token))
+    return f"token(0x{token:08X}) [{result}]"
+
+resolved_source = re.sub(
+    r"token\(0x([0-9A-Fa-f]{8})\)",
+    replace_token,
+    source
+)
+
+with open(OUT_IL, "w", encoding="utf-8") as f:
+    f.write(resolved_source)
+
+print("CETO TOKEN RESOLUTION COMPLETE")
+print("TOTAL REFERENCES:", len(tokens))
+print("UNIQUE TOKENS:", len(unique))
+print("METHODDEF:", sum(1 for t in unique if (t >> 24) == 0x06))
+print("MEMBERREF:", sum(1 for t in unique if (t >> 24) == 0x0A))
+print("FIELD:", sum(1 for t in unique if (t >> 24) == 0x04))
+print("REPORT:", REPORT)
+print("RESOLVED IL:", OUT_IL)
+print()
+print("TOP 40 RESOLVED TOKENS:")
+for token in sorted(unique, key=lambda t: counts[t], reverse=True)[:40]:
+    print(f"{counts[token]:4d}  0x{token:08X}  {resolved[token]}")

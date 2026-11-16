@@ -1,0 +1,16 @@
+STRANDED DEEP - ORIGINAL AUDIO EXTRACTION
+
+Unity ClassID: 83 (AudioClip)
+Total: 430
+PASS: 430
+EMPTY: 0
+ERROR: 0
+
+Format:
+Original FMOD FSB5 binary files: 430
+
+Audio directory:
+/sdcard/stranded_native_port_output/audio_original_binary/
+
+Inventory:
+audio_inventory.csv
