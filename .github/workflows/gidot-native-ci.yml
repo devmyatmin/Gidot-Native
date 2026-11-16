@@ -1,4 +1,4 @@
-name: Gidot-Native ZIP validation
+name: Extract ZIP into repository
 
 on:
   push:
@@ -9,30 +9,69 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  validate-archive:
+  extract-and-commit:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
-      - name: Check archive exists
-        run: test -s NYAMIST_RECOVERED_CETO.zip
-
-      - name: Validate ZIP integrity
-        run: unzip -tq NYAMIST_RECOVERED_CETO.zip
-
-      - name: Generate archive report
+      - name: Extract archive safely
         run: |
-          echo "## ZIP archive report" >> "$GITHUB_STEP_SUMMARY"
-          echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo "- File: NYAMIST_RECOVERED_CETO.zip" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Size: $(stat -c%s NYAMIST_RECOVERED_CETO.zip) bytes" >> "$GITHUB_STEP_SUMMARY"
-          echo "- SHA-256: $(sha256sum NYAMIST_RECOVERED_CETO.zip | cut -d' ' -f1)" >> "$GITHUB_STEP_SUMMARY"
-          echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo "### Archive entries (first 200)" >> "$GITHUB_STEP_SUMMARY"
-          echo '~~~text' >> "$GITHUB_STEP_SUMMARY"
-          unzip -Z1 NYAMIST_RECOVERED_CETO.zip | head -n 200 >> "$GITHUB_STEP_SUMMARY"
-          echo '~~~' >> "$GITHUB_STEP_SUMMARY"
+          python3 - <<'PY'
+          import os, zipfile
+          from pathlib import PurePosixPath
+
+          archive = "NYAMIST_RECOVERED_CETO.zip"
+          target = os.path.abspath("recovered")
+          os.makedirs(target, exist_ok=True)
+
+          total = 0
+          count = 0
+          with zipfile.ZipFile(archive) as z:
+              bad = z.testzip()
+              if bad:
+                  raise SystemExit(f"Corrupt ZIP member: {bad}")
+              for info in z.infolist():
+                  name = info.filename.replace("\\", "/")
+                  path = PurePosixPath(name)
+                  mode = (info.external_attr >> 16) & 0o170000
+                  if path.is_absolute() or ".." in path.parts or mode == 0o120000:
+                      raise SystemExit(f"Unsafe ZIP entry: {name}")
+                  if info.is_dir():
+                      continue
+                  if info.file_size > 100 * 1024 * 1024:
+                      raise SystemExit(f"File exceeds GitHub 100 MB limit: {name}")
+                  total += info.file_size
+                  if total > 500 * 1024 * 1024:
+                      raise SystemExit("Archive expands beyond 500 MB safety limit")
+                  dest = os.path.abspath(os.path.join(target, *path.parts))
+                  if os.path.commonpath([target, dest]) != target:
+                      raise SystemExit(f"Path escapes extraction directory: {name}")
+                  os.makedirs(os.path.dirname(dest), exist_ok=True)
+                  with z.open(info) as src, open(dest, "wb") as dst:
+                      while True:
+                          chunk = src.read(1024 * 1024)
+                          if not chunk:
+                              break
+                          dst.write(chunk)
+                  count += 1
+
+          print(f"Extracted {count} files ({total} uncompressed bytes) into recovered/")
+          PY
+
+      - name: Commit extracted files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add recovered/
+          if git diff --cached --quiet; then
+            echo "No extracted-file changes to commit."
+          else
+            git commit -m "Extract recovered ZIP contents"
+            git push
+          fi
