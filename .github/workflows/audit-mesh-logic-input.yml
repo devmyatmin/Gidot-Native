@@ -2,6 +2,10 @@ name: Audit Mesh Assets for Logic Integration
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/audit-mesh-logic-input.yml'
+      - '01_MESH_ASSETS/**'
 
 permissions:
   contents: read
