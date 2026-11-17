@@ -19,7 +19,15 @@
     "net10.0": 9,
     "netstandard2.0": 3
   },
-  "key_project_files": [],
+  "key_project_files": [
+    "ILSpy-11.2/ILSpy.XPlat.slnf",
+    "ILSpy-11.2/Directory.Build.props",
+    "ILSpy-11.2/global.json",
+    "ILSpy-11.2/ICSharpCode.ILSpyCmd.Tests/ICSharpCode.ILSpyCmd.Tests.csproj",
+    "ILSpy-11.2/ICSharpCode.ILSpyCmd/ICSharpCode.ILSpyCmd.csproj",
+    "ILSpy-11.2/ICSharpCode.Decompiler/ICSharpCode.Decompiler.csproj",
+    "ILSpy-11.2/TestTools/Directory.Build.props"
+  ],
   "decompiler_cli_projects": [
     {
       "path": "ILSpy-11.2/ICSharpCode.Decompiler.Tests/ICSharpCode.Decompiler.Tests.csproj",
