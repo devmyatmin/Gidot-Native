@@ -4,34 +4,28 @@ on:
   push:
     branches: [main]
     paths:
-      - "NYAMIST_RECOVERED_CETO.zip"
       - "Github/reconstructed_v5/Stranded_Deep_No_Impostors.glb"
       - ".github/workflows/gidot-native-ci.yml"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  extract-and-test:
+  godot-glb-validation:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout repository (including Git LFS assets)
         uses: actions/checkout@v4
         with:
-          persist-credentials: true
-
-      - name: Install workflow dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y curl unzip
+          lfs: true
 
       - name: Install Godot 4.7.2
         run: |
           curl -fL --retry 3 \
             "https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_linux.x86_64.zip" \
             -o /tmp/godot.zip
-          mkdir -p "$HOME/.local/bin"
+          mkdir -p /tmp/godot
           unzip -q /tmp/godot.zip -d /tmp/godot
           GODOT_BIN="$(find /tmp/godot -maxdepth 2 -type f -name 'Godot_v4.7.2-stable_linux.x86_64' -print -quit)"
           test -n "$GODOT_BIN"
@@ -39,51 +33,7 @@ jobs:
           echo "GODOT_BIN=$GODOT_BIN" >> "$GITHUB_ENV"
           "$GODOT_BIN" --headless --version
 
-      - name: Extract archive safely
-        run: |
-          python3 - <<'PY'
-          import os, zipfile
-          from pathlib import PurePosixPath
-
-          archive = "NYAMIST_RECOVERED_CETO.zip"
-          target = os.path.abspath("recovered")
-          os.makedirs(target, exist_ok=True)
-
-          total = 0
-          count = 0
-          with zipfile.ZipFile(archive) as z:
-              bad = z.testzip()
-              if bad:
-                  raise SystemExit(f"Corrupt ZIP member: {bad}")
-              for info in z.infolist():
-                  name = info.filename.replace("\\", "/")
-                  path = PurePosixPath(name)
-                  mode = (info.external_attr >> 16) & 0o170000
-                  if path.is_absolute() or ".." in path.parts or mode == 0o120000:
-                      raise SystemExit(f"Unsafe ZIP entry: {name}")
-                  if info.is_dir():
-                      continue
-                  if info.file_size > 100 * 1024 * 1024:
-                      raise SystemExit(f"File exceeds GitHub 100 MB limit: {name}")
-                  total += info.file_size
-                  if total > 500 * 1024 * 1024:
-                      raise SystemExit("Archive expands beyond 500 MB safety limit")
-                  dest = os.path.abspath(os.path.join(target, *path.parts))
-                  if os.path.commonpath([target, dest]) != target:
-                      raise SystemExit(f"Path escapes extraction directory: {name}")
-                  os.makedirs(os.path.dirname(dest), exist_ok=True)
-                  with z.open(info) as src, open(dest, "wb") as dst:
-                      while True:
-                          chunk = src.read(1024 * 1024)
-                          if not chunk:
-                              break
-                          dst.write(chunk)
-                  count += 1
-
-          print(f"Extracted {count} files ({total} uncompressed bytes) into recovered/")
-          PY
-
-      - name: Import and load-test GLB with Godot
+      - name: Prepare isolated Godot project
         run: |
           GLB="Github/reconstructed_v5/Stranded_Deep_No_Impostors.glb"
           test -s "$GLB"
@@ -98,38 +48,74 @@ jobs:
           cat > .ci-godot-project/ci_validate_glb.gd <<'EOF'
           extends SceneTree
 
+          func inspect_node(node: Node, stats: Dictionary) -> void:
+              if node is MeshInstance3D:
+                  var mesh_instance := node as MeshInstance3D
+                  stats["mesh_instances"] += 1
+                  if mesh_instance.mesh == null:
+                      stats["meshless_instances"] += 1
+                  else:
+                      var mesh := mesh_instance.mesh
+                      for surface_index in range(mesh.get_surface_count()):
+                          stats["surfaces"] += 1
+                          var arrays := mesh.surface_get_arrays(surface_index)
+                          var vertices = arrays[Mesh.ARRAY_VERTEX]
+                          if vertices is PackedVector3Array:
+                              stats["vertices"] += vertices.size()
+              for child in node.get_children():
+                  inspect_node(child, stats)
+
           func _initialize() -> void:
               var path := "res://Stranded_Deep_No_Impostors.glb"
               var packed := ResourceLoader.load(path) as PackedScene
               if packed == null:
-                  push_error("GLB_LOAD_FAIL: ResourceLoader did not return a PackedScene")
+                  push_error("GLB_LOAD_FAIL: Godot did not import the GLB as PackedScene")
                   quit(1)
                   return
 
               var instance := packed.instantiate()
               if instance == null:
-                  push_error("GLB_INSTANTIATE_FAIL: PackedScene could not be instantiated")
+                  push_error("GLB_INSTANTIATE_FAIL: PackedScene instantiation failed")
                   quit(1)
                   return
+
+              var stats := {
+                  "mesh_instances": 0,
+                  "meshless_instances": 0,
+                  "surfaces": 0,
+                  "vertices": 0
+              }
+              inspect_node(instance, stats)
 
               print("GLB_LOAD_PASS: ", path)
               print("ROOT_TYPE: ", instance.get_class())
               print("ROOT_CHILDREN: ", instance.get_child_count())
+              print("MESH_INSTANCES: ", stats["mesh_instances"])
+              print("MESHLESS_INSTANCES: ", stats["meshless_instances"])
+              print("SURFACES: ", stats["surfaces"])
+              print("VERTICES: ", stats["vertices"])
+
+              if stats["mesh_instances"] == 0 or stats["surfaces"] == 0 or stats["vertices"] == 0:
+                  push_error("GLB_GEOMETRY_FAIL: Imported scene contains no usable mesh geometry")
+                  instance.free()
+                  quit(1)
+                  return
+
+              print("GLB_GEOMETRY_PASS")
               instance.free()
               quit(0)
           EOF
 
+      - name: Import GLB and validate scene in Godot
+        run: |
           "$GODOT_BIN" --headless --editor --path .ci-godot-project --import --quit
           "$GODOT_BIN" --headless --path .ci-godot-project --script res://ci_validate_glb.gd
 
-      - name: Commit extracted files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add recovered/
-          if git diff --cached --quiet; then
-            echo "No extracted-file changes to commit."
-          else
-            git commit -m "Extract recovered ZIP contents"
-            git push
-          fi
+      - name: Upload Godot validation logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stranded-deep-godot-glb-validation
+          path: |
+            .ci-godot-project/.godot/imported/
+          if-no-files-found: warn
