@@ -1,0 +1,13 @@
+STRANDED DEEP 3D RECONSTRUCTION V3
+=============================================
+meshes: 1113
+normal_pass: 1111
+obj_exported: 1113
+position_pass: 1113
+tangent_pass: 1039
+uv0_pass: 1110
+uv1_pass: 855
+uv2_pass: 16
+
+OBJ directory: /sdcard/stranded_native_port_output/run_20261112_094649/reconstructed_v5/obj
+CSV report: /sdcard/stranded_native_port_output/run_20261112_094649/reconstructed_v5/mesh_3d_reconstruction_report.csv

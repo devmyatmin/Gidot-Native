@@ -1,0 +1,1618 @@
+gameobject_path_id,gameobject_name,mesh_path_id,mesh_name,mesh_exists
+4448,Origin_Cube_O,2904,Origin_Cube_O,True
+4538,LOD1,2626,Coconut_Raw_L1,True
+4540,LOD1,2453,Vehicle_Part_Engine_L1,True
+4459,Potato_L1,2071,Potato_Fruit,True
+4543,LOD1,2002,Coconut_L1,True
+4544,Rock LOD1,2317,ItemRock_L1,True
+4545,LOD1,2567,Vehicle_Part_Filters_L1,True
+4463,PalmFrond LOD0,2547,Palm_Frond,True
+4547,LOD1,1971,Vehicle_Part_Electrical_L1,True
+4465,DeadEx_Lid,2762,DeadEx_Lid,True
+4549,Stick LOD0,2286,Stick,True
+4466,LOD2,2851,Shoreline_Rock_2_L3,True
+4472,Flare_Gun,2224,Flare_Gun,True
+4514,LOD2,2008,Duct_tape_L1,True
+4475,EGG_WOLLIE,2309,Wollie,True
+4476,Z_CylinderZ_Z,2942,Z_CylinderZ_Z,True
+4516,Door_2,2409,Door2,True
+4479,Torch LOD2,2344,Torch_L1,True
+4480,LOD1,2319,Compass_L1,True
+4485,Origin_Cube_O,2904,Origin_Cube_O,True
+4525,Y_CylinderY_Y,2899,Y_CylinderY_Y,True
+4571,Main,10210,TMP SubMeshUI [TextMeshPro/Sprite],True
+4528,Ration_Tin_L1,2450,Ration_Tin_L1,True
+4492,Fuel_Can_L2,2132,Fuel_Can_L1,True
+4575,LOD1,2221,Lantern,True
+4533,Cube,10202,Position,True
+4577,CoconutHalf LOD1,2159,Coconut_Half_L1,True
+4578,LOD1,2369,Vehicle_Part_Fuel_L1,True
+4500,Z_CylinderZ_Z,2882,Z_CylinderZ_Z,True
+4583,LOD0,2493,Coconut_Raw,True
+4539,LOD0,2587,Hammer,True
+4503,Potato,2071,Potato_Fruit,True
+4586,LOD0,2381,Coconut,True
+4587,Rock LOD0,2242,ItemRock,True
+4505,DeadEx_Box,2592,DeadEx_Box,True
+4588,Stick LOD1,2226,Stick_LOD1,True
+4507,LOD0,2908,Shoreline_Rock_2,True
+4509,LOD2,2119,Cliff5_L2,True
+4556,Flare_Gun_Barrel,2684,Flare_Gun_Barrel,True
+4558,LOD0,1951,Duct_tape,True
+4515,Y_CylinderY_Y,2935,Y_CylinderY_Y,True
+4519,LOD2,2563,Cliff3_L2,True
+4595,Torch LOD0,2106,Torch,True
+4521,Compass_Pointer,2858,Compass_Pointer,True
+4523,LOD2,2687,Cliff1_L2,True
+4570,X_CylinderX_X,2872,X_CylinderX_X,True
+4620,Head,10210,TMP SubMeshUI [TextMeshPro/Sprite],True
+4572,Ration_Tin,1987,Ration_Tin,True
+4530,Fuel_Can_L1,2132,Fuel_Can_L1,True
+4531,LOD2,2699,Cliff2_L2,True
+4622,LOD2,2533,Lantern_L1,True
+4576,Cylinder,10206,Survivor_01_Ctrl_LeftUpLeg,True
+4604,CoconutHalf LOD0,2383,Coconut_Half,True
+4534,LOD2,2373,Cliff4_L2,True
+4535,LOD2,2103,Cliff6_L2,True
+4536,Y_CylinderY_Y,2836,Y_CylinderY_Y,True
+4606,LOD1,2600,Hammer_L1,True
+4626,LOD2,2012,Flare_Gun_L1,True
+4609,LOD1,2008,Duct_tape_L1,True
+4559,X_CylinderX_X,2928,X_CylinderX_X,True
+4614,Torch LOD1,2618,Torch,True
+4565,Compass_Lid,2769,Compass_Lid,True
+4569,Y_CylinderY_Y,2836,Y_CylinderY_Y,True
+4487,Z_CylinderZ_Z,2915,Z_CylinderZ_Z,True
+4600,Right,10210,TMP SubMeshUI [TextMeshPro/Sprite],True
+4601,Fuel_Can,2408,Fuel_Can,True
+4603,Cylinder,10206,Survivor_01_Ctrl_LeftUpLeg,True
+4581,X_CylinderX_X,2726,X_CylinderX_X,True
+4592,LOD1,2012,Flare_Gun_L1,True
+4593,Origin_Cube_O,2921,Origin_Cube_O,True
+4596,Compass_Gage,1952,Compass_Gage,True
+4527,Left,10210,TMP SubMeshUI [TextMeshPro/Sprite],True
+4623,Cylinder,10206,Survivor_01_Ctrl_LeftUpLeg,True
+4615,Compass_Base,2628,Compass_Base,True
+4632,Cylinder,10206,Survivor_01_Ctrl_LeftUpLeg,True
+4644,LOD1,2319,Compass_L1,True
+4654,LOD0_Props,0,,False
+4640,Cylinder,10206,Survivor_01_Ctrl_LeftUpLeg,True
+4647,Cylinder,10206,Survivor_01_Ctrl_LeftUpLeg,True
+4655,Sphere,10207,Effects,True
+4661,Sphere,10207,Effects,True
+4666,Sphere,10207,Effects,True
+5087,Trunk,2361,Tree_1_Trunk,True
+5416,Rail,2204,Rail,True
+5427,LOD0,2622,Shipping_Container_1,True
+5829,LOD0,2704,Fire_Starter_Stage4,True
+4775,LOD1,2756,Ceriman_1_LOD1,True
+6125,LOD0,2225,Shipping_Container_Left_Door,True
+5563,LOD0,2018,Corrugated_Iron,True
+6105,Dead_Plant,1985,Dead_Plant,True
+5579,Palm_Trunk_LOD0,2074,Palm_Tree_4_L0,True
+5442,Level2_LOD0,2015,Corrugated_Triangle_Floor,True
+5652,LOD0,2583,Stick_Filler,True
+5026,kura_1_LOD1,2824,kura_1_LOD1,True
+5967,LOD1,2050,Driftwood_Filler_LOD1,True
+4891,LOD0,2818,Plot_Corrugated,True
+5805,LOD0,2489,Driftwood_Triangle_Floor,True
+5357,WALL (1),10202,Position,True
+6042,LOD0,2397,Driftwood_Foundation,True
+6270,LOD1,2815,Tyre_Resources_LOD1,True
+4739,LOD0,2582,Hobo_Stove,True
+6144,LOD1,2416,BedRoll,True
+5615,SmallRock_03_LOD1,2662,SmallRock_03_LOD1,True
+4902,LOD1,2363,Crude_Axe_L1,True
+6060,LOD2,2148,Crude_Axe_L2,True
+5622,Level2_LOD0,2125,Plank_Triangle_Floor,True
+6014,Level2_LOD1,2233,Plank_Foundation_LOD1,True
+5928,Level2_LOD0,2486,Corrugated_Stairs,True
+5697,LOD2,2605,Fire_Starter_L2,True
+6238,LOD1,2253,Shipping_Container_2_LOD1,True
+4921,BigRock_03_LOD2,2274,BigRock_03_LOD3,True
+5268,LOD2,2191,Fishing_Spear_L2,True
+6102,LOD1,2473,AirTank_L1,True
+6204,Level2_LOD0,2652,Plank_Triangle_Foundation,True
+5046,Level2_LOD1,2297,Stick_Triangle_Floor_L1,True
+5998,LOD0,2037,Yucca_Stage4_Harvested,True
+4838,Dead_Plant,1985,Dead_Plant,True
+5210,ArrowProxy,0,,False
+4843,Cube,10202,Position,True
+6264,WALL (1),10202,Position,True
+5105,Level0_LOD0,2524,Brick_Wall_stage1,True
+5146,guava_4_LOD2,2771,guava_4_LOD2,True
+4766,kura_2_LOD1,2800,kura_2_LOD1,True
+5471,Proxy_Leaf_1,2547,Palm_Frond,True
+5309,Level2_LOD0,2355,Corrugated_Floor,True
+6219,Level0_LOD0,2559,Brick_Window_Stage1,True
+6310,LOD0,2214,Driftwood_Window,True
+5168,LOD0,2481,Corrugated_Door,True
+5167,sprout,2522,sprout_LOD0,True
+6111,LOD1,2376,Fishing_Spear_L1,True
+4772,BigRock_04_LOD1,2654,BigRock_04_LOD1,True
+5116,kura_2_LOD2,2870,kura_2_LOD2,True
+5689,Mound,2356,Plot_Stick_Dirt,True
+4973,Level2_LOD1,2021,Brick_Window_L1,True
+5993,LOD1,2282,Bed_Basic_L2,True
+4956,Level2_LOD0,2517,Stick_Triangle_Floor,True
+6048,LOD0,2137,Driftwood_Wall_Half,True
+5464,SmallRock_02_LOD0,2251,SmallRock_02_LOD0,True
+5283,SmallRock_01_LOD2,2853,SmallRock_01_LOD2,True
+5067,LOD1,2733,Ceriman_2_LOD1,True
+6158,Rail,2204,Rail,True
+4787,LOD1,2100,Refined_Knife_L1,True
+5493,LOD0,2377,Driftwood_Stairs,True
+5748,LOD0,2734,AirTank,True
+4960,BigRock_01_LOD2,2134,BigRock_01_LOD2,True
+5766,ArrowProxy,0,,False
+5432,LOD0,2095,Bricks,True
+4876,LOD0,2010,Ceriman_3_LOD0,True
+6043,LOD2,2546,AirTank_L2,True
+6233,Rail,2204,Rail,True
+6150,LOD2,2290,Crude_Knife_L2,True
+6304,guava_1_LOD2,2822,guava_1_LOD2,True
+5488,Proxy_Leaf_3,2547,Palm_Frond,True
+5010,Platform,10202,Position,True
+5012,SEALADDER,2501,Ladder,True
+4801,Palm_Trunk_LOD0,2326,Palm_Tree_3,True
+4926,kura_3_LOD2,2848,kura_3_LOD2,True
+4793,LOD0,2123,Bandage,True
+6108,Level2_LOD0,2561,Corrugated_Foundation,True
+5310,Ficus_Tree_1_LOD1,2892,Ficus_Tree_1_Leaf,True
+5440,BigRock_05_LOD1,2715,BigRock_05_LOD1,True
+6112,LOD1,2606,Plot_Plank_L1,True
+6172,BigRock_01_LOD0,2610,BigRock_01_LOD0,True
+6239,LOD0,1965,Driftwood_Triangle_Foundation,True
+5879,Level2_LOD1,2508,Brick_Triangle_Foundation_L1,True
+5569,LOD2,2133,Refined_Spear_L2,True
+5254,LOD0,2801,kura_4_LOD1,True
+4873,Rail,2204,Rail,True
+5086,LOD2,2789,Palm_Top_LOD2,True
+5222,LOD0,2507,Shipping_Container_Triangle_Floor,True
+5694,Level2_LOD0,2396,Plank_Stairs,True
+6280,Level2_LOD1,2442,Corrugated_Wall_LOD1,True
+4871,Level2_LOD1,2023,Sticks_Stairs_LOD1,True
+5727,LOD1,2693,Stone_FirePit_LOD1,True
+5659,SmallRock_03_LOD0,2129,SmallRock_03_LOD0,True
+6078,BigRock_02_LOD1,2657,BigRock_02_LOD1,True
+4771,BigRock_03_LOD1,2754,BigRock_03_LOD1,True
+6116,LOD0,2515,Alocasia_2_LOD0,True
+5367,LOD1,2576,Yucca_Leafs_L1,True
+6303,LOD1,2174,Shipping_Container_Filler_LOD1,True
+4864,LOD0,2138,Tarp_Filler,True
+5715,BigRock_02_LOD0,2115,BigRock_02_LOD0,True
+6314,LOD1,2749,Alocasia_2_LOD1,True
+6308,LOD0,2685,Shipping_Container_Right_Door,True
+5376,kura_3_LOD1,2888,kura_3_LOD1,True
+4940,Bucket,0,,False
+5175,LOD2,2051,Refined_Axe_L2,True
+5588,LOD1,2498,Crude_Knife_L1,True
+5249,Level2_LOD0,2490,Plank_Floor,True
+5081,Level2_LOD0,2105,Stick_Door_Frame,True
+5054,LOD1,2603,Tarp_Wall_LOD1,True
+5343,LOD1,2165,Raft_Tyre_Base_LOD1,True
+5627,LOD0,2837,Fire_Kit_Starter,True
+5388,Level2_LOD1,2460,Corrugated_Triangle_Foundation_LOD1,True
+5065,LOD1,2150,Shipping_Container_3_LOD1,True
+4933,Level2_LOD1,2370,Stick_Triangle_Foundation_LOD1,True
+4814,Level0_LOD0,2305,Clay_Stairs_Stage1,True
+5724,LOD0,2773,Driftwood_wall,True
+5429,LOD0,2509,Raft_Tyre_Base_LOD0,True
+5336,LOD0,2190,Fishing_Spear,True
+5070,Level2_LOD1,2090,Brick_Triangle_Foundation_Floor,True
+4966,Level2_LOD0,2465,Stick_Window,True
+6031,LOD1,2649,Raft_Clay_Top_LOD0,True
+5241,LOD1,2332,Raft_Top_Corrugated_LOD1,True
+6071,LOD1,2340,Shipping_Container_Wall_LOD1,True
+5262,Trunk,2430,Ficus_3_Trunk,True
+4796,Level2_LOD0,2196,Corrugated_Triangle_Foundation,True
+5258,LOD0,2441,Tarp_Folded,True
+5240,Raft_Base_Resource,2387,BuoyBall_Resource,True
+5732,kura_4_LOD2,2871,kura_4_LOD2,True
+6309,LOD0,2249,Clay_Door,True
+5202,LOD1,2447,Crude_Hammer_L1,True
+5849,Level2_LOD0,2126,Corrugated_Wall,True
+5082,BigRock_04_LOD0,2087,BigRock_04_LOD0,True
+5251,Proxy_Leaf_2.5,2624,Yucca_Leafs,True
+6211,SmallRock_01_LOD1,2764,SmallRock_01_LOD1,True
+5375,Palm_Top_LOD1,2663,Palm_Top_LOD1,True
+5925,kura_1_LOD2,2875,kura_1_LOD2,True
+5323,Level0_LOD0,2099,Brick_Triangle_Foundation_Stage1,True
+4745,Fixus_Tree_2_LOD1,2859,Ficus_Tree_2_Leaf,True
+5068,LOD0,2441,Tarp_Folded,True
+5437,LOD0,2909,Plank_Door,True
+6305,ARROW_Broken_1,2022,ARROW_Broken_1,True
+5767,Level2_LOD1,2446,Brick_Floor_L1,True
+4730,LOD0,2434,Meat_Large,True
+5505,guava_2_LOD1,2730,guava_2_LOD1,True
+5877,BigRock_01_LOD1,2765,BigRock_01_LOD1,True
+5080,LOD0,2171,BananaPlant_LOD0,True
+5865,guava_3_LOD2,2803,guava_3_LOD2,True
+5063,Level2_LOD1,2439,Brick_DoorFrame_L1,True
+5209,LOD1,2077,Fire_Starter_L1,True
+5307,LOD0,2258,Planks,True
+5341,Trunk,2300,Ficus_1_Trunk,True
+4764,LOD0,2157,Shipping_Container_Wall,True
+5514,LOD0,2630,Shipping_Container_Floor,True
+5221,kura_3_LOD0,2759,kura_3_LOD0,True
+4952,Level2_LOD1,2586,Corrugated_Door_Frame_LOD1,True
+5741,Proxy_Leaf_4,2547,Palm_Frond,True
+5860,Palm_Top_LOD1,2663,Palm_Top_LOD1,True
+4884,LOD1,1941,Shipping_Container_Left_Door_LOD1,True
+4711,Rail,2204,Rail,True
+5481,guava_fruit_LOD1,2827,guava_fruit_LOD1,True
+5528,Level0_LOD0,2374,Brick_Foundation_Stage1,True
+4767,LOD1,2558,Stick_Filler_L1,True
+6235,LOD1,2307,Raft_Top_Plank_LOD1,True
+5356,Rail,2204,Rail,True
+4756,LOD1,2315,Raft_Top_Driftwood_LOD1,True
+5674,LOD2,2172,Refined_Knife_L2,True
+5071,LOD2,1977,Water_Still_L2,True
+5895,LOD0,2391,Corrugated_Filler,True
+5811,LOD1,2669,BananaPlant_LOD1,True
+4831,Palm_Top_LOD0,2130,Palm_Top_LOD0,True
+5696,green_grass_01 (1),2333,green_grass_01,True
+4789,LOD1,2250,Water_Still_L1,True
+6337,LOD1,2249,Clay_Door,True
+5197,Level2_LOD1,1947,Brick_Wall_L1,True
+5632,kura_4_LOD1,2801,kura_4_LOD1,True
+6318,LOD1,2266,Shipping_Container_1_LOD1,True
+5422,LOD0,2177,Refined_Spear,True
+4743,LOD0,2503,Shipping_Container_Stairs,True
+5444,LOD1,1994,Driftwood_Door_Frame_LOD1,True
+5731,LOD1,2340,Shipping_Container_Wall_LOD1,True
+4725,LOD0,2379,Refined_Knife,True
+5970,LOD2,2122,Raft_Base_Wood_L2,True
+5992,LOD1,2323,SpearGun_L1,True
+6208,BigRock_04_LOD2,2047,BigRock_04_LOD3,True
+5349,LOD0,2494,Driftwood_Door,True
+4931,LOD0,2260,Driftwood_Door_Frame,True
+5361,Palm_Stump,2516,Palm_Tree_Stump,True
+5122,LOD0,2540,Crude_Axe,True
+6223,guava_1_LOD1,2708,guava_1_LOD1,True
+5965,LOD1,2642,Ceriman_3_LOD1,True
+5628,LOD0,2245,Stone_FirePit_LOD0,True
+6294,Level2_LOD1,2505,Brick_Foundation_L1,True
+5526,LOD1,2441,Tarp_Folded,True
+5368,LOD1,2149,ARROW_LOD1,True
+6299,LOD0,2064,ARROW,True
+5567,Palm_Trunk_LOD0,2055,Palm_Tree_2,True
+6094,LOD0,2111,Raft_Base_Wood,True
+5383,Level0_LOD0,2044,Brick_DoorFrame_Stage1,True
+5575,Palm_Top_LOD1,2663,Palm_Top_LOD1,True
+4808,SmallRock_01_LOD0,2608,SmallRock_01_LOD0,True
+5089,Rail,2204,Rail,True
+5875,Palm_Stump,2516,Palm_Tree_Stump,True
+4935,LOD0,2536,Raft_Top_Corrugated_LOD0,True
+4978,Level2_LOD1,2574,Corrugated_Foundation_LOD1,True
+6247,LOD0,2192,guava_3_LOD0,True
+6338,LOD0,2083,Driftwood_Stick,True
+5907,Barrel,2706,Barrel_LOD0,True
+4780,Level2_LOD0,2273,Plank_Wall_Half,True
+4757,LOD0,1956,Shipping_Container_Filler,True
+4713,LOD0,1970,Driftwood_Floor,True
+5176,SmallRock_02_LOD2,2814,SmallRock_02_LOD2,True
+5957,Level2_LOD1,2475,Corrugated_Window_LOD1,True
+5334,LOD0,2649,Raft_Clay_Top_LOD0,True
+6090,LOD1,2219,Shipping_Container_Stairs_LOD1,True
+5106,Rail,2204,Rail,True
+4951,Palm_Log_1_LOD0,2365,Palm_Log_1_LOD0,True
+4889,LOD1,2483,Shipping_Container_Right_Door_LOD1,True
+5476,Level2_LOD0,2399,Corrugated_Wall_Half,True
+6153,Rail,2204,Rail,True
+5381,guava_4_LOD1,2633,guava_4_LOD1,True
+4784,LOD0,1988,Raft_Top_Wood_LOD0,True
+6002,LOD0,2193,Yucca_Stage4_LOD0,True
+5185,Level2_LOD1,2296,Clay_Stairs_L1,True
+4719,LOD2,2091,Bed_Basic_L1,True
+5617,Palm_Trunk_LOD0,2613,Palm_Tree_1,True
+5318,Palm_Stump,2516,Palm_Tree_Stump,True
+5419,LOD1,2663,Palm_Top_LOD1,True
+6244,Level2_LOD0,1975,Sticks_Stairs,True
+5695,Buoy_Ball,2539,Buoy_Ball,True
+4696,LOD1,2034,Crude_Spear_L1,True
+6257,LOD0,2157,Shipping_Container_Wall,True
+6221,Rail,2204,Rail,True
+5203,BigRock_05_LOD0,2390,BigRock_05_LOD0,True
+6156,WALL (1),10202,Position,True
+5183,Level2_LOD0,2532,Stick_Wall_Half,True
+6175,green_grass_01 (2),2333,green_grass_01,True
+5660,LOD1,1941,Shipping_Container_Left_Door_LOD1,True
+6324,Level2_LOD1,2017,Corrugated_Triangle_Floor_LOD1,True
+5326,Palm_Top_LOD1,2663,Palm_Top_LOD1,True
+5583,Level2_LOD1,2452,Brick_Wall_Half_L1,True
+6220,LOD0,2324,Stick_Door,True
+5578,LOD0,2864,Bed_Basic,True
+6029,kura_fruit,1961,kura_fruit,True
+6242,Level2_LOD1,2031,Corrugated_Stairs_LOD1,True
+5605,Palm_Top_LOD0,2130,Palm_Top_LOD0,True
+5858,LOD1,2244,Fire_Smoker_L1,True
+5777,Level2_LOD0,2809,Stick_Triangle_Foundation,True
+4944,LOD1,2210,Driftwood_wall_LOD1,True
+5272,LOD1,2146,Raft_Top_Wood_LOD1,True
+5963,Fixus_Tree_2_LOD2,2859,Ficus_Tree_2_Leaf,True
+6176,LOD0,2455,Ceriman_2_LOD0,True
+5848,LOD0,2933,Fire_Smoker,True
+5846,LOD1,2348,Label_Maker_L1,True
+5847,LOD2,2348,Label_Maker_L1,True
+4861,ARROW_Broken_2,1945,ARROW_Broken_2,True
+4863,LOD2,2213,SpearGun_Arrow_L2,True
+5390,LOD0,2797,Plot_Stick,True
+5707,Palm_Stump,2516,Palm_Tree_Stump,True
+5295,LOD0,2714,Shipping_Container_Foundation,True
+4918,LOD0,2621,Raft_Base_BuoyBall_LOD0,True
+5495,Palm_Log_2_LOD1,2707,Palm_Log_2_LOD1,True
+4804,LOD2,2459,ARROW_LOD2,True
+5115,BigRock_02_LOD2,2342,BigRock_02_LOD3,True
+5052,LOD0,2839,Plot_Plank,True
+6013,Climber_Foliage_LOD1,2569,ClimberFoliage_L1,True
+5624,Level2_LOD0,2151,Corrugated_Window,True
+6163,LOD1,2483,Shipping_Container_Right_Door_LOD1,True
+5328,Trunk,2535,Ficus_2_Trunk,True
+6050,LOD2,2415,SpearGun_L2,True
+6273,Level2_LOD0,2033,Plank_Wall,True
+5138,Level2_LOD1,2655,Stick_Foundation_L1,True
+5598,kura_2_LOD0,2672,kura_2_LOD0,True
+5898,LOD0,2389,Refined_Axe,True
+5917,WALL (1),10202,Position,True
+6199,WALL (1),10202,Position,True
+6228,LOD0,2549,Ceriman_1_LOD0,True
+5204,WALL (1),10202,Position,True
+5351,Palm_Log_0_LOD1,2729,Palm_Log_0_LOD1,True
+5164,Palm_Log_0_LOD0,2443,Palm_Log_0_LOD0,True
+6293,LOD1,2068,Corrugated_Door_LOD1,True
+5827,LOD0,2466,young_palm_b,True
+6260,LOD2,2796,BananaPlant_LOD2,True
+5447,LOD0,2225,Shipping_Container_Left_Door,True
+6262,BigRock_03_LOD0,2534,BigRock_03_LOD0,True
+5651,Level2_LOD2,2691,Stick_Foundation_L2,True
+5795,guava_1_LOD0,2308,guava_1_LOD0,True
+5229,LOD0,2512,Alocasia_1_LOD0,True
+5043,WALL (1),10202,Position,True
+5612,Level2_LOD0,2257,Stick_Floor,True
+5041,kura_4_LOD0,2673,kura_4_LOD0,True
+6018,LOD0,2142,Shipping_Container_2,True
+5845,guava_2_LOD0,2448,guava_2_LOD0,True
+5028,LOD0,2529,Fire_Spit,True
+6174,LOD0,2685,Shipping_Container_Right_Door,True
+5273,LOD0,2130,Palm_Top_LOD0,True
+5260,Level2_LOD2,2320,Stick_Floor_L2,True
+4916,LOD2,2181,Stick_Filler_L2,True
+6037,LOD0,2566,Raft_Top_Plank_LOD0,True
+5768,SmallRock_02_LOD1,2695,SmallRock_02_LOD1,True
+6182,LOD1,2813,Barrel_Pile_LOD1,True
+5927,LOD0,2414,Shipping_Container_Foundation_Triangle,True
+5937,LOD0,2897,Water_Still,True
+6057,LOD1,2303,Plot_Corrugated_L1,True
+5864,Palm_Top_LOD0,2130,Palm_Top_LOD0,True
+4877,LOD0,2114,Plank_Filler,True
+5330,LOD0,2042,Brick_Cap,True
+5678,LOD1,2180,Fire_Spit_L1,True
+6298,LOD0,2694,Barrel_Pile_LOD0,True
+6248,LOD1,2246,Refined_Spear_L1,True
+5024,sprout,2522,sprout_LOD0,True
+5687,LOD2,1992,Fire_Spit_L2,True
+6073,Label_Maker_Turner,2627,Label_Maker_Turner,True
+6074,Label_Maker,1943,Label_Maker,True
+6222,Level2_LOD0,2334,Plank_Foundation,True
+5315,guava_3_LOD0,2192,guava_3_LOD0,True
+5327,Ficus_Tree_1_LOD2,2892,Ficus_Tree_1_Leaf,True
+5808,LOD1,2675,guava_3_LOD1,True
+5728,LOD0,2419,young_palm_a,True
+5706,LOD1,2570,Corrugated_Filler_LOD1,True
+5286,kura_1_LOD0,2712,kura_1_LOD0,True
+5765,LOD1,2412,Brick_Cap_L1,True
+6311,LOD2,2027,Fire_Smoker_L2,True
+5582,LOD1,1981,SpearGun_Arrow_L1,True
+5206,LOD1,2871,kura_4_LOD2,True
+6141,LOD0,2472,SpearGun,True
+5163,LOD0,2000,Meat_Medium,True
+6006,LOD0,2016,Raft_Base_Barrel_LOD0,True
+5226,WALL (1),10202,Position,True
+5905,LOD1,1964,Raft_Base_Barrel_LOD1,True
+5941,LOD2,2803,guava_3_LOD2,True
+6210,Tyre,2732,Tyre,True
+5506,Palm_Top_LOD0,2130,Palm_Top_LOD0,True
+4824,LOD0,2700,Tyre_Resources_LOD0,True
+5710,LOD1,2073,Driftwood_Window_LOD1,True
+5256,Palm_Log_1_LOD1,2711,Palm_Log_1_LOD1,True
+5806,LOD1,1954,Raft_Base_BuoyBall_LOD0,True
+5620,SmallRock_03_LOD2,2788,SmallRock_03_LOD2,True
+4894,Level2_LOD1,2216,Stick_Floor_L1,True
+5887,LOD0,2458,Crude_Spear,True
+5869,LOD1,2215,Plot_Stick_L1,True
+5954,LOD0,2063,Driftwood_Filler,True
+5039,guava_4_LOD0,1968,guava_4_LOD0,True
+5850,LOD0,1940,Meat_Small,True
+6068,WALL (1),10202,Position,True
+5886,LOD0,2632,Stone_Hoe,True
+5093,LOD0,2049,Shipping_Container_3,True
+5019,guava_fruit_LOD0,2717,guava_fruit_LOD0,True
+5537,Rail,2204,Rail,True
+6022,LOD1,2474,Driftwood_Stick_LOD1,True
+5412,LOD0,2143,SpearGun_Arrow,True
+5814,Level2_LOD0,2208,Stick_Foundation,True
+6281,LOD0,2395,Raft_Top_Driftwood_LOD0,True
+5253,LOD1,2748,Alocasia_1_LOD1,True
+5217,LOD0,2298,Tarp_Wall,True
+5658,LOD0,2040,Crude_Knife,True
+5284,Palm_Log_2_LOD0,2304,Palm_Log_2_LOD0,True
+5446,guava_2_LOD2,2838,guava_2_LOD2,True
+5099,LOD0,2388,Crude_Hammer,True
+5208,WALL (1),10202,Position,True
+6193,LOD1,2141,Driftwood_Door_LOD1,True
+5118,LOD2,2514,Crude_Spear_L2,True
+6122,Level2_LOD1,2545,Corrugated_Floor_LOD1,True
+4816,Level2_LOD0,2607,Plank_Window,True
+5303,BigRock_05_LOD2,2339,BigRock_05_LOD3,True
+4879,Rail,2204,Rail,True
+5626,guava_3_LOD1,2675,guava_3_LOD1,True
+6079,LOD1,2597,Refined_Axe_L1,True
+5057,Level2_LOD0,2041,Corrugated_Door_Frame,True
+6123,Level2_LOD0,2579,Plank_Door_Frame,True
+5098,LOD2,1973,Crude_Hammer_L2,True
+6241,RopeCoil LOD1,2301,Rope_Coil_L1,True
+7091,Cube (77),10202,Position,True
+6992,Level1_LOD0,2175,Clay_Roof_Wedge_Stage2,True
+6608,Cube (102),10202,Position,True
+7124,Cube (96),10202,Position,True
+6397,LOD1,2728,pine_small_c_LOD1,True
+6987,Cube (68),10202,Position,True
+6613,Cube (6),10202,Position,True
+6393,Level1_LOD0,2611,Corrugated_Door_Frame_Stage2,True
+6778,Cube (111),10202,Position,True
+7022,Level2_LOD0,2437,Brick_Triangle_Foundation,True
+7136,Cube (69),10202,Position,True
+7485,Cube (89),10202,Position,True
+7146,Cube (69),10202,Position,True
+7248,Cube (95),10202,Position,True
+6396,Cube (108),10202,Position,True
+7421,Cube (127),10202,Position,True
+7043,Support_Pipe_1 (1),10202,Position,True
+7544,Level0_LOD0,2497,Brick_Floor_Stage1,True
+6901,Level1_LOD0,2404,Stick_Wall_Half_Stage2,True
+7460,Shell_L0,2978,Shell_L0,True
+6401,Cube (18),10202,Position,True
+7463,LOD1,1978,Refined_Pick_L1,True
+7041,Cube (60),10202,Position,True
+7504,Cube,10202,Position,True
+7390,Cube,10202,Position,True
+7090,Level2_LOD0,2590,Clay_Roof_Wedge,True
+6873,Cube (106),10202,Position,True
+6948,LOD0,2440,pine_small_c_LOD0,True
+6486,Level2_LOD1,2284,Stick_Window_L1,True
+6986,Level2_LOD1,2659,Stick_Wall_Half_L1,True
+6661,Cube (56),10202,Position,True
+7579,LOD1,2056,Cliff3_L1,True
+6732,ContainerBody,2488,Console,True
+7268,Seafort_01_L0,2985,Seafort_01_L0,True
+6362,Cube,10202,Position,True
+7576,Shell_Mesh,2974,Col_Shell,True
+7049,Cube (79),10202,Position,True
+7361,Level0_LOD0,2248,Plank_Floor_Stage1,True
+7313,SeaFort_Bridge_Broken_L1,2664,SeaFort_Bridge_Broken_L1,True
+6749,Level2_LOD1,2975,Plank_Wall_L1,True
+6758,Level0_LOD0,2185,Plank_Window_Stage1,True
+7547,Cube (83),10202,Position,True
+6664,Support_Pipe_1,10202,Position,True
+6508,Level2_LOD1,2272,Plank_Triangle_Floor_L1,True
+6870,Cube (77),10202,Position,True
+6622,Mining_Gib_1,2471,Mining_Gib1,True
+6735,LOD2,2200,Shipwreck_1_L2,True
+7239,Cube,10202,Position,True
+7533,Cube,10202,Position,True
+6464,Cube (62),10202,Position,True
+6460,LOD2,2846,pine_b_LOD2,True
+7085,LOD1,1969,BrickStation_L1,True
+7436,Frame_LOD1,2808,Shipping_Container_Door_Frame,True
+7298,Cube (73),10202,Position,True
+7078,Cube (5),10202,Position,True
+6787,Cube (80),10202,Position,True
+6591,Cube,10202,Position,True
+6790,Shell_L3,2983,Shell_L3,True
+6739,Cube,10202,Position,True
+7483,LOD1,2444,Cloth_Torch_L1,True
+7508,Cube (118),10202,Position,True
+6979,Cube (1),10202,Position,True
+6730,Cube,10202,Position,True
+7425,Cube,10202,Position,True
+7086,Cube (87),10202,Position,True
+7055,Level1_LOD0,2306,Brick_Floor_Stage2,True
+6807,LOD0,2386,Corrugated_Table,True
+7452,Cube (116),10202,Position,True
+7155,LOD0,2747,Cliff4,True
+7307,STAGE1,2668,Stage1,True
+7096,Level2_LOD1,2080,Plank_Window_L1,True
+6434,Level2_LOD0,2435,Clay_Roof_Wall,True
+6544,Mining_Gib_4 (2),2089,Mining_Gib4,True
+7213,Cube (3),10202,Position,True
+7186,LOD2,2096,Refined_Pick_L2,True
+7168,Cube (47),10202,Position,True
+6737,Cube (61),10202,Position,True
+6663,Cube (72),10202,Position,True
+7294,Cube,10202,Position,True
+6779,LOD1,2405,Corrugated_Table_L1,True
+7377,STAGE0,2166,Stage0,True
+6945,Cube (38),10202,Position,True
+7352,Cube (8),10202,Position,True
+6946,STAGE4,2898,Stage4,True
+7065,LOD1,2615,Cliff6_L1,True
+6793,LOD0,2698,Cliff5,True
+6406,Mining_Gib_2 (1),1991,Mining_Gib2,True
+7266,Level1_LOD0,2045,Plank_Stairs_Stage2,True
+6908,LOD1,2420,Leather_Frame_L1,True
+6349,STAGE4,2898,Stage4,True
+6782,Level2_LOD0,2090,Brick_Triangle_Foundation_Floor,True
+7453,Level0_LOD0,2335,Plank_Door_Frame_Stage1,True
+6594,Stick_Table,2065,Stick_Table,True
+6799,SeaFort_Bridge_L1,2690,SeaFort_Bridge_L1,True
+6576,LOD0,2237,Cliff2,True
+7154,Cube (86),10202,Position,True
+6743,Level2_LOD0,2117,Stick_Wall,True
+6585,Cube (54),10202,Position,True
+6374,Cube (60),10202,Position,True
+7569,LOD0,2338,Shipwreck_3_L0,True
+6855,Cube,10202,Position,True
+6877,Cube (8),10202,Position,True
+6669,Cube,10202,Position,True
+7119,Cube (12),10202,Position,True
+6766,Cube (90),10202,Position,True
+6859,LOD2,2295,Cloth_Torch_L2,True
+7301,Cube,10202,Position,True
+7521,STAGE0,2166,Stage0,True
+6904,Seafort_02_L2,2991,Seafort_02_L2,True
+7368,Level1_LOD0,2053,Clay_Roof_Wall_Stage2,True
+6754,Level1_LOD0,2352,Corrugated_Window_Stage2,True
+7560,LOD0,2271,Refined_Pick,True
+6848,Cube (104),10202,Position,True
+6899,Level1_LOD0,2519,Corrugated_Triangle_Foundation_Stage2,True
+6716,Cube,10202,Position,True
+7138,Cube (88),10202,Position,True
+6865,Level0_LOD0,2098,Stick_Wall_Stage1,True
+6448,LOD0,1982,Plank_Table,True
+7143,SeaFort_Bridge_L0,2243,SeaFort_Bridge_L0,True
+6354,Cube,10202,Position,True
+6884,Level1_LOD0,2145,Sticks_Stairs_Stage2,True
+7093,Cube,10202,Position,True
+7214,Cube (2),10202,Position,True
+6869,Cube,10202,Position,True
+6497,Level0_LOD0,2384,Stick_Roof_Corner_Stage1,True
+6895,Cube (76),10202,Position,True
+6883,LOD3,2602,Shipwreck_1_L3,True
+6379,Cube (41),10202,Position,True
+6652,RopeCoil LOD0,2482,Rope_Coil,True
+7551,Level1_LOD0,2019,Corrugated_Wall_Stage2,True
+7250,Level2_LOD2,2228,Plank_Foundation_Stage2,True
+7451,Cube,10202,Position,True
+6360,Cube,10202,Position,True
+6911,Crude_Spear_Broken_2,2170,Crude_Spear_Broken_1,True
+7531,LOD0,2283,Plank_Chair,True
+6659,Seafort_01_Pipes_L0,2984,Seafort_01_Pipes_L0,True
+6805,WALL (1),10202,Position,True
+6999,Cube (63),10202,Position,True
+7099,Shell_L3,2983,Shell_L3,True
+7199,Cube,10202,Position,True
+6578,Level2_LOD1,2167,Clay_Roof_Corner_LOD1,True
+7484,Cube,10202,Position,True
+6853,Buoy,2410,Buoy,True
+6383,Cube (121),10202,Position,True
+7095,Cube,10202,Position,True
+6675,Level1_LOD0,2594,Stick_Foundation_Stage2,True
+7131,Cube (82),10202,Position,True
+6343,Cube,10202,Position,True
+7302,LOD0,2738,Cliff3,True
+6808,Level1_LOD0,2035,Stick_Roof_Wedge_Stage2,True
+6854,Level0_LOD0,2617,Brick_Foundation_Stage2,True
+6971,Level0_LOD0,2585,Corrugated_Wall_Half_Stage1,True
+7364,Level1_LOD0,2311,Brick_Wall_stage2,True
+6430,Rail,2204,Rail,True
+7574,LOD0,2186,Stick_Chair,True
+7456,Cube (10),10202,Position,True
+6408,Shell_Mesh,2974,Col_Shell,True
+7172,Cube (17),10202,Position,True
+6728,Cube (100),10202,Position,True
+7038,LOD0,2521,Plank_Station,True
+6515,Cube (11),10202,Position,True
+6649,Level2_LOD2,2062,Plank_Door_Frame_L2,True
+6977,Mining_Gib_3 (1),2349,Mining_Gib3,True
+7003,Cube (42),10202,Position,True
+7015,Seafort_02_L3,2992,Seafort_02_L3,True
+6961,Level2_LOD1,2623,Plank_Floor_L1,True
+6491,Cube (47),10202,Position,True
+6722,Level0_LOD0,2097,Plank_Wall_Half_Stage1,True
+6921,Cube (110),10202,Position,True
+6897,Cube (15),10202,Position,True
+7580,Cube (13),10202,Position,True
+6863,Mining_Gib_4 (3),2089,Mining_Gib4,True
+6580,Cube (103),10202,Position,True
+6417,Cube (46),10202,Position,True
+6982,Level2_LOD1,2343,Plank_Wall_Half_L1,True
+7267,Cube,10202,Position,True
+7500,Level0_LOD0,2609,Corrugated_Triangle_Foundation_Stage1,True
+6962,Cube (85),10202,Position,True
+6490,Support_Pipe_1 (3),10202,Position,True
+6993,Level2_LOD2,2139,Plank_Triangle_Foundation_L2,True
+6369,Cube (84),10202,Position,True
+7458,Cube (67),10202,Position,True
+6569,Cube,10202,Position,True
+6858,Cube,10202,Position,True
+7012,Level2_LOD2,2209,Stick_Triangle_Foundation_L2,True
+7220,Cube (68),10202,Position,True
+7210,Level0_LOD0,2438,Clay_Roof_Wall_Stage1,True
+7225,Mining_Gib_3,2349,Mining_Gib3,True
+7474,Cube (112),10202,Position,True
+6967,Level0_LOD0,2480,Stick_Foundation_Stage1,True
+6400,LOD0,2755,WaterPot,True
+7129,LOD0,2464,WaterSkin,True
+6616,Cube (2),10202,Position,True
+6819,Stick_Table_L1,2523,Stick_Table_L1,True
+6519,ContainerDoor,2742,Console_Door,True
+7231,Cube (89),10202,Position,True
+7227,Seafort_Poles_L0,2976,Seafort_Poles_L0,True
+7539,LOD0,2221,Lantern,True
+6818,Level2_LOD0,2380,Brick_Floor,True
+7059,Level2_LOD1,2528,Plank_Foundation_L1,True
+7492,Level2_LOD2,2161,Plank_Triangle_Floor_L2,True
+7422,Cube (81),10202,Position,True
+7552,STAGE2,2795,Stage2,True
+6414,Cube (71),10202,Position,True
+6451,LOD1,1959,Clay_Furnace_L1,True
+6357,Cube,10202,Position,True
+6966,Cube (67),10202,Position,True
+7528,Cube,10202,Position,True
+6852,Palm_Trunk_LOD1,2088,Palm_Trunk_3_L1,True
+7018,Cube (7),10202,Position,True
+7565,LOD0,2113,BedRoll_Roll,True
+6812,LADDER,2104,Ladder_Medium,True
+7152,Cube (75),10202,Position,True
+6864,Refined Spear_Broken_2,1966,Refined_Spear_Broken_2,True
+7346,Speargun_Arrow_Broken_2,2401,SpearGun_Arrow_Broken_2,True
+6392,Cube (105),10202,Position,True
+7518,Cube (1),10202,Position,True
+6688,Cube (72),10202,Position,True
+6463,LOD0,2238,Clay_Furnace,True
+7104,Cube,10202,Position,True
+6482,ContainerDoor,2009,Locker_Door,True
+6689,Cube (85),10202,Position,True
+7020,Cube,10202,Position,True
+6673,LOD0,2054,Shipwreck_6_L0,True
+6595,Mission_Trophy_Shark,2589,Mission_Trophy_Shark,True
+6596,Mission_Trophy_Eel,2263,Mission_Trophy_Eel,True
+7088,Cube (99),10202,Position,True
+6820,Level2_LOD2,2378,Stick_Triangle_Floor,True
+7187,Frame_LOD0,2808,Shipping_Container_Door_Frame,True
+7180,ContainerDoor,2863,Storage_Military_Large_Lid,True
+6487,Cube (80),10202,Position,True
+7112,Refined Spear_Broken_1,2240,Refined_Spear_Broken_1,True
+6964,Cube (73),10202,Position,True
+7341,Cube (45),10202,Position,True
+6872,Cube (79),10202,Position,True
+6889,Cube (53),10202,Position,True
+6472,LOD1,2571,Shipwreck_4_L1,True
+6473,LOD3,2542,Shipwreck_13_LOD3,True
+6474,LOD2,2713,PolynesianShipLod2,True
+6965,ContainerDoor,2025,Locker_Door,True
+7472,LOD0,2719,pine_a_LOD0,True
+6882,Level2_LOD2,2318,Stick_Door_Frame_L2,True
+6846,Level0_LOD0,2469,Corrugated_Window_Stage1,True
+9410,LOD1,2325,Bush_L1,True
+6719,Cube,10202,Position,True
+6912,Palm_Trunk_LOD1,2124,Palm_Trunk_4_L1,True
+7229,Level2_LOD0,2337,Brick_Window,True
+6410,Cube (70),10202,Position,True
+6825,Shell_L1,2979,Shell_L1,True
+7094,Level0_LOD0,2182,Brick_Wall_Half_Stage1,True
+7145,Cube (91),10202,Position,True
+6521,Cube (2),10202,Position,True
+7430,LOD2,1980,Storage_Military_Large_L3,True
+7546,Cube (92),10202,Position,True
+6505,Cube (81),10202,Position,True
+7147,Level2_LOD2,2001,Plank_Wall_L2,True
+6390,Cube,10202,Position,True
+6968,LOD1,2683,Raft_Base_Wood_L1,True
+7202,Cube (78),10202,Position,True
+7439,Level0_LOD0,2479,Sticks_Stairs_Stage1,True
+7358,Level1_LOD0,1974,Corrugated_Foundation_Stage2,True
+6598,Cube,10202,Position,True
+6563,Crude_Spear_Broken_1,2170,Crude_Spear_Broken_1,True
+6575,Level0_LOD0,2092,Plank_Triangle_Floor_Stage1,True
+6367,Cube,10202,Position,True
+6933,LOD0,2418,Corrugated_Shelf,True
+7222,Seafort_01_L1,2986,Seafort_01_L1,True
+6709,Cube (58),10202,Position,True
+7410,Level1_LOD0,1963,Brick_DoorFrame_Stage2,True
+6412,LOD1,2281,WaterSkin_L1,True
+7182,Cube (15),10202,Position,True
+7161,Level2_LOD0,1997,Stick_Roof_Wall,True
+7526,Cube,10202,Position,True
+6920,LOD1,2645,pine_small_b_LOD1,True
+7470,Level1_LOD0,2402,Stick_Wall_Stage2,True
+6724,Cube (120),10202,Position,True
+7300,Shell_Windows_L0,2977,Shell_Windows_L0,True
+6881,Cube,10202,Position,True
+6538,Cube (54),10202,Position,True
+7562,Level1_LOD0,2302,Stick_Triangle_Foundation_Stage2,True
+6830,Level1_LOD0,2075,Corrugated_Floor_Stage2,True
+6684,Level0_LOD0,2278,Stick_Roof_Wall_Stage1,True
+7305,Cube (117),10202,Position,True
+7481,Cube (52),10202,Position,True
+7223,Level0_LOD0,2194,Stick_Floor_Stage1,True
+6607,LOD2,2331,Shipwreck_2_L3,True
+6680,Cube,10202,Position,True
+7274,Cube (66),10202,Position,True
+7019,Cube (49),10202,Position,True
+6947,Cube,10202,Position,True
+7319,Shell_Windows_L0,2977,Shell_Windows_L0,True
+6934,Cube (14),10202,Position,True
+7553,Cube (44),10202,Position,True
+7028,Level2_LOD2,2024,Plank_Floor_L2,True
+7578,Level2_LOD1,2417,Clay_Roof_Wall_LOD1,True
+7360,Cube (65),10202,Position,True
+7448,Level0_LOD0,2372,Clay_Roof_Wedge_Stage1,True
+6471,Shell_L2,2981,Shell_L2,True
+6466,Cube,10202,Position,True
+7070,Cube,10202,Position,True
+7197,Cube (31),10202,Position,True
+6375,STAGE2,2795,Stage2,True
+7450,Cube (35),10202,Position,True
+6821,Cube (14),10202,Position,True
+6522,Cube (33),10202,Position,True
+6541,Cube,10202,Position,True
+6786,Cube (9),10202,Position,True
+6372,Level2_LOD1,2220,Plank_Door_Frame_L1,True
+7488,Level1_LOD0,2267,Stick_Roof_Wall_Stage2,True
+7005,STAGE5,2914,Stage5,True
+6507,Cube (3),10202,Position,True
+6429,Cube,10202,Position,True
+7386,Cube (12),10202,Position,True
+6816,OutsidePipe_2,10202,Position,True
+7280,Level2_LOD2,2692,Stick_Wall_Half_L2,True
+7496,Level1_LOD0,2598,Clay_Roof_Corner_Stage2,True
+7349,Cube,10202,Position,True
+6610,LOD1,2560,Cliff2_L1,True
+6771,Cube (93),10202,Position,True
+7032,Cube (114),10202,Position,True
+7344,Level1_LOD0,2188,Plank_Wall_Half_Stage2,True
+6620,Cube (50),10202,Position,True
+7345,Palm_Trunk_LOD1,2502,Palm_Trunk_1_L1,True
+6844,Cube,10202,Position,True
+6395,Level2_LOD0,2357,Clay_Roof_Corner,True
+6500,Cube (4),10202,Position,True
+6632,Cube,10202,Position,True
+7249,LOD2,2727,Leather_Frame_L2,True
+6725,Cube,10202,Position,True
+7077,Cube (5),10202,Position,True
+7287,Level1_LOD0,2121,Stick_Roof_Corner_Stage2,True
+7292,Level0_LOD0,2198,Corrugated_Triangle_Floor_Stage1,True
+7318,Cube,10202,Position,True
+6351,Level0_LOD0,2504,Stick_Roof_Wedge_Stage1,True
+6707,Level0_LOD0,2212,Stick_Roof_Cap_Stage1,True
+6549,Support_Pipe_1,10202,Position,True
+7083,Cube,10202,Position,True
+7416,LOD1,2328,Cliff5_L1,True
+7550,Level1_LOD0,2155,Corrugated_Wall_Half_Stage2,True
+7398,SeaFort_Bridge_L2,2812,SeaFort_Bridge_L2,True
+7299,LOD0,2202,Raw_Leather,True
+7323,OutsidePipe_1,10202,Position,True
+6446,Cube (109),10202,Position,True
+6483,Level1_LOD0,1950,Stick_Roof_Cap_Stage2,True
+7486,Cube,10202,Position,True
+7314,Level0_LOD0,2359,Corrugated_Wall_Stage1,True
+7282,Cube (25),10202,Position,True
+6447,Cube (62),10202,Position,True
+6561,Cube (119),10202,Position,True
+6614,LOD0,2850,Loom,True
+6714,Level2_LOD2,2270,Stick_Window_L2,True
+7378,Mission_Trophy,2160,Mission_Trophy,True
+7379,Mission_Trophy,2160,Mission_Trophy,True
+6705,Cube (12),10202,Position,True
+6394,Level2_LOD2,2327,Plank_Window_L2,True
+6769,LOD1,2058,Console_L1,True
+6634,Cube,10202,Position,True
+7007,Cube (55),10202,Position,True
+7367,LOD0,2476,Shipwreck_5_L0,True
+6479,LOD1,2038,Shipwreck_3_L1,True
+6733,Speargun_Arrow_Broken_1,2555,SpearGun_Arrow_Broken_1,True
+6422,Level0_LOD0,1998,Plank_Triangle_Foundation_Stage1,True
+6998,LOD1,2371,Shipwreck_1_L1,True
+6698,Cube (71),10202,Position,True
+7256,Shell_L2,2981,Shell_L2,True
+7113,Cube,10202,Position,True
+7462,LOD2,2235,Clay_Furnace_L2,True
+6746,Level0_LOD0,2445,Stick_Window_Stage1,True
+6745,Level2_LOD1,2604,Clay_Roof_Wedge_L1,True
+6703,Cube (29),10202,Position,True
+6976,LOD3,2537,Shipwreck_3_L3,True
+7311,LOD0,2584,Cloth_Torch,True
+7114,LOD0,2128,pine_c_LOD0,True
+7473,Mining_Gib_1 (1),2471,Mining_Gib1,True
+7445,Cube (125),10202,Position,True
+7194,LOD1,2030,Cliff4_L1,True
+7230,Cube (49),10202,Position,True
+7455,LOD0,2067,Leather_Frame,True
+7101,Cube (10),10202,Position,True
+6629,Cube (58),10202,Position,True
+7029,Wood,2077,Fire_Starter_L1,True
+7385,ContainerBody,2781,Storage_Military_Large,True
+7004,LOD0,2739,Cliff6,True
+6645,Cube,10202,Position,True
+6880,Level1_LOD0,2217,Plank_Door_Frame_Stage2,True
+6636,Cube (52),10202,Position,True
+7125,SeaLadder,2501,Ladder,True
+6389,Level2_LOD2,2229,Plank_Wall_Half_L2,True
+7160,Cube (63),10202,Position,True
+7325,Cube,10202,Position,True
+7310,STAGE3,2868,Stage3,True
+6378,LOD0,2036,pine_small_b_LOD0,True
+7087,LOD0,2432,Leather Strip,True
+7257,Support_Pipe_1 (3),10202,Position,True
+6570,Cube (57),10202,Position,True
+6566,Palm_Trunk_LOD1,2425,Palm_Trunk_2_L1,True
+7315,OutsidePipe_1,10202,Position,True
+6601,Cube (48),10202,Position,True
+7348,Cube (126),10202,Position,True
+6432,Level0_LOD0,2413,Brick_Triangle_Foundation_Floor_Stage1,True
+7454,Cube (17),10202,Position,True
+6751,Cube (101),10202,Position,True
+7054,Level1_LOD0,2078,Plank_Wall_Stage2,True
+6822,Level2_LOD1,2158,Plank_Stairs_L1,True
+6656,Cube (128),10202,Position,True
+7170,Cube (21),10202,Position,True
+6638,Cube,10202,Position,True
+6403,Cube,10202,Position,True
+6459,Cube,10202,Position,True
+7253,Cube,10202,Position,True
+6835,Cube (88),10202,Position,True
+6996,Seafort_Poles_L0,2976,Seafort_Poles_L0,True
+7013,Cube,10202,Position,True
+6836,LOD1,2093,Plank_Table_L1,True
+7279,Seafort_02_L0,2989,Seafort_02_L0,True
+6454,Level0_LOD0,2268,Plank_Stairs_Stage1,True
+7408,Cube (82),10202,Position,True
+6462,Cube (11),10202,Position,True
+7192,Level2_LOD2,2289,Stick_Wall_L2,True
+6783,Cube (24),10202,Position,True
+6450,Cube (50),10202,Position,True
+6518,Support_Pipe_1 (1),10202,Position,True
+6900,Cube (28),10202,Position,True
+7060,Cube,10202,Position,True
+6606,Cube (51),10202,Position,True
+6717,Cube (20),10202,Position,True
+7541,LOD0,2634,Shipwreck_1_L0,True
+6909,LOD1,2120,Plank_Chair_L1,True
+7499,LOD1,2199,Shipwreck_5_L1,True
+6342,LOD0,2287,Stick_Shelf,True
+6953,Cube (40),10202,Position,True
+7497,Level0_LOD0,2487,Corrugated_Floor_Stage1,True
+7001,Level2_LOD0,2135,Brick_Foundation,True
+6391,Cube,10202,Position,True
+6860,Level2_LOD0,2526,Clay_Roof_Cap,True
+6914,Cube (1),10202,Position,True
+6377,Seafort_02_L1,2990,Seafort_02_L1,True
+7509,Level0_LOD0,2385,Stick_Wall_Half_Stage1,True
+6713,LOD1,2341,WaterPot_L1,True
+7008,Level1_LOD0,2228,Plank_Foundation_Stage2,True
+7066,Seafort_01_L2,2987,Seafort_01_L2,True
+6898,Level2_LOD0,2252,Stick_Roof_Corner,True
+7431,Cube,10202,Position,True
+6929,Cube,10202,Position,True
+7362,Cube (48),10202,Position,True
+7073,Level0_LOD0,2368,Clay_Roof_Corner_Stage1,True
+7185,LOD1,2322,Locker_L1,True
+7034,Cube (39),10202,Position,True
+6413,Mining_Gib_2,1991,Mining_Gib2,True
+7537,Level1_LOD0,2236,Plank_Window_Stage2,True
+6952,LOD1,2793,Cliff1_L1,True
+6856,Cube (20),10202,Position,True
+6917,Level1_LOD0,2028,Plank_Triangle_Floor_Stage2,True
+7570,Cube (87),10202,Position,True
+6386,Level0_LOD0,2375,Stick_Triangle_Foundation_Stage1,True
+6956,STAGE3,2868,Stage3,True
+6826,Cube (36),10202,Position,True
+7440,SharkTracker,2109,Shark_Tracker,True
+6345,Level2_LOD1,2492,Clay_Roof_Cap_LOD1,True
+7241,LOD0,1983,BrickStation,True
+6829,Cube (61),10202,Position,True
+7076,LOD0,1955,Plank_Shelf,True
+6344,Cube (75),10202,Position,True
+6845,Cube (19),10202,Position,True
+6579,LOD1,2232,Shipwreck_2_L1,True
+7469,Cube (22),10202,Position,True
+7356,Level1_LOD0,2677,Stick_Window_Stage2,True
+6420,Cube (6),10202,Position,True
+6867,Cube (16),10202,Position,True
+7327,Cube (107),10202,Position,True
+7276,Cube,10202,Position,True
+6833,OutsidePipe_2,10202,Position,True
+7457,Cube (97),10202,Position,True
+7189,Cube (74),10202,Position,True
+6748,LOD2,2787,pine_c_LOD2,True
+6431,Cube,10202,Position,True
+6404,Level1_LOD0,2259,Corrugated_Triangle_Floor_Stage2,True
+7365,Cube (7),10202,Position,True
+6537,Cube (83),10202,Position,True
+6376,Level0_LOD0,1957,Corrugated_Door_Frame_Stage1,True
+6775,Level1_LOD0,2222,Brick_Triangle_Foundation_Stage2,True
+6668,Level0_LOD0,1953,Plank_Foundation_Stage1,True
+6896,Cube (65),10202,Position,True
+7002,Cube (13),10202,Position,True
+7384,Shell_L1,2979,Shell_L1,True
+7173,Cube,10202,Position,True
+6512,ContainerBody,2641,Locker,True
+7188,Cube,10202,Position,True
+6866,Cube (76),10202,Position,True
+6485,Cube (74),10202,Position,True
+6442,Shell_L0,2978,Shell_L0,True
+6755,Cube (27),10202,Position,True
+6791,Level1_LOD0,2107,Brick_Wall_Half_Stage2,True
+7417,Mining_Gib_4 (4),2089,Mining_Gib4,True
+7181,Cube (56),10202,Position,True
+7026,Cube (53),10202,Position,True
+6806,LOD2,2553,Shipwreck_3_L2,True
+7438,Cube,10202,Position,True
+6467,Level1_LOD0,2032,Brick_Triangle_Foundation_Floor_Stage2,True
+6619,Cube,10202,Position,True
+6540,LOD0,2293,Wall_Holder,True
+6436,LOD1,2329,Shipwreck_6_L1,True
+7545,Cube (90),10202,Position,True
+6868,Cube,10202,Position,True
+6583,Cube (66),10202,Position,True
+6355,Level1_LOD0,2550,Stick_Triangle_Floor_Stage2,True
+7432,Cube (34),10202,Position,True
+6840,Level0_LOD0,2256,Plank_Wall_Stage1,True
+6718,Level1_LOD0,2277,Plank_Triangle_Foundation_Stage2,True
+7021,Cube,10202,Position,True
+6772,Cube (18),10202,Position,True
+7064,Level1_LOD0,2118,Plank_Floor_Stage2,True
+7381,LOD0,2520,ClayRock,True
+6764,Cube (9),10202,Position,True
+7392,Cube (78),10202,Position,True
+7084,Level0_LOD0,2392,Stick_Triangle_Floor_Stage1,True
+7418,Level2_LOD0,2364,Brick_DoorFrame,True
+6445,LOD1,2230,Locker_Small_L1,True
+6731,Mining_Gib_4 (1),2089,Mining_Gib4,True
+7200,Cube (59),10202,Position,True
+7177,Cube (26),10202,Position,True
+7524,Cube (13),10202,Position,True
+7409,LOD0,2527,pine_b_LOD0,True
+7478,Mining_Gib_4,2089,Mining_Gib4,True
+7394,Cube (94),10202,Position,True
+6741,Cube (30),10202,Position,True
+7516,Level0_LOD0,2572,Stick_Door_Frame_Stage1,True
+6915,Support_Pipe_1 (2),10202,Position,True
+7414,Cube (98),10202,Position,True
+7495,Cube (21),10202,Position,True
+6875,Cube (23),10202,Position,True
+6586,Level0_LOD0,2314,Clay_Roof_Cap_Stage1,True
+7232,Level2_LOD0,2506,Stick_Roof_Wedge,True
+6527,LOD0,2462,RowBoat_3,True
+7278,Cube,10202,Position,True
+7532,STAGE1,2668,Stage1,True
+6555,LOD0,2084,Shipwreck_4_L0,True
+6556,LOD0,2206,Shipwreck_13_LOD0,True
+6557,LOD0,2735,PolynesianShip,True
+6551,LOD2,1946,Shipwreck_5_L2,True
+6493,Ladder,2104,Ladder_Medium,True
+6926,Cube (4),10202,Position,True
+7374,Support_Pipe_1 (2),10202,Position,True
+7221,Cube (16),10202,Position,True
+7397,LOD1,2136,Leather Strip_L1,True
+6795,Cube (4),10202,Position,True
+7413,Seafort_01_L3,2988,Seafort_01_L3,True
+7338,Cube (129),10202,Position,True
+6842,SeaFort_Bridge_Broken_L2,2790,SeaFort_Bridge_Broken_L2,True
+6568,Level1_LOD0,2003,Clay_Roof_Cap_Stage2,True
+6499,LOD0,2778,Cliff1,True
+6991,STAGE5,2914,Stage5,True
+6762,Cube (123),10202,Position,True
+7201,Cube (64),10202,Position,True
+7503,LOD0,2407,ship,True
+7429,Cube,10202,Position,True
+6528,Level2_LOD1,2189,Stick_Wall_L1,True
+6789,SeaFort_Bridge_Broken_L0,2144,SeaFort_Bridge_Broken_L0,True
+6740,Level0_LOD0,2102,Corrugated_Foundation_Stage1,True
+7040,Cube (3),10202,Position,True
+6617,Cube (86),10202,Position,True
+6666,Cube (64),10202,Position,True
+6959,LOD1,2485,Stick_Chair_L1,True
+6759,Cube,10202,Position,True
+7490,LOD2,2877,pine_a_LOD2,True
+6708,Cube (19),10202,Position,True
+6957,Level2_LOD0,2330,Brick_Wall_Half,True
+7098,Platform,10202,Position,True
+6653,Cube (115),10202,Position,True
+6690,Cube (55),10202,Position,True
+7254,Cube (37),10202,Position,True
+7482,Level1_LOD0,1989,Stick_Floor_Stage2,True
+6777,Cube (70),10202,Position,True
+7415,Cube (43),10202,Position,True
+7123,Cube (84),10202,Position,True
+7464,Cube (57),10202,Position,True
+6602,Level1_LOD0,2052,Brick_Window_Stage2,True
+6736,LOD1,2020,Storage_Military_Large_L2,True
+7296,LOD1,2079,Plank_Station_L1,True
+7479,Level2_LOD1,2280,Stick_Door_Frame_L1,True
+6781,Cube,10202,Position,True
+7184,ContainerBody,2644,Locker,True
+6973,Level2_LOD0,2014,Brick_Wall,True
+6589,Cube (59),10202,Position,True
+6944,Level1_LOD0,2499,Stick_Door_Frame_Stage2,True
+6891,Cube (122),10202,Position,True
+7265,Level0_LOD0,2066,Corrugated_Stairs_Stage1,True
+6770,Cube,10202,Position,True
+6552,Cube (32),10202,Position,True
+6655,Cube (124),10202,Position,True
+7475,Cube (113),10202,Position,True
+7399,Level2_LOD0,2005,Stick_Roof_Cap,True
+7277,Level1_LOD0,2069,Corrugated_Stairs_Stage2,True
+10114,Raft_Base_Collider,2750,Raft_Base_Collider,True
+8659,Rail,2204,Rail,True
+9252,Crate_01,2411,Crate_01,True
+9253,LOD0,2072,Sea_Anchor_Static,True
+7832,Blade (1),2593,Helicopter_BladeTrans,True
+8015,Arm_Decal_Salve,2573,Arm_Sleeve_Fem,True
+10650,Crate_01,2411,Crate_01,True
+9268,Blade (7),2593,Helicopter_BladeTrans,True
+7771,LOD1,2890,Shoreline_Rock_2_L2,True
+9368,View - 3D Watch,2424,Watch,True
+7693,Difficulty_Hat_Easy,2688,Difficulty_Hat_Easy,True
+9591,SHIPWRECK_13A_Impostor,3009,SHIPWRECK_13A_Impostor,True
+9481,SHIPPING_CONTAINER_DOOR_STATIC_Impostor,3027,SHIPPING_CONTAINER_DOOR_STATIC_Impostor,True
+8981,Proxy - Leg_Splint,2029,Leg_Splint,True
+8867,skeleton04_1,2530,skeleton04,True
+10054,Stage_3_LOD1,2265,Beachpea_Stage3,True
+9742,Proxy,0,,False
+9860,Broken_barrel_shelter,2538,Broken_Barrel,True
+9017,Aloe_4_LOD1,2037,Yucca_Stage4_Harvested,True
+9120,FICUS_TREE_2_Impostor,3011,FICUS_TREE_2_Impostor,True
+8621,Speargun_Arrow_Broken_2,2758,SpeargunCarbonArrow_broken2,True
+10470,Helicopter_LOD0,2951,Helicopter,True
+8081,Mission_Trophy,2160,Mission_Trophy,True
+8510,Aloe_3_LOD0,2127,Aloe_Vera_3,True
+10398,Rail,2204,Rail,True
+7752,LOD1,2830,pine_a_LOD1,True
+7849,LOD2,2810,beach_pea_LOD2,True
+7850,LOD2,2770,morning_glory_LOD2,True
+8398,GIB_Plank_Triangle_Floor_Cell1,2239,GIB_Plank_Triangle_Floor_Cell1,True
+8860,Crate_02,2577,Crate_02,True
+8193,LOD2,2565,Plainwreck_1_L2,True
+8728,Model,1979,Carrier_Billboard,True
+9630,GIB_Fire_Smoker_Cell4,2880,GIB_Fire_Smoker_Cell4,True
+10167,GIB_Corrugated_Wall_Cell4,2885,GIB_Corrugated_Wall_Cell4,True
+7750,sprout,2522,sprout_LOD0,True
+10248,FICUS_3_Impostor,3030,FICUS_3_Impostor,True
+7735,Shelter02_LOD2,2887,Shelter02_LOD2,True
+7662,Aloe_1_LOD1,2428,Yucca_Stage1_LOD0,True
+8748,Crate_02,2577,Crate_02,True
+9458,CLIFF_005_Impostor,3016,CLIFF_005_Impostor,True
+9389,SHIPWRECK_2A_Impostor,2995,SHIPWRECK_2A_Impostor,True
+9528,Contents,2382,Medical_Repellent,True
+8151,GIB_Brick_Floor_Cell2,2702,GIB_Brick_Floor_Cell2,True
+8630,Stage_4_LOD1,2821,ground_cover_a_LOD2,True
+7912,SHIPWRECK_5A_Impostor,3028,SHIPWRECK_5A_Impostor,True
+9945,FishProxy,0,,False
+10345,Giant_Crab_Dead,2110,Giant_Crab_Dead,True
+7237,LOD0,2011,COD_L0,True
+8136,Broken_barrel_shelter,2538,Broken_Barrel,True
+10439,SeaFort_1_Impostor,3006,SeaFort_1_Impostor,True
+8574,Proxy - Knife,2379,Refined_Knife,True
+10136,Boat_Motor_Frame_LOD1,2831,Boat_Motor_Frame,True
+7960,Stage_2_LOD1,2094,Beachpea_Stage2,True
+7961,Stage_2_LOD1,2094,Beachpea_Stage2,True
+9288,LOD0,2426,Helicopter_Stage_1_Frame,True
+8809,Difficulty_Hat_Easy,2688,Difficulty_Hat_Easy,True
+9848,Contents,2285,Medical_Ajuga,True
+7600,GIB_Plank_Door_Cell2,2740,GIB_Plank_Door_Cell2,True
+7863,shelter_03,2436,shelter_03,True
+7854,Rail,2204,Rail,True
+10251,Tag,2916,Coconut_Tag_Repellent,True
+10579,Crate_01,2411,Crate_01,True
+7964,Buoy_Chain,2829,Buoy_Chain,True
+9715,LOD0,2292,Helicopter_Stage_4_Cockpit,True
+8257,GIB_Corrugated_Triangle_Floor_Cell1,2601,GIB_Corrugated_Triangle_Floor_Cell1,True
+8920,Cube (1),10202,Position,True
+10315,Mission_Trophy_Squid,2451,Squid_Trophy,True
+9419,LOD1,2362,Fish_Trap_Dismantled_L1,True
+8024,LifeRaft_V1_Collider 5,2518,LifeRaft_V1_Collider,True
+10003,LOD1,2686,beach_pea_LOD1,True
+10004,LOD1,2631,morning_glory_LOD1,True
+10417,Giant_Crab_Gib7,2784,Giant_Crab_Gib2,True
+9843,Shelter01_LOD1,2701,shelter01_LOD1,True
+7050,LOD0,2153,Sardine_L0,True
+10313,LOD2,2564,Bow_L2,True
+10314,Difficulty_Hat_Easy_Propellar,2811,Difficulty_Hat_Easy_Propellar,True
+7891,LOD2,2406,Coconut_Flask_L2,True
+6536,LOD1,2665,Sardine_L1,True
+7822,Shelter04_LOD1,2156,Shelter04_LOD1,True
+6720,LOD0,2255,Boba_L0,True
+8335,Aloe_Vera_Fruit_LOD0,2081,Aloe_Vera_Item,True
+10260,PALM_4_Impostor,3012,PALM_4_Impostor,True
+8902,GIB_Brick_Wall_Cell4,2874,GIB_Brick_Wall_Cell4,True
+10183,LOD0,2205,Coconut_Flask,True
+10376,Tag,2709,Coconut_Tag_Breath,True
+8554,Aloe_3_LOD1,2176,Yucca_Stage3_LOD0,True
+8468,Cube (7),10202,Position,True
+8057,Screen,10210,TMP SubMeshUI [TextMeshPro/Sprite],True
+9302,Broken_barrel_shelter,2538,Broken_Barrel,True
+7866,RAFT_BASE_BARREL_Impostor,3041,RAFT_BASE_BARREL_Impostor,True
+8506,ANCHOR_CHILD,2554,Sea_Anchor_Rock_Deployed,True
+10659,Cube (11),10202,Position,True
+8751,Shelter06_LOD0,2616,Shelter06_LOD0,True
+8085,Rail,2204,Rail,True
+6838,LOD1,2744,Archerfish_L1,True
+8271,Crate_03,1986,Crate_03,True
+9846,Sail_Ghost,2557,Sail_Ghost,True
+7692,LOD1,2541,Coconut_Flask_L1,True
+9526,STAGE0,2791,Stage1,True
+8693,GIB_Stick_Floor_Cell3,2777,GIB_Stick_Floor_Cell3,True
+10502,LOD1,2541,Coconut_Flask_L1,True
+9056,COCA_BUSH_Impostor,3014,COCA_BUSH_Impostor,True
+8007,SeaFort_2_Impostor,3007,SeaFort_2_Impostor,True
+9192,Blade (1),2593,Helicopter_BladeTrans,True
+9169,Dead_Plant,1985,Dead_Plant,True
+7809,LOD0,2205,Coconut_Flask,True
+10500,LOD1,2247,Fishing Rod_L1,True
+7883,GIB_Clay_Door_Cell1,2162,GIB_Clay_Door_Cell1,True
+10597,Aloe_1_LOD1,2640,Aloe_Vera_1_L1,True
+9610,LOD0,2346,Container_Shelf,True
+8385,RAFT_FLOOR_CLAY_Impostor,2993,RAFT_FLOOR_CLAY_Impostor,True
+10729,GIB_Corrugated_Floor_Cell2,2637,GIB_Corrugated_Floor_Cell2,True
+9239,LOD2,2406,Coconut_Flask_L2,True
+9803,LOD2,2310,yacht_L2,True
+8551,BUOYANCY COLLIDER,10202,Position,True
+7882,Giant_Crab_Gib8,2784,Giant_Crab_Gib2,True
+10618,LifeRaft_V1_Collider,2518,LifeRaft_V1_Collider,True
+9403,LOD1,2541,Coconut_Flask_L1,True
+8652,Stage_3_LOD0,2265,Beachpea_Stage3,True
+8653,Stage_3_LOD0,2265,Beachpea_Stage3,True
+10390,skeleton03_2,2358,skeleton03,True
+9159,Contents,2299,Aloe_Vera_Medical,True
+10249,Stage_3_LOD1,2265,Beachpea_Stage3,True
+10250,Stage_3_LOD1,2265,Beachpea_Stage3,True
+7860,LOD0,2651,Sea_Anchor_Static_Deploy,True
+8121,LOD0,2470,Raft_Canopy,True
+9798,Potato_1_LOD0,2059,Potato_Plant_0,True
+7760,ArrowProxy,2575,SpeargunCarbonArrow,True
+8724,GIB_BrickStation_Cell3,2820,GIB_BrickStation_Cell3,True
+7695,Rail,2204,Rail,True
+9278,GIB_Plank_Door_Cell1,2467,GIB_Plank_Door_Cell1,True
+8146,CLIFF_003_Impostor,3013,CLIFF_003_Impostor,True
+7933,GIB_Stick_Triangle_Floor_Cell2,2798,GIB_Stick_Triangle_Floor_Cell2,True
+9059,VEHICLE_MOTOR_Impostor,3033,VEHICLE_MOTOR_Impostor,True
+8986,LOD0,2782,Bush,True
+10474,skeleton04_1,2530,skeleton04,True
+10643,Giant_Crab_Gib5,2865,Giant_Crab_Gib3,True
+7789,PALM_1_Impostor,3043,PALM_1_Impostor,True
+8905,CLIFF_004_Impostor,3049,CLIFF_004_Impostor,True
+8939,LOD1,2834,ShorelineRock_1_L1,True
+8811,MISSION_SHARK_Impostor,3010,MISSION_SHARK_Impostor,True
+7917,Yucca_Cutting_LOD0,2193,Yucca_Stage4_LOD0,True
+7634,GIB_Shelter_Cell1,2197,GIB_Shelter_Cell1,True
+10285,TYRE_PILE_Impostor,3020,TYRE_PILE_Impostor,True
+8305,Crate_02,2577,Crate_02,True
+9691,SHIPPING_CONTAINER_1_Impostor,3024,SHIPPING_CONTAINER_1_Impostor,True
+10443,LOD2,2254,Life_Raft_L2,True
+8254,LOD0,2881,ShorelineRock_1,True
+9935,LOD0,2580,fishing_Bobber,True
+8175,Arm_Decal_Salve,2573,Arm_Sleeve_Fem,True
+10287,BIGROCK_3_Impostor,3038,BIGROCK_3_Impostor,True
+9726,LOD2,2496,Fuel_Still_L2,True
+9770,GIB_Plank_Triangle_Floor_Cell2,2689,GIB_Plank_Triangle_Floor_Cell2,True
+10715,LOD0,2205,Coconut_Flask,True
+8989,Door_13D,2164,Door_13D,True
+10701,Tag,2321,Coconut_Tag_Gauze,True
+10663,Aloe_1_LOD0,2006,Aloe_Vera_1,True
+7940,Cube (4),10202,Position,True
+8695,GIB_Loom_Cell4,2869,GIB_Loom_Cell4,True
+7872,Climber_Foliage_LOD0,2163,ClimberFoliage,True
+9259,Blade (6),2593,Helicopter_BladeTrans,True
+7838,BARREL_PILE_Impostor,3017,BARREL_PILE_Impostor,True
+7845,MISSION_SQUID_Impostor,3025,MISSION_SQUID_Impostor,True
+9247,GIB_PlankStation_Cell1,2806,GIB_PlankStation_Cell1,True
+7768,GIB_Brick_Triangle_Floor_Cell1,2211,GIB_Brick_Triangle_Floor_Cell1,True
+9959,Boat_Motor_Propeller_LOD0,2721,Boat_Motor_Propeller,True
+9405,Rail,2204,Rail,True
+7548,LOD0,2543,LionFish_L0,True
+9927,HITBOX_CRITICAL,10207,Effects,True
+9580,Aloe_2_LOD1,2531,Yucca_Stage2_LOD0,True
+9721,GIB_Fuel_Still_Cell3,2843,GIB_Fuel_Still_Cell3,True
+10182,Rail,2204,Rail,True
+7979,Cube (5),10202,Position,True
+8450,LOD0,2116,Item_Leg_Splint,True
+10636,GIB_Loom_Cell2,2671,GIB_Loom_Cell2,True
+7987,skeleton03_1,2358,skeleton03,True
+8239,Arm_Decal_Blood,1949,Arm_Sleeve,True
+8240,Arm_Decal_Blood,1949,Arm_Sleeve,True
+9104,Cube (8),10202,Position,True
+8836,Door_13,2354,Door_13M,True
+8837,Door_13D,2164,Door_13D,True
+8838,Door_13M,2354,Door_13M,True
+8839,Door_13,2394,Door_13,True
+8840,Door_13,2394,Door_13,True
+8828,shelter07_LOD1,2779,shelter07_LOD1,True
+8581,GIB_Brick_Wall_Cell3,2819,GIB_Brick_Wall_Cell3,True
+8926,LOD0,2619,Vehicle_Part_Fuel,True
+8147,PINE_3_Impostor,3003,PINE_3_Impostor,True
+9982,LOD0,2218,Trap_Bird,True
+9310,sprout,2183,Aloe_Vera_0,True
+9226,Aloe_2_LOD0,2531,Yucca_Stage2_LOD0,True
+8984,Broken_barrel_shelter,2538,Broken_Barrel,True
+9304,PALM_2_Impostor,3047,PALM_2_Impostor,True
+9170,Arm_Bandage,2595,Arm_Bandage_Fem,True
+10137,GIB_Stick_Door_Cell1,2461,GIB_Stick_Door_Cell1,True
+8685,Propeller,0,,False
+7702,LOD0,2142,Shipping_Container_2,True
+10566,LOD1,2423,Paddle_L1,True
+8692,LOD1,2731,Aloe_Vera_4_L1,True
+10236,GIB_PlankStation_Cell3,2203,GIB_PlankStation_Cell3,True
+9751,LOD1,2807,Potato_Plant_4,True
+8929,LOD0,2086,Plainwreck_1_L0,True
+8771,GIB_Shelter_Cell3,2804,GIB_Shelter_Cell3,True
+9573,GIB_Brick_Floor_Cell1,2276,GIB_Brick_Floor_Cell1,True
+9513,Cube (12),10202,Position,True
+9277,Crate_01,2411,Crate_01,True
+7575,LOD0,2046,Discus_L0,True
+7978,shelter_03_LOD1,2725,shelter_03_LOD1,True
+9067,GIB_Stick_Floor_Cell4,2861,GIB_Stick_Floor_Cell4,True
+9375,SHIPPING_CONTAINER_PANEL_STATIC_Impostor,3026,SHIPPING_CONTAINER_PANEL_STATIC_Impostor,True
+9577,Cube (13),10202,Position,True
+10082,shelter07_LOD0,2648,shelter07_LOD0,True
+7801,Crate_01,2411,Crate_01,True
+10363,LOD1,2253,Shipping_Container_2_LOD1,True
+8970,Rail,2204,Rail,True
+7804,Cube (8),10202,Position,True
+8949,Stage_1_LOD1,2468,Beachpea_Stage1,True
+8324,LOD1,2578,Sea_Anchor_Rock_Packed_L1,True
+8177,Aloe_2_LOD0,2195,Aloe_Vera_2,True
+10139,flower,2398,flower,True
+9706,Difficulty_Hat_Easy_Propellar,2811,Difficulty_Hat_Easy_Propellar,True
+8262,Crate_03,1986,Crate_03,True
+7815,LOD0,1948,Paddle_Holder,True
+8204,SHIPWRECK_6A_Impostor,3035,SHIPWRECK_6A_Impostor,True
+10186,Potato_3_LOD1,1967,Potato_Plant_3,True
+9989,LOD1,2261,Trap_Bird_L1,True
+10121,sprout,2522,sprout_LOD0,True
+10122,sprout,2522,sprout_LOD0,True
+9182,PINE_2_Impostor,3000,PINE_2_Impostor,True
+7919,shelter_05,2614,shelter_05,True
+9894,GIB_Corrugated_Door_Cell3,2802,GIB_Corrugated_Door_Cell3,True
+7996,LOD1,2070,Bow_L1,True
+7834,GIB_BrickStation_Cell1,2288,GIB_BrickStation_Cell1,True
+9664,LOD0,2351,Helicopter_Stage_3_Motor,True
+10407,Blade (5),2593,Helicopter_BladeTrans,True
+8620,Arm_Decal_Blood,2573,Arm_Sleeve_Fem,True
+10097,Shelter06_LOD1,2767,Shelter06_LOD1,True
+9885,GIB_Wood_Wall_Cell4,2891,GIB_Wood_Wall_Cell4,True
+10347,ContainerBody,2926,crate_plastic_LOD0,True
+8710,GIB_Stick_Triangle_Floor_Cell3,2670,GIB_Stick_Triangle_Floor_Cell3,True
+8256,LOD0,2094,Beachpea_Stage2,True
+8037,RAFT_BASE_WOOD_BUNDLE_Impostor,3032,RAFT_BASE_WOOD_BUNDLE_Impostor,True
+7767,Potato_2_LOD1,2312,Potato_Plant_2,True
+8570,Aloe_4_LOD0,2449,Aloe_Vera_4,True
+8650,GIB_Clay_Door_Cell2,2667,GIB_Clay_Door_Cell2,True
+8316,Fixus_Tree_2_LOD0,2859,Ficus_Tree_2_Leaf,True
+8623,Blade (3),2593,Helicopter_BladeTrans,True
+9516,Rail,2204,Rail,True
+10505,Rail,2204,Rail,True
+9641,Crate_01,2411,Crate_01,True
+9600,GIB_Corrugated_Floor_Cell1,1996,GIB_Corrugated_Floor_Cell1,True
+8516,Contents,2350,Gauze_Medical,True
+9685,Broken_barrel_shelter,2538,Broken_Barrel,True
+7837,Decal,0,,False
+7685,LifeRaft_V1_Collider 6,2518,LifeRaft_V1_Collider,True
+9775,Crate_01,2411,Crate_01,True
+10509,Needle,2982,HUD_Needle,True
+8829,LOD1,2541,Coconut_Flask_L1,True
+8076,Dead_Plant,1985,Dead_Plant,True
+8190,Rail,2204,Rail,True
+9525,Trunk,2131,Tree_2_Trunk,True
+9662,GIB_Corrugated_Triangle_Floor_Cell3,2852,GIB_Corrugated_Triangle_Floor_Cell3,True
+8700,FICUS_2_Impostor,3019,FICUS_2_Impostor,True
+9994,RAFT_FLOOR_DRIFTWOOD_Impostor,3042,RAFT_FLOOR_DRIFTWOOD_Impostor,True
+8772,LifeRaft_V1_Collider 1,2518,LifeRaft_V1_Collider,True
+8547,Cube (4),10202,Position,True
+7935,Cube (7),10202,Position,True
+9453,LOD1,2094,Beachpea_Stage2,True
+9889,GIB_Stick_Floor_Cell1,2048,GIB_Stick_Floor_Cell1,True
+9757,LOD0,2026,Sea_Anchor_Rock_Packed,True
+8550,Potato_2_LOD0,2312,Potato_Plant_2,True
+8332,Proxy - Rawhide,2202,Raw_Leather,True
+8786,BIGROCK_5_Impostor,3048,BIGROCK_5_Impostor,True
+8797,Blade (5),2593,Helicopter_BladeTrans,True
+7734,Cube (5),10202,Position,True
+8090,Broken_barrel_shelter,2538,Broken_Barrel,True
+8816,Cube (6),10202,Position,True
+10394,Crate_03,1986,Crate_03,True
+8391,Compass,2980,HUD_Compass,True
+9578,LOD0,2231,beach_pea_LOD0,True
+9579,LOD0,1962,morning_glory_LOD0,True
+7395,LOD1,2696,Boba_L1,True
+10225,LOD2,2580,fishing_Bobber,True
+9372,LOD0,2807,Potato_Plant_4,True
+10638,Difficulty_Hat_Easy,2688,Difficulty_Hat_Easy,True
+8180,Crate_01,2411,Crate_01,True
+7587,Aloe_Vera_Fruit_LOD1,2081,Aloe_Vera_Item,True
+8985,STAGE3,2912,Stage4,True
+7794,GIB_Stick_Door_Cell3,2840,GIB_Stick_Door_Cell3,True
+8017,LOD0,2774,Ficus_3_Leaf,True
+9450,Level2_LOD0,2743,Clay_Stairs,True
+10073,Cube (6),10202,Position,True
+9727,Rail,2204,Rail,True
+8843,Crate_01,2411,Crate_01,True
+10625,LOD0,2575,SpeargunCarbonArrow,True
+10071,LOD0,2101,Fish_Trap_Dismantled,True
+8249,Arm_Bandage,2595,Arm_Bandage_Fem,True
+7738,HITBOX_CRITICAL,10207,Effects,True
+9172,Rail,2204,Rail,True
+9347,LOD0,2336,Fuel_Still,True
+9748,STAGE4,2923,Stage5,True
+7923,Difficulty_Hat_Easy_Propellar,2811,Difficulty_Hat_Easy_Propellar,True
+7641,GIB_BrickStation_Cell2,2705,GIB_BrickStation_Cell2,True
+10684,Boat_Motor_LOD2,2903,Boat_Motor_L2,True
+8050,Shelter04_LOD0,2666,Shelter04_LOD0,True
+7774,Difficulty_Hat_Hard,2757,Difficulty_Hat_Hard,True
+10473,PALM_3_Impostor,3005,PALM_3_Impostor,True
+7684,sprout,2059,Potato_Plant_0,True
+10468,GIB_Fire_Smoker_Cell1,2433,GIB_Fire_Smoker_Cell1,True
+10389,Impostor,3021,AIRCRAFT_Impostor_Impostor,True
+10610,GIB_Plank_Floor_Cell1,2429,GIB_Plank_Floor_Cell1,True
+8131,Ajuga_LOD0,2234,Ajuga_Fruit,True
+10529,GIB_Corrugated_Wall_Cell2,2746,GIB_Corrugated_Wall_Cell2,True
+10705,GIB_Corrugated_Wall_Cell1,2510,GIB_Corrugated_Wall_Cell1,True
+7930,LOD0,1958,Paddle,True
+7855,Level1_LOD0,2039,Clay_Stairs_Stage2,True
+10169,Spyglass,2457,Spyglass_1_L0,True
+8541,Cube (10),10202,Position,True
+9731,LifeRaft_V1_Collider 2,2518,LifeRaft_V1_Collider,True
+10016,GIB_Clay_Door_Cell3,2794,GIB_Clay_Door_Cell3,True
+9238,Blade (4),2593,Helicopter_BladeTrans,True
+9814,STAGE1,2867,Stage2,True
+8718,GIB_Brick_Floor_Cell3,2817,GIB_Brick_Floor_Cell3,True
+10717,LOD0,2421,Engine,True
+8879,Rail,2204,Rail,True
+8861,Stage_4_LOD1,2821,ground_cover_a_LOD2,True
+8862,Stage_4_LOD1,2821,ground_cover_a_LOD2,True
+9085,BIGROCK_2_Impostor,3039,BIGROCK_2_Impostor,True
+8982,CLIFF_002_Impostor,3031,CLIFF_002_Impostor,True
+7931,LOD0,2007,Life_Raft,True
+9388,Shelter01_LOD0,2275,shelter01_LOD0,True
+7633,Crate_02,2577,Crate_02,True
+8599,SHIPWRECK_12A_Impostor,2996,SHIPWRECK_12A_Impostor,True
+8396,LOD0,2449,Aloe_Vera_4,True
+7713,LOD0,1976,Vehicle_Part_Electrical,True
+10337,LOD0,2548,yacht,True
+10196,Helicopter_LOD1,2491,Helicopter_L1,True
+9971,GIB_Wood_Wall_Cell5,2910,GIB_Wood_Wall_Cell5,True
+10013,Stage_3_LOD0,2265,Beachpea_Stage3,True
+9697,GIB_Corrugated_Wall_Cell3,2844,GIB_Corrugated_Wall_Cell3,True
+8988,LOD0,1999,Helicopter_Stage_5_Rotor,True
+9997,GIB_Loom_Cell1,2184,GIB_Loom_Cell1,True
+8033,LOD1,2753,pine_b_LOD1,True
+9890,GIB_Fuel_Still_Cell2,2745,GIB_Fuel_Still_Cell2,True
+7785,LOD1,2580,fishing_Bobber,True
+7719,Blade,2593,Helicopter_BladeTrans,True
+7988,Boat_Motor_Frame_LOD0,2831,Boat_Motor_Frame,True
+8325,LOD1,2541,Coconut_Flask_L1,True
+7907,GIB_Stick_Door_Cell4,2883,GIB_Stick_Door_Cell4,True
+10133,ContainerDoor,2919,crate_plastic_lid_LOD0,True
+9286,GIB_Brick_Wall_Cell1,2279,GIB_Brick_Wall_Cell1,True
+10385,Cube (2),10202,Position,True
+9625,ContainerBody,2926,crate_plastic_LOD0,True
+8548,GIB_Corrugated_Floor_Cell3,2775,GIB_Corrugated_Floor_Cell3,True
+10716,LOD0,2205,Coconut_Flask,True
+9003,LOD0,2316,Vehicle_Part_Engine,True
+10723,shelter_08_LOD2,2878,shelter_08_LOD2,True
+9863,LOD0,2294,Sea_Anchor_Rock_Deployed_Stick,True
+9686,Cube (3),10202,Position,True
+8043,LOD1,2169,Fuel_Still_L1,True
+8095,STAGE6,2937,Stage7,True
+7910,Stage_1_LOD1,2468,Beachpea_Stage1,True
+7911,Stage_1_LOD1,2468,Beachpea_Stage1,True
+9693,Arm_Bandage,2513,Arm_Bandage,True
+9694,Arm_Bandage,2513,Arm_Bandage,True
+8425,GIB_Loom_Cell3,2799,GIB_Loom_Cell3,True
+8665,LOD2,2406,Coconut_Flask_L2,True
+8273,GIB_Shelter_Cell2,2678,GIB_Shelter_Cell2,True
+9826,Arm_Decal_Blood_Poison,2573,Arm_Sleeve_Fem,True
+7645,LOD0,2291,ground_cover_a_LOD0,True
+7646,LOD0,2291,ground_cover_a_LOD0,True
+9130,Rubber_Duck,2147,RubberDuck,True
+10369,RAFT_FLOOR_CORRUGATED_Impostor,2994,RAFT_FLOOR_CORRUGATED_Impostor,True
+8058,Potato_4_LOD1,2807,Potato_Plant_4,True
+10524,Blade (3),2593,Helicopter_BladeTrans,True
+8818,LOD0,2860,Flashlight,True
+10726,Speargun_Arrow_Broken_1,2562,SpeargunCarbonArrow_broken,True
+10367,Broken_barrel_shelter,2538,Broken_Barrel,True
+8873,Crate_01,2411,Crate_01,True
+7584,LOD0,2313,obj_macete,True
+9105,VEHICLE_HELICOPTER_Impostor,2998,VEHICLE_HELICOPTER_Impostor,True
+9103,Raft_Vehicle_Rudder,2463,Raft_Vehicle_Rudder,True
+10549,SHIPPING_CONTAINER_2_Impostor,3050,SHIPPING_CONTAINER_2_Impostor,True
+10598,LOD0,2205,Coconut_Flask,True
+8072,Stage_4_LOD0,2291,ground_cover_a_LOD0,True
+8073,Stage_4_LOD0,2291,ground_cover_a_LOD0,True
+9339,DepthMask,2638,Life_Raft_DepthMask,True
+8921,BobberProxy,0,,False
+7974,Tag,2924,Coconut_Tag_Salve,True
+9096,STAGE5,2930,Stage6,True
+10380,Difficulty_Hat_Hard,2757,Difficulty_Hat_Hard,True
+7260,LOD1,2643,COD_L1,True
+9676,GIB_Plank_Floor_Cell3,2832,GIB_Plank_Floor_Cell3,True
+9164,GIB_Fuel_Still_Cell1,2500,GIB_Fuel_Still_Cell1,True
+8657,Stage_1_LOD0,2468,Beachpea_Stage1,True
+10571,GIB_Brick_Triangle_Floor_Cell2,2682,GIB_Brick_Triangle_Floor_Cell2,True
+9858,LOD1,2227,Fish_Trap_L1,True
+8106,Climber_Foliage_LOD0,2163,ClimberFoliage,True
+8479,Crate_01,2411,Crate_01,True
+9570,Cube (9),10202,Position,True
+9914,LOD0,2205,Coconut_Flask,True
+9540,Potato_4_LOD0,2807,Potato_Plant_4,True
+9734,Ghost,2061,Container_Shelf_Ghost,True
+8315,GIB_Stick_Triangle_Floor_Cell1,2178,GIB_Stick_Triangle_Floor_Cell1,True
+10271,GIB_Stick_Door_Cell2,2736,GIB_Stick_Door_Cell2,True
+7833,Aloe_4_LOD1,2731,Aloe_Vera_4_L1,True
+10181,Giant_Crab_Gib1,2656,Giant_Crab_Gib1,True
+10451,Broken_barrel_shelter,2538,Broken_Barrel,True
+8889,Dead_Plant,1985,Dead_Plant,True
+10688,GIB_Wood_Wall_Cell1,2620,GIB_Wood_Wall_Cell1,True
+8055,GIB_Clay_Furnace_Cell1,2082,GIB_Clay_Furnace_Cell1,True
+9447,Cube,10202,Position,True
+8674,Fishing_Reel_Rope,2907,Fishing_Reel_Rope,True
+10364,GIB_PlankStation_Cell2,2681,GIB_PlankStation_Cell2,True
+10358,Crate_01,2411,Crate_01,True
+8006,Shelter09_LOD1,2680,Shelter09_LOD1,True
+9615,GIB_Corrugated_Triangle_Floor_Cell2,2763,GIB_Corrugated_Triangle_Floor_Cell2,True
+9459,CLIFF_006_Impostor,3002,CLIFF_006_Impostor,True
+8457,GIB_Stick_Floor_Cell2,2647,GIB_Stick_Floor_Cell2,True
+9900,Potato_1_LOD1,2059,Potato_Plant_0,True
+8207,Shelter09_LOD0,2201,Shelter09_LOD0,True
+8221,Proxy - Leg_Splint,2029,Leg_Splint,True
+8141,BIGROCK_4_Impostor,3015,BIGROCK_4_Impostor,True
+8002,Stage_1_LOD0,2468,Beachpea_Stage1,True
+8003,Stage_1_LOD0,2468,Beachpea_Stage1,True
+8662,Proxy - Leg_Splint,2029,Leg_Splint,True
+8663,Proxy - Leg_Splint,2029,Leg_Splint,True
+7681,LOD0,2484,Sea_Anchor,True
+7828,RAFT_BASE_TYRE_Impostor,3037,RAFT_BASE_TYRE_Impostor,True
+7608,FICUS_1_Impostor,3045,FICUS_1_Impostor,True
+10116,Crate_01,2411,Crate_01,True
+7549,LOD0,2495,Archerfish_L0,True
+7723,LOD0,2154,Helicopter_Stage_2_Seat,True
+10414,Giant_Crab_Gib6,2865,Giant_Crab_Gib3,True
+8980,LOD1,2541,Coconut_Flask_L1,True
+9472,LOD0,2896,Sunscreen,True
+9508,Contents,2810,beach_pea_LOD2,True
+10630,LOD2,2406,Coconut_Flask_L2,True
+10045,GIB_Wood_Wall_Cell3,2857,GIB_Wood_Wall_Cell3,True
+8895,RAFT_FLOOR_PLANK_Impostor,2999,RAFT_FLOOR_PLANK_Impostor,True
+8677,Cube (9),10202,Position,True
+10052,Aloe_2_LOD1,2676,Aloe_Vera_2_L1,True
+10051,Blade,2593,Helicopter_BladeTrans,True
+8482,CLIFF_001_Impostor,3018,CLIFF_001_Impostor,True
+9628,Aloe_3_LOD0,2176,Yucca_Stage3_LOD0,True
+10026,SHIPWRECK_8A_Impostor,3036,SHIPWRECK_8A_Impostor,True
+10678,LOD2,2724,ShorelineRock_1_L2,True
+7798,SHIPWRECK_7A_Impostor,2997,SHIPWRECK_7A_Impostor,True
+9776,sprout,2207,Yucca_Stage0_LOD0,True
+9958,STAGE2,2895,Stage3,True
+10228,skeleton01_1,1995,skeleton01,True
+8702,Cube (1),10202,Position,True
+10667,shelter_08_LOD0,2720,shelter_08_LOD0,True
+10589,skeleton03_1,2358,skeleton03,True
+8179,Shelter02_LOD0,2556,Shelter02_LOD0,True
+8799,LOD2,2406,Coconut_Flask_L2,True
+8950,skeleton04_1,2530,skeleton04,True
+8112,SHIPPING_CONTAINER_3_Impostor,3022,SHIPPING_CONTAINER_3_Impostor,True
+10297,skeleton05_2,2223,skeleton05,True
+7905,Climber_Foliage_LOD1,2569,ClimberFoliage_L1,True
+6523,LOD1,2646,Discus_L1,True
+8407,Yucca_Cutting_LOD0,2207,Yucca_Stage0_LOD0,True
+10184,Female_Scarf,2367,Female_Scarf,True
+9397,GIB_Fire_Smoker_Cell2,2723,GIB_Fire_Smoker_Cell2,True
+10702,LOD0,1972,Propeller,True
+9507,LOD1,2345,Vehicle_Part_Gyro_L1,True
+9689,LOD1,2112,Raft_Canopy_L1,True
+8613,Dead_Plant,1985,Dead_Plant,True
+8614,Dead_Plant,1985,Dead_Plant,True
+7636,Potato_3_LOD0,1967,Potato_Plant_3,True
+9333,Tag,2900,Coconut_Tag_Antidote,True
+9325,LOD1,2661,pine_c_LOD1,True
+7869,Proxy - Leg_Splint,2029,Leg_Splint,True
+8824,Door_13D,2164,Door_13D,True
+8038,Crate_02,2577,Crate_02,True
+8892,Proxy - Meat,2000,Meat_Medium,True
+9520,SHIPWRECK_3A_Impostor,3004,SHIPWRECK_3A_Impostor,True
+9638,Rail,2204,Rail,True
+10695,skeleton01_2,1995,skeleton01,True
+7959,Arm_Decal_Blood,2573,Arm_Sleeve_Fem,True
+9191,Stage_2_LOD1,2094,Beachpea_Stage2,True
+9452,Giant_Crab_Gib4,2894,Giant_Crab_Gib4,True
+9110,shelter_05_LOD1,2766,shelter_05_LOD1,True
+9319,VEHICLE_LIFERAFT_Impostor,3023,VEHICLE_LIFERAFT_Impostor,True
+8792,Crate_02,2577,Crate_02,True
+9344,Crate_02,2577,Crate_02,True
+8625,Quad,10210,TMP SubMeshUI [TextMeshPro/Sprite],True
+8519,Proxy - Paddle,1958,Paddle,True
+7858,Decal,0,,False
+9880,Giant_Crab_Gib2,2784,Giant_Crab_Gib2,True
+9264,Broken_barrel_shelter,2538,Broken_Barrel,True
+10326,LOD0,2588,SpeargunCarbon,True
+9249,LifeRaft_V1_Collider 3,2518,LifeRaft_V1_Collider,True
+8363,Cube (11),10202,Position,True
+8567,Aloe_3_LOD1,2660,Aloe_Vera_3_L1,True
+10126,LOD0,2612,Vehicle_Part_Filters,True
+10483,Frame_LOD1,2808,Shipping_Container_Door_Frame,True
+8413,Arm_Decal_Blood_Poison,1949,Arm_Sleeve,True
+8414,Arm_Decal_Blood_Poison,1949,Arm_Sleeve,True
+9916,Boat_Motor_LOD1,2879,Boat_Motor_L1,True
+10109,LOD0,2400,Fish_Trap,True
+9428,PINE_1_Impostor,3044,PINE_1_Impostor,True
+10722,Fishing_Reel,2889,Fishing_Reel,True
+9970,FICUS_TREE_Impostor,3034,FICUS_TREE_Impostor,True
+8066,Stage_4_LOD0,2291,ground_cover_a_LOD0,True
+8703,Crate_02,2577,Crate_02,True
+9412,Aloe_1_LOD0,2428,Yucca_Stage1_LOD0,True
+10059,Blade (2),2593,Helicopter_BladeTrans,True
+8122,Blade (2),2593,Helicopter_BladeTrans,True
+9502,Female_Scarf,2367,Female_Scarf,True
+9510,Cube (10),10202,Position,True
+9474,GIB_Wood_Wall_Cell2,2768,GIB_Wood_Wall_Cell2,True
+8643,LOD0,2636,Ficus_2_Leaf,True
+9273,GIB_Plank_Wall_Cell3,2849,GIB_Plank_Wall_Cell3,True
+9598,LOD0,2431,Vehicle_Part_Gyro,True
+10728,Frame_LOD0,2808,Shipping_Container_Door_Frame,True
+10624,Giant_Crab_Gib3,2865,Giant_Crab_Gib3,True
+7886,Stage_2_LOD0,2094,Beachpea_Stage2,True
+7958,Crate_01,2411,Crate_01,True
+7936,Rail,2204,Rail,True
+10005,LOD1,2821,ground_cover_a_LOD2,True
+10006,LOD1,2821,ground_cover_a_LOD2,True
+8694,LOD0,2477,Hook_Light,True
+10488,Proxy_Leaf_2,2624,Yucca_Leafs,True
+8404,Sail_Frame,2525,Sail_Frame,True
+8259,RAFT_FLOOR_WOOD_Impostor,3001,RAFT_FLOOR_WOOD_Impostor,True
+9035,LOD0,2241,RudderPedals,True
+9432,Propeller_Blade_Top,2969,Propeller_Blade_Top,True
+8887,Needle,2982,HUD_Needle,True
+10176,LOD0,2624,Yucca_Leafs,True
+7650,LOD2,2406,Coconut_Flask_L2,True
+10240,Rail,2204,Rail,True
+8494,GIB_Plank_Door_Cell3,2841,GIB_Plank_Door_Cell3,True
+9543,GIB_Plank_Wall_Cell2,2760,GIB_Plank_Wall_Cell2,True
+9392,Stage_2_LOD0,2094,Beachpea_Stage2,True
+9393,Stage_2_LOD0,2094,Beachpea_Stage2,True
+10471,Blade (4),2593,Helicopter_BladeTrans,True
+9853,Dead_Plant,1985,Dead_Plant,True
+8362,GIB_Brick_Wall_Cell2,2703,GIB_Brick_Wall_Cell2,True
+9834,Raft_Vehicle_Rudder_Support,2737,Raft_Vehicle_Rudder_Support,True
+8849,LOD0_Campfire_Attachment,2366,Campfire_Attach,True
+10099,Propeller_Back,2945,Propeller_Back,True
+9575,Arm_Decal_Salve,1949,Arm_Sleeve,True
+9576,Arm_Decal_Salve,1949,Arm_Sleeve,True
+8220,RAFT_BASE_BALLS_Impostor,3046,RAFT_BASE_BALLS_Impostor,True
+9688,BIGROCK_1_Impostor,3008,BIGROCK_1_Impostor,True
+8734,GIB_Corrugated_Door_Cell1,2187,GIB_Corrugated_Door_Cell1,True
+8480,LOD1,2085,Sea_Anchor_L1,True
+10605,Crate_01,2411,Crate_01,True
+9367,GIB_Plank_Floor_Cell2,2722,GIB_Plank_Floor_Cell2,True
+9303,LifeRaft_V1_Collider 7,2518,LifeRaft_V1_Collider,True
+10652,PLANEWRECK_1A_Impostor,3029,PLANEWRECK_1A_Impostor,True
+9491,GIB_Fire_Smoker_Cell3,2833,GIB_Fire_Smoker_Cell3,True
+9515,skeleton04_2,2530,skeleton04,True
+8738,Aloe_4_LOD0,2037,Yucca_Stage4_Harvested,True
+10093,GIB_Clay_Furnace_Cell2,2653,GIB_Clay_Furnace_Cell2,True
+8400,GIB_Corrugated_Door_Cell2,2674,GIB_Corrugated_Door_Cell2,True
+8930,LifeRaft_V1_Collider 4,2518,LifeRaft_V1_Collider,True
+8683,GIB_Plank_Wall_Cell1,2581,GIB_Plank_Wall_Cell1,True
+8231,Cube (3),10202,Position,True
+9505,Ficus_Tree_1_LOD0,2892,Ficus_Tree_1_Leaf,True
+10573,Boat_Motor_LOD0,2422,Boat_Motor,True
+8903,LOD0,2152,Raft_Container,True
+10512,LOD0,1993,Ficus_1_Leaf,True
+10447,Cube (2),10202,Position,True
+9504,ContainerDoor,2919,crate_plastic_lid_LOD0,True
+9807,Arm_Decal_Blood_Poison,2573,Arm_Sleeve_Fem,True
+8437,LOD1,2625,Life_Raft_L1,True
+10153,RAFT_ANCHOR_Impostor,3040,RAFT_ANCHOR_Impostor,True
+10739,LOD0,2076,ladder,True
+10763,LOD0,2076,ladder,True

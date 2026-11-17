@@ -1,0 +1,440 @@
+material_path_id,material_name,shader_path_id,shader_name,shader_type
+1,BarlowCondensed-SemiBold FIGS Supplemental SDF Material,158,NOT_FOUND,UNKNOWN
+2,BarlowCondensed-SemiBold SDF Material,158,NOT_FOUND,UNKNOWN
+3,Default-Particle,3057,,Shader
+4,Default-Diffuse,7,NOT_FOUND,UNKNOWN
+5,Default-Material,137,NOT_FOUND,UNKNOWN
+6,cornea_Female_mat,137,NOT_FOUND,UNKNOWN
+7,cornea_mat,137,NOT_FOUND,UNKNOWN
+8,player_Female_cloths,137,NOT_FOUND,UNKNOWN
+9,player_Female_hands,3073,,Shader
+10,survivor_Female_cloths,3052,,Shader
+11,survivor_Female_hair,3088,,Shader
+12,survivor_Female_hands,3073,,Shader
+13,survivor_Female_head,3073,,Shader
+14,survivor_beard,3052,,Shader
+15,survivor_beard_albedo,137,NOT_FOUND,UNKNOWN
+16,survivor_hair,3052,,Shader
+17,survivor_legs_albedo,137,NOT_FOUND,UNKNOWN
+18,survivor_lowerBody_albedo,137,NOT_FOUND,UNKNOWN
+19,survivor_torso_albedo,3073,,Shader
+20,survivor_torso_albedo_p2,3073,,Shader
+21,survivor_upperBody_albedo,3073,,Shader
+22,Default_Material,137,NOT_FOUND,UNKNOWN
+23,survivor_head_albedo,137,NOT_FOUND,UNKNOWN
+24,survivor_hair_albedo,3088,,Shader
+25,REF_cornea_mat,137,NOT_FOUND,UNKNOWN
+26,survivor_beard_albedo,137,NOT_FOUND,UNKNOWN
+27,survivor_head_albedo,3073,,Shader
+28,Blue_Marlin_MAT,137,NOT_FOUND,UNKNOWN
+29,Blue_Marlin_Ragdoll_MAT,3136,,Shader
+30,Crab_MAT,3136,,Shader
+31,ARCHER_MAT,3136,,Shader
+32,BOBA_MAT,3136,,Shader
+33,COD_MAT,3136,,Shader
+34,DISCUS_DIFF,3136,,Shader
+35,GiantGrouper_MAT,3136,,Shader
+36,LIONFISH_MAT,3052,,Shader
+37,SARDINE_MAT,3136,,Shader
+38,GiantCrab_MAT,3136,,Shader
+39,Goblin_Shark_MAT,3136,,Shader
+40,Goblin_Shark_Ragdoll_MAT,3136,,Shader
+41,HammerHead_Shark_MAT,3136,,Shader
+42,HammerHead_Shark_Ragdoll_MAT,3136,,Shader
+43,Hog_Fur_MAT,3136,,Shader
+44,Hog_MAT,3136,,Shader
+45,Snake_MAT,3136,,Shader
+46,Tiger_Shark_MAT,137,NOT_FOUND,UNKNOWN
+47,Tiger_Shark_Ragdoll_MAT,3136,,Shader
+48,Whale_MAT,137,NOT_FOUND,UNKNOWN
+49,Whale_Shark_MAT,3136,,Shader
+50,Whale_Shark_Ragdoll_MAT,3136,,Shader
+51,Aloe_Vera_MAT,3136,,Shader
+52,Barrel_MAT,137,NOT_FOUND,UNKNOWN
+53,Bricks_MAT,137,NOT_FOUND,UNKNOWN
+54,Buoy_Ball_MAT,137,NOT_FOUND,UNKNOWN
+55,ClayRock_MAT,3136,,Shader
+56,Clay_MAT,137,NOT_FOUND,UNKNOWN
+57,Corrugated_MAT,137,NOT_FOUND,UNKNOWN
+58,Driftwood_MAT,137,NOT_FOUND,UNKNOWN
+59,Helicopter_1_DIFF,3136,,Shader
+60,Helicopter_2_DIFF,3136,,Shader
+61,Helicopter_BladeTrans_MAT,3052,,Shader
+62,Helicopter_HUD_DIFF,3136,,Shader
+63,LifeRaft_Decal_MAT,137,NOT_FOUND,UNKNOWN
+64,LifeRaft_MAT,3136,,Shader
+65,Palm_Cover_MAT,137,NOT_FOUND,UNKNOWN
+66,Plank_MAT,3136,,Shader
+67,Propeller_Alphacutoff,3136,,Shader
+68,SeaAnchor_MAT,137,NOT_FOUND,UNKNOWN
+69,Stick_Leaves_MAT,137,NOT_FOUND,UNKNOWN
+70,Stick_MAT,137,NOT_FOUND,UNKNOWN
+71,Tarp_Cloth_MAT,3136,,Shader
+72,Tarp_MAT,137,NOT_FOUND,UNKNOWN
+73,Tyre_MAT,137,NOT_FOUND,UNKNOWN
+74,Locker_MAT,137,NOT_FOUND,UNKNOWN
+75,Storage_Military_Large_DIFF,137,NOT_FOUND,UNKNOWN
+76,Airtank_MAT,137,NOT_FOUND,UNKNOWN
+77,Arrow_MAT,137,NOT_FOUND,UNKNOWN
+78,Bedroll_MAT,137,NOT_FOUND,UNKNOWN
+79,Bow_MAT,137,NOT_FOUND,UNKNOWN
+80,Coconut_Flask_MAT,137,NOT_FOUND,UNKNOWN
+81,Coconut_Tags_MAT,137,NOT_FOUND,UNKNOWN
+82,Crafting_Area_Projector_MAT,3099,,Shader
+83,Crafting_Placing_MAT,3100,,Shader
+84,Crude_Axe_MAT,137,NOT_FOUND,UNKNOWN
+85,Crude_Fishing_Spear_MAT,137,NOT_FOUND,UNKNOWN
+86,Crude_Hammer_MAT,137,NOT_FOUND,UNKNOWN
+87,Crude_Knife_MAT,137,NOT_FOUND,UNKNOWN
+88,Driftwood_Stick_MAT,137,NOT_FOUND,UNKNOWN
+89,Fire_Torch_MAT,3121,,Shader
+90,FishingRod_MAT,137,NOT_FOUND,UNKNOWN
+91,FuelCan_MAT,137,NOT_FOUND,UNKNOWN
+92,Gib_Arrow_MAT,137,NOT_FOUND,UNKNOWN
+93,Gib_Crude_Spear_MAT,137,NOT_FOUND,UNKNOWN
+94,Gib_Refined_Spear_MAT,137,NOT_FOUND,UNKNOWN
+95,Gib_Speargun_Arrow_MAT,137,NOT_FOUND,UNKNOWN
+96,Kindle_MAT,137,NOT_FOUND,UNKNOWN
+97,Leather_Diff,137,NOT_FOUND,UNKNOWN
+98,Net_MAT,137,NOT_FOUND,UNKNOWN
+99,Refined_Axe_MAT,137,NOT_FOUND,UNKNOWN
+100,Refined_Hammer_MAT,137,NOT_FOUND,UNKNOWN
+101,Refined_Knife_MAT,137,NOT_FOUND,UNKNOWN
+102,Refined_Pick_MAT,137,NOT_FOUND,UNKNOWN
+103,Rock_MAT,3136,,Shader
+104,Rope_MAT,3136,,Shader
+105,Spyglass,137,NOT_FOUND,UNKNOWN
+106,Stick_Item_MAT,3136,,Shader
+107,Stone_Hoe_DIFF,137,NOT_FOUND,UNKNOWN
+108,Trail_Arrow_MAT,138,NOT_FOUND,UNKNOWN
+109,WaterPot_MAT,137,NOT_FOUND,UNKNOWN
+110,Waterskin_MAT,137,NOT_FOUND,UNKNOWN
+111,DepthMask,3086,,Shader
+112,Difficulty_Hat_Easy_DIFF,137,NOT_FOUND,UNKNOWN
+113,DeadEx_Box_MAT,137,NOT_FOUND,UNKNOWN
+114,Wollie_MAT,137,NOT_FOUND,UNKNOWN
+115,SeaPlanePedals,3052,,Shader
+116,shipwreck_metal_nitt_tile1,3052,,Shader
+117,shipwreck_metal_rust1,3052,,Shader
+118,shipwreck_metal_rust11,137,NOT_FOUND,UNKNOWN
+119,shipwreck_metal_rust12,137,NOT_FOUND,UNKNOWN
+120,tile_carrier_floor,3052,,Shader
+121,tile_carrier_rail,137,NOT_FOUND,UNKNOWN
+122,tile_debris,137,NOT_FOUND,UNKNOWN
+123,Dead_Plant_MAT,137,NOT_FOUND,UNKNOWN
+124,Farming_Plot_Dirt_Decal_MAT,137,NOT_FOUND,UNKNOWN
+125,Farming_Plot_Dirt_MAT,137,NOT_FOUND,UNKNOWN
+126,Guava_MAT,3136,,Shader
+127,Kura_MAT,3136,,Shader
+128,Pines_MAT,3136,,Shader
+129,Potato_MAT,3136,,Shader
+130,Sprout_MAT,3136,,Shader
+131,Young_Palm_MAT,3136,,Shader
+132,flowerMenuFemale,3136,,Shader
+133,Fishing Line,137,NOT_FOUND,UNKNOWN
+134,Coconut_MAT,3136,,Shader
+135,Coconut_Raw_MAT,3136,,Shader
+136,Meat_MAT,3098,,Shader
+137,Ration_Tin_MAT,137,NOT_FOUND,UNKNOWN
+138,Glass,137,NOT_FOUND,UNKNOWN
+139,Glass_Dirty,137,NOT_FOUND,UNKNOWN
+140,Imposter_MAT,3127,,Shader
+141,Medical_MAT,137,NOT_FOUND,UNKNOWN
+142,Eel_MAT,137,NOT_FOUND,UNKNOWN
+143,Submarine_MAT1,137,NOT_FOUND,UNKNOWN
+144,GW_BOSS_MAT,137,NOT_FOUND,UNKNOWN
+145,Net_MAT,137,NOT_FOUND,UNKNOWN
+146,Particle_Blood_Chunk_MAT,3055,,Shader
+147,Particle_Blood_MAT,3055,,Shader
+148,Shipwreck_Panel_MAT 11,137,NOT_FOUND,UNKNOWN
+149,Shipwreck_Panel_MAT,137,NOT_FOUND,UNKNOWN
+150,Buoy_MAT,137,NOT_FOUND,UNKNOWN
+151,Squid_MATT,137,NOT_FOUND,UNKNOWN
+152,Mission_Trophy_Head_MAT,137,NOT_FOUND,UNKNOWN
+153,Mission_Trophy_MAT,137,NOT_FOUND,UNKNOWN
+154,Crate_Standard_MAT,3052,,Shader
+155,Flashlight_MAT,3052,,Shader
+156,Flashlight_glass_MAT,3052,,Shader
+157,Machete_MAT,3053,,Shader
+158,RubberDuck_material,3052,,Shader
+159,SpeargunCarbon_MAT,3052,,Shader
+160,Sunscreen_MAT,3052,,Shader
+161,BigRocks,3136,,Shader
+162,CLIFFS,3136,,Shader
+163,MINING_GIB_DIFF,137,NOT_FOUND,UNKNOWN
+164,MINING_ROCK_DIFF,137,NOT_FOUND,UNKNOWN
+165,MINING_ROCK_DIFF_ROCK,137,NOT_FOUND,UNKNOWN
+166,Rock6,3136,,Shader
+167,SmallRocks,3136,,Shader
+168,SeafortWallLeaks,137,NOT_FOUND,UNKNOWN
+169,Seafort_Atlas2_MAT,137,NOT_FOUND,UNKNOWN
+170,Seafort_Atlas_MAT,137,NOT_FOUND,UNKNOWN
+171,Seafort_Concrete_MAT,137,NOT_FOUND,UNKNOWN
+172,Seafort_Decals_MAT,137,NOT_FOUND,UNKNOWN
+173,Driftwood_Pile_MAT_shelter,137,NOT_FOUND,UNKNOWN
+174,palm_leaf_shelter,137,NOT_FOUND,UNKNOWN
+175,shelter01_BARK,3052,,Shader
+176,shelter02_BARK,137,NOT_FOUND,UNKNOWN
+177,shelter03_cloth1,137,NOT_FOUND,UNKNOWN
+178,shelter06_tarp,137,NOT_FOUND,UNKNOWN
+179,shelter07_bark,3052,,Shader
+180,shelter07_tarp,137,NOT_FOUND,UNKNOWN
+181,shelter09_BARK,3052,,Shader
+182,shelter_03_bark,137,NOT_FOUND,UNKNOWN
+183,shelter_05BigRocks,137,NOT_FOUND,UNKNOWN
+184,shelter_05_PALM_BARK_DIFF.mat,137,NOT_FOUND,UNKNOWN
+185,shelter_05_bark,137,NOT_FOUND,UNKNOWN
+186,shelter_05_palm_cover,137,NOT_FOUND,UNKNOWN
+187,shelter_05_palm_leaf,3088,,Shader
+188,shelter_05_tile_rust.mat,137,NOT_FOUND,UNKNOWN
+189,shelter_06_bark,137,NOT_FOUND,UNKNOWN
+190,shelter_crate,137,NOT_FOUND,UNKNOWN
+191,tile_DriftWood,137,NOT_FOUND,UNKNOWN
+192,wood_shelter,137,NOT_FOUND,UNKNOWN
+193,AirPlaneBig_Albedo,137,NOT_FOUND,UNKNOWN
+194,Anchor1,137,NOT_FOUND,UNKNOWN
+195,Disco_Globe,3052,,Shader
+196,Doors_MAT,137,NOT_FOUND,UNKNOWN
+197,Ledge,137,NOT_FOUND,UNKNOWN
+198,MetalFloorPanels,137,NOT_FOUND,UNKNOWN
+199,Metal_Panel_2_MAT,137,NOT_FOUND,UNKNOWN
+200,Metal_Panel_4_Blue_MAT,137,NOT_FOUND,UNKNOWN
+201,Metal_Panel_4_MAT,137,NOT_FOUND,UNKNOWN
+202,Metal_Panel_5_MAT,137,NOT_FOUND,UNKNOWN
+203,Metal_Panel_Floor_MAT,137,NOT_FOUND,UNKNOWN
+204,Metal_Panel_MAT,137,NOT_FOUND,UNKNOWN
+205,Pipes_MAT,137,NOT_FOUND,UNKNOWN
+206,Presure_Porthole_Door,137,NOT_FOUND,UNKNOWN
+207,Propeller,137,NOT_FOUND,UNKNOWN
+208,Rust_Decals_MAT,3052,,Shader
+209,Rust_MAT,137,NOT_FOUND,UNKNOWN
+210,ShipWreck_decal,137,NOT_FOUND,UNKNOWN
+211,Shipping_Container_MAT,3136,,Shader
+212,Shipwreck_Interior_MAT,137,NOT_FOUND,UNKNOWN
+213,WindowGlass 1,137,NOT_FOUND,UNKNOWN
+214,WindowGlass2,3088,,Shader
+215,Wood_Planks_MAT,137,NOT_FOUND,UNKNOWN
+216,cockpit,137,NOT_FOUND,UNKNOWN
+217,decal2_UnderwaterVegetation,137,NOT_FOUND,UNKNOWN
+218,decal_UnderwaterVegetation,137,NOT_FOUND,UNKNOWN
+219,smokeStackPlastics,137,NOT_FOUND,UNKNOWN
+220,tile_MetalPanel2,137,NOT_FOUND,UNKNOWN
+221,tile_UnderwaterVegetation1,137,NOT_FOUND,UNKNOWN
+222,tile_UnderwaterVegetation2,137,NOT_FOUND,UNKNOWN
+223,tile_ceramicTiles1,137,NOT_FOUND,UNKNOWN
+224,tile_ceramicTiles2,137,NOT_FOUND,UNKNOWN
+225,tile_rust,137,NOT_FOUND,UNKNOWN
+226,tile_smokeStack,137,NOT_FOUND,UNKNOWN
+227,tile_wires_electricPanel,137,NOT_FOUND,UNKNOWN
+228,tile_wreck_Plywood,137,NOT_FOUND,UNKNOWN
+229,tile_wreck_Plywood2,137,NOT_FOUND,UNKNOWN
+230,tile_wreck_fiberGlass,137,NOT_FOUND,UNKNOWN
+231,tile_wreck_fiberGlassBlue,137,NOT_FOUND,UNKNOWN
+232,tile_wreck_fiberGlassRed,137,NOT_FOUND,UNKNOWN
+233,tile_wreck_ledge13,137,NOT_FOUND,UNKNOWN
+234,tile_wreck_metal1,137,NOT_FOUND,UNKNOWN
+235,tile_wreck_metal2,137,NOT_FOUND,UNKNOWN
+236,tile_wreck_metal3,137,NOT_FOUND,UNKNOWN
+237,tile_wreck_metal4,137,NOT_FOUND,UNKNOWN
+238,tile_wreck_metal5,137,NOT_FOUND,UNKNOWN
+239,tile_wreck_metal6,137,NOT_FOUND,UNKNOWN
+240,tile_wreck_metal7,137,NOT_FOUND,UNKNOWN
+241,tile_wreck_metal8,137,NOT_FOUND,UNKNOWN
+242,tile_wreck_metalRope1,137,NOT_FOUND,UNKNOWN
+243,tile_wreck_perforatedMeta,137,NOT_FOUND,UNKNOWN
+244,tile_wreck_wood,137,NOT_FOUND,UNKNOWN
+245,tile_wreck_woodOrnaments,137,NOT_FOUND,UNKNOWN
+246,tile_wreck_woodPlanks1,137,NOT_FOUND,UNKNOWN
+247,tile_wreck_woodPlanks2,137,NOT_FOUND,UNKNOWN
+248,tile_wreck_woodPlanks3,137,NOT_FOUND,UNKNOWN
+249,tile_wreck_woodPlanks4,137,NOT_FOUND,UNKNOWN
+250,tile_wreck_woodPlanks5,137,NOT_FOUND,UNKNOWN
+251,Skeleton01,137,NOT_FOUND,UNKNOWN
+252,Skeleton02,137,NOT_FOUND,UNKNOWN
+253,Ajuga_MAT,3136,,Shader
+254,DriftWood_Decal_MAT,137,NOT_FOUND,UNKNOWN
+255,Driftwood_Pile_MAT,137,NOT_FOUND,UNKNOWN
+256,Grass_MAT,3136,,Shader
+257,Ground_Cover_MAT,3136,,Shader
+258,Terrain_sand_wet,137,NOT_FOUND,UNKNOWN
+259,Compass_MAT,3052,,Shader
+260,Duct_Tape_MAT,137,NOT_FOUND,UNKNOWN
+261,Flare_Gun_MAT,137,NOT_FOUND,UNKNOWN
+262,Labelmaker_MAT,137,NOT_FOUND,UNKNOWN
+263,Lantern_MAT,3106,,Shader
+264,Paddle_MAT,137,NOT_FOUND,UNKNOWN
+265,Torch_MAT,137,NOT_FOUND,UNKNOWN
+266,Verlet Rope,137,NOT_FOUND,UNKNOWN
+267,final____Default1,3136,,Shader
+268,Boar_MAT,3136,,Shader
+269,seagull,3136,,Shader
+270,Rope_DIFF,137,NOT_FOUND,UNKNOWN
+271,Alocasia_DIFF,3136,,Shader
+272,BananaPlant_DIFF,3136,,Shader
+273,Bush_Leafs_MAT,3136,,Shader
+274,Bush_Tile_MAT,3136,,Shader
+275,Ceriman_leafs,3136,,Shader
+276,BARK,137,NOT_FOUND,UNKNOWN
+277,BRANCH,3136,,Shader
+278,PALM_BARK_DIFF,3136,,Shader
+279,PALM_LEAF_DIFF,3136,,Shader
+280,Yucca_PACK,3136,,Shader
+281,Particle_Blood_Dust,3058,,Shader
+282,Particle_Blood_Spray,3058,,Shader
+283,Particle_Coconut,3070,,Shader
+284,Particle_Feather,3119,,Shader
+285,Particle_Leaf,3088,,Shader
+286,Particle_Splash,3119,,Shader
+287,Particle_Splash_2,3119,,Shader
+288,Particle_Steam,3119,,Shader
+289,Particle_Wood_Chips_1,3131,,Shader
+290,fx_distirtion,3150,,Shader
+291,Flare_Flare,3119,,Shader
+292,Fly,3131,,Shader
+293,Oil_Splash,3056,,Shader
+294,StaticSmoke,3119,,Shader
+295,Water_Splash_1,3119,,Shader
+296,Water_Splash_2,3119,,Shader
+297,Particle_Animal_Dust,3119,,Shader
+298,Beepi_Watch_MAT,137,NOT_FOUND,UNKNOWN
+299,Beepi_Watch_Screen_MAT,3116,,Shader
+300,Im Fell SDF_DropShadow,158,NOT_FOUND,UNKNOWN
+301,Im Fell SDF_HUD,158,NOT_FOUND,UNKNOWN
+302,LiberationSans SDF - Drop Shadow,185,NOT_FOUND,UNKNOWN
+303,LiberationSans SDF - Outline,185,NOT_FOUND,UNKNOWN
+304,Metropolis-Bold SDF_DropShadow,158,NOT_FOUND,UNKNOWN
+305,Metropolis-Regular SDF_DropShadow,158,NOT_FOUND,UNKNOWN
+306,Metropolis-SemiBold SDF_DropShadow,158,NOT_FOUND,UNKNOWN
+307,Metropolis-SemiBold SDF_HUD,158,NOT_FOUND,UNKNOWN
+308,CPG_GREY,6,NOT_FOUND,UNKNOWN
+309,CPG_ORTHO,6,NOT_FOUND,UNKNOWN
+310,CPG_X_AXIS,6,NOT_FOUND,UNKNOWN
+311,CPG_Y_AXIS,6,NOT_FOUND,UNKNOWN
+312,CPG_Z_AXIS,6,NOT_FOUND,UNKNOWN
+313,Origin_Cube_OMat,3101,,Shader
+314,X_CylinderX_XMat,3101,,Shader
+315,Y_CylinderY_YMat,3101,,Shader
+316,Z_CylinderZ_ZMat,3101,,Shader
+317,SnapToObjectUIMaterial_Fill,3107,,Shader
+318,SnapToObjectUIMaterial_Line,3107,,Shader
+319,MetalPanel_4,137,NOT_FOUND,UNKNOWN
+320,Arm_Decal_Bandage,137,NOT_FOUND,UNKNOWN
+321,Arm_Decal_Blood,3103,,Shader
+322,Arm_Decal_Poison,3103,,Shader
+323,Arm_Decal_Salve,3103,,Shader
+324,Floor,137,NOT_FOUND,UNKNOWN
+325,Head,3114,,Shader
+326,Left,3156,,Shader
+327,Main,3055,,Shader
+328,Right,3156,,Shader
+329,Crafting_Smoke,138,NOT_FOUND,UNKNOWN
+330,Fire_Sprites_v1,138,NOT_FOUND,UNKNOWN
+331,Glow_Mat,138,NOT_FOUND,UNKNOWN
+332,Oil_Fire_v2,3055,,Shader
+333,Smoke_Light,3057,,Shader
+334,Splash_Mat_v3,3151,,Shader
+335,HighlightingOpaque_MAT,3139,,Shader
+336,HighlightingTransparent_MAT,3124,,Shader
+337,Font Material,10101,NOT_FOUND,UNKNOWN
+338,Font Material,10101,NOT_FOUND,UNKNOWN
+339,Font Material,10101,NOT_FOUND,UNKNOWN
+340,Font Material,10101,NOT_FOUND,UNKNOWN
+341,Font Material,10101,NOT_FOUND,UNKNOWN
+342,Font Material,10101,NOT_FOUND,UNKNOWN
+343,Font Material,10101,NOT_FOUND,UNKNOWN
+344,Font Material,10101,NOT_FOUND,UNKNOWN
+345,Font Material,10101,NOT_FOUND,UNKNOWN
+346,Font Material,10101,NOT_FOUND,UNKNOWN
+347,Font Material,10101,NOT_FOUND,UNKNOWN
+348,Font Material,10101,NOT_FOUND,UNKNOWN
+349,Font Material,10101,NOT_FOUND,UNKNOWN
+350,Font Material,10101,NOT_FOUND,UNKNOWN
+351,Font Material,10101,NOT_FOUND,UNKNOWN
+352,Font Material,10101,NOT_FOUND,UNKNOWN
+353,Font Material,10101,NOT_FOUND,UNKNOWN
+354,Font Material,10101,NOT_FOUND,UNKNOWN
+355,Font Material,10101,NOT_FOUND,UNKNOWN
+356,Font Material,10101,NOT_FOUND,UNKNOWN
+357,Font Material,10101,NOT_FOUND,UNKNOWN
+358,Font Material,10101,NOT_FOUND,UNKNOWN
+359,Font Material,10101,NOT_FOUND,UNKNOWN
+360,Font Material,10101,NOT_FOUND,UNKNOWN
+361,Font Material,10101,NOT_FOUND,UNKNOWN
+362,Font Material,10101,NOT_FOUND,UNKNOWN
+363,Font Material,10101,NOT_FOUND,UNKNOWN
+364,Font Material,10101,NOT_FOUND,UNKNOWN
+365,Font Material,10101,NOT_FOUND,UNKNOWN
+366,Font Material,10101,NOT_FOUND,UNKNOWN
+367,Font Material,10101,NOT_FOUND,UNKNOWN
+368,Font Material,10101,NOT_FOUND,UNKNOWN
+369,Font Material,10101,NOT_FOUND,UNKNOWN
+370,Font Material,10101,NOT_FOUND,UNKNOWN
+371,eyes_mat,137,NOT_FOUND,UNKNOWN
+372,TextMeshPro/Sprite,3140,,Shader
+373,LiberationSans SDF Material,185,NOT_FOUND,UNKNOWN
+374,LiberationSans SDF Material,185,NOT_FOUND,UNKNOWN
+375,Im Fell SDF Material,158,NOT_FOUND,UNKNOWN
+376,ArmyStamp SDF Material,3155,,Shader
+377,SHIPWRECK_7A_Impostor,3102,,Shader
+378,FICUS_3_Impostor,3102,,Shader
+379,PALM_2_Impostor,3102,,Shader
+380,FICUS_TREE_2_Impostor,3102,,Shader
+381,SHIPPING_CONTAINER_3_Impostor,3102,,Shader
+382,FICUS_TREE_Impostor,3102,,Shader
+383,VEHICLE_MOTOR_Impostor,3102,,Shader
+384,FICUS_1_Impostor,3102,,Shader
+385,PLANEWRECK_1A_Impostor,3102,,Shader
+386,CLIFF_001_Impostor,3102,,Shader
+387,COCA_BUSH_Impostor,3102,,Shader
+388,SHIPWRECK_2A_Impostor,3102,,Shader
+389,PINE_3_Impostor,3102,,Shader
+390,TextMeshPro/Sprite,3140,,Shader
+391,PINE_1_Impostor,3102,,Shader
+392,RAFT_BASE_BALLS_Impostor,3102,,Shader
+393,SHIPWRECK_12A_Impostor,3102,,Shader
+394,CLIFF_002_Impostor,3102,,Shader
+395,RAFT_BASE_WOOD_BUNDLE_Impostor,3102,,Shader
+396,BIGROCK_5_Impostor,3102,,Shader
+397,BIGROCK_2_Impostor,3102,,Shader
+398,CLIFF_003_Impostor,3102,,Shader
+399,SHIPPING_CONTAINER_2_Impostor,3102,,Shader
+400,SHIPWRECK_5A_Impostor,3102,,Shader
+401,RAFT_BASE_TYRE_Impostor,3102,,Shader
+402,SHIPWRECK_8A_Impostor,3102,,Shader
+403,SHIPPING_CONTAINER_DOOR_STATIC_Impostor,3102,,Shader
+404,RAFT_FLOOR_CORRUGATED_Impostor,3102,,Shader
+405,Im Fell FIGS Supplemental SDF Material,158,NOT_FOUND,UNKNOWN
+406,TYRE_PILE_Impostor,3102,,Shader
+407,VEHICLE_LIFERAFT_Impostor,3102,,Shader
+408,SHIPPING_CONTAINER_1_Impostor,3102,,Shader
+409,RAFT_FLOOR_DRIFTWOOD_Impostor,3102,,Shader
+410,PINE_2_Impostor,3102,,Shader
+411,PALM_4_Impostor,3102,,Shader
+412,SeaFort_1_Impostor,3102,,Shader
+413,SHIPWRECK_6A_Impostor,3102,,Shader
+414,BIGROCK_1_Impostor,3102,,Shader
+415,AIRCRAFT_Impostor_Impostor,3102,,Shader
+416,RAFT_BASE_BARREL_Impostor,3102,,Shader
+417,CLIFF_004_Impostor,3102,,Shader
+418,TextMeshPro/Sprite,3140,,Shader
+419,VEHICLE_HELICOPTER_Impostor,3102,,Shader
+420,PALM_1_Impostor,3102,,Shader
+421,CLIFF_005_Impostor,3102,,Shader
+422,PALM_3_Impostor,3102,,Shader
+423,RAFT_FLOOR_PLANK_Impostor,3102,,Shader
+424,MISSION_SHARK_Impostor,3102,,Shader
+425,RAFT_FLOOR_CLAY_Impostor,3102,,Shader
+426,FICUS_2_Impostor,3102,,Shader
+427,RAFT_ANCHOR_Impostor,3102,,Shader
+428,BARREL_PILE_Impostor,3102,,Shader
+429,SHIPWRECK_13A_Impostor,3102,,Shader
+430,SHIPWRECK_3A_Impostor,3102,,Shader
+431,OpenSans-Bold Cyrillic SDF Material,158,NOT_FOUND,UNKNOWN
+432,BIGROCK_3_Impostor,3102,,Shader
+433,MISSION_SQUID_Impostor,3102,,Shader
+434,BIGROCK_4_Impostor,3102,,Shader
+435,RAFT_FLOOR_WOOD_Impostor,3102,,Shader
+436,SHIPPING_CONTAINER_PANEL_STATIC_Impostor,3102,,Shader
+437,CLIFF_006_Impostor,3102,,Shader
+438,SeaFort_2_Impostor,3102,,Shader
+439,SFDigitalReadout-Heavy SDF Material,158,NOT_FOUND,UNKNOWN

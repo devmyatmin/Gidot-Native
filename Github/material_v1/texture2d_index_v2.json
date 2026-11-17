@@ -1,0 +1,5994 @@
+[
+  {
+    "path_id": 440,
+    "name": "SFDigitalReadout-Heavy SDF Atlas"
+  },
+  {
+    "path_id": 441,
+    "name": "Default-Particle"
+  },
+  {
+    "path_id": 442,
+    "name": "UISprite"
+  },
+  {
+    "path_id": 443,
+    "name": "UIMask"
+  },
+  {
+    "path_id": 444,
+    "name": "WorldMap_Icon_Mission"
+  },
+  {
+    "path_id": 445,
+    "name": "tile_wreck_fiberGlassRed_DIFF"
+  },
+  {
+    "path_id": 446,
+    "name": "RAWHIDE"
+  },
+  {
+    "path_id": 447,
+    "name": "BUILDING_WALL_WINDOW-DRIFTWOOD"
+  },
+  {
+    "path_id": 448,
+    "name": "BARREL"
+  },
+  {
+    "path_id": 449,
+    "name": "ANIMALS_FISH-LION"
+  },
+  {
+    "path_id": 450,
+    "name": "TOOLS_KNIFE-REFINED"
+  },
+  {
+    "path_id": 451,
+    "name": "tile_wreck_driftwoodOriz_NRM"
+  },
+  {
+    "path_id": 452,
+    "name": "FICUS_TREE_2_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 453,
+    "name": "TYRE PILE"
+  },
+  {
+    "path_id": 454,
+    "name": "survivor_female_hair_ao"
+  },
+  {
+    "path_id": 455,
+    "name": "Radial_Navigate_Right"
+  },
+  {
+    "path_id": 456,
+    "name": "BIGROCK 1"
+  },
+  {
+    "path_id": 457,
+    "name": "Speargun_SPEC"
+  },
+  {
+    "path_id": 458,
+    "name": "FOOD_FRUIT-YUCCA"
+  },
+  {
+    "path_id": 459,
+    "name": "Mission_Trophy_Head_SPEC"
+  },
+  {
+    "path_id": 460,
+    "name": "BUILDING_ROOF_CAP-STEEL"
+  },
+  {
+    "path_id": 461,
+    "name": "Guava_DIFF"
+  },
+  {
+    "path_id": 462,
+    "name": "BUILDING_STEPS-WOOD"
+  },
+  {
+    "path_id": 463,
+    "name": "Smoke_Sprites_Dense"
+  },
+  {
+    "path_id": 464,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 465,
+    "name": "tile_wreck_metal4_SPEC"
+  },
+  {
+    "path_id": 466,
+    "name": "FOOD_COCONUT_DRINKABLE"
+  },
+  {
+    "path_id": 467,
+    "name": "drowning"
+  },
+  {
+    "path_id": 468,
+    "name": "Ground_Cover_DIFF"
+  },
+  {
+    "path_id": 469,
+    "name": "Refined_Knife_DIFF"
+  },
+  {
+    "path_id": 470,
+    "name": "Squid_SPEC"
+  },
+  {
+    "path_id": 471,
+    "name": "Flashlight Cookie"
+  },
+  {
+    "path_id": 472,
+    "name": "Compass_DIFF"
+  },
+  {
+    "path_id": 473,
+    "name": "SHIPWRECK_5A_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 474,
+    "name": "tile_carrier_rail_DIFF"
+  },
+  {
+    "path_id": 475,
+    "name": "RAFT_FLOOR_CLAY_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 476,
+    "name": "tile_wreck_metal3_DIFF"
+  },
+  {
+    "path_id": 477,
+    "name": "tile_smokeStack_DIFF"
+  },
+  {
+    "path_id": 478,
+    "name": "BIGROCK_5_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 479,
+    "name": "PART FILTER"
+  },
+  {
+    "path_id": 480,
+    "name": "Small_Albedo"
+  },
+  {
+    "path_id": 481,
+    "name": "BARREL_PILE_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 482,
+    "name": "survivor_torso_normal"
+  },
+  {
+    "path_id": 483,
+    "name": "Refined_Axe_DIFF"
+  },
+  {
+    "path_id": 484,
+    "name": "BUILDING_RAFT_BASE-WOOD"
+  },
+  {
+    "path_id": 485,
+    "name": "BUILDING_RAFT_BASE-BARREL"
+  },
+  {
+    "path_id": 486,
+    "name": "ANIMALS_FISH-COD"
+  },
+  {
+    "path_id": 487,
+    "name": "SHIPWRECK_3A_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 488,
+    "name": "Goblin_Shark_DIFF"
+  },
+  {
+    "path_id": 489,
+    "name": "shelter_crate_nrm"
+  },
+  {
+    "path_id": 490,
+    "name": "TOOLS_FLASHLIGHT"
+  },
+  {
+    "path_id": 491,
+    "name": "SHIPWRECK_5A"
+  },
+  {
+    "path_id": 492,
+    "name": "TOOLS_AXE-REFINED"
+  },
+  {
+    "path_id": 493,
+    "name": "Mission_Trophy_DIFF"
+  },
+  {
+    "path_id": 494,
+    "name": "FOOD_POTATO"
+  },
+  {
+    "path_id": 495,
+    "name": "tile_wreck_driftwood_DIFF"
+  },
+  {
+    "path_id": 496,
+    "name": "BUILDING_DOOR-CONTAINER"
+  },
+  {
+    "path_id": 497,
+    "name": "Squid_NRM"
+  },
+  {
+    "path_id": 498,
+    "name": "TOOLS_SPEARGUN"
+  },
+  {
+    "path_id": 499,
+    "name": "CLIFF 5"
+  },
+  {
+    "path_id": 500,
+    "name": "IslandBase"
+  },
+  {
+    "path_id": 501,
+    "name": "decal2_UnderwaterVegetation_SPEC"
+  },
+  {
+    "path_id": 502,
+    "name": "Bow_DIFF"
+  },
+  {
+    "path_id": 503,
+    "name": "Potato_DIFF"
+  },
+  {
+    "path_id": 504,
+    "name": "BUILDING_FOUNDATION-DRIFTWOOD"
+  },
+  {
+    "path_id": 505,
+    "name": "RubberDuck_Normal"
+  },
+  {
+    "path_id": 506,
+    "name": "Compass_NRM"
+  },
+  {
+    "path_id": 507,
+    "name": "BUILDING_WALL-CORRUGATED"
+  },
+  {
+    "path_id": 508,
+    "name": "survivor_upperBody_normal"
+  },
+  {
+    "path_id": 509,
+    "name": "SHIPPING_CONTAINER_PANEL_STATIC_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 510,
+    "name": "BUILDING_WALL_HALF-PLANK"
+  },
+  {
+    "path_id": 511,
+    "name": "YUCCA"
+  },
+  {
+    "path_id": 512,
+    "name": "CRAFTING_CLOTH"
+  },
+  {
+    "path_id": 513,
+    "name": "Flashlight_DIFF"
+  },
+  {
+    "path_id": 514,
+    "name": "PALM_1_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 515,
+    "name": "Crate_SPEC"
+  },
+  {
+    "path_id": 516,
+    "name": "RAFT_FLOOR_PLANK_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 517,
+    "name": "CLIFF_002_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 518,
+    "name": "TOOLS_AIRTANK"
+  },
+  {
+    "path_id": 519,
+    "name": "CRAFTING_CLOTH"
+  },
+  {
+    "path_id": 520,
+    "name": "PALM_1_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 521,
+    "name": "Difficulty_Hat_Easy_DIFF"
+  },
+  {
+    "path_id": 522,
+    "name": "HammerHead_AO"
+  },
+  {
+    "path_id": 523,
+    "name": "COMPASS"
+  },
+  {
+    "path_id": 524,
+    "name": "binocular_view_blur_mask"
+  },
+  {
+    "path_id": 525,
+    "name": "FICUS_2_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 526,
+    "name": "FICUS_1_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 527,
+    "name": "tile_carrier_floor_NRM"
+  },
+  {
+    "path_id": 528,
+    "name": "Coconut_NRM"
+  },
+  {
+    "path_id": 529,
+    "name": "CRAFTING_FUEL_STILL"
+  },
+  {
+    "path_id": 530,
+    "name": "Watch_NRM"
+  },
+  {
+    "path_id": 531,
+    "name": "TOOLS_AXE-REFINED"
+  },
+  {
+    "path_id": 532,
+    "name": "Spyglass_DIFF"
+  },
+  {
+    "path_id": 533,
+    "name": "Difficulty_Hat_Easy_NRM"
+  },
+  {
+    "path_id": 534,
+    "name": "VEHICLE_MOTOR_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 535,
+    "name": "CRAFTING_LOG-WOOD"
+  },
+  {
+    "path_id": 536,
+    "name": "Whale_Shark_SPEC"
+  },
+  {
+    "path_id": 537,
+    "name": "CRAFTING_STICK-DRIFTWOOD"
+  },
+  {
+    "path_id": 538,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 539,
+    "name": "PATROL - MARLIN"
+  },
+  {
+    "path_id": 540,
+    "name": "ClayRock_DIFF"
+  },
+  {
+    "path_id": 541,
+    "name": "SHIPWRECK_12A_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 542,
+    "name": "FOOD_COCONUT_HALF"
+  },
+  {
+    "path_id": 543,
+    "name": "SHARK - TIGER"
+  },
+  {
+    "path_id": 544,
+    "name": "ANIMALS_FISH-ARCHER"
+  },
+  {
+    "path_id": 545,
+    "name": "MEDICAL_SUNSCREEN"
+  },
+  {
+    "path_id": 546,
+    "name": "TOOLS_HAMMER-REFINED"
+  },
+  {
+    "path_id": 547,
+    "name": "Ducttape_SPEC"
+  },
+  {
+    "path_id": 548,
+    "name": "TOOLS_SPEARGUN_ARROW"
+  },
+  {
+    "path_id": 549,
+    "name": "survivor_beard_albedo"
+  },
+  {
+    "path_id": 550,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 551,
+    "name": "SNAKE"
+  },
+  {
+    "path_id": 552,
+    "name": "survivor_female_body_normal"
+  },
+  {
+    "path_id": 553,
+    "name": "BUILDING_FOUNDATION_WEDGE-PLANK"
+  },
+  {
+    "path_id": 554,
+    "name": "ficus1"
+  },
+  {
+    "path_id": 555,
+    "name": "Crafter_Repeat_Icon"
+  },
+  {
+    "path_id": 556,
+    "name": "ANIMALS_FISH-SARDINE"
+  },
+  {
+    "path_id": 557,
+    "name": "PALM_LEAF_brown_NRM"
+  },
+  {
+    "path_id": 558,
+    "name": "Roofs"
+  },
+  {
+    "path_id": 559,
+    "name": "Mission_Trophy_Head_DIFF"
+  },
+  {
+    "path_id": 560,
+    "name": "Driftwood_SPEC"
+  },
+  {
+    "path_id": 561,
+    "name": "Sticks_DIFF"
+  },
+  {
+    "path_id": 562,
+    "name": "RAFT_FLOOR_DRIFTWOOD_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 563,
+    "name": "SCRAP_CORRUGATED"
+  },
+  {
+    "path_id": 564,
+    "name": "FOOD_CAN_BEANS"
+  },
+  {
+    "path_id": 565,
+    "name": "TOOLS_SPEAR-REFINED"
+  },
+  {
+    "path_id": 566,
+    "name": "TOOLS_LABEL_MAKER"
+  },
+  {
+    "path_id": 567,
+    "name": "BUILDING_WALL-CONTAINER"
+  },
+  {
+    "path_id": 568,
+    "name": "shipwreck_metal_rust1_DIFF"
+  },
+  {
+    "path_id": 569,
+    "name": "Classification_Medical"
+  },
+  {
+    "path_id": 570,
+    "name": "TOOLS_HOE-CRUDE"
+  },
+  {
+    "path_id": 571,
+    "name": "Cliffs1_OCC"
+  },
+  {
+    "path_id": 572,
+    "name": "BUILDING_FLOOR-WOOD"
+  },
+  {
+    "path_id": 573,
+    "name": "survivor_head_albedo"
+  },
+  {
+    "path_id": 574,
+    "name": "TROPHY-MEGALODON"
+  },
+  {
+    "path_id": 575,
+    "name": "CONTAINER_SHELF"
+  },
+  {
+    "path_id": 576,
+    "name": "tile_debris_SPEC"
+  },
+  {
+    "path_id": 577,
+    "name": "RAFT_ANCHOR_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 578,
+    "name": "Whale_Shark_NRM"
+  },
+  {
+    "path_id": 579,
+    "name": "Marlin_NRM"
+  },
+  {
+    "path_id": 580,
+    "name": "BUILDING_RAFT_FLOOR-PLANK"
+  },
+  {
+    "path_id": 581,
+    "name": "FUELCAN"
+  },
+  {
+    "path_id": 582,
+    "name": "shelter_crate_spec"
+  },
+  {
+    "path_id": 583,
+    "name": "COCA_BUSH_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 584,
+    "name": "SHIPWRECK_13A"
+  },
+  {
+    "path_id": 585,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 586,
+    "name": "BUILDING_FLOOR-CORRUGATED"
+  },
+  {
+    "path_id": 587,
+    "name": "Dead_Plant_SPEC"
+  },
+  {
+    "path_id": 588,
+    "name": "tile_wreck_wood_DIFF"
+  },
+  {
+    "path_id": 589,
+    "name": "Crafting_Subcategory_Highlight"
+  },
+  {
+    "path_id": 590,
+    "name": "BUILDING_ROOF_MIDDLE-WOOD"
+  },
+  {
+    "path_id": 591,
+    "name": "Sticks_NRM"
+  },
+  {
+    "path_id": 592,
+    "name": "Paddle_NRM"
+  },
+  {
+    "path_id": 593,
+    "name": "MEDICAL_BANDAGE"
+  },
+  {
+    "path_id": 594,
+    "name": "Machete_NRM"
+  },
+  {
+    "path_id": 595,
+    "name": "BIGROCK 3"
+  },
+  {
+    "path_id": 596,
+    "name": "Arches"
+  },
+  {
+    "path_id": 597,
+    "name": "BIGROCK 2"
+  },
+  {
+    "path_id": 598,
+    "name": "PATROL - GREAT WHITE"
+  },
+  {
+    "path_id": 599,
+    "name": "TOOLS_SPEARGUN_ARROW"
+  },
+  {
+    "path_id": 600,
+    "name": "Boba_DIFF"
+  },
+  {
+    "path_id": 601,
+    "name": "VEHICLE_LIFERAFT_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 602,
+    "name": "SHIPWRECK_2A_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 603,
+    "name": "CLIFF 6"
+  },
+  {
+    "path_id": 604,
+    "name": "ANIMALS_FISH-DISCUS"
+  },
+  {
+    "path_id": 605,
+    "name": "BananaPlant_PACK"
+  },
+  {
+    "path_id": 606,
+    "name": "tile_wreck_metalRope1_NRM"
+  },
+  {
+    "path_id": 607,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 608,
+    "name": "BUILDING_FARMING_PLOT-WOOD"
+  },
+  {
+    "path_id": 609,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 610,
+    "name": "Mission_Trophy_NRM"
+  },
+  {
+    "path_id": 611,
+    "name": "TOOLS_JERRYCAN"
+  },
+  {
+    "path_id": 612,
+    "name": "CRAFTING_FIRE_SPIT"
+  },
+  {
+    "path_id": 613,
+    "name": "FOOD_COCONUT_GREEN"
+  },
+  {
+    "path_id": 614,
+    "name": "Crosshair_Interact"
+  },
+  {
+    "path_id": 615,
+    "name": "SHIPPING_CONTAINER_3_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 616,
+    "name": "BUILDING_FLOOR_WEDGE-DRIFTWOOD"
+  },
+  {
+    "path_id": 617,
+    "name": "RAFT_BASE_BALLS_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 618,
+    "name": "Lantern_DIFF"
+  },
+  {
+    "path_id": 619,
+    "name": "BUILDING_FARMING_PLOT-PLANK"
+  },
+  {
+    "path_id": 620,
+    "name": "CLIFF_004_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 621,
+    "name": "Flashlight_EMS"
+  },
+  {
+    "path_id": 622,
+    "name": "tile_wreck_metal2_NRM"
+  },
+  {
+    "path_id": 623,
+    "name": "SeafortWallLeaks_SPEC"
+  },
+  {
+    "path_id": 624,
+    "name": "BUILDING_FLOOR_WEDGE-WOOD"
+  },
+  {
+    "path_id": 625,
+    "name": "Particle_Coconut"
+  },
+  {
+    "path_id": 626,
+    "name": "tile_wreck_metal6_DIFF"
+  },
+  {
+    "path_id": 627,
+    "name": "tile_wreck_woodPlanks3_DIFF"
+  },
+  {
+    "path_id": 628,
+    "name": "CLIFF_003_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 629,
+    "name": "Terrain_Sand_Wet_DISP"
+  },
+  {
+    "path_id": 630,
+    "name": "BIGROCK_4_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 631,
+    "name": "CLIFF 3"
+  },
+  {
+    "path_id": 632,
+    "name": "survivor_female_hair_normal"
+  },
+  {
+    "path_id": 633,
+    "name": "Stone_Diff"
+  },
+  {
+    "path_id": 634,
+    "name": "survivor_torso_albedo_sunburn"
+  },
+  {
+    "path_id": 635,
+    "name": "tile_wreck_Plywood_NRM"
+  },
+  {
+    "path_id": 636,
+    "name": "bat_s"
+  },
+  {
+    "path_id": 637,
+    "name": "CRAFTING_LOG-WOOD"
+  },
+  {
+    "path_id": 638,
+    "name": "CLIFF_005_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 639,
+    "name": "COD_SPEC"
+  },
+  {
+    "path_id": 640,
+    "name": "VisualEffects_Trnsp"
+  },
+  {
+    "path_id": 641,
+    "name": "SeaFort_2_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 642,
+    "name": "MEDICAL_ALOE"
+  },
+  {
+    "path_id": 643,
+    "name": "CLIFF_005_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 644,
+    "name": "Tarp_Cloth_DIFF"
+  },
+  {
+    "path_id": 645,
+    "name": "MetalFloorPanels_NRM"
+  },
+  {
+    "path_id": 646,
+    "name": "TOOLS_LANTERN"
+  },
+  {
+    "path_id": 647,
+    "name": "tile_paint_detail_DIFF"
+  },
+  {
+    "path_id": 648,
+    "name": "FOOD_COCONUT_FLASK"
+  },
+  {
+    "path_id": 649,
+    "name": "BUILDING_RAFT_BASE-BUOYBALLS"
+  },
+  {
+    "path_id": 650,
+    "name": "ROCK"
+  },
+  {
+    "path_id": 651,
+    "name": "tile_PALM_BARK_DIFF"
+  },
+  {
+    "path_id": 652,
+    "name": "Ducttape_NRM"
+  },
+  {
+    "path_id": 653,
+    "name": "Coconut_Flask_NRM"
+  },
+  {
+    "path_id": 654,
+    "name": "LifeRaft_NRM"
+  },
+  {
+    "path_id": 655,
+    "name": "SHIPWRECK_2A_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 656,
+    "name": "LIONFISH_SPEC"
+  },
+  {
+    "path_id": 657,
+    "name": "tile_wreck_perforatedMetal_SPEC"
+  },
+  {
+    "path_id": 658,
+    "name": "BuoyBall_NRM"
+  },
+  {
+    "path_id": 659,
+    "name": "FOOD_MEAT-LARGE"
+  },
+  {
+    "path_id": 660,
+    "name": "Small_Normal"
+  },
+  {
+    "path_id": 661,
+    "name": "FOOD_COCONUT_HALF"
+  },
+  {
+    "path_id": 662,
+    "name": "TOOLS_BOW-CRUDE"
+  },
+  {
+    "path_id": 663,
+    "name": "CRAFTING_STICK-DRIFTWOOD"
+  },
+  {
+    "path_id": 664,
+    "name": "RubberDuck_Specular"
+  },
+  {
+    "path_id": 665,
+    "name": "Disort_NM"
+  },
+  {
+    "path_id": 666,
+    "name": "CRUDE FISHING SPEAR"
+  },
+  {
+    "path_id": 667,
+    "name": "DS4_Glyphs_Atlas"
+  },
+  {
+    "path_id": 668,
+    "name": "PINE 2"
+  },
+  {
+    "path_id": 669,
+    "name": "MetalFloor_NRM"
+  },
+  {
+    "path_id": 670,
+    "name": "CLIFF 4"
+  },
+  {
+    "path_id": 671,
+    "name": "CRAFTING_CLAY"
+  },
+  {
+    "path_id": 672,
+    "name": "SeaPlanePedals_NRM"
+  },
+  {
+    "path_id": 673,
+    "name": "Boar_NRM"
+  },
+  {
+    "path_id": 674,
+    "name": "IslandBase2"
+  },
+  {
+    "path_id": 675,
+    "name": "SeaFort_3"
+  },
+  {
+    "path_id": 676,
+    "name": "TOOLS_TORCH"
+  },
+  {
+    "path_id": 677,
+    "name": "BUILDING_DOOR-DRIFTWOOD"
+  },
+  {
+    "path_id": 678,
+    "name": "BUILDING_FARMING_PLOT-CORRUGATED"
+  },
+  {
+    "path_id": 679,
+    "name": "STATION_PLANK"
+  },
+  {
+    "path_id": 680,
+    "name": "BUILDING_ROOF_CORNER-STEEL"
+  },
+  {
+    "path_id": 681,
+    "name": "MEDICAL_BANDAGE"
+  },
+  {
+    "path_id": 682,
+    "name": "tile_carrier_rail_SPEC"
+  },
+  {
+    "path_id": 683,
+    "name": "CLIFF_003_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 684,
+    "name": "WATER SKIN"
+  },
+  {
+    "path_id": 685,
+    "name": "Net_DIFF"
+  },
+  {
+    "path_id": 686,
+    "name": "Smoke_D"
+  },
+  {
+    "path_id": 687,
+    "name": "FOOD_WATER_SKIN"
+  },
+  {
+    "path_id": 688,
+    "name": "BUILDING_WALL_WINDOW-PLANK"
+  },
+  {
+    "path_id": 689,
+    "name": "SCRAP_BUOYANT-TYRES"
+  },
+  {
+    "path_id": 690,
+    "name": "Particle_Splash_2"
+  },
+  {
+    "path_id": 691,
+    "name": "Mission_Trophy_Head_NRM"
+  },
+  {
+    "path_id": 692,
+    "name": "tile_wreck_metal7_DIFF"
+  },
+  {
+    "path_id": 693,
+    "name": "Seafort_Decals_DIFF"
+  },
+  {
+    "path_id": 694,
+    "name": "LifeRaft_AO"
+  },
+  {
+    "path_id": 695,
+    "name": "Particle_Steam"
+  },
+  {
+    "path_id": 696,
+    "name": "SNAKE SPAWNER"
+  },
+  {
+    "path_id": 697,
+    "name": "Stick_Trans"
+  },
+  {
+    "path_id": 698,
+    "name": "TOOLS_SPEARGUN_ARROW-CARBON"
+  },
+  {
+    "path_id": 699,
+    "name": "night_snake_normal"
+  },
+  {
+    "path_id": 700,
+    "name": "survivor_female_body_spec"
+  },
+  {
+    "path_id": 701,
+    "name": "Fire_Sprites_v1"
+  },
+  {
+    "path_id": 702,
+    "name": "TOOLS_SPEARGUN-CARBON"
+  },
+  {
+    "path_id": 703,
+    "name": "FOOD_MEAT-LARGE-SPOILED"
+  },
+  {
+    "path_id": 704,
+    "name": "Small_AO"
+  },
+  {
+    "path_id": 705,
+    "name": "LOCKER_NRM"
+  },
+  {
+    "path_id": 706,
+    "name": "CRAFTING_STICK-WOOD"
+  },
+  {
+    "path_id": 707,
+    "name": "SeaFort_2_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 708,
+    "name": "survivor_female_body_dirty_albedo"
+  },
+  {
+    "path_id": 709,
+    "name": "tile_wreck_woodPlanks4_SPEC"
+  },
+  {
+    "path_id": 710,
+    "name": "CRAFTING_LEAVES-FIBROUS"
+  },
+  {
+    "path_id": 711,
+    "name": "SHIPWRECK_6A_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 712,
+    "name": "BUILDING_DOOR-CORRUGATED"
+  },
+  {
+    "path_id": 713,
+    "name": "BUILDING_ARCH-DRIFTWOOD"
+  },
+  {
+    "path_id": 714,
+    "name": "HOG_DIFF"
+  },
+  {
+    "path_id": 715,
+    "name": "ANIMALS_SEAGULL"
+  },
+  {
+    "path_id": 716,
+    "name": "Machete_DIFF"
+  },
+  {
+    "path_id": 717,
+    "name": "SeaFort_1_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 718,
+    "name": "SHIPPING_CONTAINER_1_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 719,
+    "name": "tile_wreck_perforatedMetal_NRM"
+  },
+  {
+    "path_id": 720,
+    "name": "BED"
+  },
+  {
+    "path_id": 721,
+    "name": "POTATO_PLANT"
+  },
+  {
+    "path_id": 722,
+    "name": "survivor_upperBody_albedo"
+  },
+  {
+    "path_id": 723,
+    "name": "Leather_Diff"
+  },
+  {
+    "path_id": 724,
+    "name": "decal_UnderwaterVegetation_NRM"
+  },
+  {
+    "path_id": 725,
+    "name": "Crafting_Background"
+  },
+  {
+    "path_id": 726,
+    "name": "PLANEWRECK_1A_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 727,
+    "name": "Net_NRM"
+  },
+  {
+    "path_id": 728,
+    "name": "ANIMALS_FISH-CLOWN"
+  },
+  {
+    "path_id": 729,
+    "name": "shipwreck_decal_DIFF"
+  },
+  {
+    "path_id": 730,
+    "name": "Pines_PACK"
+  },
+  {
+    "path_id": 731,
+    "name": "Waterskin_DIFF"
+  },
+  {
+    "path_id": 732,
+    "name": "SHELF-PLANK"
+  },
+  {
+    "path_id": 733,
+    "name": "TABLE-PLANK"
+  },
+  {
+    "path_id": 734,
+    "name": "TOOLS_ARROW"
+  },
+  {
+    "path_id": 735,
+    "name": "SeaFort_1_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 736,
+    "name": "BUILDING_RAFT_CANOPY"
+  },
+  {
+    "path_id": 737,
+    "name": "survivor_torso_albedo_sunburn"
+  },
+  {
+    "path_id": 738,
+    "name": "tile_UnderwaterVegetation1_NRM"
+  },
+  {
+    "path_id": 739,
+    "name": "tile_wreck_perforatedMetal_DIFF"
+  },
+  {
+    "path_id": 740,
+    "name": "RubberDuck_Diffuse"
+  },
+  {
+    "path_id": 741,
+    "name": "survivor_hair_ao"
+  },
+  {
+    "path_id": 742,
+    "name": "BuoyBall_DIFF"
+  },
+  {
+    "path_id": 743,
+    "name": "Stick_NRM"
+  },
+  {
+    "path_id": 744,
+    "name": "HOG SPAWNER"
+  },
+  {
+    "path_id": 745,
+    "name": "Guava_PACK"
+  },
+  {
+    "path_id": 746,
+    "name": "Consumables"
+  },
+  {
+    "path_id": 747,
+    "name": "CRUDE HAMMER"
+  },
+  {
+    "path_id": 748,
+    "name": "COD_NRM"
+  },
+  {
+    "path_id": 749,
+    "name": "ShipWreck_Interior_NRM"
+  },
+  {
+    "path_id": 750,
+    "name": "ANIMALS_FISH-PILCHARD"
+  },
+  {
+    "path_id": 751,
+    "name": "Speargun_OCC"
+  },
+  {
+    "path_id": 752,
+    "name": "SHIPWRECK_7A_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 753,
+    "name": "RAFT_BASE_WOOD_BUNDLE_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 754,
+    "name": "Storage_Military_Large_AO"
+  },
+  {
+    "path_id": 755,
+    "name": "Refined_Spear_NRM"
+  },
+  {
+    "path_id": 756,
+    "name": "PLAYER_HAND"
+  },
+  {
+    "path_id": 757,
+    "name": "FICUS 1"
+  },
+  {
+    "path_id": 758,
+    "name": "MACHETTE"
+  },
+  {
+    "path_id": 759,
+    "name": "TOOLS_HAMMER-REFINED"
+  },
+  {
+    "path_id": 760,
+    "name": "WaterSplash_1"
+  },
+  {
+    "path_id": 761,
+    "name": "FOOD_WATER_BOTTLE"
+  },
+  {
+    "path_id": 762,
+    "name": "LIONFISH_NRM"
+  },
+  {
+    "path_id": 763,
+    "name": "LEATHER"
+  },
+  {
+    "path_id": 764,
+    "name": "CRAFTING_STICK-WOOD"
+  },
+  {
+    "path_id": 765,
+    "name": "BUILDING_FOUNDATION-PLANK"
+  },
+  {
+    "path_id": 766,
+    "name": "survivor_female_body_ao"
+  },
+  {
+    "path_id": 767,
+    "name": "BedRoll_DIFF"
+  },
+  {
+    "path_id": 768,
+    "name": "BIGROCK_4_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 769,
+    "name": "survivor_head_normal"
+  },
+  {
+    "path_id": 770,
+    "name": "TYRE_PILE_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 771,
+    "name": "Shipping_Container_DIFF"
+  },
+  {
+    "path_id": 772,
+    "name": "CRAFTING_LEATHER"
+  },
+  {
+    "path_id": 773,
+    "name": "survivor_female_body_dirty_spec"
+  },
+  {
+    "path_id": 774,
+    "name": "PALM_3_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 775,
+    "name": "survivor_legs_ao"
+  },
+  {
+    "path_id": 776,
+    "name": "Helicopter_2_AO"
+  },
+  {
+    "path_id": 777,
+    "name": "BUILDING_FOUNDATION_WEDGE-STEEL"
+  },
+  {
+    "path_id": 778,
+    "name": "TROPHY-EEL"
+  },
+  {
+    "path_id": 779,
+    "name": "Arrow_NRM"
+  },
+  {
+    "path_id": 780,
+    "name": "BIGROCK_3_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 781,
+    "name": "FOOD_MEAT-LARGE-SMOKED"
+  },
+  {
+    "path_id": 782,
+    "name": "REFINED KNIFE"
+  },
+  {
+    "path_id": 783,
+    "name": "RAFT_FLOOR_PLANK_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 784,
+    "name": "SHIPWRECK_12A_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 785,
+    "name": "FICUS TREE"
+  },
+  {
+    "path_id": 786,
+    "name": "WaterPot_NRM"
+  },
+  {
+    "path_id": 787,
+    "name": "Radial_Hand_Icon"
+  },
+  {
+    "path_id": 788,
+    "name": "BUILDING_RAFT_FLOOR-CORRUGATED"
+  },
+  {
+    "path_id": 789,
+    "name": "TABLE-WOOD"
+  },
+  {
+    "path_id": 790,
+    "name": "SHIPWRECK_3A_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 791,
+    "name": "BUILDING_RAFT_BASE-TYRES"
+  },
+  {
+    "path_id": 792,
+    "name": "Refined_Hammer_NRM"
+  },
+  {
+    "path_id": 793,
+    "name": "tile_carrier_rail_NRM"
+  },
+  {
+    "path_id": 794,
+    "name": "Coconut_Tags_NRM"
+  },
+  {
+    "path_id": 795,
+    "name": "BUILDING_WALL_WINDOW-STEEL"
+  },
+  {
+    "path_id": 796,
+    "name": "Inventory_BlurMask"
+  },
+  {
+    "path_id": 797,
+    "name": "CRAFTING_TOOL_BELT_POUCH_2"
+  },
+  {
+    "path_id": 798,
+    "name": "TOOLS_FISHINGROD"
+  },
+  {
+    "path_id": 799,
+    "name": "TYRE_PILE_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 800,
+    "name": "tile_wreck_metal1_NRM"
+  },
+  {
+    "path_id": 801,
+    "name": "MINING ROCK"
+  },
+  {
+    "path_id": 802,
+    "name": "BOAR SPAWNER"
+  },
+  {
+    "path_id": 803,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 804,
+    "name": "CRAFTING_FUEL_PART"
+  },
+  {
+    "path_id": 805,
+    "name": "Flare_Sparks_TexS"
+  },
+  {
+    "path_id": 806,
+    "name": "smokeStackPlastics_DIFF"
+  },
+  {
+    "path_id": 807,
+    "name": "Tick"
+  },
+  {
+    "path_id": 808,
+    "name": "survivor_legs_albedo"
+  },
+  {
+    "path_id": 809,
+    "name": "LifeRaft_DIFF"
+  },
+  {
+    "path_id": 810,
+    "name": "SHIPPING_CONTAINER_2_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 811,
+    "name": "CRAFTING_RAWHIDE"
+  },
+  {
+    "path_id": 812,
+    "name": "Kindle_DIFF"
+  },
+  {
+    "path_id": 813,
+    "name": "Tool belt"
+  },
+  {
+    "path_id": 814,
+    "name": "Rock6_SPEC"
+  },
+  {
+    "path_id": 815,
+    "name": "Squid_DIFF"
+  },
+  {
+    "path_id": 816,
+    "name": "BUILDING_VEHICLE_GYRO_ROTORS"
+  },
+  {
+    "path_id": 817,
+    "name": "SHIPPING_CONTAINER_2_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 818,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 819,
+    "name": "SCRAP_BUOYANT-BARREL"
+  },
+  {
+    "path_id": 820,
+    "name": "Ration_Tin_NRM"
+  },
+  {
+    "path_id": 821,
+    "name": "Arm_Poison"
+  },
+  {
+    "path_id": 822,
+    "name": "RubberDuck_Height"
+  },
+  {
+    "path_id": 823,
+    "name": "SeaFort_Brige"
+  },
+  {
+    "path_id": 824,
+    "name": "BUILDING_PANEL-CONTAINER"
+  },
+  {
+    "path_id": 825,
+    "name": "FICUS 2"
+  },
+  {
+    "path_id": 826,
+    "name": "BUILDING_WALL_WINDOW-CORRUGATED"
+  },
+  {
+    "path_id": 827,
+    "name": "SCRAP_BUOYANT-TYRES"
+  },
+  {
+    "path_id": 828,
+    "name": "Whale_DIFF"
+  },
+  {
+    "path_id": 829,
+    "name": "KNIFE"
+  },
+  {
+    "path_id": 830,
+    "name": "survivor_female_head_albedo"
+  },
+  {
+    "path_id": 831,
+    "name": "shipwreck_metal_rust1_SPEC"
+  },
+  {
+    "path_id": 832,
+    "name": "RAFT_BASE_WOOD_BUNDLE_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 833,
+    "name": "Aloevera_PACK"
+  },
+  {
+    "path_id": 834,
+    "name": "tile_carrier_floor_DIFF"
+  },
+  {
+    "path_id": 835,
+    "name": "AIRCRAFT_Impostor_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 836,
+    "name": "bark2_nmp"
+  },
+  {
+    "path_id": 837,
+    "name": "SHIPWRECK_13A_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 838,
+    "name": "Crude_Knife_NRM"
+  },
+  {
+    "path_id": 839,
+    "name": "LabelMaker_SPEC"
+  },
+  {
+    "path_id": 840,
+    "name": "SHIPPING_CONTAINER_3_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 841,
+    "name": "Helicopter_HUD_EMIS"
+  },
+  {
+    "path_id": 842,
+    "name": "Furniture"
+  },
+  {
+    "path_id": 843,
+    "name": "player_female_hands_spec"
+  },
+  {
+    "path_id": 844,
+    "name": "YOUNG PALM 2"
+  },
+  {
+    "path_id": 845,
+    "name": "Notification_Separator"
+  },
+  {
+    "path_id": 846,
+    "name": "TABLE-CORRUGATED"
+  },
+  {
+    "path_id": 847,
+    "name": "BUILDING_WALL-TARP"
+  },
+  {
+    "path_id": 848,
+    "name": "MetalPanels"
+  },
+  {
+    "path_id": 849,
+    "name": "HammerHead_SPEC"
+  },
+  {
+    "path_id": 850,
+    "name": "TOOLS_AXE-CRUDE"
+  },
+  {
+    "path_id": 851,
+    "name": "Refined_Hammer_SPEC"
+  },
+  {
+    "path_id": 852,
+    "name": "IslandBaseSmall"
+  },
+  {
+    "path_id": 853,
+    "name": "FOOD_FRUIT-KURA"
+  },
+  {
+    "path_id": 854,
+    "name": "tile_UnderwaterVegetation2_SPEC"
+  },
+  {
+    "path_id": 855,
+    "name": "PALM_2_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 856,
+    "name": "Paddle_DIFF"
+  },
+  {
+    "path_id": 857,
+    "name": "ANIMALS_FISH-ARCHER"
+  },
+  {
+    "path_id": 858,
+    "name": "EASTEREGG_WOLLIE"
+  },
+  {
+    "path_id": 859,
+    "name": "Pipes_SPEC"
+  },
+  {
+    "path_id": 860,
+    "name": "Sunscreen_SPEC"
+  },
+  {
+    "path_id": 861,
+    "name": "Boba_NRM"
+  },
+  {
+    "path_id": 862,
+    "name": "tile_wreck_woodPlanks3_SPEC"
+  },
+  {
+    "path_id": 863,
+    "name": "Boar_Gloss"
+  },
+  {
+    "path_id": 864,
+    "name": "Crude_Hammer_DIFF"
+  },
+  {
+    "path_id": 865,
+    "name": "CRAFTING_SMOKER"
+  },
+  {
+    "path_id": 866,
+    "name": "noise"
+  },
+  {
+    "path_id": 867,
+    "name": "Radial_Bar_Fill"
+  },
+  {
+    "path_id": 868,
+    "name": "Cloth_Torch_DIFF"
+  },
+  {
+    "path_id": 869,
+    "name": "BUILDING_FOUNDATION_WEDGE-DRIFTWOOD"
+  },
+  {
+    "path_id": 870,
+    "name": "Mask_Island_Stitch"
+  },
+  {
+    "path_id": 871,
+    "name": "MISSION_SHARK_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 872,
+    "name": "SeaFort_2_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 873,
+    "name": "shelter06_tarp_diff"
+  },
+  {
+    "path_id": 874,
+    "name": "SHELTER 2"
+  },
+  {
+    "path_id": 875,
+    "name": "PINE SMALL 1"
+  },
+  {
+    "path_id": 876,
+    "name": "PALM 3"
+  },
+  {
+    "path_id": 877,
+    "name": "WOLLIE"
+  },
+  {
+    "path_id": 878,
+    "name": "Wollie_NRM"
+  },
+  {
+    "path_id": 879,
+    "name": "Mining_Rock_NRM"
+  },
+  {
+    "path_id": 880,
+    "name": "shipwreck_metal_nitt_tile1_DIFF"
+  },
+  {
+    "path_id": 881,
+    "name": "DriftWood_Decal_DIFF"
+  },
+  {
+    "path_id": 882,
+    "name": "GW_BOSS_NRM"
+  },
+  {
+    "path_id": 883,
+    "name": "MEDICAL_REPELLENT"
+  },
+  {
+    "path_id": 884,
+    "name": "LabelMaker_DIFF"
+  },
+  {
+    "path_id": 885,
+    "name": "Eel_NRM"
+  },
+  {
+    "path_id": 886,
+    "name": "MetalFloorPanels_Diff"
+  },
+  {
+    "path_id": 887,
+    "name": "MEDICAL_AJUGA"
+  },
+  {
+    "path_id": 888,
+    "name": "PINE 3"
+  },
+  {
+    "path_id": 889,
+    "name": "CLIFF 1"
+  },
+  {
+    "path_id": 890,
+    "name": "SCRAP-STEEL"
+  },
+  {
+    "path_id": 891,
+    "name": "Driftwood_DIFF"
+  },
+  {
+    "path_id": 892,
+    "name": "BUILDING_ARCH-PLANK"
+  },
+  {
+    "path_id": 893,
+    "name": "tile_PALM_BARK_NRM"
+  },
+  {
+    "path_id": 894,
+    "name": "tile_wreck_metal4_DIFF"
+  },
+  {
+    "path_id": 895,
+    "name": "CONTAINER_SHELF"
+  },
+  {
+    "path_id": 896,
+    "name": "shipwreck_metal_tile1_NRM"
+  },
+  {
+    "path_id": 897,
+    "name": "KURA TREE"
+  },
+  {
+    "path_id": 898,
+    "name": "survivor_legs_normal"
+  },
+  {
+    "path_id": 899,
+    "name": "Notification_Background"
+  },
+  {
+    "path_id": 900,
+    "name": "Terrain_Grass_Dirt_DIFF"
+  },
+  {
+    "path_id": 901,
+    "name": "SPEARGUN ARROW"
+  },
+  {
+    "path_id": 902,
+    "name": "CRAB SPAWNER"
+  },
+  {
+    "path_id": 903,
+    "name": "Refined_Spear_SPEC"
+  },
+  {
+    "path_id": 904,
+    "name": "FOOD_POTATO-NONE-SPOILED"
+  },
+  {
+    "path_id": 905,
+    "name": "Paddle_SPEC"
+  },
+  {
+    "path_id": 906,
+    "name": "player_female_hands_sunburn_albedo"
+  },
+  {
+    "path_id": 907,
+    "name": "Arm_Poison_SPEC"
+  },
+  {
+    "path_id": 908,
+    "name": "Helicopter_1_NRM"
+  },
+  {
+    "path_id": 909,
+    "name": "SHIPWRECK_2A"
+  },
+  {
+    "path_id": 910,
+    "name": "TOOLS_SPEAR-CRUDE"
+  },
+  {
+    "path_id": 911,
+    "name": "TOOLS_GUN-FLARE"
+  },
+  {
+    "path_id": 912,
+    "name": "tile_wreck_metal2_DIFF"
+  },
+  {
+    "path_id": 913,
+    "name": "shelter01_BARK_NRM"
+  },
+  {
+    "path_id": 914,
+    "name": "GIANT_CRAB_NRM"
+  },
+  {
+    "path_id": 915,
+    "name": "CurlNoise"
+  },
+  {
+    "path_id": 916,
+    "name": "SHORELINE ROCK 1"
+  },
+  {
+    "path_id": 917,
+    "name": "ENGINE"
+  },
+  {
+    "path_id": 918,
+    "name": "CONTAINER"
+  },
+  {
+    "path_id": 919,
+    "name": "tile_smokeStack_NRM"
+  },
+  {
+    "path_id": 920,
+    "name": "SHIPWRECK_6A_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 921,
+    "name": "HOG"
+  },
+  {
+    "path_id": 922,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 923,
+    "name": "WAVULAVULA PLANT"
+  },
+  {
+    "path_id": 924,
+    "name": "skeleton_vintage_AO"
+  },
+  {
+    "path_id": 925,
+    "name": "decal2_UnderwaterVegetation_DIFF"
+  },
+  {
+    "path_id": 926,
+    "name": "MEDICAL_ALOE_SALVE"
+  },
+  {
+    "path_id": 927,
+    "name": "tile_wreck_fiberGlassRed_SPEC"
+  },
+  {
+    "path_id": 928,
+    "name": "Lantern_SPEC"
+  },
+  {
+    "path_id": 929,
+    "name": "Coconut_Raw_SPEC"
+  },
+  {
+    "path_id": 930,
+    "name": "LifeRaft_SPEC"
+  },
+  {
+    "path_id": 931,
+    "name": "Gyrocopter"
+  },
+  {
+    "path_id": 932,
+    "name": "ARCHER_SPEC"
+  },
+  {
+    "path_id": 933,
+    "name": "Pipes_DIFF"
+  },
+  {
+    "path_id": 934,
+    "name": "Big_AO"
+  },
+  {
+    "path_id": 935,
+    "name": "ARCHER_NRM"
+  },
+  {
+    "path_id": 936,
+    "name": "survivor_hair_albedo"
+  },
+  {
+    "path_id": 937,
+    "name": "BedRoll_NRM"
+  },
+  {
+    "path_id": 938,
+    "name": "BUILDING_VEHICLE_GYRO_SEAT"
+  },
+  {
+    "path_id": 939,
+    "name": "MEDICAL_GAUZE"
+  },
+  {
+    "path_id": 940,
+    "name": "MEDICAL_PIPI"
+  },
+  {
+    "path_id": 941,
+    "name": "abandoned_shelter_pole_01_08_Diff"
+  },
+  {
+    "path_id": 942,
+    "name": "ALOCASIA 2"
+  },
+  {
+    "path_id": 943,
+    "name": "REFINED PICK"
+  },
+  {
+    "path_id": 944,
+    "name": "SHIPWRECK_5A_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 945,
+    "name": "Radial_Selector"
+  },
+  {
+    "path_id": 946,
+    "name": "BUOYBALL PILE"
+  },
+  {
+    "path_id": 947,
+    "name": "shelter07_tarp_spec"
+  },
+  {
+    "path_id": 948,
+    "name": "Sunscreen_DIFF"
+  },
+  {
+    "path_id": 949,
+    "name": "poison"
+  },
+  {
+    "path_id": 950,
+    "name": "Fishing_Rod_DIFF"
+  },
+  {
+    "path_id": 951,
+    "name": "Torch_NRM"
+  },
+  {
+    "path_id": 952,
+    "name": "BIGROCK_5_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 953,
+    "name": "VEHICLE_HELICOPTER_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 954,
+    "name": "abandoned_shelter_pole_01_08_Nrm"
+  },
+  {
+    "path_id": 955,
+    "name": "Arm_Bleeding_NRM"
+  },
+  {
+    "path_id": 956,
+    "name": "FISHING ROD"
+  },
+  {
+    "path_id": 957,
+    "name": "Dead_Plant_NRM"
+  },
+  {
+    "path_id": 958,
+    "name": "Helicopter_HUD_AO"
+  },
+  {
+    "path_id": 959,
+    "name": "Oil_Rig_Sprites_v2"
+  },
+  {
+    "path_id": 960,
+    "name": "tile_wreck_fiberGlass_DIFF"
+  },
+  {
+    "path_id": 961,
+    "name": "TOOLS_PADDLE"
+  },
+  {
+    "path_id": 962,
+    "name": "MEDICAL_BREATH_BOOST"
+  },
+  {
+    "path_id": 963,
+    "name": "Refined_Knife_SPEC"
+  },
+  {
+    "path_id": 964,
+    "name": "Spyglass_SPEC"
+  },
+  {
+    "path_id": 965,
+    "name": "SHELTER 7"
+  },
+  {
+    "path_id": 966,
+    "name": "tile_wreck_woodPlanks4_NRM"
+  },
+  {
+    "path_id": 967,
+    "name": "survivor_lowerBody_ao"
+  },
+  {
+    "path_id": 968,
+    "name": "SCRAP-STEEL"
+  },
+  {
+    "path_id": 969,
+    "name": "GIANT CRAB"
+  },
+  {
+    "path_id": 970,
+    "name": "Goblin_Shark_SPEC"
+  },
+  {
+    "path_id": 971,
+    "name": "BIGROCK 4"
+  },
+  {
+    "path_id": 972,
+    "name": "BUSH"
+  },
+  {
+    "path_id": 973,
+    "name": "FOOD_COCONUT_GREEN"
+  },
+  {
+    "path_id": 974,
+    "name": "Barrel_NRM"
+  },
+  {
+    "path_id": 975,
+    "name": "tile_wreck_driftwoodOriz_Spec"
+  },
+  {
+    "path_id": 976,
+    "name": "shipwreck_metal_tile1_DIFF"
+  },
+  {
+    "path_id": 977,
+    "name": "ENGINE PROPELLER"
+  },
+  {
+    "path_id": 978,
+    "name": "SMALLROCK 1"
+  },
+  {
+    "path_id": 979,
+    "name": "CRAFTING_CLAY"
+  },
+  {
+    "path_id": 980,
+    "name": "DRIFTWOOD_STICK"
+  },
+  {
+    "path_id": 981,
+    "name": "MEDICAL_SUNSCREEN"
+  },
+  {
+    "path_id": 982,
+    "name": "TOOLS_AXE-CRUDE"
+  },
+  {
+    "path_id": 983,
+    "name": "SHARK - HAMMERHEAD"
+  },
+  {
+    "path_id": 984,
+    "name": "BedRoll_SPEC"
+  },
+  {
+    "path_id": 985,
+    "name": "TOOLS_SPYGLASS"
+  },
+  {
+    "path_id": 986,
+    "name": "shelter03_cloth_NRM"
+  },
+  {
+    "path_id": 987,
+    "name": "LOG 3"
+  },
+  {
+    "path_id": 988,
+    "name": "tile_wreck_metal3_NRM"
+  },
+  {
+    "path_id": 989,
+    "name": "DRIFTWOOD_PILE"
+  },
+  {
+    "path_id": 990,
+    "name": "Raft Floors"
+  },
+  {
+    "path_id": 991,
+    "name": "MEDICAL ANTIDOTE"
+  },
+  {
+    "path_id": 992,
+    "name": "tile_carrier_floor_detail_NRM"
+  },
+  {
+    "path_id": 993,
+    "name": "Rust"
+  },
+  {
+    "path_id": 994,
+    "name": "Driftwood_SPEC"
+  },
+  {
+    "path_id": 995,
+    "name": "RAFT_FLOOR_WOOD_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 996,
+    "name": "TYRE_PILE_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 997,
+    "name": "BUILDING_RAFT_MOTOR"
+  },
+  {
+    "path_id": 998,
+    "name": "BUILDING_FOUNDATION_WEDGE-CORRUGATED"
+  },
+  {
+    "path_id": 999,
+    "name": "Storage_Military_Large_DIFF"
+  },
+  {
+    "path_id": 1000,
+    "name": "Crab_DIFF"
+  },
+  {
+    "path_id": 1001,
+    "name": "shipwreck_metal_nitt_tile1_SPEC"
+  },
+  {
+    "path_id": 1002,
+    "name": "SeaFort_1"
+  },
+  {
+    "path_id": 1003,
+    "name": "XB1_Glyphs_Atlas"
+  },
+  {
+    "path_id": 1004,
+    "name": "RAFT_FLOOR_CORRUGATED_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1005,
+    "name": "Fly"
+  },
+  {
+    "path_id": 1006,
+    "name": "Cliffs_Detail_DIFF"
+  },
+  {
+    "path_id": 1007,
+    "name": "SHIPWRECK_13A_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1008,
+    "name": "CRAFTING_LASHING"
+  },
+  {
+    "path_id": 1009,
+    "name": "Corrugated_Iron_DIFF"
+  },
+  {
+    "path_id": 1010,
+    "name": "SHIPWRECK_7A_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1011,
+    "name": "Bow_SPEC"
+  },
+  {
+    "path_id": 1012,
+    "name": "SHIPWRECK_7A_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1013,
+    "name": "Foundations"
+  },
+  {
+    "path_id": 1014,
+    "name": "Squid_Detail"
+  },
+  {
+    "path_id": 1015,
+    "name": "SHIPWRECK_5B"
+  },
+  {
+    "path_id": 1016,
+    "name": "BUILDING_ROOF_WEDGE-STEEL"
+  },
+  {
+    "path_id": 1017,
+    "name": "CLIFF_005_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1018,
+    "name": "MINING ROCK CLAY"
+  },
+  {
+    "path_id": 1019,
+    "name": "BUILDING_ARCH-CORRUGATED"
+  },
+  {
+    "path_id": 1020,
+    "name": "Fishing_Rod_SPEC"
+  },
+  {
+    "path_id": 1021,
+    "name": "FICUS_1_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1022,
+    "name": "AirTank_DIFF"
+  },
+  {
+    "path_id": 1023,
+    "name": "FOOD RATIONS"
+  },
+  {
+    "path_id": 1024,
+    "name": "Palm_Cover_SPEC"
+  },
+  {
+    "path_id": 1025,
+    "name": "Ajuga_DIFF"
+  },
+  {
+    "path_id": 1026,
+    "name": "MEDICAL_ANTIDOTE"
+  },
+  {
+    "path_id": 1027,
+    "name": "Potato_PACK"
+  },
+  {
+    "path_id": 1028,
+    "name": "CRAFTING_FILTER_PART"
+  },
+  {
+    "path_id": 1029,
+    "name": "Day_Notification_Border_1"
+  },
+  {
+    "path_id": 1030,
+    "name": "tile_wreck_metal3_SPEC"
+  },
+  {
+    "path_id": 1031,
+    "name": "Meat_DIFF"
+  },
+  {
+    "path_id": 1032,
+    "name": "VEHICLE_HELICOPTER_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1033,
+    "name": "Particle_Leaf"
+  },
+  {
+    "path_id": 1034,
+    "name": "SCRAP_BUOYANT-BUOYBALLS"
+  },
+  {
+    "path_id": 1035,
+    "name": "SHELF-CORRUGATED"
+  },
+  {
+    "path_id": 1036,
+    "name": "tile_wreck_metal5_DIFF"
+  },
+  {
+    "path_id": 1037,
+    "name": "Wollie_DIFF"
+  },
+  {
+    "path_id": 1038,
+    "name": "CLIFF_002_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1039,
+    "name": "Aircraft"
+  },
+  {
+    "path_id": 1040,
+    "name": "PALM_4_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1041,
+    "name": "BUILDING_DOOR-CONTAINER"
+  },
+  {
+    "path_id": 1042,
+    "name": "GIANT_CRAB_AO"
+  },
+  {
+    "path_id": 1043,
+    "name": "PINE_1_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1044,
+    "name": "survivor_beard_gloss"
+  },
+  {
+    "path_id": 1045,
+    "name": "doorPorthole_SPEC"
+  },
+  {
+    "path_id": 1046,
+    "name": "CRUDE SPEAR"
+  },
+  {
+    "path_id": 1047,
+    "name": "FICUS_2_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1048,
+    "name": "SeaPlanePedals_AO"
+  },
+  {
+    "path_id": 1049,
+    "name": "SHIPWRECK_3A_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1050,
+    "name": "GIANT_CRAB_ALBEDO"
+  },
+  {
+    "path_id": 1051,
+    "name": "FOOD_MEAT-MEDIUM"
+  },
+  {
+    "path_id": 1052,
+    "name": "Tyre_Diff"
+  },
+  {
+    "path_id": 1053,
+    "name": "BUILDING_STEPS-DRIFTWOOD"
+  },
+  {
+    "path_id": 1054,
+    "name": "SMALLROCK 3"
+  },
+  {
+    "path_id": 1055,
+    "name": "BUILDING_WALL_HALF-WOOD"
+  },
+  {
+    "path_id": 1056,
+    "name": "FOOD_MEAT-MEDIUM-SPOILED"
+  },
+  {
+    "path_id": 1057,
+    "name": "AIRTANK"
+  },
+  {
+    "path_id": 1058,
+    "name": "Rock7"
+  },
+  {
+    "path_id": 1059,
+    "name": "BUILDING_ROOF_MIDDLE-STEEL"
+  },
+  {
+    "path_id": 1060,
+    "name": "FICUS_TREE_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1061,
+    "name": "Trophys"
+  },
+  {
+    "path_id": 1062,
+    "name": "tile_MetalPanel2_NRM"
+  },
+  {
+    "path_id": 1063,
+    "name": "Coconut_Flask_DIF"
+  },
+  {
+    "path_id": 1064,
+    "name": "HOOK-WOOD"
+  },
+  {
+    "path_id": 1065,
+    "name": "Rust_Spec"
+  },
+  {
+    "path_id": 1066,
+    "name": "STICK"
+  },
+  {
+    "path_id": 1067,
+    "name": "Fishing_Spear_SPEC"
+  },
+  {
+    "path_id": 1068,
+    "name": "Radial_Ring"
+  },
+  {
+    "path_id": 1069,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1070,
+    "name": "wood_planks1_NRM"
+  },
+  {
+    "path_id": 1071,
+    "name": "SHIPWRECK_12A"
+  },
+  {
+    "path_id": 1072,
+    "name": "PALM 4"
+  },
+  {
+    "path_id": 1073,
+    "name": "Kura_PACK"
+  },
+  {
+    "path_id": 1074,
+    "name": "BUILDING_FLOOR-DRIFTWOOD"
+  },
+  {
+    "path_id": 1075,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1076,
+    "name": "Propeller_SPEC"
+  },
+  {
+    "path_id": 1077,
+    "name": "CRAFTING_GYRO_PART"
+  },
+  {
+    "path_id": 1078,
+    "name": "tile_MetalPanel2_DIFF"
+  },
+  {
+    "path_id": 1079,
+    "name": "CRAFTING_PALM_FROND"
+  },
+  {
+    "path_id": 1080,
+    "name": "BUILDING_FOUNDATION-STEEL"
+  },
+  {
+    "path_id": 1081,
+    "name": "TOOLS_FISHING_SPEAR-CRUDE"
+  },
+  {
+    "path_id": 1082,
+    "name": "WaterSplash_2"
+  },
+  {
+    "path_id": 1083,
+    "name": "SpeargunCarbon_NRM"
+  },
+  {
+    "path_id": 1084,
+    "name": "FOOD_MEAT-SMALL-COOKED"
+  },
+  {
+    "path_id": 1085,
+    "name": "Coconut_Tags_DIFF"
+  },
+  {
+    "path_id": 1086,
+    "name": "Refined_Spear_DIFF"
+  },
+  {
+    "path_id": 1087,
+    "name": "Doors_Diff"
+  },
+  {
+    "path_id": 1088,
+    "name": "tile_wreck_woodPlanks4_DIFF"
+  },
+  {
+    "path_id": 1089,
+    "name": "Classification_Tool"
+  },
+  {
+    "path_id": 1090,
+    "name": "PINE_2_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1091,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1092,
+    "name": "MISSION_SQUID_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1093,
+    "name": "Pines_DIFF"
+  },
+  {
+    "path_id": 1094,
+    "name": "FOOD_POTATO"
+  },
+  {
+    "path_id": 1095,
+    "name": "PART ENGINE"
+  },
+  {
+    "path_id": 1096,
+    "name": "PLANEWRECK_1A_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1097,
+    "name": "SHIPPING_CONTAINER_PANEL_STATIC_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1098,
+    "name": "SHIPWRECK_3A"
+  },
+  {
+    "path_id": 1099,
+    "name": "Arrow_SPEC"
+  },
+  {
+    "path_id": 1100,
+    "name": "TOOLS_FISHINGROD"
+  },
+  {
+    "path_id": 1101,
+    "name": "SHELTER 9"
+  },
+  {
+    "path_id": 1102,
+    "name": "PINE_3_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1103,
+    "name": "HOOK-LIGHT"
+  },
+  {
+    "path_id": 1104,
+    "name": "Crosshair"
+  },
+  {
+    "path_id": 1105,
+    "name": "EASTEREGG_DEADEX"
+  },
+  {
+    "path_id": 1106,
+    "name": "Helicopter_1_SPEC"
+  },
+  {
+    "path_id": 1107,
+    "name": "SeaFort_2"
+  },
+  {
+    "path_id": 1108,
+    "name": "Windows"
+  },
+  {
+    "path_id": 1109,
+    "name": "CHAIR-PLANK"
+  },
+  {
+    "path_id": 1110,
+    "name": "TORCH"
+  },
+  {
+    "path_id": 1111,
+    "name": "Radial_Background"
+  },
+  {
+    "path_id": 1112,
+    "name": "CRAFTING_TOOL_BELT"
+  },
+  {
+    "path_id": 1113,
+    "name": "SHIPWRECK_2A_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1114,
+    "name": "shipwreck_metal_nitt_tile1_NRM"
+  },
+  {
+    "path_id": 1115,
+    "name": "tile_rust_NRM"
+  },
+  {
+    "path_id": 1116,
+    "name": "Bandage_DIFF"
+  },
+  {
+    "path_id": 1117,
+    "name": "Watch_DIFF"
+  },
+  {
+    "path_id": 1118,
+    "name": "FOOD_FRUIT-YUCCA"
+  },
+  {
+    "path_id": 1119,
+    "name": "Bow_NRM"
+  },
+  {
+    "path_id": 1120,
+    "name": "MEDICAL ALOE SALVE"
+  },
+  {
+    "path_id": 1121,
+    "name": "DirtMound_Diff"
+  },
+  {
+    "path_id": 1122,
+    "name": "Bedroll_AO"
+  },
+  {
+    "path_id": 1123,
+    "name": "STONE TOOL"
+  },
+  {
+    "path_id": 1124,
+    "name": "CRAFTING_TRAP_BIRD"
+  },
+  {
+    "path_id": 1125,
+    "name": "Shipping_Container_NRM"
+  },
+  {
+    "path_id": 1126,
+    "name": "MISSION_SQUID_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1127,
+    "name": "BUILDING_PANEL-TARP"
+  },
+  {
+    "path_id": 1128,
+    "name": "REFINED AXE"
+  },
+  {
+    "path_id": 1129,
+    "name": "LIONFISH_DIFF"
+  },
+  {
+    "path_id": 1130,
+    "name": "tile_wreck_metal6_SPEC"
+  },
+  {
+    "path_id": 1131,
+    "name": "CAMPFIRE"
+  },
+  {
+    "path_id": 1132,
+    "name": "Tyre_NRM"
+  },
+  {
+    "path_id": 1133,
+    "name": "MEDICAL_WAVULAVULA"
+  },
+  {
+    "path_id": 1134,
+    "name": "Crate_NRM"
+  },
+  {
+    "path_id": 1135,
+    "name": "Rock_SPEC"
+  },
+  {
+    "path_id": 1136,
+    "name": "Waterskin_NRM"
+  },
+  {
+    "path_id": 1137,
+    "name": "RAFT_FLOOR_DRIFTWOOD_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1138,
+    "name": "ShipWreck_Interior"
+  },
+  {
+    "path_id": 1139,
+    "name": "CRAFTING_RAWHIDE"
+  },
+  {
+    "path_id": 1140,
+    "name": "CERIMAN 1"
+  },
+  {
+    "path_id": 1141,
+    "name": "RAFT"
+  },
+  {
+    "path_id": 1142,
+    "name": "tile_wreck_wood_NRM"
+  },
+  {
+    "path_id": 1143,
+    "name": "BUILDING_FLOOR_WEDGE-CORRUGATED"
+  },
+  {
+    "path_id": 1144,
+    "name": "tile_wreck_metalRope1_SPEC"
+  },
+  {
+    "path_id": 1145,
+    "name": "StoneHoe_NRM"
+  },
+  {
+    "path_id": 1146,
+    "name": "Torch_DIFF"
+  },
+  {
+    "path_id": 1147,
+    "name": "FOOD_COCONUT_FLASK"
+  },
+  {
+    "path_id": 1148,
+    "name": "Arm_Poison_NRM"
+  },
+  {
+    "path_id": 1149,
+    "name": "PALM_LEAF_brown_DIFF"
+  },
+  {
+    "path_id": 1150,
+    "name": "Anchor1_albedo"
+  },
+  {
+    "path_id": 1151,
+    "name": "CONTAINER-WOOD"
+  },
+  {
+    "path_id": 1152,
+    "name": "LABEL MAKER"
+  },
+  {
+    "path_id": 1153,
+    "name": "RAFT_FLOOR_PLANK_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1154,
+    "name": "Menu Button"
+  },
+  {
+    "path_id": 1155,
+    "name": "NONE"
+  },
+  {
+    "path_id": 1156,
+    "name": "Marlin_DIFF"
+  },
+  {
+    "path_id": 1157,
+    "name": "FICUS_TREE_2_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1158,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1159,
+    "name": "PART FUEL"
+  },
+  {
+    "path_id": 1160,
+    "name": "skin_detail_normal"
+  },
+  {
+    "path_id": 1161,
+    "name": "tile_wreck_Plywood2_SPEC"
+  },
+  {
+    "path_id": 1162,
+    "name": "CLOTH"
+  },
+  {
+    "path_id": 1163,
+    "name": "smokeStackPlastics_NRM"
+  },
+  {
+    "path_id": 1164,
+    "name": "FOOD_MEAT-LARGE-COOKED"
+  },
+  {
+    "path_id": 1165,
+    "name": "BIGROCK_3_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1166,
+    "name": "Meat_NRM"
+  },
+  {
+    "path_id": 1167,
+    "name": "SPYGLASS"
+  },
+  {
+    "path_id": 1168,
+    "name": "BananaPlant_DIFF"
+  },
+  {
+    "path_id": 1169,
+    "name": "Refined_Axe_SPEC"
+  },
+  {
+    "path_id": 1170,
+    "name": "Crude_Axe_SPEC"
+  },
+  {
+    "path_id": 1171,
+    "name": "Helicopter_HUD_SPEC"
+  },
+  {
+    "path_id": 1172,
+    "name": "Tools"
+  },
+  {
+    "path_id": 1173,
+    "name": "survivor_female_body_albedo"
+  },
+  {
+    "path_id": 1174,
+    "name": "Tiger_Shark_DIFF"
+  },
+  {
+    "path_id": 1175,
+    "name": "Fishing_Rod_NRM"
+  },
+  {
+    "path_id": 1176,
+    "name": "MISSION_SHARK_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1177,
+    "name": "MEDICAL GAUZE"
+  },
+  {
+    "path_id": 1178,
+    "name": "DirtMound_NRM"
+  },
+  {
+    "path_id": 1179,
+    "name": "tile_wreck_woodPlanks5_SPEC"
+  },
+  {
+    "path_id": 1180,
+    "name": "Helicopter_HUD_NRM"
+  },
+  {
+    "path_id": 1181,
+    "name": "Sunscreen_NRM"
+  },
+  {
+    "path_id": 1182,
+    "name": "Kindle_NRM"
+  },
+  {
+    "path_id": 1183,
+    "name": "FOOD_WATER_BOTTLE"
+  },
+  {
+    "path_id": 1184,
+    "name": "Raft Movement"
+  },
+  {
+    "path_id": 1185,
+    "name": "FISHING BOBBER"
+  },
+  {
+    "path_id": 1186,
+    "name": "Waterskin_SPEC"
+  },
+  {
+    "path_id": 1187,
+    "name": "decal_UnderwaterVegetation_DIFF"
+  },
+  {
+    "path_id": 1188,
+    "name": "ENGINE FUEL TANK"
+  },
+  {
+    "path_id": 1189,
+    "name": "BUILDING_WALL_HALF-CORRUGATED"
+  },
+  {
+    "path_id": 1190,
+    "name": "TOOLS_STONE_TOOL"
+  },
+  {
+    "path_id": 1191,
+    "name": "Terrain_Grass_Dirt_PACK"
+  },
+  {
+    "path_id": 1192,
+    "name": "Terrain_Sand_Wet_NRM"
+  },
+  {
+    "path_id": 1193,
+    "name": "MEDICAL_SPLINT"
+  },
+  {
+    "path_id": 1194,
+    "name": "BUILDING_PANEL_DOOR-CONTAINER"
+  },
+  {
+    "path_id": 1195,
+    "name": "RAFT_FLOOR_CLAY_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1196,
+    "name": "Day_Notification_Border_2"
+  },
+  {
+    "path_id": 1197,
+    "name": "Driftwood_NRM"
+  },
+  {
+    "path_id": 1198,
+    "name": "tile_wreck_Plywood2_DIFF"
+  },
+  {
+    "path_id": 1199,
+    "name": "Story"
+  },
+  {
+    "path_id": 1200,
+    "name": "tile_wreck_fiberGlassBlue_DIFF"
+  },
+  {
+    "path_id": 1201,
+    "name": "Submarine_NRM"
+  },
+  {
+    "path_id": 1202,
+    "name": "BUILDING_FLOOR-STEEL"
+  },
+  {
+    "path_id": 1203,
+    "name": "BIGROCK_4_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1204,
+    "name": "FICUS_3_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1205,
+    "name": "Clay_SPEC"
+  },
+  {
+    "path_id": 1206,
+    "name": "RAFT_ANCHOR_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1207,
+    "name": "survivor_lowerBody_albedo"
+  },
+  {
+    "path_id": 1208,
+    "name": "RAFT_BASE_BARREL_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1209,
+    "name": "TOOLS_MACHETTE"
+  },
+  {
+    "path_id": 1210,
+    "name": "Crude_Axe_NRM"
+  },
+  {
+    "path_id": 1211,
+    "name": "MARLIN"
+  },
+  {
+    "path_id": 1212,
+    "name": "BUILDING_STEPS-PLANK"
+  },
+  {
+    "path_id": 1213,
+    "name": "Refined_Axe_NRM"
+  },
+  {
+    "path_id": 1214,
+    "name": "RAFT_FLOOR_WOOD_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1215,
+    "name": "FICUS_TREE_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1216,
+    "name": "tile_wreck_fiberGlassRed_NRM"
+  },
+  {
+    "path_id": 1217,
+    "name": "tile_ceramicTiles2_DIFF"
+  },
+  {
+    "path_id": 1218,
+    "name": "DISCUS_NRM"
+  },
+  {
+    "path_id": 1219,
+    "name": "TOOLS_SPEAR-REFINED"
+  },
+  {
+    "path_id": 1220,
+    "name": "BUILDING_WALL-PLANK"
+  },
+  {
+    "path_id": 1221,
+    "name": "SHARK - GOBLIN"
+  },
+  {
+    "path_id": 1222,
+    "name": "Waypoint_Marker"
+  },
+  {
+    "path_id": 1223,
+    "name": "BUILDING_STEPS-CORRUGATED"
+  },
+  {
+    "path_id": 1224,
+    "name": "tile_wreck_woodPlanks3_NRM"
+  },
+  {
+    "path_id": 1225,
+    "name": "skeleton_vintage_DIFF"
+  },
+  {
+    "path_id": 1226,
+    "name": "TOOLS_BOBBER"
+  },
+  {
+    "path_id": 1227,
+    "name": "Hunting"
+  },
+  {
+    "path_id": 1228,
+    "name": "Mining_Rock_DIFF"
+  },
+  {
+    "path_id": 1229,
+    "name": "Anchor1_SPEC"
+  },
+  {
+    "path_id": 1230,
+    "name": "CRAFTING_LOG-DRIFTWOOD"
+  },
+  {
+    "path_id": 1231,
+    "name": "Flare_Gun_SPEC"
+  },
+  {
+    "path_id": 1232,
+    "name": "ANIMALS_CRAB"
+  },
+  {
+    "path_id": 1233,
+    "name": "Cliffs_Detail_NRM"
+  },
+  {
+    "path_id": 1234,
+    "name": "DISCUS_DIFF"
+  },
+  {
+    "path_id": 1235,
+    "name": "Speargun_DIFF"
+  },
+  {
+    "path_id": 1236,
+    "name": "DirtyGlass_NRM"
+  },
+  {
+    "path_id": 1237,
+    "name": "tile_carrier_floor_detail"
+  },
+  {
+    "path_id": 1238,
+    "name": "Crude_Knife_SPEC"
+  },
+  {
+    "path_id": 1239,
+    "name": "BUILDING_RAFT_FLOOR-DRIFTWOOD"
+  },
+  {
+    "path_id": 1240,
+    "name": "CRAFTING_FIRE_TORCH"
+  },
+  {
+    "path_id": 1241,
+    "name": "Ajuga_PACK"
+  },
+  {
+    "path_id": 1242,
+    "name": "female_skin_detail_normal"
+  },
+  {
+    "path_id": 1243,
+    "name": "BUILDING_FOUNDATION-CORRUGATED"
+  },
+  {
+    "path_id": 1244,
+    "name": "CRUDE BOW"
+  },
+  {
+    "path_id": 1245,
+    "name": "tile_carrier_floor_SPEC"
+  },
+  {
+    "path_id": 1246,
+    "name": "SHIPPING_CONTAINER_1_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1247,
+    "name": "ANIMALS_CRAB"
+  },
+  {
+    "path_id": 1248,
+    "name": "MEDICAL_AJUGA"
+  },
+  {
+    "path_id": 1249,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1250,
+    "name": "SHELTER 1"
+  },
+  {
+    "path_id": 1251,
+    "name": "Bush"
+  },
+  {
+    "path_id": 1252,
+    "name": "Propeller_NRM"
+  },
+  {
+    "path_id": 1253,
+    "name": "Bark_Spec"
+  },
+  {
+    "path_id": 1254,
+    "name": "Rope_NRM"
+  },
+  {
+    "path_id": 1255,
+    "name": "Particle_Dust_Diff"
+  },
+  {
+    "path_id": 1256,
+    "name": "Flashlight_NRM"
+  },
+  {
+    "path_id": 1257,
+    "name": "SpeargunCarbon_SPEC"
+  },
+  {
+    "path_id": 1258,
+    "name": "CRAFTING_FIRE"
+  },
+  {
+    "path_id": 1259,
+    "name": "tile_UnderwaterVegetation2_NRM"
+  },
+  {
+    "path_id": 1260,
+    "name": "Seafort_Support_DIFF"
+  },
+  {
+    "path_id": 1261,
+    "name": "Branch"
+  },
+  {
+    "path_id": 1262,
+    "name": "TOOLS_COMPASS"
+  },
+  {
+    "path_id": 1263,
+    "name": "BUILDING_DOOR-STEEL"
+  },
+  {
+    "path_id": 1264,
+    "name": "PINE_2_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1265,
+    "name": "BUILDING_RAFT_RUDDER"
+  },
+  {
+    "path_id": 1266,
+    "name": "SPEARGUN"
+  },
+  {
+    "path_id": 1267,
+    "name": "ANIMALS_BAT"
+  },
+  {
+    "path_id": 1268,
+    "name": "CONTAINER"
+  },
+  {
+    "path_id": 1269,
+    "name": "TROPHY-EEL"
+  },
+  {
+    "path_id": 1270,
+    "name": "Flashlight_SPEC"
+  },
+  {
+    "path_id": 1271,
+    "name": "CRAFTING_GYRO_PART"
+  },
+  {
+    "path_id": 1272,
+    "name": "ROWBOAT_3"
+  },
+  {
+    "path_id": 1273,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1274,
+    "name": "TOOLS_SPEARGUN"
+  },
+  {
+    "path_id": 1275,
+    "name": "FOOD_MEAT-MEDIUM-SMOKED"
+  },
+  {
+    "path_id": 1276,
+    "name": "Crafting_Combo_Element_Background"
+  },
+  {
+    "path_id": 1277,
+    "name": "Corrugated_Iron_SPEC"
+  },
+  {
+    "path_id": 1278,
+    "name": "BoltIcon"
+  },
+  {
+    "path_id": 1279,
+    "name": "Crafting_Combination_Locked"
+  },
+  {
+    "path_id": 1280,
+    "name": "Barrel_DIFF"
+  },
+  {
+    "path_id": 1281,
+    "name": "Water_Icon"
+  },
+  {
+    "path_id": 1282,
+    "name": "STATION_LOOM"
+  },
+  {
+    "path_id": 1283,
+    "name": "CRAFTING_TOOL_BELT_POUCH_3"
+  },
+  {
+    "path_id": 1284,
+    "name": "TOOLS_DUCTTAPE"
+  },
+  {
+    "path_id": 1285,
+    "name": "GIANT CRAB SPAWNER"
+  },
+  {
+    "path_id": 1286,
+    "name": "Storage_Military_Large_NRM"
+  },
+  {
+    "path_id": 1287,
+    "name": "ANIMALS_SEAGULL"
+  },
+  {
+    "path_id": 1288,
+    "name": "tile_wreck_metalRope1_DIFF"
+  },
+  {
+    "path_id": 1289,
+    "name": "FOOD_WATER_SKIN"
+  },
+  {
+    "path_id": 1290,
+    "name": "FOOD_FRUIT-KURA"
+  },
+  {
+    "path_id": 1291,
+    "name": "CLIFF_002_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1292,
+    "name": "tile_ceramicTiles2_NRM"
+  },
+  {
+    "path_id": 1293,
+    "name": "POTATO PLANT"
+  },
+  {
+    "path_id": 1294,
+    "name": "Palm_Cover"
+  },
+  {
+    "path_id": 1295,
+    "name": "survivor_lowerBody_spec"
+  },
+  {
+    "path_id": 1296,
+    "name": "RockBig_Spec"
+  },
+  {
+    "path_id": 1297,
+    "name": "TOOLS_STONE_TOOL"
+  },
+  {
+    "path_id": 1298,
+    "name": "Helicopter_HUD_DIFF"
+  },
+  {
+    "path_id": 1299,
+    "name": "Yucca_PACK"
+  },
+  {
+    "path_id": 1300,
+    "name": "BUILDING_PANEL-TARP"
+  },
+  {
+    "path_id": 1301,
+    "name": "BANANA PLANT"
+  },
+  {
+    "path_id": 1302,
+    "name": "SHIPWRECK_8A"
+  },
+  {
+    "path_id": 1303,
+    "name": "tile_wreck_fiberGlass_SPEC"
+  },
+  {
+    "path_id": 1304,
+    "name": "survivor_legs_metalness"
+  },
+  {
+    "path_id": 1305,
+    "name": "FOOD_MEAT-SMALL"
+  },
+  {
+    "path_id": 1306,
+    "name": "tile_wreck_woodPlanks1_SPEC"
+  },
+  {
+    "path_id": 1307,
+    "name": "CRAFTING_FIRE_TORCH"
+  },
+  {
+    "path_id": 1308,
+    "name": "Particle_Feather"
+  },
+  {
+    "path_id": 1309,
+    "name": "PALM_BARK_NRM"
+  },
+  {
+    "path_id": 1310,
+    "name": "Rock6_nmp"
+  },
+  {
+    "path_id": 1311,
+    "name": "tile_wreck_metal8_NRM"
+  },
+  {
+    "path_id": 1312,
+    "name": "RAFT_FLOOR_CORRUGATED_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1313,
+    "name": "Grass_PACK"
+  },
+  {
+    "path_id": 1314,
+    "name": "AirTank_SPEC"
+  },
+  {
+    "path_id": 1315,
+    "name": "Seafort_Support_NRM"
+  },
+  {
+    "path_id": 1316,
+    "name": "BARREL_PILE_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1317,
+    "name": "shipwreck_decal_NRM"
+  },
+  {
+    "path_id": 1318,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1319,
+    "name": "CRAFTING_TRAP_FISH"
+  },
+  {
+    "path_id": 1320,
+    "name": "Seafort_DIFF"
+  },
+  {
+    "path_id": 1321,
+    "name": "Shelter09_BARK_nrm"
+  },
+  {
+    "path_id": 1322,
+    "name": "TOOLS_COMPASS"
+  },
+  {
+    "path_id": 1323,
+    "name": "EASTEREGG_RUBBERDUCK"
+  },
+  {
+    "path_id": 1324,
+    "name": "Rope_DIFF"
+  },
+  {
+    "path_id": 1325,
+    "name": "CLIFF_001_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1326,
+    "name": "WATER BOTTLE"
+  },
+  {
+    "path_id": 1327,
+    "name": "DEADEX"
+  },
+  {
+    "path_id": 1328,
+    "name": "BUILDING_VEHICLE_GYRO_MOTOR"
+  },
+  {
+    "path_id": 1329,
+    "name": "BRICKS"
+  },
+  {
+    "path_id": 1330,
+    "name": "SeaPlanePedals_SPEC"
+  },
+  {
+    "path_id": 1331,
+    "name": "survivor_torso_skinmask"
+  },
+  {
+    "path_id": 1332,
+    "name": "SCRAP-PLANK"
+  },
+  {
+    "path_id": 1333,
+    "name": "night_snake__MetallicSmoothness"
+  },
+  {
+    "path_id": 1334,
+    "name": "VEHICLE_LIFERAFT_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1335,
+    "name": "Tiger_Shark_NRM"
+  },
+  {
+    "path_id": 1336,
+    "name": "Plank_SPEC"
+  },
+  {
+    "path_id": 1337,
+    "name": "AIRCRAFT_PROPELLER_PART"
+  },
+  {
+    "path_id": 1338,
+    "name": "tile_rust_DIFF"
+  },
+  {
+    "path_id": 1339,
+    "name": "Rock_DIFF"
+  },
+  {
+    "path_id": 1340,
+    "name": "LASHING"
+  },
+  {
+    "path_id": 1341,
+    "name": "COCA_BUSH_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1342,
+    "name": "survivor_lowerBody_normal"
+  },
+  {
+    "path_id": 1343,
+    "name": "Plank_NRM"
+  },
+  {
+    "path_id": 1344,
+    "name": "CLIFF_006_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1345,
+    "name": "CRAFTING_ROCK"
+  },
+  {
+    "path_id": 1346,
+    "name": "BIGROCK 5"
+  },
+  {
+    "path_id": 1347,
+    "name": "BUILDING_RAFT_FLOOR-WOOD"
+  },
+  {
+    "path_id": 1348,
+    "name": "MEDICAL_SPLINT"
+  },
+  {
+    "path_id": 1349,
+    "name": "Coconut_Flask_AO"
+  },
+  {
+    "path_id": 1350,
+    "name": "Raft Buoyancy"
+  },
+  {
+    "path_id": 1351,
+    "name": "CRUDE AXE"
+  },
+  {
+    "path_id": 1352,
+    "name": "BUILDING_FLOOR_WEDGE-STEEL"
+  },
+  {
+    "path_id": 1353,
+    "name": "tile_wreck_woodPlanks2_DIFF"
+  },
+  {
+    "path_id": 1354,
+    "name": "PIPI PLANT"
+  },
+  {
+    "path_id": 1355,
+    "name": "TYRE"
+  },
+  {
+    "path_id": 1356,
+    "name": "Cloth_NRM"
+  },
+  {
+    "path_id": 1357,
+    "name": "skeleton_vintage_SPEC"
+  },
+  {
+    "path_id": 1358,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1359,
+    "name": "tile_wreck_woodPlanks1_NRM"
+  },
+  {
+    "path_id": 1360,
+    "name": "SHELTER 4"
+  },
+  {
+    "path_id": 1361,
+    "name": "SCRAP PLANK"
+  },
+  {
+    "path_id": 1362,
+    "name": "SHIPWRECK_5A_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1363,
+    "name": "YUCCA"
+  },
+  {
+    "path_id": 1364,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1365,
+    "name": "Plots"
+  },
+  {
+    "path_id": 1366,
+    "name": "doorPorthole_DIFF"
+  },
+  {
+    "path_id": 1367,
+    "name": "Whale_Shark_DIFF"
+  },
+  {
+    "path_id": 1368,
+    "name": "MetalPanels_NRM"
+  },
+  {
+    "path_id": 1369,
+    "name": "Fuel_Can_DIFF"
+  },
+  {
+    "path_id": 1370,
+    "name": "tile_wreck_woodPlanks5_NRM"
+  },
+  {
+    "path_id": 1371,
+    "name": "CLIFF_001_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1372,
+    "name": "EASTEREGG_RUBBERDUCK"
+  },
+  {
+    "path_id": 1373,
+    "name": "Eel_DIFF"
+  },
+  {
+    "path_id": 1374,
+    "name": "TOOLS_PICK-REFINED"
+  },
+  {
+    "path_id": 1375,
+    "name": "Clay_DIFF"
+  },
+  {
+    "path_id": 1376,
+    "name": "ALOEVERA PLANT"
+  },
+  {
+    "path_id": 1377,
+    "name": "CONTAINER-WOOD"
+  },
+  {
+    "path_id": 1378,
+    "name": "PALM_4_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1379,
+    "name": "Submarine_SPEC"
+  },
+  {
+    "path_id": 1380,
+    "name": "tile_UnderwaterVegetation1_SPEC"
+  },
+  {
+    "path_id": 1381,
+    "name": "WaterPot_SPEC"
+  },
+  {
+    "path_id": 1382,
+    "name": "Eel_AO"
+  },
+  {
+    "path_id": 1383,
+    "name": "tile_wreck_fiberGlass_NRM"
+  },
+  {
+    "path_id": 1384,
+    "name": "TOOLS_KNIFE-REFINED"
+  },
+  {
+    "path_id": 1385,
+    "name": "BIGROCK_2_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1386,
+    "name": "PATROL - TIGER SHARK"
+  },
+  {
+    "path_id": 1387,
+    "name": "TOOLS_JERRYCAN"
+  },
+  {
+    "path_id": 1388,
+    "name": "Refined_Hammer_DIFF"
+  },
+  {
+    "path_id": 1389,
+    "name": "tile_wreck_metal7_SPEC"
+  },
+  {
+    "path_id": 1390,
+    "name": "Particle_Splash"
+  },
+  {
+    "path_id": 1391,
+    "name": "RAFT_BASE_TYRE_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1392,
+    "name": "ANIMALS_FISH-PILCHARD"
+  },
+  {
+    "path_id": 1393,
+    "name": "SHIPWRECK_6A_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1394,
+    "name": "CRAFTING_BED_SHELTER"
+  },
+  {
+    "path_id": 1395,
+    "name": "BUILDING_WALL-STEEL"
+  },
+  {
+    "path_id": 1396,
+    "name": "tile_wires_electricPanel_DIFF"
+  },
+  {
+    "path_id": 1397,
+    "name": "Big_Albedo"
+  },
+  {
+    "path_id": 1398,
+    "name": "Sprout_DIFF"
+  },
+  {
+    "path_id": 1399,
+    "name": "tile_wreck_wood_SPEC"
+  },
+  {
+    "path_id": 1400,
+    "name": "GW_BOSS_SPEC"
+  },
+  {
+    "path_id": 1401,
+    "name": "MEDICAL_ANTIDOTE"
+  },
+  {
+    "path_id": 1402,
+    "name": "TOOLS_MACHETTE"
+  },
+  {
+    "path_id": 1403,
+    "name": "AIRCRAFT_Impostor_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1404,
+    "name": "BIGROCK_2_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1405,
+    "name": "SCRAP-PLANK"
+  },
+  {
+    "path_id": 1406,
+    "name": "ClayRock_NRM"
+  },
+  {
+    "path_id": 1407,
+    "name": "Smoke_Sprites_Light"
+  },
+  {
+    "path_id": 1408,
+    "name": "BUILDING_ARCH-STEEL"
+  },
+  {
+    "path_id": 1409,
+    "name": "Radial_Bar_Background_2"
+  },
+  {
+    "path_id": 1410,
+    "name": "HOG_NRM"
+  },
+  {
+    "path_id": 1411,
+    "name": "SCRAP-CORRUGATED"
+  },
+  {
+    "path_id": 1412,
+    "name": "Blood1"
+  },
+  {
+    "path_id": 1413,
+    "name": "Lantern_NRM"
+  },
+  {
+    "path_id": 1414,
+    "name": "CRAFTING_PALM_FROND"
+  },
+  {
+    "path_id": 1415,
+    "name": "CRAFTING_ELECTRIC_PART"
+  },
+  {
+    "path_id": 1416,
+    "name": "smokeStackPlastics_SPEC"
+  },
+  {
+    "path_id": 1417,
+    "name": "Submarine_DIFF"
+  },
+  {
+    "path_id": 1418,
+    "name": "survivor_torso_albedo_p2"
+  },
+  {
+    "path_id": 1419,
+    "name": "Mining_Rock_SPEC"
+  },
+  {
+    "path_id": 1420,
+    "name": "tile_wreck_metal8_DIFF"
+  },
+  {
+    "path_id": 1421,
+    "name": "ClayRock_SPEC"
+  },
+  {
+    "path_id": 1422,
+    "name": "SHIPWRECK_8A_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1423,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1424,
+    "name": "tile_wreck_metal7_NRM"
+  },
+  {
+    "path_id": 1425,
+    "name": "Pickaxe_NRM"
+  },
+  {
+    "path_id": 1426,
+    "name": "tile_ceramicTiles2_SPEC"
+  },
+  {
+    "path_id": 1427,
+    "name": "Helicopter_1_AO"
+  },
+  {
+    "path_id": 1428,
+    "name": "BOAR"
+  },
+  {
+    "path_id": 1429,
+    "name": "ANIMALS_FISH-DISCUS"
+  },
+  {
+    "path_id": 1430,
+    "name": "Fishing_Spear_DIFF"
+  },
+  {
+    "path_id": 1431,
+    "name": "SHELTER 5"
+  },
+  {
+    "path_id": 1432,
+    "name": "Seafort2_DIFF"
+  },
+  {
+    "path_id": 1433,
+    "name": "HammerHead_DIFF"
+  },
+  {
+    "path_id": 1434,
+    "name": "bark2"
+  },
+  {
+    "path_id": 1435,
+    "name": "Stick_DIFF"
+  },
+  {
+    "path_id": 1436,
+    "name": "seagull"
+  },
+  {
+    "path_id": 1437,
+    "name": "TROPHY-MEGALODON"
+  },
+  {
+    "path_id": 1438,
+    "name": "FICUS_1_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1439,
+    "name": "BUILDING_FLOOR_WEDGE-PLANK"
+  },
+  {
+    "path_id": 1440,
+    "name": "CRAFTING_FUEL_PART"
+  },
+  {
+    "path_id": 1441,
+    "name": "SARDINE_DIFF"
+  },
+  {
+    "path_id": 1442,
+    "name": "SHIPPING_CONTAINER_DOOR_STATIC_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1443,
+    "name": "Pickaxe_SPEC"
+  },
+  {
+    "path_id": 1444,
+    "name": "MEDICAL_ALOE"
+  },
+  {
+    "path_id": 1445,
+    "name": "tile_wreck_Plywood_SPEC"
+  },
+  {
+    "path_id": 1446,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1447,
+    "name": "FICUS_TREE_2_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1448,
+    "name": "Ration_Tin_DIFF"
+  },
+  {
+    "path_id": 1449,
+    "name": "PLANEWRECK_1A"
+  },
+  {
+    "path_id": 1450,
+    "name": "TOOLS_HOE-CRUDE"
+  },
+  {
+    "path_id": 1451,
+    "name": "tile_wreck_fiberGlassBlue_SPEC"
+  },
+  {
+    "path_id": 1452,
+    "name": "tile_UnderwaterVegetation1_DIFF"
+  },
+  {
+    "path_id": 1453,
+    "name": "survivor_beard_ao"
+  },
+  {
+    "path_id": 1454,
+    "name": "SHIPWRECK_6A"
+  },
+  {
+    "path_id": 1455,
+    "name": "BUILDING_ROOF_WEDGE-WOOD"
+  },
+  {
+    "path_id": 1456,
+    "name": "CLIFF_006_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1457,
+    "name": "CRAFTING_LEATHER"
+  },
+  {
+    "path_id": 1458,
+    "name": "TOOLS_ARROW"
+  },
+  {
+    "path_id": 1459,
+    "name": "SMALLROCK 2"
+  },
+  {
+    "path_id": 1460,
+    "name": "MEDICAL_ALOE_SALVE"
+  },
+  {
+    "path_id": 1461,
+    "name": "RAFT_BASE_BALLS_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1462,
+    "name": "survivor_female_head_gloss"
+  },
+  {
+    "path_id": 1463,
+    "name": "Kura_DIFF"
+  },
+  {
+    "path_id": 1464,
+    "name": "Disort"
+  },
+  {
+    "path_id": 1465,
+    "name": "TOOLS_GUN-FLARE"
+  },
+  {
+    "path_id": 1466,
+    "name": "Boar_Diff"
+  },
+  {
+    "path_id": 1467,
+    "name": "GiantGrouperFish_DIFF"
+  },
+  {
+    "path_id": 1468,
+    "name": "LOG 2"
+  },
+  {
+    "path_id": 1469,
+    "name": "Rust_NRM"
+  },
+  {
+    "path_id": 1470,
+    "name": "tile_wreck_fiberGlassBlue_NRM"
+  },
+  {
+    "path_id": 1471,
+    "name": "DeepSeaBase"
+  },
+  {
+    "path_id": 1472,
+    "name": "shelter03_cloth_SPEC"
+  },
+  {
+    "path_id": 1473,
+    "name": "Blood2"
+  },
+  {
+    "path_id": 1474,
+    "name": "BIGROCK_5_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1475,
+    "name": "MEDICAL_GAUZE"
+  },
+  {
+    "path_id": 1476,
+    "name": "FOOD_MEAT-SMALL-SPOILED"
+  },
+  {
+    "path_id": 1477,
+    "name": "DOOR_2_DAMAGED"
+  },
+  {
+    "path_id": 1478,
+    "name": "Plank_DIFF"
+  },
+  {
+    "path_id": 1479,
+    "name": "BIGROCK_1_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1480,
+    "name": "Propeller_Alphacutoff"
+  },
+  {
+    "path_id": 1481,
+    "name": "SHIPPING_CONTAINER_PANEL_STATIC_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1482,
+    "name": "TARP"
+  },
+  {
+    "path_id": 1483,
+    "name": "STATION_FURNACE"
+  },
+  {
+    "path_id": 1484,
+    "name": "CERIMAN 3"
+  },
+  {
+    "path_id": 1485,
+    "name": "survivor_female_hands_gloss"
+  },
+  {
+    "path_id": 1486,
+    "name": "Particle_Blood_Chunk"
+  },
+  {
+    "path_id": 1487,
+    "name": "SHELTER 3"
+  },
+  {
+    "path_id": 1488,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1489,
+    "name": "DriftWood_Decal_NRM"
+  },
+  {
+    "path_id": 1490,
+    "name": "AIRCRAFT_RUDDER_PART"
+  },
+  {
+    "path_id": 1491,
+    "name": "Ground_Cover_PACK"
+  },
+  {
+    "path_id": 1492,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1493,
+    "name": "BUILDING_FOUNDATION-WOOD"
+  },
+  {
+    "path_id": 1494,
+    "name": "CRAFTING_ENGINE_PART"
+  },
+  {
+    "path_id": 1495,
+    "name": "Meat_SPEC"
+  },
+  {
+    "path_id": 1496,
+    "name": "SeaAnchor_NRM"
+  },
+  {
+    "path_id": 1497,
+    "name": "Arm_Bleeding_SPEC"
+  },
+  {
+    "path_id": 1498,
+    "name": "Alocasia_leafs_PACK"
+  },
+  {
+    "path_id": 1499,
+    "name": "PALM_LEAF_PACK"
+  },
+  {
+    "path_id": 1500,
+    "name": "BUILDING_WALL-WOOD"
+  },
+  {
+    "path_id": 1501,
+    "name": "CRAFTING_LEAVES-FIBROUS"
+  },
+  {
+    "path_id": 1502,
+    "name": "BUILDING_VEHICLE_GYRO_BASE"
+  },
+  {
+    "path_id": 1503,
+    "name": "BUOY_NRM"
+  },
+  {
+    "path_id": 1504,
+    "name": "RAFT_FLOOR_CLAY_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1505,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1506,
+    "name": "Helicopter_Blade"
+  },
+  {
+    "path_id": 1507,
+    "name": "SHIPWRECK_12A_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1508,
+    "name": "Mining_Rock_AO"
+  },
+  {
+    "path_id": 1509,
+    "name": "TOOLS_PICK-REFINED"
+  },
+  {
+    "path_id": 1510,
+    "name": "IslandBase2"
+  },
+  {
+    "path_id": 1511,
+    "name": "Rock_Detail_Normal"
+  },
+  {
+    "path_id": 1512,
+    "name": "BUILDING_ROOF_CORNER-WOOD"
+  },
+  {
+    "path_id": 1513,
+    "name": "Damage_Indicator"
+  },
+  {
+    "path_id": 1514,
+    "name": "CHAIR-WOOD"
+  },
+  {
+    "path_id": 1515,
+    "name": "tile_debris_NRM"
+  },
+  {
+    "path_id": 1516,
+    "name": "tile_wreck_glassDirty_DIFF"
+  },
+  {
+    "path_id": 1517,
+    "name": "REFINED SPEAR"
+  },
+  {
+    "path_id": 1518,
+    "name": "TOOLS_SPEARGUN-CARBON"
+  },
+  {
+    "path_id": 1519,
+    "name": "shelter06_tarp_nrm"
+  },
+  {
+    "path_id": 1520,
+    "name": "SHIPPING_CONTAINER_2_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1521,
+    "name": "tile_wreck_Plywood2_NRM"
+  },
+  {
+    "path_id": 1522,
+    "name": "AIRCRAFT_ENGINE_PART"
+  },
+  {
+    "path_id": 1523,
+    "name": "Crab_NRM"
+  },
+  {
+    "path_id": 1524,
+    "name": "ANIMALS_FISH-CLOWN"
+  },
+  {
+    "path_id": 1525,
+    "name": "Crude_Knife_DIFF"
+  },
+  {
+    "path_id": 1526,
+    "name": "Big_Normal"
+  },
+  {
+    "path_id": 1527,
+    "name": "CRAFTING_LOG-DRIFTWOOD"
+  },
+  {
+    "path_id": 1528,
+    "name": "PART GYRO"
+  },
+  {
+    "path_id": 1529,
+    "name": "BACKPACK"
+  },
+  {
+    "path_id": 1530,
+    "name": "DUCTTAPE"
+  },
+  {
+    "path_id": 1531,
+    "name": "tile_ceramicTiles1_NRM"
+  },
+  {
+    "path_id": 1532,
+    "name": "Particle_Blood_Spray"
+  },
+  {
+    "path_id": 1533,
+    "name": "Bricks_NRM"
+  },
+  {
+    "path_id": 1534,
+    "name": "PINE SMALL 3"
+  },
+  {
+    "path_id": 1535,
+    "name": "SeaFort_Bridge_Broken"
+  },
+  {
+    "path_id": 1536,
+    "name": "DOOR_2"
+  },
+  {
+    "path_id": 1537,
+    "name": "FOOD_COCONUT_DRINKABLE"
+  },
+  {
+    "path_id": 1538,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1539,
+    "name": "Shelter06_BARK_NRM"
+  },
+  {
+    "path_id": 1540,
+    "name": "Rope_Tile_DIFF"
+  },
+  {
+    "path_id": 1541,
+    "name": "CLIFF_006_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1542,
+    "name": "Notification_Checkbox"
+  },
+  {
+    "path_id": 1543,
+    "name": "tile_UnderwaterVegetation2_DIFF"
+  },
+  {
+    "path_id": 1544,
+    "name": "Fuel_Can_NRM"
+  },
+  {
+    "path_id": 1545,
+    "name": "Tarp_PACK"
+  },
+  {
+    "path_id": 1546,
+    "name": "survivor_female_head_normal"
+  },
+  {
+    "path_id": 1547,
+    "name": "PINE SMALL 2"
+  },
+  {
+    "path_id": 1548,
+    "name": "Cartographer_Map_Source_Button"
+  },
+  {
+    "path_id": 1549,
+    "name": "Ceriman_1_PACK"
+  },
+  {
+    "path_id": 1550,
+    "name": "shipwreck_metal_tile1_SPEC"
+  },
+  {
+    "path_id": 1551,
+    "name": "Sticks_SPEC"
+  },
+  {
+    "path_id": 1552,
+    "name": "BIGROCK_3_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1553,
+    "name": "FOOD_MEAT-SMALL-SMOKED"
+  },
+  {
+    "path_id": 1554,
+    "name": "tile_debris_DIFF"
+  },
+  {
+    "path_id": 1555,
+    "name": "TOOLS_PADDLE"
+  },
+  {
+    "path_id": 1556,
+    "name": "tile_wreck_woodPlanks1_DIFF"
+  },
+  {
+    "path_id": 1557,
+    "name": "WindowGlass"
+  },
+  {
+    "path_id": 1558,
+    "name": "Refined_Knife_NRM"
+  },
+  {
+    "path_id": 1559,
+    "name": "Flare_Gun_NRM"
+  },
+  {
+    "path_id": 1560,
+    "name": "SHORELINE ROCK 2"
+  },
+  {
+    "path_id": 1561,
+    "name": "Cloth_Torch_GLOSS"
+  },
+  {
+    "path_id": 1562,
+    "name": "tile_ceramicTiles1_DIFF"
+  },
+  {
+    "path_id": 1563,
+    "name": "BUOYBALL"
+  },
+  {
+    "path_id": 1564,
+    "name": "RAFT_BASE_BALLS_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1565,
+    "name": "RAFT_BASE_BARREL_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1566,
+    "name": "survivor_beard_normal"
+  },
+  {
+    "path_id": 1567,
+    "name": "BUILDING_DOOR-PLANK"
+  },
+  {
+    "path_id": 1568,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1569,
+    "name": "Leather_NRM"
+  },
+  {
+    "path_id": 1570,
+    "name": "BUILDING_WALL_HALF-STEEL"
+  },
+  {
+    "path_id": 1571,
+    "name": "tile_wreck_woodPlanks2_SPEC"
+  },
+  {
+    "path_id": 1572,
+    "name": "Particle_Blood"
+  },
+  {
+    "path_id": 1573,
+    "name": "Watch_EMISS"
+  },
+  {
+    "path_id": 1574,
+    "name": "CLAY"
+  },
+  {
+    "path_id": 1575,
+    "name": "MetalFloor_Diff"
+  },
+  {
+    "path_id": 1576,
+    "name": "Propeller_albedo"
+  },
+  {
+    "path_id": 1577,
+    "name": "Dead_Plant_DIFF"
+  },
+  {
+    "path_id": 1578,
+    "name": "SeaAnchor_SPEC"
+  },
+  {
+    "path_id": 1579,
+    "name": "LANTERN"
+  },
+  {
+    "path_id": 1580,
+    "name": "MetalPanel2_NRM"
+  },
+  {
+    "path_id": 1581,
+    "name": "Coconut_DIFF"
+  },
+  {
+    "path_id": 1582,
+    "name": "TOOLS_DUCTTAPE"
+  },
+  {
+    "path_id": 1583,
+    "name": "COD_DIFF"
+  },
+  {
+    "path_id": 1584,
+    "name": "AIRCRAFT_RUDDER_PART"
+  },
+  {
+    "path_id": 1585,
+    "name": "VEHICLE_LIFERAFT_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1586,
+    "name": "Ducttape_DIFF"
+  },
+  {
+    "path_id": 1587,
+    "name": "Watch_SPEC"
+  },
+  {
+    "path_id": 1588,
+    "name": "BIGROCK_1_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1589,
+    "name": "ficus2"
+  },
+  {
+    "path_id": 1590,
+    "name": "BUILDING_FLOOR-PLANK"
+  },
+  {
+    "path_id": 1591,
+    "name": "Fishing_Spear_NRM"
+  },
+  {
+    "path_id": 1592,
+    "name": "tile_wreck_metal1_SPEC"
+  },
+  {
+    "path_id": 1593,
+    "name": "FICUS_3_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1594,
+    "name": "MEDICAL_REPELLENT"
+  },
+  {
+    "path_id": 1595,
+    "name": "BANDAGE"
+  },
+  {
+    "path_id": 1596,
+    "name": "SHELF-WOOD"
+  },
+  {
+    "path_id": 1597,
+    "name": "MetalPanel2"
+  },
+  {
+    "path_id": 1598,
+    "name": "CRAFTING_ROCK"
+  },
+  {
+    "path_id": 1599,
+    "name": "survivor_female_body_dirty_ao"
+  },
+  {
+    "path_id": 1600,
+    "name": "Young_Palm_PACK"
+  },
+  {
+    "path_id": 1601,
+    "name": "NONE-PALM"
+  },
+  {
+    "path_id": 1602,
+    "name": "player_female_hands_normal"
+  },
+  {
+    "path_id": 1603,
+    "name": "tile_wreck_metal2_SPEC"
+  },
+  {
+    "path_id": 1604,
+    "name": "WaterPot_DIFF"
+  },
+  {
+    "path_id": 1605,
+    "name": "CRAFTING_FIRE_PIT"
+  },
+  {
+    "path_id": 1606,
+    "name": "LabelMaker_NRM"
+  },
+  {
+    "path_id": 1607,
+    "name": "survivor_female_body_dirty_normal"
+  },
+  {
+    "path_id": 1608,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1609,
+    "name": "Seafort_SPEC"
+  },
+  {
+    "path_id": 1610,
+    "name": "DRIFTWOOD_DECAL"
+  },
+  {
+    "path_id": 1611,
+    "name": "Anchor1_NRM"
+  },
+  {
+    "path_id": 1612,
+    "name": "Arrow_DIFF"
+  },
+  {
+    "path_id": 1613,
+    "name": "BUOY_DIFF"
+  },
+  {
+    "path_id": 1614,
+    "name": "BUILDING_ROOF_CAP-WOOD"
+  },
+  {
+    "path_id": 1615,
+    "name": "Helicopter_2_DIFF"
+  },
+  {
+    "path_id": 1616,
+    "name": "RAFT_FLOOR_WOOD_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1617,
+    "name": "ANIMALS_FISH-COD"
+  },
+  {
+    "path_id": 1618,
+    "name": "HAMMER"
+  },
+  {
+    "path_id": 1619,
+    "name": "CLIFF_003_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1620,
+    "name": "shelter_05_NRM"
+  },
+  {
+    "path_id": 1621,
+    "name": "tile_wreck_metal6_NRM"
+  },
+  {
+    "path_id": 1622,
+    "name": "BIGROCK_2_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1623,
+    "name": "DISCUS_SPEC"
+  },
+  {
+    "path_id": 1624,
+    "name": "Driftwood_DIFF"
+  },
+  {
+    "path_id": 1625,
+    "name": "PALM_2_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1626,
+    "name": "Flare_Gun_DIFF"
+  },
+  {
+    "path_id": 1627,
+    "name": "MetalPanel_4"
+  },
+  {
+    "path_id": 1628,
+    "name": "CRAFTING_BED"
+  },
+  {
+    "path_id": 1629,
+    "name": "RAFT_ANCHOR_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1630,
+    "name": "FOOD_CAN_BEANS"
+  },
+  {
+    "path_id": 1631,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1632,
+    "name": "HammerHead_NRM"
+  },
+  {
+    "path_id": 1633,
+    "name": "VEHICLE_MOTOR_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1634,
+    "name": "Rock_Detail"
+  },
+  {
+    "path_id": 1635,
+    "name": "BUILDING_PANEL-CONTAINER"
+  },
+  {
+    "path_id": 1636,
+    "name": "PLANEWRECK_1A_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1637,
+    "name": "Crafting_Mask"
+  },
+  {
+    "path_id": 1638,
+    "name": "Coconut_Raw_DIFF"
+  },
+  {
+    "path_id": 1639,
+    "name": "MEDICAL BREATH BOOST"
+  },
+  {
+    "path_id": 1640,
+    "name": "Crude_Spear_DIFF"
+  },
+  {
+    "path_id": 1641,
+    "name": "CRAFTING_HOBO_STOVE"
+  },
+  {
+    "path_id": 1642,
+    "name": "abandoned_shelter_pole_01_08_Gloss"
+  },
+  {
+    "path_id": 1643,
+    "name": "GiantGrouperFish_NRM"
+  },
+  {
+    "path_id": 1644,
+    "name": "SeaPlanePedals_DIFF"
+  },
+  {
+    "path_id": 1645,
+    "name": "Options_Separator_Vertical"
+  },
+  {
+    "path_id": 1646,
+    "name": "TOOLS_KINDLING"
+  },
+  {
+    "path_id": 1647,
+    "name": "MEDICAL_PIPI"
+  },
+  {
+    "path_id": 1648,
+    "name": "Meat_Cooked_DIFF"
+  },
+  {
+    "path_id": 1649,
+    "name": "SHIPWRECK_7A"
+  },
+  {
+    "path_id": 1650,
+    "name": "RAFT_FLOOR_DRIFTWOOD_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1651,
+    "name": "BUILDING_WALL_HALF-DRIFTWOOD"
+  },
+  {
+    "path_id": 1652,
+    "name": "PALM_1_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1653,
+    "name": "Aloevera_DIFF"
+  },
+  {
+    "path_id": 1654,
+    "name": "Cliffs1_NRM"
+  },
+  {
+    "path_id": 1655,
+    "name": "BUILDING_WALL-DRIFTWOOD"
+  },
+  {
+    "path_id": 1656,
+    "name": "SHIPPING_CONTAINER_1_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1657,
+    "name": "tile_wreck_metal8_SPEC"
+  },
+  {
+    "path_id": 1658,
+    "name": "Seafort_Support_SPEC"
+  },
+  {
+    "path_id": 1659,
+    "name": "tile_smokeStack_SPEC"
+  },
+  {
+    "path_id": 1660,
+    "name": "RAFT_BASE_WOOD_BUNDLE_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1661,
+    "name": "Arm_Bleeding"
+  },
+  {
+    "path_id": 1662,
+    "name": "MISSION_SHARK_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1663,
+    "name": "DirtyGlass"
+  },
+  {
+    "path_id": 1664,
+    "name": "MEDICAL_BREATH_BOOST"
+  },
+  {
+    "path_id": 1665,
+    "name": "Crate_Standard_DIFF"
+  },
+  {
+    "path_id": 1666,
+    "name": "BUILDING_RAFT_SAIL"
+  },
+  {
+    "path_id": 1667,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1668,
+    "name": "tile_wreck_woodPlanks5_DIFF"
+  },
+  {
+    "path_id": 1669,
+    "name": "Palm_Cover_NRM"
+  },
+  {
+    "path_id": 1670,
+    "name": "Pickaxe_DIFF"
+  },
+  {
+    "path_id": 1671,
+    "name": "TOOLS_LABEL_MAKER"
+  },
+  {
+    "path_id": 1672,
+    "name": "FOOD_FRUIT-QUWAWA"
+  },
+  {
+    "path_id": 1673,
+    "name": "RAFT_FLOOR_CORRUGATED_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1674,
+    "name": "CraftingArea"
+  },
+  {
+    "path_id": 1675,
+    "name": "Key_Background"
+  },
+  {
+    "path_id": 1676,
+    "name": "CRAFTING_BED"
+  },
+  {
+    "path_id": 1677,
+    "name": "MEDICAL REPELLENT"
+  },
+  {
+    "path_id": 1678,
+    "name": "AirTank_NRM"
+  },
+  {
+    "path_id": 1679,
+    "name": "STATION_BRICK"
+  },
+  {
+    "path_id": 1680,
+    "name": "Grass_DIFF"
+  },
+  {
+    "path_id": 1681,
+    "name": "CRAFTING_ENGINE_PART"
+  },
+  {
+    "path_id": 1682,
+    "name": "PINE_2_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1683,
+    "name": "MetalPanel_4_NRM"
+  },
+  {
+    "path_id": 1684,
+    "name": "Rock_NRM"
+  },
+  {
+    "path_id": 1685,
+    "name": "shelter03_cloth_DIFF"
+  },
+  {
+    "path_id": 1686,
+    "name": "SHELTER 6"
+  },
+  {
+    "path_id": 1687,
+    "name": "FICUS_3_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1688,
+    "name": "BUOY_SPEC"
+  },
+  {
+    "path_id": 1689,
+    "name": "SHIPWRECK_8A_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1690,
+    "name": "Boba_SPEC"
+  },
+  {
+    "path_id": 1691,
+    "name": "VEHICLE_HELICOPTER_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1692,
+    "name": "Crafting_Combination_Highlight"
+  },
+  {
+    "path_id": 1693,
+    "name": "Bush_Diff"
+  },
+  {
+    "path_id": 1694,
+    "name": "GW_BOSS_DETAIL"
+  },
+  {
+    "path_id": 1695,
+    "name": "PALM 1"
+  },
+  {
+    "path_id": 1696,
+    "name": "Net_NRM"
+  },
+  {
+    "path_id": 1697,
+    "name": "PINE_3_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1698,
+    "name": "survivor_female_hair_albedo"
+  },
+  {
+    "path_id": 1699,
+    "name": "SHIPPING_CONTAINER_DOOR_STATIC_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1700,
+    "name": "Clay_NRM"
+  },
+  {
+    "path_id": 1701,
+    "name": "Stone_Hoe_Spec"
+  },
+  {
+    "path_id": 1702,
+    "name": "Cloth_Torch_DIFF_BURNT"
+  },
+  {
+    "path_id": 1703,
+    "name": "TOOLS_FLASHLIGHT"
+  },
+  {
+    "path_id": 1704,
+    "name": "RAFT_BASE_TYRE_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1705,
+    "name": "MEDICAL_WAVULAVULA"
+  },
+  {
+    "path_id": 1706,
+    "name": "shelter07_tarp_diff"
+  },
+  {
+    "path_id": 1707,
+    "name": "skeleton_vintage_NRM"
+  },
+  {
+    "path_id": 1708,
+    "name": "CRAFTING_ELECTRIC_PART"
+  },
+  {
+    "path_id": 1709,
+    "name": "LOCKER_DIFF"
+  },
+  {
+    "path_id": 1710,
+    "name": "TOOLS_AIRTANK"
+  },
+  {
+    "path_id": 1711,
+    "name": "shelter_crate_diff"
+  },
+  {
+    "path_id": 1712,
+    "name": "TOOLS_KNIFE-SMALL"
+  },
+  {
+    "path_id": 1713,
+    "name": "Sprout_PACK"
+  },
+  {
+    "path_id": 1714,
+    "name": "RAFT_BASE_TYRE_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1715,
+    "name": "CRAB"
+  },
+  {
+    "path_id": 1716,
+    "name": "FLARE GUN"
+  },
+  {
+    "path_id": 1717,
+    "name": "FOOD_FRUIT-QUWAWA"
+  },
+  {
+    "path_id": 1718,
+    "name": "TOOLS_BOW-CRUDE"
+  },
+  {
+    "path_id": 1719,
+    "name": "ANIMALS_FISH-LION"
+  },
+  {
+    "path_id": 1720,
+    "name": "Structures"
+  },
+  {
+    "path_id": 1721,
+    "name": "TOOLS_SPEARGUN_ARROW-CARBON"
+  },
+  {
+    "path_id": 1722,
+    "name": "bat_n"
+  },
+  {
+    "path_id": 1723,
+    "name": "Pieces_Icon"
+  },
+  {
+    "path_id": 1724,
+    "name": "LOG 1"
+  },
+  {
+    "path_id": 1725,
+    "name": "doorPorthole_NRM"
+  },
+  {
+    "path_id": 1726,
+    "name": "Bricks_DIFF"
+  },
+  {
+    "path_id": 1727,
+    "name": "TOOLS_KINDLING"
+  },
+  {
+    "path_id": 1728,
+    "name": "PALM_LEAF_DIFF"
+  },
+  {
+    "path_id": 1729,
+    "name": "CLIFF 2"
+  },
+  {
+    "path_id": 1730,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1731,
+    "name": "Helicopter_1_DIFF"
+  },
+  {
+    "path_id": 1732,
+    "name": "LOCKER_SPEC"
+  },
+  {
+    "path_id": 1733,
+    "name": "Crude_Spear_SPEC"
+  },
+  {
+    "path_id": 1734,
+    "name": "BIGROCK_1_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1735,
+    "name": "RubberDuck_Emissive"
+  },
+  {
+    "path_id": 1736,
+    "name": "COCONUT"
+  },
+  {
+    "path_id": 1737,
+    "name": "SHIPWRECK_13A_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1738,
+    "name": "survivor_torso_albedo"
+  },
+  {
+    "path_id": 1739,
+    "name": "EmojiOne"
+  },
+  {
+    "path_id": 1740,
+    "name": "TOOLS_LANTERN"
+  },
+  {
+    "path_id": 1741,
+    "name": "Whale_NRM"
+  },
+  {
+    "path_id": 1742,
+    "name": "Mission_Trophy_SPEC"
+  },
+  {
+    "path_id": 1743,
+    "name": "Day_Notification_Background_1"
+  },
+  {
+    "path_id": 1744,
+    "name": "Young_Palm_DIFF"
+  },
+  {
+    "path_id": 1745,
+    "name": "SHARK - GREAT WHITE"
+  },
+  {
+    "path_id": 1746,
+    "name": "Branch_Pack"
+  },
+  {
+    "path_id": 1747,
+    "name": "tile_wires_electricPanel_SPEC"
+  },
+  {
+    "path_id": 1748,
+    "name": "player_female_hands_albedo"
+  },
+  {
+    "path_id": 1749,
+    "name": "Crude_Axe_DIFF"
+  },
+  {
+    "path_id": 1750,
+    "name": "SCRAP_BUOYANT-BARREL"
+  },
+  {
+    "path_id": 1751,
+    "name": "SCRAP-CORRUGATED"
+  },
+  {
+    "path_id": 1752,
+    "name": "CLIFF_001_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1753,
+    "name": "ficus3"
+  },
+  {
+    "path_id": 1754,
+    "name": "Spyglass_NMR"
+  },
+  {
+    "path_id": 1755,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1756,
+    "name": "tile_wreck_Plywood_DIFF"
+  },
+  {
+    "path_id": 1757,
+    "name": "FARMING HOE"
+  },
+  {
+    "path_id": 1758,
+    "name": "BUILDING_DOOR-WOOD"
+  },
+  {
+    "path_id": 1759,
+    "name": "Radial_Element_Background"
+  },
+  {
+    "path_id": 1760,
+    "name": "Tiger_Shark_SPEC"
+  },
+  {
+    "path_id": 1761,
+    "name": "YOUNG PALM 1"
+  },
+  {
+    "path_id": 1762,
+    "name": "Crafting_Combination_Seperator"
+  },
+  {
+    "path_id": 1763,
+    "name": "Corrugated_Iron_NRM"
+  },
+  {
+    "path_id": 1764,
+    "name": "ARCHER_DIFF"
+  },
+  {
+    "path_id": 1765,
+    "name": "Rope_Tile_NRM"
+  },
+  {
+    "path_id": 1766,
+    "name": "Suncream"
+  },
+  {
+    "path_id": 1767,
+    "name": "Helicopter_2_SPEC"
+  },
+  {
+    "path_id": 1768,
+    "name": "TOOLS_SPEAR-CRUDE"
+  },
+  {
+    "path_id": 1769,
+    "name": "CLIFF_004_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1770,
+    "name": "ENGINE PUMP"
+  },
+  {
+    "path_id": 1771,
+    "name": "GiantGrouperFish_SPEC"
+  },
+  {
+    "path_id": 1772,
+    "name": "PALM_3_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1773,
+    "name": "CRAFTING_LASHING"
+  },
+  {
+    "path_id": 1774,
+    "name": "PACK"
+  },
+  {
+    "path_id": 1775,
+    "name": "decal_UnderwaterVegetation_SPEC"
+  },
+  {
+    "path_id": 1776,
+    "name": "ANIMALS_FISH-SARDINE"
+  },
+  {
+    "path_id": 1777,
+    "name": "MetalPanel_4_Spec"
+  },
+  {
+    "path_id": 1778,
+    "name": "BARREL PILE"
+  },
+  {
+    "path_id": 1779,
+    "name": "Fuel_Icon"
+  },
+  {
+    "path_id": 1780,
+    "name": "WorldMap_Icon_Carrier"
+  },
+  {
+    "path_id": 1781,
+    "name": "Storage_Military_Large_GLOSS"
+  },
+  {
+    "path_id": 1782,
+    "name": "Alocasia_leafs"
+  },
+  {
+    "path_id": 1783,
+    "name": "TOOLS_HAMMER-CRUDE"
+  },
+  {
+    "path_id": 1784,
+    "name": "CRAFTING_TOOL_BELT_POUCH_1"
+  },
+  {
+    "path_id": 1785,
+    "name": "SHIPWRECK_8A_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1786,
+    "name": "Yucca_DIFF"
+  },
+  {
+    "path_id": 1787,
+    "name": "HOG_OCC"
+  },
+  {
+    "path_id": 1788,
+    "name": "skeleton_moss_DIFF"
+  },
+  {
+    "path_id": 1789,
+    "name": "water_splash_v3"
+  },
+  {
+    "path_id": 1790,
+    "name": "PALM_2_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1791,
+    "name": "BUILDING_RAFT_ANCHOR"
+  },
+  {
+    "path_id": 1792,
+    "name": "TOOLS_SPYGLASS"
+  },
+  {
+    "path_id": 1793,
+    "name": "Seafort_NRM"
+  },
+  {
+    "path_id": 1794,
+    "name": "SCRAP CORRUGATED"
+  },
+  {
+    "path_id": 1795,
+    "name": "PALM_3_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1796,
+    "name": "CRAFTING_FILTER_PART"
+  },
+  {
+    "path_id": 1797,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1798,
+    "name": "Doors"
+  },
+  {
+    "path_id": 1799,
+    "name": "SeafortWallLeaks_NRM"
+  },
+  {
+    "path_id": 1800,
+    "name": "shipwreck_metal_rust1_NRM"
+  },
+  {
+    "path_id": 1801,
+    "name": "Radial_Element_Highlight"
+  },
+  {
+    "path_id": 1802,
+    "name": "tile_wreck_metal5_NRM"
+  },
+  {
+    "path_id": 1803,
+    "name": "tile_wreck_driftwoodOriz_DIFF"
+  },
+  {
+    "path_id": 1804,
+    "name": "binocular_view_mask"
+  },
+  {
+    "path_id": 1805,
+    "name": "SeaFort_1_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1806,
+    "name": "KINDLING"
+  },
+  {
+    "path_id": 1807,
+    "name": "survivor_female_hands_albedo"
+  },
+  {
+    "path_id": 1808,
+    "name": "TestTex"
+  },
+  {
+    "path_id": 1809,
+    "name": "TROPHY-SQUID"
+  },
+  {
+    "path_id": 1810,
+    "name": "MISSION_SQUID_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1811,
+    "name": "Terrain_Sand_Wet_DIFF"
+  },
+  {
+    "path_id": 1812,
+    "name": "tile_wreck_woodPlanks2_NRM"
+  },
+  {
+    "path_id": 1813,
+    "name": "Floors"
+  },
+  {
+    "path_id": 1814,
+    "name": "ALOCASIA 1"
+  },
+  {
+    "path_id": 1815,
+    "name": "PINE_3_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1816,
+    "name": "survivor_female_hands_normal"
+  },
+  {
+    "path_id": 1817,
+    "name": "Stick_Leaves_NRM"
+  },
+  {
+    "path_id": 1818,
+    "name": "Speargun_NRM"
+  },
+  {
+    "path_id": 1819,
+    "name": "Ceriman_1_DIFF"
+  },
+  {
+    "path_id": 1820,
+    "name": "decal2_UnderwaterVegetation_NRM"
+  },
+  {
+    "path_id": 1821,
+    "name": "Noise"
+  },
+  {
+    "path_id": 1822,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1823,
+    "name": "PALM_4_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1824,
+    "name": "RustDecals"
+  },
+  {
+    "path_id": 1825,
+    "name": "Crafter_Pile_Icon"
+  },
+  {
+    "path_id": 1826,
+    "name": "survivor_torso_metalness"
+  },
+  {
+    "path_id": 1827,
+    "name": "shelter07_tarp_nrm"
+  },
+  {
+    "path_id": 1828,
+    "name": "Crude_Hammer_NRM"
+  },
+  {
+    "path_id": 1829,
+    "name": "SeaAnchor_DIFF"
+  },
+  {
+    "path_id": 1830,
+    "name": "tile_ceramicTiles1_SPEC"
+  },
+  {
+    "path_id": 1831,
+    "name": "Compass_SPEC"
+  },
+  {
+    "path_id": 1832,
+    "name": "FICUS TREE 2"
+  },
+  {
+    "path_id": 1833,
+    "name": "Blood3"
+  },
+  {
+    "path_id": 1834,
+    "name": "Coconut_SPEC"
+  },
+  {
+    "path_id": 1835,
+    "name": "tile_wreck_metal5_SPEC"
+  },
+  {
+    "path_id": 1836,
+    "name": "SHIPWRECK_1A"
+  },
+  {
+    "path_id": 1837,
+    "name": "SHIPWRECK_4A"
+  },
+  {
+    "path_id": 1838,
+    "name": "TOOLS_TORCH"
+  },
+  {
+    "path_id": 1839,
+    "name": "SpeargunCarbon_DIFF"
+  },
+  {
+    "path_id": 1840,
+    "name": "FICUS_2_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1841,
+    "name": "Steps"
+  },
+  {
+    "path_id": 1842,
+    "name": "TOOLS_HAMMER-CRUDE"
+  },
+  {
+    "path_id": 1843,
+    "name": "PINE_1_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1844,
+    "name": "tile_wreck_woodOrnaments_NRM"
+  },
+  {
+    "path_id": 1845,
+    "name": "Coconut_Raw_NRM"
+  },
+  {
+    "path_id": 1846,
+    "name": "Goblin_Shark_NRM"
+  },
+  {
+    "path_id": 1847,
+    "name": "Particle_Wood_Chips_1"
+  },
+  {
+    "path_id": 1848,
+    "name": "PART ELECTRICAL"
+  },
+  {
+    "path_id": 1849,
+    "name": "shelter07_logs_nrm"
+  },
+  {
+    "path_id": 1850,
+    "name": "Torch_SPEC"
+  },
+  {
+    "path_id": 1851,
+    "name": "survivor_hair_normal"
+  },
+  {
+    "path_id": 1852,
+    "name": "tile_rust_SPEC"
+  },
+  {
+    "path_id": 1853,
+    "name": "survivor_head_metalness"
+  },
+  {
+    "path_id": 1854,
+    "name": "REFINED HAMMER"
+  },
+  {
+    "path_id": 1855,
+    "name": "RAFT_TRANS2"
+  },
+  {
+    "path_id": 1856,
+    "name": "SHARK - WHALE"
+  },
+  {
+    "path_id": 1857,
+    "name": "night_snake_Ao"
+  },
+  {
+    "path_id": 1858,
+    "name": "FOOD_MEAT-MEDIUM-COOKED"
+  },
+  {
+    "path_id": 1859,
+    "name": "Ration_Tin_SPEC"
+  },
+  {
+    "path_id": 1860,
+    "name": "PALM FROND"
+  },
+  {
+    "path_id": 1861,
+    "name": "tile_wreck_metal4_NRM"
+  },
+  {
+    "path_id": 1862,
+    "name": "CERIMAN 2"
+  },
+  {
+    "path_id": 1863,
+    "name": "Crude_Hammer_SPEC"
+  },
+  {
+    "path_id": 1864,
+    "name": "QUWAWA TREE"
+  },
+  {
+    "path_id": 1865,
+    "name": "PINE 1"
+  },
+  {
+    "path_id": 1866,
+    "name": "Crosshair_Menu"
+  },
+  {
+    "path_id": 1867,
+    "name": "Day_Notification_Background_2"
+  },
+  {
+    "path_id": 1868,
+    "name": "Crude_Spear_NRM"
+  },
+  {
+    "path_id": 1869,
+    "name": "Leather_GLOSS"
+  },
+  {
+    "path_id": 1870,
+    "name": "night_snake_Albedo"
+  },
+  {
+    "path_id": 1871,
+    "name": "AIRCRAFT_PROPELLER_PART"
+  },
+  {
+    "path_id": 1872,
+    "name": "DeadExBox_DIFF"
+  },
+  {
+    "path_id": 1873,
+    "name": "SHELTER 8"
+  },
+  {
+    "path_id": 1874,
+    "name": "ARROW"
+  },
+  {
+    "path_id": 1875,
+    "name": "BUILDING_STEPS-STEEL"
+  },
+  {
+    "path_id": 1876,
+    "name": "BUILDING_VEHICLE_GYRO_COCKPIT"
+  },
+  {
+    "path_id": 1877,
+    "name": "FICUS_TREE_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1878,
+    "name": "Walls"
+  },
+  {
+    "path_id": 1879,
+    "name": "Driftwood_NRM"
+  },
+  {
+    "path_id": 1880,
+    "name": "VEHICLE_MOTOR_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1881,
+    "name": "PALM_BARK_DIFF"
+  },
+  {
+    "path_id": 1882,
+    "name": "Radial_Header"
+  },
+  {
+    "path_id": 1883,
+    "name": "TOOLS_BOBBER"
+  },
+  {
+    "path_id": 1884,
+    "name": "SeaFort_1"
+  },
+  {
+    "path_id": 1885,
+    "name": "BUILDING_ARCH-WOOD"
+  },
+  {
+    "path_id": 1886,
+    "name": "STATION_TANNING_RACK"
+  },
+  {
+    "path_id": 1887,
+    "name": "DRIFTWOOD PILE"
+  },
+  {
+    "path_id": 1888,
+    "name": "SeafortWallLeaks_DIFF"
+  },
+  {
+    "path_id": 1889,
+    "name": "FICUS 3"
+  },
+  {
+    "path_id": 1890,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1891,
+    "name": "Spyglass_AO"
+  },
+  {
+    "path_id": 1892,
+    "name": "BUILDING_FOUNDATION_WEDGE-WOOD"
+  },
+  {
+    "path_id": 1893,
+    "name": "TROPHY-SQUID"
+  },
+  {
+    "path_id": 1894,
+    "name": "PALM 2"
+  },
+  {
+    "path_id": 1895,
+    "name": "MetalPanel_4_Blue"
+  },
+  {
+    "path_id": 1896,
+    "name": "BARREL_PILE_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1897,
+    "name": "BUILDING_WALL_WINDOW-WOOD"
+  },
+  {
+    "path_id": 1898,
+    "name": "DOOR"
+  },
+  {
+    "path_id": 1899,
+    "name": "tile_wreck_metal1_DIFF"
+  },
+  {
+    "path_id": 1900,
+    "name": "COCONUT FLASK"
+  },
+  {
+    "path_id": 1901,
+    "name": "Coconut_Flask_SPEC"
+  },
+  {
+    "path_id": 1902,
+    "name": "Net_DIFF"
+  },
+  {
+    "path_id": 1903,
+    "name": "SIGN"
+  },
+  {
+    "path_id": 1904,
+    "name": "tile_wires_electricPanel_NRM"
+  },
+  {
+    "path_id": 1905,
+    "name": "SeaFort_Bridge"
+  },
+  {
+    "path_id": 1906,
+    "name": "SCRAP_BUOYANT-BUOYBALLS"
+  },
+  {
+    "path_id": 1907,
+    "name": "BUILDING_RAFT_FLOOR-STEEL"
+  },
+  {
+    "path_id": 1908,
+    "name": "tile_wreck_woodOrnaments_DIFF"
+  },
+  {
+    "path_id": 1909,
+    "name": "PINE_1_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1910,
+    "name": "Bricks_SPEC"
+  },
+  {
+    "path_id": 1911,
+    "name": "AIRCRAFT_ENGINE_PART"
+  },
+  {
+    "path_id": 1912,
+    "name": "Helicopter_2_NRM"
+  },
+  {
+    "path_id": 1913,
+    "name": "TOOLS_FISHING_SPEAR-CRUDE"
+  },
+  {
+    "path_id": 1914,
+    "name": "tile_wreck_woodOrnaments_SPEC"
+  },
+  {
+    "path_id": 1915,
+    "name": "Blood10"
+  },
+  {
+    "path_id": 1916,
+    "name": "wood_planks1"
+  },
+  {
+    "path_id": 1917,
+    "name": "bat_d"
+  },
+  {
+    "path_id": 1918,
+    "name": "Squid_AO"
+  },
+  {
+    "path_id": 1919,
+    "name": "RAFT_BASE_BARREL_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1920,
+    "name": "COCA_BUSH_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1921,
+    "name": "SHIPPING_CONTAINER_DOOR_STATIC_Impostor_AlbedoAlpha"
+  },
+  {
+    "path_id": 1922,
+    "name": "Eel_SPEC"
+  },
+  {
+    "path_id": 1923,
+    "name": "GW_BOSS_DIFF"
+  },
+  {
+    "path_id": 1924,
+    "name": "AIRCRAFT_Impostor_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1925,
+    "name": "tile_MetalPanel2_SPEC"
+  },
+  {
+    "path_id": 1926,
+    "name": "CRAFTING_WATER_STILL"
+  },
+  {
+    "path_id": 1927,
+    "name": "CLIFF_004_Impostor_NormalDepth"
+  },
+  {
+    "path_id": 1928,
+    "name": "SHIPPING_CONTAINER_3_Impostor_SpecularSmoothness"
+  },
+  {
+    "path_id": 1929,
+    "name": "Font Texture"
+  },
+  {
+    "path_id": 1930,
+    "name": "ArmyStamp SDF Atlas"
+  },
+  {
+    "path_id": 1931,
+    "name": "OpenSans-Bold Basic Cyrillic SDF Atlas"
+  },
+  {
+    "path_id": 1932,
+    "name": "Im Fell FIGS Supplemental SDF Atlas"
+  },
+  {
+    "path_id": 1933,
+    "name": "LiberationSans SDF Atlas"
+  },
+  {
+    "path_id": 1934,
+    "name": "Im Fell SDF Atlas"
+  },
+  {
+    "path_id": 1935,
+    "name": "LiberationSans SDF Atlas"
+  },
+  {
+    "path_id": 1936,
+    "name": "BarlowCondensed-SemiBold SDF Atlas"
+  },
+  {
+    "path_id": 1937,
+    "name": "BarlowCondensed-SemiBold FIGS Supplemental SDF Atlas"
+  }
+]

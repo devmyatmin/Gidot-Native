@@ -1,0 +1,5 @@
+ASSET=/sdcard/Download/3zip/Stranded Deep/Stranded_Deep_Data/resources.assets
+RESS=/sdcard/Download/3zip/Stranded Deep/Stranded_Deep_Data/resources.assets.resS
+OUTPUT=/sdcard/stranded_native_port_output/run_20261112_094649
+ASSET_SIZE=184519152
+RESS_SIZE=1373682164

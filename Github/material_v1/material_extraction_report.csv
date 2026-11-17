@@ -1,0 +1,440 @@
+path_id,name,shader_path_id,reference_count,texture_reference_count,json_file
+1,BarlowCondensed-SemiBold FIGS Supplemental SDF Material,158,2,1,material_1.json
+2,BarlowCondensed-SemiBold SDF Material,158,2,1,material_2.json
+3,Default-Particle,3057,2,1,material_3.json
+4,Default-Diffuse,7,1,0,material_4.json
+5,Default-Material,137,1,0,material_5.json
+6,cornea_Female_mat,137,2,1,material_6.json
+7,cornea_mat,137,1,0,material_7.json
+8,player_Female_cloths,137,5,4,material_8.json
+9,player_Female_hands,3073,5,4,material_9.json
+10,survivor_Female_cloths,3052,5,4,material_10.json
+11,survivor_Female_hair,3088,4,3,material_11.json
+12,survivor_Female_hands,3073,5,4,material_12.json
+13,survivor_Female_head,3073,6,5,material_13.json
+14,survivor_beard,3052,1,0,material_14.json
+15,survivor_beard_albedo,137,5,4,material_15.json
+16,survivor_hair,3052,2,1,material_16.json
+17,survivor_legs_albedo,137,5,4,material_17.json
+18,survivor_lowerBody_albedo,137,5,4,material_18.json
+19,survivor_torso_albedo,3073,7,6,material_19.json
+20,survivor_torso_albedo_p2,3073,7,6,material_20.json
+21,survivor_upperBody_albedo,3073,4,3,material_21.json
+22,Default_Material,137,1,0,material_22.json
+23,survivor_head_albedo,137,2,1,material_23.json
+24,survivor_hair_albedo,3088,4,3,material_24.json
+25,REF_cornea_mat,137,1,0,material_25.json
+26,survivor_beard_albedo,137,2,1,material_26.json
+27,survivor_head_albedo,3073,5,4,material_27.json
+28,Blue_Marlin_MAT,137,3,2,material_28.json
+29,Blue_Marlin_Ragdoll_MAT,3136,3,2,material_29.json
+30,Crab_MAT,3136,3,2,material_30.json
+31,ARCHER_MAT,3136,4,3,material_31.json
+32,BOBA_MAT,3136,4,3,material_32.json
+33,COD_MAT,3136,4,3,material_33.json
+34,DISCUS_DIFF,3136,4,3,material_34.json
+35,GiantGrouper_MAT,3136,4,3,material_35.json
+36,LIONFISH_MAT,3052,4,3,material_36.json
+37,SARDINE_MAT,3136,4,3,material_37.json
+38,GiantCrab_MAT,3136,4,3,material_38.json
+39,Goblin_Shark_MAT,3136,4,3,material_39.json
+40,Goblin_Shark_Ragdoll_MAT,3136,4,3,material_40.json
+41,HammerHead_Shark_MAT,3136,5,4,material_41.json
+42,HammerHead_Shark_Ragdoll_MAT,3136,5,4,material_42.json
+43,Hog_Fur_MAT,3136,4,3,material_43.json
+44,Hog_MAT,3136,4,3,material_44.json
+45,Snake_MAT,3136,5,4,material_45.json
+46,Tiger_Shark_MAT,137,5,4,material_46.json
+47,Tiger_Shark_Ragdoll_MAT,3136,5,4,material_47.json
+48,Whale_MAT,137,4,3,material_48.json
+49,Whale_Shark_MAT,3136,4,3,material_49.json
+50,Whale_Shark_Ragdoll_MAT,3136,4,3,material_50.json
+51,Aloe_Vera_MAT,3136,3,2,material_51.json
+52,Barrel_MAT,137,3,2,material_52.json
+53,Bricks_MAT,137,4,3,material_53.json
+54,Buoy_Ball_MAT,137,3,2,material_54.json
+55,ClayRock_MAT,3136,4,3,material_55.json
+56,Clay_MAT,137,4,3,material_56.json
+57,Corrugated_MAT,137,4,3,material_57.json
+58,Driftwood_MAT,137,4,3,material_58.json
+59,Helicopter_1_DIFF,3136,5,4,material_59.json
+60,Helicopter_2_DIFF,3136,5,4,material_60.json
+61,Helicopter_BladeTrans_MAT,3052,2,1,material_61.json
+62,Helicopter_HUD_DIFF,3136,6,5,material_62.json
+63,LifeRaft_Decal_MAT,137,2,1,material_63.json
+64,LifeRaft_MAT,3136,5,4,material_64.json
+65,Palm_Cover_MAT,137,4,3,material_65.json
+66,Plank_MAT,3136,4,3,material_66.json
+67,Propeller_Alphacutoff,3136,2,1,material_67.json
+68,SeaAnchor_MAT,137,4,3,material_68.json
+69,Stick_Leaves_MAT,137,3,2,material_69.json
+70,Stick_MAT,137,4,3,material_70.json
+71,Tarp_Cloth_MAT,3136,3,2,material_71.json
+72,Tarp_MAT,137,1,0,material_72.json
+73,Tyre_MAT,137,3,2,material_73.json
+74,Locker_MAT,137,4,3,material_74.json
+75,Storage_Military_Large_DIFF,137,5,4,material_75.json
+76,Airtank_MAT,137,4,3,material_76.json
+77,Arrow_MAT,137,4,3,material_77.json
+78,Bedroll_MAT,137,5,4,material_78.json
+79,Bow_MAT,137,4,3,material_79.json
+80,Coconut_Flask_MAT,137,5,4,material_80.json
+81,Coconut_Tags_MAT,137,3,2,material_81.json
+82,Crafting_Area_Projector_MAT,3099,2,1,material_82.json
+83,Crafting_Placing_MAT,3100,1,0,material_83.json
+84,Crude_Axe_MAT,137,4,3,material_84.json
+85,Crude_Fishing_Spear_MAT,137,4,3,material_85.json
+86,Crude_Hammer_MAT,137,4,3,material_86.json
+87,Crude_Knife_MAT,137,4,3,material_87.json
+88,Driftwood_Stick_MAT,137,4,3,material_88.json
+89,Fire_Torch_MAT,3121,5,4,material_89.json
+90,FishingRod_MAT,137,4,3,material_90.json
+91,FuelCan_MAT,137,3,2,material_91.json
+92,Gib_Arrow_MAT,137,4,3,material_92.json
+93,Gib_Crude_Spear_MAT,137,4,3,material_93.json
+94,Gib_Refined_Spear_MAT,137,4,3,material_94.json
+95,Gib_Speargun_Arrow_MAT,137,5,4,material_95.json
+96,Kindle_MAT,137,4,3,material_96.json
+97,Leather_Diff,137,4,3,material_97.json
+98,Net_MAT,137,3,2,material_98.json
+99,Refined_Axe_MAT,137,4,3,material_99.json
+100,Refined_Hammer_MAT,137,4,3,material_100.json
+101,Refined_Knife_MAT,137,4,3,material_101.json
+102,Refined_Pick_MAT,137,4,3,material_102.json
+103,Rock_MAT,3136,4,3,material_103.json
+104,Rope_MAT,3136,3,2,material_104.json
+105,Spyglass,137,5,4,material_105.json
+106,Stick_Item_MAT,3136,3,2,material_106.json
+107,Stone_Hoe_DIFF,137,4,3,material_107.json
+108,Trail_Arrow_MAT,138,2,1,material_108.json
+109,WaterPot_MAT,137,4,3,material_109.json
+110,Waterskin_MAT,137,4,3,material_110.json
+111,DepthMask,3086,1,0,material_111.json
+112,Difficulty_Hat_Easy_DIFF,137,3,2,material_112.json
+113,DeadEx_Box_MAT,137,2,1,material_113.json
+114,Wollie_MAT,137,3,2,material_114.json
+115,SeaPlanePedals,3052,5,4,material_115.json
+116,shipwreck_metal_nitt_tile1,3052,4,3,material_116.json
+117,shipwreck_metal_rust1,3052,4,3,material_117.json
+118,shipwreck_metal_rust11,137,4,3,material_118.json
+119,shipwreck_metal_rust12,137,4,3,material_119.json
+120,tile_carrier_floor,3052,6,5,material_120.json
+121,tile_carrier_rail,137,4,3,material_121.json
+122,tile_debris,137,4,3,material_122.json
+123,Dead_Plant_MAT,137,4,3,material_123.json
+124,Farming_Plot_Dirt_Decal_MAT,137,3,2,material_124.json
+125,Farming_Plot_Dirt_MAT,137,3,2,material_125.json
+126,Guava_MAT,3136,3,2,material_126.json
+127,Kura_MAT,3136,3,2,material_127.json
+128,Pines_MAT,3136,3,2,material_128.json
+129,Potato_MAT,3136,3,2,material_129.json
+130,Sprout_MAT,3136,3,2,material_130.json
+131,Young_Palm_MAT,3136,3,2,material_131.json
+132,flowerMenuFemale,3136,3,2,material_132.json
+133,Fishing Line,137,3,2,material_133.json
+134,Coconut_MAT,3136,4,3,material_134.json
+135,Coconut_Raw_MAT,3136,4,3,material_135.json
+136,Meat_MAT,3098,5,4,material_136.json
+137,Ration_Tin_MAT,137,4,3,material_137.json
+138,Glass,137,1,0,material_138.json
+139,Glass_Dirty,137,3,2,material_139.json
+140,Imposter_MAT,3127,1,0,material_140.json
+141,Medical_MAT,137,2,1,material_141.json
+142,Eel_MAT,137,5,4,material_142.json
+143,Submarine_MAT1,137,4,3,material_143.json
+144,GW_BOSS_MAT,137,5,4,material_144.json
+145,Net_MAT,137,3,2,material_145.json
+146,Particle_Blood_Chunk_MAT,3055,2,1,material_146.json
+147,Particle_Blood_MAT,3055,2,1,material_147.json
+148,Shipwreck_Panel_MAT 11,137,5,4,material_148.json
+149,Shipwreck_Panel_MAT,137,5,4,material_149.json
+150,Buoy_MAT,137,4,3,material_150.json
+151,Squid_MATT,137,6,5,material_151.json
+152,Mission_Trophy_Head_MAT,137,4,3,material_152.json
+153,Mission_Trophy_MAT,137,4,3,material_153.json
+154,Crate_Standard_MAT,3052,4,3,material_154.json
+155,Flashlight_MAT,3052,5,4,material_155.json
+156,Flashlight_glass_MAT,3052,4,3,material_156.json
+157,Machete_MAT,3053,3,2,material_157.json
+158,RubberDuck_material,3052,6,5,material_158.json
+159,SpeargunCarbon_MAT,3052,4,3,material_159.json
+160,Sunscreen_MAT,3052,4,3,material_160.json
+161,BigRocks,3136,7,6,material_161.json
+162,CLIFFS,3136,7,6,material_162.json
+163,MINING_GIB_DIFF,137,5,4,material_163.json
+164,MINING_ROCK_DIFF,137,6,5,material_164.json
+165,MINING_ROCK_DIFF_ROCK,137,6,5,material_165.json
+166,Rock6,3136,6,5,material_166.json
+167,SmallRocks,3136,7,6,material_167.json
+168,SeafortWallLeaks,137,4,3,material_168.json
+169,Seafort_Atlas2_MAT,137,4,3,material_169.json
+170,Seafort_Atlas_MAT,137,4,3,material_170.json
+171,Seafort_Concrete_MAT,137,4,3,material_171.json
+172,Seafort_Decals_MAT,137,3,2,material_172.json
+173,Driftwood_Pile_MAT_shelter,137,5,4,material_173.json
+174,palm_leaf_shelter,137,2,1,material_174.json
+175,shelter01_BARK,3052,5,4,material_175.json
+176,shelter02_BARK,137,4,3,material_176.json
+177,shelter03_cloth1,137,6,5,material_177.json
+178,shelter06_tarp,137,3,2,material_178.json
+179,shelter07_bark,3052,5,4,material_179.json
+180,shelter07_tarp,137,4,3,material_180.json
+181,shelter09_BARK,3052,6,5,material_181.json
+182,shelter_03_bark,137,6,5,material_182.json
+183,shelter_05BigRocks,137,7,6,material_183.json
+184,shelter_05_PALM_BARK_DIFF.mat,137,4,3,material_184.json
+185,shelter_05_bark,137,5,4,material_185.json
+186,shelter_05_palm_cover,137,3,2,material_186.json
+187,shelter_05_palm_leaf,3088,3,2,material_187.json
+188,shelter_05_tile_rust.mat,137,5,4,material_188.json
+189,shelter_06_bark,137,6,5,material_189.json
+190,shelter_crate,137,4,3,material_190.json
+191,tile_DriftWood,137,5,4,material_191.json
+192,wood_shelter,137,5,4,material_192.json
+193,AirPlaneBig_Albedo,137,4,3,material_193.json
+194,Anchor1,137,4,3,material_194.json
+195,Disco_Globe,3052,3,2,material_195.json
+196,Doors_MAT,137,2,1,material_196.json
+197,Ledge,137,3,2,material_197.json
+198,MetalFloorPanels,137,3,2,material_198.json
+199,Metal_Panel_2_MAT,137,3,2,material_199.json
+200,Metal_Panel_4_Blue_MAT,137,4,3,material_200.json
+201,Metal_Panel_4_MAT,137,4,3,material_201.json
+202,Metal_Panel_5_MAT,137,3,2,material_202.json
+203,Metal_Panel_Floor_MAT,137,3,2,material_203.json
+204,Metal_Panel_MAT,137,4,3,material_204.json
+205,Pipes_MAT,137,3,2,material_205.json
+206,Presure_Porthole_Door,137,4,3,material_206.json
+207,Propeller,137,4,3,material_207.json
+208,Rust_Decals_MAT,3052,2,1,material_208.json
+209,Rust_MAT,137,4,3,material_209.json
+210,ShipWreck_decal,137,5,4,material_210.json
+211,Shipping_Container_MAT,3136,3,2,material_211.json
+212,Shipwreck_Interior_MAT,137,4,3,material_212.json
+213,WindowGlass 1,137,3,2,material_213.json
+214,WindowGlass2,3088,2,1,material_214.json
+215,Wood_Planks_MAT,137,4,3,material_215.json
+216,cockpit,137,1,0,material_216.json
+217,decal2_UnderwaterVegetation,137,4,3,material_217.json
+218,decal_UnderwaterVegetation,137,4,3,material_218.json
+219,smokeStackPlastics,137,4,3,material_219.json
+220,tile_MetalPanel2,137,4,3,material_220.json
+221,tile_UnderwaterVegetation1,137,4,3,material_221.json
+222,tile_UnderwaterVegetation2,137,4,3,material_222.json
+223,tile_ceramicTiles1,137,4,3,material_223.json
+224,tile_ceramicTiles2,137,4,3,material_224.json
+225,tile_rust,137,4,3,material_225.json
+226,tile_smokeStack,137,5,4,material_226.json
+227,tile_wires_electricPanel,137,4,3,material_227.json
+228,tile_wreck_Plywood,137,4,3,material_228.json
+229,tile_wreck_Plywood2,137,4,3,material_229.json
+230,tile_wreck_fiberGlass,137,4,3,material_230.json
+231,tile_wreck_fiberGlassBlue,137,4,3,material_231.json
+232,tile_wreck_fiberGlassRed,137,4,3,material_232.json
+233,tile_wreck_ledge13,137,4,3,material_233.json
+234,tile_wreck_metal1,137,5,4,material_234.json
+235,tile_wreck_metal2,137,4,3,material_235.json
+236,tile_wreck_metal3,137,5,4,material_236.json
+237,tile_wreck_metal4,137,5,4,material_237.json
+238,tile_wreck_metal5,137,4,3,material_238.json
+239,tile_wreck_metal6,137,4,3,material_239.json
+240,tile_wreck_metal7,137,4,3,material_240.json
+241,tile_wreck_metal8,137,4,3,material_241.json
+242,tile_wreck_metalRope1,137,4,3,material_242.json
+243,tile_wreck_perforatedMeta,137,4,3,material_243.json
+244,tile_wreck_wood,137,4,3,material_244.json
+245,tile_wreck_woodOrnaments,137,4,3,material_245.json
+246,tile_wreck_woodPlanks1,137,4,3,material_246.json
+247,tile_wreck_woodPlanks2,137,4,3,material_247.json
+248,tile_wreck_woodPlanks3,137,4,3,material_248.json
+249,tile_wreck_woodPlanks4,137,4,3,material_249.json
+250,tile_wreck_woodPlanks5,137,4,3,material_250.json
+251,Skeleton01,137,5,4,material_251.json
+252,Skeleton02,137,5,4,material_252.json
+253,Ajuga_MAT,3136,3,2,material_253.json
+254,DriftWood_Decal_MAT,137,3,2,material_254.json
+255,Driftwood_Pile_MAT,137,4,3,material_255.json
+256,Grass_MAT,3136,3,2,material_256.json
+257,Ground_Cover_MAT,3136,3,2,material_257.json
+258,Terrain_sand_wet,137,4,3,material_258.json
+259,Compass_MAT,3052,4,3,material_259.json
+260,Duct_Tape_MAT,137,4,3,material_260.json
+261,Flare_Gun_MAT,137,4,3,material_261.json
+262,Labelmaker_MAT,137,4,3,material_262.json
+263,Lantern_MAT,3106,5,4,material_263.json
+264,Paddle_MAT,137,4,3,material_264.json
+265,Torch_MAT,137,4,3,material_265.json
+266,Verlet Rope,137,3,2,material_266.json
+267,final____Default1,3136,4,3,material_267.json
+268,Boar_MAT,3136,4,3,material_268.json
+269,seagull,3136,2,1,material_269.json
+270,Rope_DIFF,137,2,1,material_270.json
+271,Alocasia_DIFF,3136,3,2,material_271.json
+272,BananaPlant_DIFF,3136,3,2,material_272.json
+273,Bush_Leafs_MAT,3136,3,2,material_273.json
+274,Bush_Tile_MAT,3136,3,2,material_274.json
+275,Ceriman_leafs,3136,3,2,material_275.json
+276,BARK,137,4,3,material_276.json
+277,BRANCH,3136,3,2,material_277.json
+278,PALM_BARK_DIFF,3136,3,2,material_278.json
+279,PALM_LEAF_DIFF,3136,3,2,material_279.json
+280,Yucca_PACK,3136,3,2,material_280.json
+281,Particle_Blood_Dust,3058,2,1,material_281.json
+282,Particle_Blood_Spray,3058,2,1,material_282.json
+283,Particle_Coconut,3070,2,1,material_283.json
+284,Particle_Feather,3119,2,1,material_284.json
+285,Particle_Leaf,3088,2,1,material_285.json
+286,Particle_Splash,3119,2,1,material_286.json
+287,Particle_Splash_2,3119,2,1,material_287.json
+288,Particle_Steam,3119,2,1,material_288.json
+289,Particle_Wood_Chips_1,3131,2,1,material_289.json
+290,fx_distirtion,3150,3,2,material_290.json
+291,Flare_Flare,3119,2,1,material_291.json
+292,Fly,3131,2,1,material_292.json
+293,Oil_Splash,3056,2,1,material_293.json
+294,StaticSmoke,3119,2,1,material_294.json
+295,Water_Splash_1,3119,2,1,material_295.json
+296,Water_Splash_2,3119,2,1,material_296.json
+297,Particle_Animal_Dust,3119,2,1,material_297.json
+298,Beepi_Watch_MAT,137,5,4,material_298.json
+299,Beepi_Watch_Screen_MAT,3116,1,0,material_299.json
+300,Im Fell SDF_DropShadow,158,2,1,material_300.json
+301,Im Fell SDF_HUD,158,2,1,material_301.json
+302,LiberationSans SDF - Drop Shadow,185,2,1,material_302.json
+303,LiberationSans SDF - Outline,185,2,1,material_303.json
+304,Metropolis-Bold SDF_DropShadow,158,2,1,material_304.json
+305,Metropolis-Regular SDF_DropShadow,158,2,1,material_305.json
+306,Metropolis-SemiBold SDF_DropShadow,158,2,1,material_306.json
+307,Metropolis-SemiBold SDF_HUD,158,2,1,material_307.json
+308,CPG_GREY,6,1,0,material_308.json
+309,CPG_ORTHO,6,1,0,material_309.json
+310,CPG_X_AXIS,6,1,0,material_310.json
+311,CPG_Y_AXIS,6,1,0,material_311.json
+312,CPG_Z_AXIS,6,1,0,material_312.json
+313,Origin_Cube_OMat,3101,1,0,material_313.json
+314,X_CylinderX_XMat,3101,1,0,material_314.json
+315,Y_CylinderY_YMat,3101,1,0,material_315.json
+316,Z_CylinderZ_ZMat,3101,1,0,material_316.json
+317,SnapToObjectUIMaterial_Fill,3107,1,0,material_317.json
+318,SnapToObjectUIMaterial_Line,3107,1,0,material_318.json
+319,MetalPanel_4,137,2,1,material_319.json
+320,Arm_Decal_Bandage,137,2,1,material_320.json
+321,Arm_Decal_Blood,3103,4,3,material_321.json
+322,Arm_Decal_Poison,3103,4,3,material_322.json
+323,Arm_Decal_Salve,3103,2,1,material_323.json
+324,Floor,137,2,1,material_324.json
+325,Head,3114,2,1,material_325.json
+326,Left,3156,2,1,material_326.json
+327,Main,3055,2,1,material_327.json
+328,Right,3156,2,1,material_328.json
+329,Crafting_Smoke,138,2,1,material_329.json
+330,Fire_Sprites_v1,138,2,1,material_330.json
+331,Glow_Mat,138,2,1,material_331.json
+332,Oil_Fire_v2,3055,2,1,material_332.json
+333,Smoke_Light,3057,2,1,material_333.json
+334,Splash_Mat_v3,3151,2,1,material_334.json
+335,HighlightingOpaque_MAT,3139,1,0,material_335.json
+336,HighlightingTransparent_MAT,3124,1,0,material_336.json
+337,Font Material,10101,2,1,material_337.json
+338,Font Material,10101,2,1,material_338.json
+339,Font Material,10101,2,1,material_339.json
+340,Font Material,10101,2,1,material_340.json
+341,Font Material,10101,2,1,material_341.json
+342,Font Material,10101,2,1,material_342.json
+343,Font Material,10101,2,1,material_343.json
+344,Font Material,10101,2,1,material_344.json
+345,Font Material,10101,2,1,material_345.json
+346,Font Material,10101,2,1,material_346.json
+347,Font Material,10101,2,1,material_347.json
+348,Font Material,10101,2,1,material_348.json
+349,Font Material,10101,2,1,material_349.json
+350,Font Material,10101,2,1,material_350.json
+351,Font Material,10101,2,1,material_351.json
+352,Font Material,10101,2,1,material_352.json
+353,Font Material,10101,2,1,material_353.json
+354,Font Material,10101,2,1,material_354.json
+355,Font Material,10101,2,1,material_355.json
+356,Font Material,10101,2,1,material_356.json
+357,Font Material,10101,2,1,material_357.json
+358,Font Material,10101,2,1,material_358.json
+359,Font Material,10101,2,1,material_359.json
+360,Font Material,10101,2,1,material_360.json
+361,Font Material,10101,2,1,material_361.json
+362,Font Material,10101,2,1,material_362.json
+363,Font Material,10101,2,1,material_363.json
+364,Font Material,10101,2,1,material_364.json
+365,Font Material,10101,2,1,material_365.json
+366,Font Material,10101,2,1,material_366.json
+367,Font Material,10101,2,1,material_367.json
+368,Font Material,10101,2,1,material_368.json
+369,Font Material,10101,2,1,material_369.json
+370,Font Material,10101,2,1,material_370.json
+371,eyes_mat,137,2,1,material_371.json
+372,TextMeshPro/Sprite,3140,2,1,material_372.json
+373,LiberationSans SDF Material,185,2,1,material_373.json
+374,LiberationSans SDF Material,185,2,1,material_374.json
+375,Im Fell SDF Material,158,2,1,material_375.json
+376,ArmyStamp SDF Material,3155,2,1,material_376.json
+377,SHIPWRECK_7A_Impostor,3102,4,3,material_377.json
+378,FICUS_3_Impostor,3102,4,3,material_378.json
+379,PALM_2_Impostor,3102,4,3,material_379.json
+380,FICUS_TREE_2_Impostor,3102,4,3,material_380.json
+381,SHIPPING_CONTAINER_3_Impostor,3102,4,3,material_381.json
+382,FICUS_TREE_Impostor,3102,4,3,material_382.json
+383,VEHICLE_MOTOR_Impostor,3102,4,3,material_383.json
+384,FICUS_1_Impostor,3102,4,3,material_384.json
+385,PLANEWRECK_1A_Impostor,3102,4,3,material_385.json
+386,CLIFF_001_Impostor,3102,4,3,material_386.json
+387,COCA_BUSH_Impostor,3102,4,3,material_387.json
+388,SHIPWRECK_2A_Impostor,3102,4,3,material_388.json
+389,PINE_3_Impostor,3102,4,3,material_389.json
+390,TextMeshPro/Sprite,3140,2,1,material_390.json
+391,PINE_1_Impostor,3102,4,3,material_391.json
+392,RAFT_BASE_BALLS_Impostor,3102,4,3,material_392.json
+393,SHIPWRECK_12A_Impostor,3102,4,3,material_393.json
+394,CLIFF_002_Impostor,3102,4,3,material_394.json
+395,RAFT_BASE_WOOD_BUNDLE_Impostor,3102,4,3,material_395.json
+396,BIGROCK_5_Impostor,3102,4,3,material_396.json
+397,BIGROCK_2_Impostor,3102,4,3,material_397.json
+398,CLIFF_003_Impostor,3102,4,3,material_398.json
+399,SHIPPING_CONTAINER_2_Impostor,3102,4,3,material_399.json
+400,SHIPWRECK_5A_Impostor,3102,4,3,material_400.json
+401,RAFT_BASE_TYRE_Impostor,3102,4,3,material_401.json
+402,SHIPWRECK_8A_Impostor,3102,4,3,material_402.json
+403,SHIPPING_CONTAINER_DOOR_STATIC_Impostor,3102,4,3,material_403.json
+404,RAFT_FLOOR_CORRUGATED_Impostor,3102,4,3,material_404.json
+405,Im Fell FIGS Supplemental SDF Material,158,2,1,material_405.json
+406,TYRE_PILE_Impostor,3102,4,3,material_406.json
+407,VEHICLE_LIFERAFT_Impostor,3102,4,3,material_407.json
+408,SHIPPING_CONTAINER_1_Impostor,3102,4,3,material_408.json
+409,RAFT_FLOOR_DRIFTWOOD_Impostor,3102,4,3,material_409.json
+410,PINE_2_Impostor,3102,4,3,material_410.json
+411,PALM_4_Impostor,3102,4,3,material_411.json
+412,SeaFort_1_Impostor,3102,4,3,material_412.json
+413,SHIPWRECK_6A_Impostor,3102,4,3,material_413.json
+414,BIGROCK_1_Impostor,3102,4,3,material_414.json
+415,AIRCRAFT_Impostor_Impostor,3102,4,3,material_415.json
+416,RAFT_BASE_BARREL_Impostor,3102,4,3,material_416.json
+417,CLIFF_004_Impostor,3102,4,3,material_417.json
+418,TextMeshPro/Sprite,3140,2,1,material_418.json
+419,VEHICLE_HELICOPTER_Impostor,3102,4,3,material_419.json
+420,PALM_1_Impostor,3102,4,3,material_420.json
+421,CLIFF_005_Impostor,3102,4,3,material_421.json
+422,PALM_3_Impostor,3102,4,3,material_422.json
+423,RAFT_FLOOR_PLANK_Impostor,3102,4,3,material_423.json
+424,MISSION_SHARK_Impostor,3102,4,3,material_424.json
+425,RAFT_FLOOR_CLAY_Impostor,3102,4,3,material_425.json
+426,FICUS_2_Impostor,3102,4,3,material_426.json
+427,RAFT_ANCHOR_Impostor,3102,4,3,material_427.json
+428,BARREL_PILE_Impostor,3102,4,3,material_428.json
+429,SHIPWRECK_13A_Impostor,3102,4,3,material_429.json
+430,SHIPWRECK_3A_Impostor,3102,4,3,material_430.json
+431,OpenSans-Bold Cyrillic SDF Material,158,2,1,material_431.json
+432,BIGROCK_3_Impostor,3102,4,3,material_432.json
+433,MISSION_SQUID_Impostor,3102,4,3,material_433.json
+434,BIGROCK_4_Impostor,3102,4,3,material_434.json
+435,RAFT_FLOOR_WOOD_Impostor,3102,4,3,material_435.json
+436,SHIPPING_CONTAINER_PANEL_STATIC_Impostor,3102,4,3,material_436.json
+437,CLIFF_006_Impostor,3102,4,3,material_437.json
+438,SeaFort_2_Impostor,3102,4,3,material_438.json
+439,SFDigitalReadout-Heavy SDF Material,158,2,1,material_439.json
