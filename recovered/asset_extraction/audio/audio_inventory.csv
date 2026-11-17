@@ -1,0 +1,431 @@
+﻿PathID,Name,Channels,Frequency,BitsPerSample,DurationSec,CompressionFormat,Magic,Source,Offset,Bytes,OutputFile,Status
+3459,surfacing-med-06,1,44100,16,1.8086621761322021,0,FSB5,resources.resource,0,159648,/sdcard/stranded_native_port_output/audio_original_binary/audio_3459_surfacing-med-06.fsb,PASS
+3460,eat-gross-05 tk3,1,48000,16,1.1413333415985107,1,FSB5,resources.resource,159648,13056,/sdcard/stranded_native_port_output/audio_original_binary/audio_3460_eat-gross-05_tk3.fsb,PASS
+3461,Player_Cough_2 tk1,1,48000,16,1.6679999828338623,1,FSB5,resources.resource,172704,18688,/sdcard/stranded_native_port_output/audio_original_binary/audio_3461_Player_Cough_2_tk1.fsb,PASS
+3462,Player_Breathing_Heavy,2,44100,16,6.426122665405273,1,FSB5,resources.resource,191392,56736,/sdcard/stranded_native_port_output/audio_original_binary/audio_3462_Player_Breathing_Heavy.fsb,PASS
+3463,dive-08,1,44100,16,0.5686168074607849,0,FSB5,resources.resource,248128,50272,/sdcard/stranded_native_port_output/audio_original_binary/audio_3463_dive-08.fsb,PASS
+3464,eat-gross-01,1,44100,16,1.664784550666809,1,FSB5,resources.resource,298400,21216,/sdcard/stranded_native_port_output/audio_original_binary/audio_3464_eat-gross-01.fsb,PASS
+3465,STATUS_STARVING,1,48000,16,0.23466666042804718,1,FSB5,resources.resource,319616,2688,/sdcard/stranded_native_port_output/audio_original_binary/audio_3465_STATUS_STARVING.fsb,PASS
+3466,jump-07,1,44100,16,0.2603401243686676,0,FSB5,resources.resource,322304,23104,/sdcard/stranded_native_port_output/audio_original_binary/audio_3466_jump-07.fsb,PASS
+3467,boar_damage_3,2,44100,16,0.5714285969734192,1,FSB5,resources.resource,345408,22272,/sdcard/stranded_native_port_output/audio_original_binary/audio_3467_boar_damage_3.fsb,PASS
+3468,STATUS_BREATH,1,44100,16,1.3770294189453125,1,FSB5,resources.resource,367680,18944,/sdcard/stranded_native_port_output/audio_original_binary/audio_3468_STATUS_BREATH.fsb,PASS
+3469,STATUS_ILLNESS,1,44100,16,0.2980272173881531,0,FSB5,resources.resource,386624,26400,/sdcard/stranded_native_port_output/audio_original_binary/audio_3469_STATUS_ILLNESS.fsb,PASS
+3470,STATUS_BROKEN_BONES,1,44100,16,0.2980272173881531,0,FSB5,resources.resource,413024,26400,/sdcard/stranded_native_port_output/audio_original_binary/audio_3470_STATUS_BROKEN_BONES.fsb,PASS
+3471,sailing_sailing,2,44100,16,43.189048767089844,1,FSB5,resources.resource,439424,2377152,/sdcard/stranded_native_port_output/audio_original_binary/audio_3471_sailing_sailing.fsb,PASS
+3472,Player_Broken_Bones,2,44100,16,2.3248980045318604,1,FSB5,resources.resource,2816576,24256,/sdcard/stranded_native_port_output/audio_original_binary/audio_3472_Player_Broken_Bones.fsb,PASS
+3473,STATUS_DEHYDRATION,1,44100,16,0.2980272173881531,0,FSB5,resources.resource,2840832,26400,/sdcard/stranded_native_port_output/audio_original_binary/audio_3473_STATUS_DEHYDRATION.fsb,PASS
+3474,land_1,2,44100,16,0.29621315002441406,1,FSB5,resources.resource,2867232,15968,/sdcard/stranded_native_port_output/audio_original_binary/audio_3474_land_1.fsb,PASS
+3475,STATUS_REPELLENT,1,44100,16,1.4387074708938599,1,FSB5,resources.resource,2883200,17280,/sdcard/stranded_native_port_output/audio_original_binary/audio_3475_STATUS_REPELLENT.fsb,PASS
+3476,Player_Cough_1 tk2,1,48000,16,1.1293333768844604,1,FSB5,resources.resource,2900480,12800,/sdcard/stranded_native_port_output/audio_original_binary/audio_3476_Player_Cough_1_tk2.fsb,PASS
+3477,putdown_leaf_05,2,44100,16,0.6330612301826477,0,FSB5,resources.resource,2913280,111808,/sdcard/stranded_native_port_output/audio_original_binary/audio_3477_putdown_leaf_05.fsb,PASS
+3478,snake_hiss_1,2,44100,16,5.535714149475098,1,FSB5,resources.resource,3025088,172032,/sdcard/stranded_native_port_output/audio_original_binary/audio_3478_snake_hiss_1.fsb,PASS
+3479,Drowning tk1,1,48000,16,5.86133337020874,1,FSB5,resources.resource,3197120,60544,/sdcard/stranded_native_port_output/audio_original_binary/audio_3479_Drowning_tk1.fsb,PASS
+3480,footstep_water_6,2,44100,16,1.0937641859054565,1,FSB5,resources.resource,3257664,48768,/sdcard/stranded_native_port_output/audio_original_binary/audio_3480_footstep_water_6.fsb,PASS
+3481,campfire_Rubbing_2,2,44100,16,0.23439909517765045,1,FSB5,resources.resource,3306432,14496,/sdcard/stranded_native_port_output/audio_original_binary/audio_3481_campfire_Rubbing_2.fsb,PASS
+3482,Player_Damage_1,1,44100,16,0.3807709813117981,0,FSB5,resources.resource,3320928,33696,/sdcard/stranded_native_port_output/audio_original_binary/audio_3482_Player_Damage_1.fsb,PASS
+3483,climb_ledge_1,2,44100,16,1.2491157054901123,1,FSB5,resources.resource,3354624,64576,/sdcard/stranded_native_port_output/audio_original_binary/audio_3483_climb_ledge_1.fsb,PASS
+3484,footstep_rock_5,2,44100,16,0.25893422961235046,1,FSB5,resources.resource,3419200,17600,/sdcard/stranded_native_port_output/audio_original_binary/audio_3484_footstep_rock_5.fsb,PASS
+3485,spear_throw,2,44100,16,0.7269841432571411,1,FSB5,resources.resource,3436800,26112,/sdcard/stranded_native_port_output/audio_original_binary/audio_3485_spear_throw.fsb,PASS
+3486,hammer_build_brick_1,2,44100,16,0.13866212964057922,1,FSB5,resources.resource,3462912,6656,/sdcard/stranded_native_port_output/audio_original_binary/audio_3486_hammer_build_brick_1.fsb,PASS
+3487,eel_boss_take_damage_4,2,44100,16,2.727687120437622,1,FSB5,resources.resource,3469568,51072,/sdcard/stranded_native_port_output/audio_original_binary/audio_3487_eel_boss_take_damage_4.fsb,PASS
+3488,axe_hit_miss_3,2,44100,16,0.7053514719009399,1,FSB5,resources.resource,3520640,12832,/sdcard/stranded_native_port_output/audio_original_binary/audio_3488_axe_hit_miss_3.fsb,PASS
+3489,dive-05,1,44100,16,0.4864172339439392,0,FSB5,resources.resource,3533472,43040,/sdcard/stranded_native_port_output/audio_original_binary/audio_3489_dive-05.fsb,PASS
+3490,solarstill_collect_water_2,2,44100,16,0.5848299264907837,1,FSB5,resources.resource,3576512,39328,/sdcard/stranded_native_port_output/audio_original_binary/audio_3490_solarstill_collect_water_2.fsb,PASS
+3491,Drowning,2,44100,16,11.075918197631836,1,FSB5,resources.resource,3615840,111360,/sdcard/stranded_native_port_output/audio_original_binary/audio_3491_Drowning.fsb,PASS
+3492,Whale_Swim,2,44100,16,18.07673454284668,1,FSB5,resources.resource,3727200,155648,/sdcard/stranded_native_port_output/audio_original_binary/audio_3492_Whale_Swim.fsb,PASS
+3493,footstep_water_5,2,44100,16,0.9732199311256409,1,FSB5,resources.resource,3882848,35904,/sdcard/stranded_native_port_output/audio_original_binary/audio_3493_footstep_water_5.fsb,PASS
+3494,jump-03,1,44100,16,0.38555556535720825,0,FSB5,resources.resource,3918752,34144,/sdcard/stranded_native_port_output/audio_original_binary/audio_3494_jump-03.fsb,PASS
+3495,footstep_metal_seafort_R2,2,44100,16,0.3648299276828766,1,FSB5,resources.resource,3952896,9440,/sdcard/stranded_native_port_output/audio_original_binary/audio_3495_footstep_metal_seafort_R2.fsb,PASS
+3496,footstep_sand_6,2,44100,16,0.6205215454101562,1,FSB5,resources.resource,3962336,29024,/sdcard/stranded_native_port_output/audio_original_binary/audio_3496_footstep_sand_6.fsb,PASS
+3497,STATUS_BREATH,1,48000,16,0.9973333477973938,1,FSB5,resources.resource,3991360,11264,/sdcard/stranded_native_port_output/audio_original_binary/audio_3497_STATUS_BREATH.fsb,PASS
+3498,tool_hit_flesh_3,2,44100,16,0.12941043078899384,1,FSB5,resources.resource,4002624,8320,/sdcard/stranded_native_port_output/audio_original_binary/audio_3498_tool_hit_flesh_3.fsb,PASS
+3499,barf-02,1,44100,16,1.2331745624542236,0,FSB5,resources.resource,4010944,108896,/sdcard/stranded_native_port_output/audio_original_binary/audio_3499_barf-02.fsb,PASS
+3500,UI_Crafting_Previous,2,48000,16,0.7680000066757202,1,FSB5,resources.resource,4119840,43616,/sdcard/stranded_native_port_output/audio_original_binary/audio_3500_UI_Crafting_Previous.fsb,PASS
+3501,dive-08 tk2,1,48000,16,0.2759999930858612,1,FSB5,resources.resource,4163456,3040,/sdcard/stranded_native_port_output/audio_original_binary/audio_3501_dive-08_tk2.fsb,PASS
+3502,Flashlight_On,1,48000,16,0.4361666738986969,0,FSB5,resources.resource,4166496,41984,/sdcard/stranded_native_port_output/audio_original_binary/audio_3502_Flashlight_On.fsb,PASS
+3503,footstep_grass_4,2,44100,16,0.2365986406803131,1,FSB5,resources.resource,4208480,14784,/sdcard/stranded_native_port_output/audio_original_binary/audio_3503_footstep_grass_4.fsb,PASS
+3504,footstep_metal_seafort_L3,2,44100,16,0.38875284790992737,1,FSB5,resources.resource,4223264,9152,/sdcard/stranded_native_port_output/audio_original_binary/audio_3504_footstep_metal_seafort_L3.fsb,PASS
+3505,putdown_metalsmall_05,2,44100,16,0.4136054515838623,0,FSB5,resources.resource,4232416,73088,/sdcard/stranded_native_port_output/audio_original_binary/audio_3505_putdown_metalsmall_05.fsb,PASS
+3506,hammer_build_metal_3,2,44100,16,0.8512018322944641,1,FSB5,resources.resource,4305504,39808,/sdcard/stranded_native_port_output/audio_original_binary/audio_3506_hammer_build_metal_3.fsb,PASS
+3507,STATUS_HYPOTHERMIA,1,48000,16,0.23466666042804718,1,FSB5,resources.resource,4345312,2688,/sdcard/stranded_native_port_output/audio_original_binary/audio_3507_STATUS_HYPOTHERMIA.fsb,PASS
+3508,footstep_grass_6,2,44100,16,0.24106575548648834,1,FSB5,resources.resource,4348000,14976,/sdcard/stranded_native_port_output/audio_original_binary/audio_3508_footstep_grass_6.fsb,PASS
+3509,footstep_mud_small_05,2,44100,16,0.2661224603652954,0,FSB5,resources.resource,4362976,47072,/sdcard/stranded_native_port_output/audio_original_binary/audio_3509_footstep_mud_small_05.fsb,PASS
+3510,putdown_leaf_03,2,44100,16,0.7692063450813293,0,FSB5,resources.resource,4410048,135840,/sdcard/stranded_native_port_output/audio_original_binary/audio_3510_putdown_leaf_03.fsb,PASS
+3511,surfacing-light-04,1,44100,16,1.70131516456604,0,FSB5,resources.resource,4545888,150176,/sdcard/stranded_native_port_output/audio_original_binary/audio_3511_surfacing-light-04.fsb,PASS
+3512,jump-land-01 tk1,1,48000,16,0.19733333587646484,1,FSB5,resources.resource,4696064,2624,/sdcard/stranded_native_port_output/audio_original_binary/audio_3512_jump-land-01_tk1.fsb,PASS
+3513,footstep_sand_3,2,44100,16,0.45090702176094055,1,FSB5,resources.resource,4698688,23424,/sdcard/stranded_native_port_output/audio_original_binary/audio_3513_footstep_sand_3.fsb,PASS
+3514,smoker_attach_3,2,44100,16,0.36764171719551086,1,FSB5,resources.resource,4722112,22432,/sdcard/stranded_native_port_output/audio_original_binary/audio_3514_smoker_attach_3.fsb,PASS
+3515,STATUS_STARVING,1,44100,16,0.2980272173881531,0,FSB5,resources.resource,4744544,26400,/sdcard/stranded_native_port_output/audio_original_binary/audio_3515_STATUS_STARVING.fsb,PASS
+3516,putdown_metallarge_01,2,44100,16,0.38319727778434753,0,FSB5,resources.resource,4770944,67744,/sdcard/stranded_native_port_output/audio_original_binary/audio_3516_putdown_metallarge_01.fsb,PASS
+3517,Player_Cough_3 tk2,1,48000,16,2.1080000400543213,1,FSB5,resources.resource,4838688,24640,/sdcard/stranded_native_port_output/audio_original_binary/audio_3517_Player_Cough_3_tk2.fsb,PASS
+3518,land_3,2,44100,16,0.29126983880996704,1,FSB5,resources.resource,4863328,16736,/sdcard/stranded_native_port_output/audio_original_binary/audio_3518_land_3.fsb,PASS
+3519,Use_Flaregun_Explosion,2,44100,16,2.8873016834259033,1,FSB5,resources.resource,4880064,37824,/sdcard/stranded_native_port_output/audio_original_binary/audio_3519_Use_Flaregun_Explosion.fsb,PASS
+3520,ficus_bush_fall_expload,2,44100,16,0.8392743468284607,1,FSB5,resources.resource,4917888,28000,/sdcard/stranded_native_port_output/audio_original_binary/audio_3520_ficus_bush_fall_expload.fsb,PASS
+3521,surfacing-med-05,1,44100,16,2.774648427963257,0,FSB5,resources.resource,4945888,244864,/sdcard/stranded_native_port_output/audio_original_binary/audio_3521_surfacing-med-05.fsb,PASS
+3522,crab_attack_1,2,44100,16,0.2984580397605896,1,FSB5,resources.resource,5190752,16640,/sdcard/stranded_native_port_output/audio_original_binary/audio_3522_crab_attack_1.fsb,PASS
+3523,footstep_metal_seafort_L2,2,44100,16,0.3837868571281433,1,FSB5,resources.resource,5207392,8640,/sdcard/stranded_native_port_output/audio_original_binary/audio_3523_footstep_metal_seafort_L2.fsb,PASS
+3524,coconut_break,2,44100,16,0.75,1,FSB5,resources.resource,5216032,36192,/sdcard/stranded_native_port_output/audio_original_binary/audio_3524_coconut_break.fsb,PASS
+3525,paddle_water_loop,2,44100,16,23.610702514648438,1,FSB5,resources.resource,5252224,389792,/sdcard/stranded_native_port_output/audio_original_binary/audio_3525_paddle_water_loop.fsb,PASS
+3526,buoyball_hit,2,44100,16,1.0710203647613525,1,FSB5,resources.resource,5642016,11616,/sdcard/stranded_native_port_output/audio_original_binary/audio_3526_buoyball_hit.fsb,PASS
+3527,spear_break,2,44100,16,0.43011337518692017,1,FSB5,resources.resource,5653632,29088,/sdcard/stranded_native_port_output/audio_original_binary/audio_3527_spear_break.fsb,PASS
+3528,hammer_build_wood_1,2,44100,16,0.2072562426328659,1,FSB5,resources.resource,5682720,11648,/sdcard/stranded_native_port_output/audio_original_binary/audio_3528_hammer_build_wood_1.fsb,PASS
+3529,speargun_aim,2,44100,16,0.7321541905403137,1,FSB5,resources.resource,5694368,37312,/sdcard/stranded_native_port_output/audio_original_binary/audio_3529_speargun_aim.fsb,PASS
+3530,Fishing_Caught,2,44100,16,0.9665306210517883,1,FSB5,resources.resource,5731680,21600,/sdcard/stranded_native_port_output/audio_original_binary/audio_3530_Fishing_Caught.fsb,PASS
+3531,raft_structure,2,44100,16,86.44322204589844,1,FSB5,resources.resource,5753280,4024800,/sdcard/stranded_native_port_output/audio_original_binary/audio_3531_raft_structure.fsb,PASS
+3532,GiantCrab_attack_1,2,44100,16,0.3351247310638428,1,FSB5,resources.resource,9778080,15968,/sdcard/stranded_native_port_output/audio_original_binary/audio_3532_GiantCrab_attack_1.fsb,PASS
+3533,SeaFort_Ambience,2,44100,16,69.4595947265625,1,FSB5,resources.resource,9794048,571424,/sdcard/stranded_native_port_output/audio_original_binary/audio_3533_SeaFort_Ambience.fsb,PASS
+3534,knife_hit_leaf_2,2,44100,16,1.1160770654678345,1,FSB5,resources.resource,10365472,15680,/sdcard/stranded_native_port_output/audio_original_binary/audio_3534_knife_hit_leaf_2.fsb,PASS
+3535,stonetool_hit_miss_1,2,44100,16,0.38392290472984314,1,FSB5,resources.resource,10381152,5376,/sdcard/stranded_native_port_output/audio_original_binary/audio_3535_stonetool_hit_miss_1.fsb,PASS
+3536,campfire_refuel_2,2,44100,16,0.3540816307067871,1,FSB5,resources.resource,10386528,17728,/sdcard/stranded_native_port_output/audio_original_binary/audio_3536_campfire_refuel_2.fsb,PASS
+3537,barrel_hit_3,2,44100,16,0.4136054515838623,0,FSB5,resources.resource,10404256,73088,/sdcard/stranded_native_port_output/audio_original_binary/audio_3537_barrel_hit_3.fsb,PASS
+3538,plot_plant_seed1,2,44100,16,0.7901813983917236,1,FSB5,resources.resource,10477344,22400,/sdcard/stranded_native_port_output/audio_original_binary/audio_3538_plot_plant_seed1.fsb,PASS
+3539,climb_tree_3,2,44100,16,1.2410657405853271,1,FSB5,resources.resource,10499744,65472,/sdcard/stranded_native_port_output/audio_original_binary/audio_3539_climb_tree_3.fsb,PASS
+3540,swim_abovewater_3,2,44100,16,1.9178458452224731,1,FSB5,resources.resource,10565216,69536,/sdcard/stranded_native_port_output/audio_original_binary/audio_3540_swim_abovewater_3.fsb,PASS
+3541,campfire_refuel_1,2,44100,16,0.324444442987442,1,FSB5,resources.resource,10634752,15936,/sdcard/stranded_native_port_output/audio_original_binary/audio_3541_campfire_refuel_1.fsb,PASS
+3542,snake_hiss_2,2,44100,16,3.6875057220458984,1,FSB5,resources.resource,10650688,116896,/sdcard/stranded_native_port_output/audio_original_binary/audio_3542_snake_hiss_2.fsb,PASS
+3543,pick_hit_stone_3,2,44100,16,1.198888897895813,1,FSB5,resources.resource,10767584,68288,/sdcard/stranded_native_port_output/audio_original_binary/audio_3543_pick_hit_stone_3.fsb,PASS
+3544,shark_attack_3,2,44100,16,0.8539002537727356,1,FSB5,resources.resource,10835872,41760,/sdcard/stranded_native_port_output/audio_original_binary/audio_3544_shark_attack_3.fsb,PASS
+3545,STATUS_SUNBURN,1,48000,16,0.6600000262260437,1,FSB5,resources.resource,10877632,7168,/sdcard/stranded_native_port_output/audio_original_binary/audio_3545_STATUS_SUNBURN.fsb,PASS
+3546,raft_sitdown,2,44100,16,0.9267800450325012,1,FSB5,resources.resource,10884800,52704,/sdcard/stranded_native_port_output/audio_original_binary/audio_3546_raft_sitdown.fsb,PASS
+3547,speargun_reload,2,44100,16,0.7008843421936035,1,FSB5,resources.resource,10937504,16704,/sdcard/stranded_native_port_output/audio_original_binary/audio_3547_speargun_reload.fsb,PASS
+3548,campfire_Rubbing_5,2,44100,16,0.2404988706111908,1,FSB5,resources.resource,10954208,16064,/sdcard/stranded_native_port_output/audio_original_binary/audio_3548_campfire_Rubbing_5.fsb,PASS
+3549,footstep_water_4,2,44100,16,1.2633787393569946,1,FSB5,resources.resource,10970272,37568,/sdcard/stranded_native_port_output/audio_original_binary/audio_3549_footstep_water_4.fsb,PASS
+3550,STATUS_REPELLENT,1,48000,16,1.5440000295639038,1,FSB5,resources.resource,11007840,17024,/sdcard/stranded_native_port_output/audio_original_binary/audio_3550_STATUS_REPELLENT.fsb,PASS
+3551,Player_Damage_3,1,44100,16,0.49396824836730957,0,FSB5,resources.resource,11024864,43680,/sdcard/stranded_native_port_output/audio_original_binary/audio_3551_Player_Damage_3.fsb,PASS
+3552,footstep_sand_2,2,44100,16,0.584807276725769,1,FSB5,resources.resource,11068544,16480,/sdcard/stranded_native_port_output/audio_original_binary/audio_3552_footstep_sand_2.fsb,PASS
+3553,boss_jump_water,2,44100,16,3.745532989501953,1,FSB5,resources.resource,11085024,124864,/sdcard/stranded_native_port_output/audio_original_binary/audio_3553_boss_jump_water.fsb,PASS
+3554,UI_Inventory_Pushed,2,44100,16,0.3401360511779785,0,FSB5,resources.resource,11209888,60128,/sdcard/stranded_native_port_output/audio_original_binary/audio_3554_UI_Inventory_Pushed.fsb,PASS
+3555,surfacing-med-06 tk2,1,48000,16,2.622666597366333,1,FSB5,resources.resource,11270016,27904,/sdcard/stranded_native_port_output/audio_original_binary/audio_3555_surfacing-med-06_tk2.fsb,PASS
+3556,yucca_cut_down,2,44100,16,1.0624942779541016,1,FSB5,resources.resource,11297920,32640,/sdcard/stranded_native_port_output/audio_original_binary/audio_3556_yucca_cut_down.fsb,PASS
+3557,barrel_hit_1,2,44100,16,0.38319727778434753,0,FSB5,resources.resource,11330560,67744,/sdcard/stranded_native_port_output/audio_original_binary/audio_3557_barrel_hit_1.fsb,PASS
+3558,GiantCrab_die,2,44100,16,0.617505669593811,1,FSB5,resources.resource,11398304,27232,/sdcard/stranded_native_port_output/audio_original_binary/audio_3558_GiantCrab_die.fsb,PASS
+3559,rock_seaAnchor_deploy,2,44100,16,3.9600226879119873,1,FSB5,resources.resource,11425536,259488,/sdcard/stranded_native_port_output/audio_original_binary/audio_3559_rock_seaAnchor_deploy.fsb,PASS
+3560,barf-02 tk1,1,48000,16,1.2293332815170288,1,FSB5,resources.resource,11685024,13824,/sdcard/stranded_native_port_output/audio_original_binary/audio_3560_barf-02_tk1.fsb,PASS
+3561,knife_hit_wood_1,2,44100,16,0.19195011258125305,1,FSB5,resources.resource,11698848,9280,/sdcard/stranded_native_port_output/audio_original_binary/audio_3561_knife_hit_wood_1.fsb,PASS
+3562,squid_boss_dies,2,44100,16,5.3303399085998535,1,FSB5,resources.resource,11708128,173184,/sdcard/stranded_native_port_output/audio_original_binary/audio_3562_squid_boss_dies.fsb,PASS
+3563,hammer_build_metal_1,2,44100,16,0.7228571176528931,1,FSB5,resources.resource,11881312,38368,/sdcard/stranded_native_port_output/audio_original_binary/audio_3563_hammer_build_metal_1.fsb,PASS
+3564,footstep_grass_1,2,44100,16,0.28124716877937317,1,FSB5,resources.resource,11919680,16160,/sdcard/stranded_native_port_output/audio_original_binary/audio_3564_footstep_grass_1.fsb,PASS
+3565,land_2,2,44100,16,0.2710430920124054,1,FSB5,resources.resource,11935840,15776,/sdcard/stranded_native_port_output/audio_original_binary/audio_3565_land_2.fsb,PASS
+3566,Player_Damage_2 tk1,1,48000,16,0.7506666779518127,1,FSB5,resources.resource,11951616,8480,/sdcard/stranded_native_port_output/audio_original_binary/audio_3566_Player_Damage_2_tk1.fsb,PASS
+3567,drink_water_1,2,44100,16,0.9152154326438904,1,FSB5,resources.resource,11960096,59456,/sdcard/stranded_native_port_output/audio_original_binary/audio_3567_drink_water_1.fsb,PASS
+3568,squid_boss_take_damage_1,2,44100,16,3.4777097702026367,1,FSB5,resources.resource,12019552,80736,/sdcard/stranded_native_port_output/audio_original_binary/audio_3568_squid_boss_take_damage_1.fsb,PASS
+3569,dive-03 tk2,1,48000,16,0.30399999022483826,1,FSB5,resources.resource,12100288,3456,/sdcard/stranded_native_port_output/audio_original_binary/audio_3569_dive-03_tk2.fsb,PASS
+3570,squid_boss_attack_attempt,2,44100,16,1.305442214012146,1,FSB5,resources.resource,12103744,82528,/sdcard/stranded_native_port_output/audio_original_binary/audio_3570_squid_boss_attack_attempt.fsb,PASS
+3571,boar_move,2,44100,16,27.147323608398438,1,FSB5,resources.resource,12186272,110976,/sdcard/stranded_native_port_output/audio_original_binary/audio_3571_boar_move.fsb,PASS
+3572,footstep_water_2,2,44100,16,1.0624942779541016,1,FSB5,resources.resource,12297248,27744,/sdcard/stranded_native_port_output/audio_original_binary/audio_3572_footstep_water_2.fsb,PASS
+3573,UI_Storage_Crate_Pushed,2,44100,16,0.1913151890039444,0,FSB5,resources.resource,12324992,33888,/sdcard/stranded_native_port_output/audio_original_binary/audio_3573_UI_Storage_Crate_Pushed.fsb,PASS
+3574,footstep_grass_2,2,44100,16,0.2678458094596863,1,FSB5,resources.resource,12358880,16736,/sdcard/stranded_native_port_output/audio_original_binary/audio_3574_footstep_grass_2.fsb,PASS
+3575,paddle_move_3,2,44100,16,3.3858730792999268,1,FSB5,resources.resource,12375616,40672,/sdcard/stranded_native_port_output/audio_original_binary/audio_3575_paddle_move_3.fsb,PASS
+3576,footstep_sand_7,2,44100,16,0.5535827875137329,1,FSB5,resources.resource,12416288,19200,/sdcard/stranded_native_port_output/audio_original_binary/audio_3576_footstep_sand_7.fsb,PASS
+3577,axe_hit_miss_1,2,44100,16,0.6294558048248291,1,FSB5,resources.resource,12435488,12992,/sdcard/stranded_native_port_output/audio_original_binary/audio_3577_axe_hit_miss_1.fsb,PASS
+3578,footstep_water_3,2,44100,16,1.2276643514633179,1,FSB5,resources.resource,12448480,31008,/sdcard/stranded_native_port_output/audio_original_binary/audio_3578_footstep_water_3.fsb,PASS
+3579,vehicle_rudder_rudder_use,2,44100,16,3.745737075805664,1,FSB5,resources.resource,12479488,246560,/sdcard/stranded_native_port_output/audio_original_binary/audio_3579_vehicle_rudder_rudder_use.fsb,PASS
+3580,boat_motor_off,2,44100,16,1.7542856931686401,1,FSB5,resources.resource,12726048,76352,/sdcard/stranded_native_port_output/audio_original_binary/audio_3580_boat_motor_off.fsb,PASS
+3581,surfacing-light-01 tk1,1,48000,16,1.5773333311080933,1,FSB5,resources.resource,12802400,16640,/sdcard/stranded_native_port_output/audio_original_binary/audio_3581_surfacing-light-01_tk1.fsb,PASS
+3582,Wrist watch beeping,2,44100,16,31.7126522064209,1,FSB5,resources.resource,12819040,301056,/sdcard/stranded_native_port_output/audio_original_binary/audio_3582_Wrist_watch_beeping.fsb,PASS
+3583,boar_die_2,2,44100,16,0.9509070515632629,1,FSB5,resources.resource,13120096,26656,/sdcard/stranded_native_port_output/audio_original_binary/audio_3583_boar_die_2.fsb,PASS
+3584,footstep_metal_seafort_R1,2,44100,16,0.4170748293399811,1,FSB5,resources.resource,13146752,10080,/sdcard/stranded_native_port_output/audio_original_binary/audio_3584_footstep_metal_seafort_R1.fsb,PASS
+3585,eel_boss_movement,2,44100,16,8.978549003601074,1,FSB5,resources.resource,13156832,224032,/sdcard/stranded_native_port_output/audio_original_binary/audio_3585_eel_boss_movement.fsb,PASS
+3586,campfire_Rubbing_4,2,44100,16,0.20816326141357422,1,FSB5,resources.resource,13380864,13888,/sdcard/stranded_native_port_output/audio_original_binary/audio_3586_campfire_Rubbing_4.fsb,PASS
+3587,knife_hit_leaf_1,2,44100,16,0.9865986108779907,1,FSB5,resources.resource,13394752,22784,/sdcard/stranded_native_port_output/audio_original_binary/audio_3587_knife_hit_leaf_1.fsb,PASS
+3588,shark_attack_4,2,44100,16,0.8590022921562195,1,FSB5,resources.resource,13417536,47584,/sdcard/stranded_native_port_output/audio_original_binary/audio_3588_shark_attack_4.fsb,PASS
+3589,dive-10,1,44100,16,0.4864172339439392,0,FSB5,resources.resource,13465120,43040,/sdcard/stranded_native_port_output/audio_original_binary/audio_3589_dive-10.fsb,PASS
+3590,skin_leather_2,2,44100,16,2.6078004837036133,1,FSB5,resources.resource,13508160,188960,/sdcard/stranded_native_port_output/audio_original_binary/audio_3590_skin_leather_2.fsb,PASS
+3591,axe_hit_leaf_2,2,44100,16,0.7767800688743591,1,FSB5,resources.resource,13697120,23872,/sdcard/stranded_native_port_output/audio_original_binary/audio_3591_axe_hit_leaf_2.fsb,PASS
+3592,Squid_Buoy_Bell,2,44100,16,1.949954628944397,1,FSB5,resources.resource,13720992,92224,/sdcard/stranded_native_port_output/audio_original_binary/audio_3592_Squid_Buoy_Bell.fsb,PASS
+3593,Fishing_Reel_Snap,1,44100,16,0.2873469293117523,1,FSB5,resources.resource,13813216,3008,/sdcard/stranded_native_port_output/audio_original_binary/audio_3593_Fishing_Reel_Snap.fsb,PASS
+3594,Fishing_Reel_In,2,44100,16,0.4951247274875641,1,FSB5,resources.resource,13816224,35968,/sdcard/stranded_native_port_output/audio_original_binary/audio_3594_Fishing_Reel_In.fsb,PASS
+3595,crab_die,2,44100,16,0.5700907111167908,1,FSB5,resources.resource,13852192,33984,/sdcard/stranded_native_port_output/audio_original_binary/audio_3595_crab_die.fsb,PASS
+3596,Player_Cough_4 tk3,1,48000,16,2.184000015258789,1,FSB5,resources.resource,13886176,23648,/sdcard/stranded_native_port_output/audio_original_binary/audio_3596_Player_Cough_4_tk3.fsb,PASS
+3597,Player_Breathing_Heavy tk1,1,48000,16,6.440000057220459,1,FSB5,resources.resource,13909824,67040,/sdcard/stranded_native_port_output/audio_original_binary/audio_3597_Player_Breathing_Heavy_tk1.fsb,PASS
+3598,stonetool_hit_wood_1,2,44100,16,0.33480724692344666,1,FSB5,resources.resource,13976864,23232,/sdcard/stranded_native_port_output/audio_original_binary/audio_3598_stonetool_hit_wood_1.fsb,PASS
+3599,UI_Quick_Crafter_Open,2,44100,16,0.23510204255580902,1,FSB5,resources.resource,14000096,2048,/sdcard/stranded_native_port_output/audio_original_binary/audio_3599_UI_Quick_Crafter_Open.fsb,PASS
+3600,solarstill_collect_water_3,2,44100,16,0.5982086062431335,1,FSB5,resources.resource,14002144,42080,/sdcard/stranded_native_port_output/audio_original_binary/audio_3600_solarstill_collect_water_3.fsb,PASS
+3601,bow_shoot,2,44100,16,0.7767800688743591,1,FSB5,resources.resource,14044224,17344,/sdcard/stranded_native_port_output/audio_original_binary/audio_3601_bow_shoot.fsb,PASS
+3602,snake_attack_3,2,44100,16,1.3727664947509766,1,FSB5,resources.resource,14061568,37920,/sdcard/stranded_native_port_output/audio_original_binary/audio_3602_snake_attack_3.fsb,PASS
+3603,footstep_wood_2,2,44100,16,0.32297050952911377,1,FSB5,resources.resource,14099488,14240,/sdcard/stranded_native_port_output/audio_original_binary/audio_3603_footstep_wood_2.fsb,PASS
+3604,putdown_bag_03,2,44100,16,0.45734694600105286,0,FSB5,resources.resource,14113728,80832,/sdcard/stranded_native_port_output/audio_original_binary/audio_3604_putdown_bag_03.fsb,PASS
+3605,Player_Damage_Underwater_1 tk1,1,48000,16,0.21199999749660492,1,FSB5,resources.resource,14194560,2752,/sdcard/stranded_native_port_output/audio_original_binary/audio_3605_Player_Damage_Underwater_1_tk1.fsb,PASS
+3606,climb_ladder_4,2,44100,16,1.2098186016082764,1,FSB5,resources.resource,14197312,26048,/sdcard/stranded_native_port_output/audio_original_binary/audio_3606_climb_ladder_4.fsb,PASS
+3607,footstep_dirt_4,2,44100,16,0.16963718831539154,1,FSB5,resources.resource,14223360,9664,/sdcard/stranded_native_port_output/audio_original_binary/audio_3607_footstep_dirt_4.fsb,PASS
+3608,Barrel_Harvest,2,44100,16,1.5673469305038452,1,FSB5,resources.resource,14233024,18944,/sdcard/stranded_native_port_output/audio_original_binary/audio_3608_Barrel_Harvest.fsb,PASS
+3609,axe_hit_leaf_1,2,44100,16,0.7187528610229492,1,FSB5,resources.resource,14251968,22880,/sdcard/stranded_native_port_output/audio_original_binary/audio_3609_axe_hit_leaf_1.fsb,PASS
+3610,footstep_mud_small_02,2,44100,16,0.2661224603652954,0,FSB5,resources.resource,14274848,47072,/sdcard/stranded_native_port_output/audio_original_binary/audio_3610_footstep_mud_small_02.fsb,PASS
+3611,barf-01,1,44100,16,1.8506122827529907,0,FSB5,resources.resource,14321920,163360,/sdcard/stranded_native_port_output/audio_original_binary/audio_3611_barf-01.fsb,PASS
+3612,boar_die_1,2,44100,16,0.9910657405853271,1,FSB5,resources.resource,14485280,29312,/sdcard/stranded_native_port_output/audio_original_binary/audio_3612_boar_die_1.fsb,PASS
+3613,surfacing-light-01,1,44100,16,1.767551064491272,0,FSB5,resources.resource,14514592,156032,/sdcard/stranded_native_port_output/audio_original_binary/audio_3613_surfacing-light-01.fsb,PASS
+3614,STATUS_DIARRHOEA,1,44100,16,0.06689342111349106,1,FSB5,resources.resource,14670624,1120,/sdcard/stranded_native_port_output/audio_original_binary/audio_3614_STATUS_DIARRHOEA.fsb,PASS
+3615,ui_open_raft_backpack,2,44100,16,0.550000011920929,1,FSB5,resources.resource,14671744,35712,/sdcard/stranded_native_port_output/audio_original_binary/audio_3615_ui_open_raft_backpack.fsb,PASS
+3616,palm_frond_harvest,2,44100,16,1.4955328702926636,1,FSB5,resources.resource,14707456,73952,/sdcard/stranded_native_port_output/audio_original_binary/audio_3616_palm_frond_harvest.fsb,PASS
+3617,footstep_water_1,2,44100,16,0.8482086062431335,1,FSB5,resources.resource,14781408,55584,/sdcard/stranded_native_port_output/audio_original_binary/audio_3617_footstep_water_1.fsb,PASS
+3618,solarstill_collecting_water,2,44100,16,21.453243255615234,1,FSB5,resources.resource,14836992,524416,/sdcard/stranded_native_port_output/audio_original_binary/audio_3618_solarstill_collecting_water.fsb,PASS
+3619,footstep_metal_seafort_L1,2,44100,16,0.38941043615341187,1,FSB5,resources.resource,15361408,9408,/sdcard/stranded_native_port_output/audio_original_binary/audio_3619_footstep_metal_seafort_L1.fsb,PASS
+3620,knife_hit_leaf_3,2,44100,16,0.9687528610229492,1,FSB5,resources.resource,15370816,19712,/sdcard/stranded_native_port_output/audio_original_binary/audio_3620_knife_hit_leaf_3.fsb,PASS
+3621,pick_hit_clay_1,2,44100,16,0.8428571224212646,1,FSB5,resources.resource,15390528,42816,/sdcard/stranded_native_port_output/audio_original_binary/audio_3621_pick_hit_clay_1.fsb,PASS
+3622,axe_hit_wood_2,2,44100,16,0.3451020419597626,1,FSB5,resources.resource,15433344,23456,/sdcard/stranded_native_port_output/audio_original_binary/audio_3622_axe_hit_wood_2.fsb,PASS
+3623,footstep_wood_3,2,44100,16,0.2800000011920929,1,FSB5,resources.resource,15456800,14208,/sdcard/stranded_native_port_output/audio_original_binary/audio_3623_footstep_wood_3.fsb,PASS
+3624,barf-01 tk1,1,48000,16,1.9666666984558105,1,FSB5,resources.resource,15471008,21888,/sdcard/stranded_native_port_output/audio_original_binary/audio_3624_barf-01_tk1.fsb,PASS
+3625,climb_ladder_3,2,44100,16,1.933038592338562,1,FSB5,resources.resource,15492896,33536,/sdcard/stranded_native_port_output/audio_original_binary/audio_3625_climb_ladder_3.fsb,PASS
+3626,dive-06,1,44100,16,0.5395011305809021,0,FSB5,resources.resource,15526432,47712,/sdcard/stranded_native_port_output/audio_original_binary/audio_3626_dive-06.fsb,PASS
+3627,dive-02,1,48000,16,0.5026666522026062,1,FSB5,resources.resource,15574144,5472,/sdcard/stranded_native_port_output/audio_original_binary/audio_3627_dive-02.fsb,PASS
+3628,knife_hit_wood_3,2,44100,16,0.20981858670711517,1,FSB5,resources.resource,15579616,10368,/sdcard/stranded_native_port_output/audio_original_binary/audio_3628_knife_hit_wood_3.fsb,PASS
+3629,putdown_metalsmall_02,2,44100,16,0.29920634627342224,0,FSB5,resources.resource,15589984,52928,/sdcard/stranded_native_port_output/audio_original_binary/audio_3629_putdown_metalsmall_02.fsb,PASS
+3630,eel_boss_die,2,44100,16,2.3080272674560547,1,FSB5,resources.resource,15642912,49600,/sdcard/stranded_native_port_output/audio_original_binary/audio_3630_eel_boss_die.fsb,PASS
+3631,axe_hit_miss_4,2,44100,16,0.6339228749275208,1,FSB5,resources.resource,15692512,12832,/sdcard/stranded_native_port_output/audio_original_binary/audio_3631_axe_hit_miss_4.fsb,PASS
+3632,container_metal_open,2,44100,16,0.830068051815033,1,FSB5,resources.resource,15705344,46720,/sdcard/stranded_native_port_output/audio_original_binary/audio_3632_container_metal_open.fsb,PASS
+3633,hammer_build_metal_2,2,44100,16,0.8154194951057434,1,FSB5,resources.resource,15752064,39424,/sdcard/stranded_native_port_output/audio_original_binary/audio_3633_hammer_build_metal_2.fsb,PASS
+3634,squid_boss_move,2,44100,16,38.25029373168945,1,FSB5,resources.resource,15791488,702368,/sdcard/stranded_native_port_output/audio_original_binary/audio_3634_squid_boss_move.fsb,PASS
+3635,UI_Storage_Locker_Pushed,2,44100,16,0.29920634627342224,0,FSB5,resources.resource,16493856,52928,/sdcard/stranded_native_port_output/audio_original_binary/audio_3635_UI_Storage_Locker_Pushed.fsb,PASS
+3636,knife_hit_miss_1,2,44100,16,0.36160996556282043,1,FSB5,resources.resource,16546784,7040,/sdcard/stranded_native_port_output/audio_original_binary/audio_3636_knife_hit_miss_1.fsb,PASS
+3637,rock_seaAnchor_retrieve,2,44100,16,2.276893377304077,1,FSB5,resources.resource,16553824,139424,/sdcard/stranded_native_port_output/audio_original_binary/audio_3637_rock_seaAnchor_retrieve.fsb,PASS
+3638,axe_hit_leaf_3,2,44100,16,0.6830385327339172,1,FSB5,resources.resource,16693248,25344,/sdcard/stranded_native_port_output/audio_original_binary/audio_3638_axe_hit_leaf_3.fsb,PASS
+3639,surfacing-light-03,1,44100,16,1.500362753868103,0,FSB5,resources.resource,16718592,132448,/sdcard/stranded_native_port_output/audio_original_binary/audio_3639_surfacing-light-03.fsb,PASS
+3640,footstep_sand_4,2,44100,16,0.4285714328289032,1,FSB5,resources.resource,16851040,19904,/sdcard/stranded_native_port_output/audio_original_binary/audio_3640_footstep_sand_4.fsb,PASS
+3641,spearGun_shoot,2,44100,16,0.7836734652519226,1,FSB5,resources.resource,16870944,11968,/sdcard/stranded_native_port_output/audio_original_binary/audio_3641_spearGun_shoot.fsb,PASS
+3642,fuelstill_boiling,2,44100,16,12.843741416931152,1,FSB5,resources.resource,16882912,325152,/sdcard/stranded_native_port_output/audio_original_binary/audio_3642_fuelstill_boiling.fsb,PASS
+3643,campfire_Rubbing_3,2,44100,16,0.2700680196285248,1,FSB5,resources.resource,17208064,17760,/sdcard/stranded_native_port_output/audio_original_binary/audio_3643_campfire_Rubbing_3.fsb,PASS
+3644,GiantCrab_move_loop,2,44100,16,9.516371726989746,1,FSB5,resources.resource,17225824,587520,/sdcard/stranded_native_port_output/audio_original_binary/audio_3644_GiantCrab_move_loop.fsb,PASS
+3645,surfacing-med-05 tk1,1,48000,16,2.438666582107544,1,FSB5,resources.resource,17813344,25408,/sdcard/stranded_native_port_output/audio_original_binary/audio_3645_surfacing-med-05_tk1.fsb,PASS
+3646,shark_attack_raft,2,48000,16,2.2743749618530273,1,FSB5,resources.resource,17838752,110912,/sdcard/stranded_native_port_output/audio_original_binary/audio_3646_shark_attack_raft.fsb,PASS
+3647,pickup_bag_02,2,44100,16,0.3133106529712677,0,FSB5,resources.resource,17949664,55424,/sdcard/stranded_native_port_output/audio_original_binary/audio_3647_pickup_bag_02.fsb,PASS
+3648,paddle_move_1,2,44100,16,3.2060091495513916,1,FSB5,resources.resource,18005088,37312,/sdcard/stranded_native_port_output/audio_original_binary/audio_3648_paddle_move_1.fsb,PASS
+3649,putdown_leaf_02,2,44100,16,0.6027891039848328,0,FSB5,resources.resource,18042400,106464,/sdcard/stranded_native_port_output/audio_original_binary/audio_3649_putdown_leaf_02.fsb,PASS
+3650,surfacing-light-02,1,44100,16,1.1818140745162964,0,FSB5,resources.resource,18148864,104352,/sdcard/stranded_native_port_output/audio_original_binary/audio_3650_surfacing-light-02.fsb,PASS
+3651,COOKING_Smoked,2,44100,16,0.9280272126197815,1,FSB5,resources.resource,18253216,64992,/sdcard/stranded_native_port_output/audio_original_binary/audio_3651_COOKING_Smoked.fsb,PASS
+3652,Player_Cough_4,1,44100,16,1.33097505569458,0,FSB5,resources.resource,18318208,117504,/sdcard/stranded_native_port_output/audio_original_binary/audio_3652_Player_Cough_4.fsb,PASS
+3653,knife_hit_wood_4,2,44100,16,0.12947845458984375,1,FSB5,resources.resource,18435712,7456,/sdcard/stranded_native_port_output/audio_original_binary/audio_3653_knife_hit_wood_4.fsb,PASS
+3654,swim_underwater_1,2,44100,16,2.1002039909362793,1,FSB5,resources.resource,18443168,56032,/sdcard/stranded_native_port_output/audio_original_binary/audio_3654_swim_underwater_1.fsb,PASS
+3655,dive-03,1,44100,16,0.5686168074607849,0,FSB5,resources.resource,18499200,50272,/sdcard/stranded_native_port_output/audio_original_binary/audio_3655_dive-03.fsb,PASS
+3656,dive-10 tk2,1,48000,16,0.6013333201408386,1,FSB5,resources.resource,18549472,6400,/sdcard/stranded_native_port_output/audio_original_binary/audio_3656_dive-10_tk2.fsb,PASS
+3657,Player_Damage_2,1,44100,16,0.5557143092155457,0,FSB5,resources.resource,18555872,49152,/sdcard/stranded_native_port_output/audio_original_binary/audio_3657_Player_Damage_2.fsb,PASS
+3658,footstep_wood_4,2,44100,16,0.24553288519382477,1,FSB5,resources.resource,18605024,11680,/sdcard/stranded_native_port_output/audio_original_binary/audio_3658_footstep_wood_4.fsb,PASS
+3659,plot_water,2,44100,16,1.5982086658477783,1,FSB5,resources.resource,18616704,62048,/sdcard/stranded_native_port_output/audio_original_binary/audio_3659_plot_water.fsb,PASS
+3660,climb_tree_5,2,44100,16,1.0714285373687744,1,FSB5,resources.resource,18678752,51712,/sdcard/stranded_native_port_output/audio_original_binary/audio_3660_climb_tree_5.fsb,PASS
+3661,Tyre_Hit,2,44100,16,1.0710203647613525,1,FSB5,resources.resource,18730464,11616,/sdcard/stranded_native_port_output/audio_original_binary/audio_3661_Tyre_Hit.fsb,PASS
+3662,jump-land-03 tk2,1,48000,16,0.3440000116825104,1,FSB5,resources.resource,18742080,3680,/sdcard/stranded_native_port_output/audio_original_binary/audio_3662_jump-land-03_tk2.fsb,PASS
+3663,pick_hit_stone_2,2,44100,16,1.1988662481307983,1,FSB5,resources.resource,18745760,72192,/sdcard/stranded_native_port_output/audio_original_binary/audio_3663_pick_hit_stone_2.fsb,PASS
+3664,crab_move_loop,2,44100,16,9.461881637573242,1,FSB5,resources.resource,18817952,569888,/sdcard/stranded_native_port_output/audio_original_binary/audio_3664_crab_move_loop.fsb,PASS
+3665,boat_motor_start,2,44100,16,2.7759411334991455,1,FSB5,resources.resource,19387840,156096,/sdcard/stranded_native_port_output/audio_original_binary/audio_3665_boat_motor_start.fsb,PASS
+3666,climb_ledge_2,2,44100,16,1.3882086277008057,1,FSB5,resources.resource,19543936,36864,/sdcard/stranded_native_port_output/audio_original_binary/audio_3666_climb_ledge_2.fsb,PASS
+3667,paddle_move_4,2,44100,16,2.9876644611358643,1,FSB5,resources.resource,19580800,32096,/sdcard/stranded_native_port_output/audio_original_binary/audio_3667_paddle_move_4.fsb,PASS
+3668,ui_inventory_open,2,44100,16,0.75,1,FSB5,resources.resource,19612896,20288,/sdcard/stranded_native_port_output/audio_original_binary/audio_3668_ui_inventory_open.fsb,PASS
+3669,solarstill_collect_water_1,2,44100,16,0.4330385625362396,1,FSB5,resources.resource,19633184,31552,/sdcard/stranded_native_port_output/audio_original_binary/audio_3669_solarstill_collect_water_1.fsb,PASS
+3670,climb_tree_4,2,44100,16,1.0089342594146729,1,FSB5,resources.resource,19664736,53440,/sdcard/stranded_native_port_output/audio_original_binary/audio_3670_climb_tree_4.fsb,PASS
+3671,climb_ladder_8,2,44100,16,1.4107255935668945,1,FSB5,resources.resource,19718176,25184,/sdcard/stranded_native_port_output/audio_original_binary/audio_3671_climb_ladder_8.fsb,PASS
+3672,UI_Error,1,11000,16,0.41790908575057983,1,FSB5,resources.resource,19743360,1248,/sdcard/stranded_native_port_output/audio_original_binary/audio_3672_UI_Error.fsb,PASS
+3673,pickup_metalsmall_04,2,44100,16,0.22115646302700043,0,FSB5,resources.resource,19744608,39168,/sdcard/stranded_native_port_output/audio_original_binary/audio_3673_pickup_metalsmall_04.fsb,PASS
+3674,stonetool_hit_wood_3,2,44100,16,0.3910657465457916,1,FSB5,resources.resource,19783776,25120,/sdcard/stranded_native_port_output/audio_original_binary/audio_3674_stonetool_hit_wood_3.fsb,PASS
+3675,Player_Cough_2,1,44100,16,1.6157143115997314,0,FSB5,resources.resource,19808896,142624,/sdcard/stranded_native_port_output/audio_original_binary/audio_3675_Player_Cough_2.fsb,PASS
+3676,surfacing-med-04,1,44100,16,1.7058956623077393,0,FSB5,resources.resource,19951520,150592,/sdcard/stranded_native_port_output/audio_original_binary/audio_3676_surfacing-med-04.fsb,PASS
+3677,snake_attack_2,2,44100,16,1.7098186016082764,1,FSB5,resources.resource,20102112,46912,/sdcard/stranded_native_port_output/audio_original_binary/audio_3677_snake_attack_2.fsb,PASS
+3678,jump-01,1,44100,16,0.2980272173881531,0,FSB5,resources.resource,20149024,26400,/sdcard/stranded_native_port_output/audio_original_binary/audio_3678_jump-01.fsb,PASS
+3679,pick_hit_stone_1,2,44100,16,0.9400453567504883,1,FSB5,resources.resource,20175424,54528,/sdcard/stranded_native_port_output/audio_original_binary/audio_3679_pick_hit_stone_1.fsb,PASS
+3680,smoker_attach_1,2,44100,16,0.41158729791641235,1,FSB5,resources.resource,20229952,23232,/sdcard/stranded_native_port_output/audio_original_binary/audio_3680_smoker_attach_1.fsb,PASS
+3681,door_open_metal,2,44100,16,1.4687528610229492,1,FSB5,resources.resource,20253184,30816,/sdcard/stranded_native_port_output/audio_original_binary/audio_3681_door_open_metal.fsb,PASS
+3682,shark_move,2,44100,16,12.666394233703613,1,FSB5,resources.resource,20284000,326368,/sdcard/stranded_native_port_output/audio_original_binary/audio_3682_shark_move.fsb,PASS
+3683,eat-gross-01 tk1,1,48000,16,1.8573333024978638,1,FSB5,resources.resource,20610368,21344,/sdcard/stranded_native_port_output/audio_original_binary/audio_3683_eat-gross-01_tk1.fsb,PASS
+3684,stonetool_hit_wood_2,2,44100,16,0.35938775539398193,1,FSB5,resources.resource,20631712,22848,/sdcard/stranded_native_port_output/audio_original_binary/audio_3684_stonetool_hit_wood_2.fsb,PASS
+3685,footstep_grass_3,2,44100,16,0.2678458094596863,1,FSB5,resources.resource,20654560,16544,/sdcard/stranded_native_port_output/audio_original_binary/audio_3685_footstep_grass_3.fsb,PASS
+3686,climb_ladder_7,2,44100,16,1.2232199907302856,1,FSB5,resources.resource,20671104,34912,/sdcard/stranded_native_port_output/audio_original_binary/audio_3686_climb_ladder_7.fsb,PASS
+3687,liferaft_seaAnchor_retrieve,2,44100,16,3.2056689262390137,1,FSB5,resources.resource,20706016,217568,/sdcard/stranded_native_port_output/audio_original_binary/audio_3687_liferaft_seaAnchor_retrieve.fsb,PASS
+3688,STATUS_HEALTH_REGENERATION,1,44100,16,0.06689342111349106,1,FSB5,resources.resource,20923584,1120,/sdcard/stranded_native_port_output/audio_original_binary/audio_3688_STATUS_HEALTH_REGENERATION.fsb,PASS
+3689,ah03,1,44100,16,0.49396824836730957,0,FSB5,resources.resource,20924704,43680,/sdcard/stranded_native_port_output/audio_original_binary/audio_3689_ah03.fsb,PASS
+3690,footstep_metal_seafort_L4,2,44100,16,0.38031744956970215,1,FSB5,resources.resource,20968384,8640,/sdcard/stranded_native_port_output/audio_original_binary/audio_3690_footstep_metal_seafort_L4.fsb,PASS
+3691,sailing_close_sail,2,44100,16,1.5033559799194336,1,FSB5,resources.resource,20977024,84544,/sdcard/stranded_native_port_output/audio_original_binary/audio_3691_sailing_close_sail.fsb,PASS
+3692,campfire_ignite,2,44100,16,1.8548979759216309,1,FSB5,resources.resource,21061568,105728,/sdcard/stranded_native_port_output/audio_original_binary/audio_3692_campfire_ignite.fsb,PASS
+3693,crab_attack_2,2,44100,16,0.254693865776062,1,FSB5,resources.resource,21167296,14176,/sdcard/stranded_native_port_output/audio_original_binary/audio_3693_crab_attack_2.fsb,PASS
+3694,squid_boss_attack_pull,2,44100,16,3.6190476417541504,1,FSB5,resources.resource,21181472,196192,/sdcard/stranded_native_port_output/audio_original_binary/audio_3694_squid_boss_attack_pull.fsb,PASS
+3695,hammer_build_brick_2,2,44100,16,0.13471655547618866,1,FSB5,resources.resource,21377664,6176,/sdcard/stranded_native_port_output/audio_original_binary/audio_3695_hammer_build_brick_2.fsb,PASS
+3696,surfacing-light-03 tk2,1,48000,16,1.5466666221618652,1,FSB5,resources.resource,21383840,16096,/sdcard/stranded_native_port_output/audio_original_binary/audio_3696_surfacing-light-03_tk2.fsb,PASS
+3697,campfire_cooking,2,44100,16,5.372607707977295,0,FSB5,resources.resource,21399936,947872,/sdcard/stranded_native_port_output/audio_original_binary/audio_3697_campfire_cooking.fsb,PASS
+3698,STATUS_TIRED,1,44100,16,0.2980272173881531,0,FSB5,resources.resource,22347808,26400,/sdcard/stranded_native_port_output/audio_original_binary/audio_3698_STATUS_TIRED.fsb,PASS
+3699,skin_crab_1,2,44100,16,2.5898866653442383,1,FSB5,resources.resource,22374208,183456,/sdcard/stranded_native_port_output/audio_original_binary/audio_3699_skin_crab_1.fsb,PASS
+3700,footstep_wood_5,2,44100,16,0.23650793731212616,1,FSB5,resources.resource,22557664,11520,/sdcard/stranded_native_port_output/audio_original_binary/audio_3700_footstep_wood_5.fsb,PASS
+3701,climb_tree_2,2,44100,16,0.9910657405853271,1,FSB5,resources.resource,22569184,59456,/sdcard/stranded_native_port_output/audio_original_binary/audio_3701_climb_tree_2.fsb,PASS
+3702,snake_hiss_3,2,44100,16,4.186598777770996,1,FSB5,resources.resource,22628640,162688,/sdcard/stranded_native_port_output/audio_original_binary/audio_3702_snake_hiss_3.fsb,PASS
+3703,spear_impact,2,44100,16,0.14124716818332672,1,FSB5,resources.resource,22791328,9472,/sdcard/stranded_native_port_output/audio_original_binary/audio_3703_spear_impact.fsb,PASS
+3704,stonetool_hit_miss_3,2,44100,16,0.41963717341423035,1,FSB5,resources.resource,22800800,5056,/sdcard/stranded_native_port_output/audio_original_binary/audio_3704_stonetool_hit_miss_3.fsb,PASS
+3705,stonetool_hit_miss_4,2,44100,16,0.45535147190093994,1,FSB5,resources.resource,22805856,6336,/sdcard/stranded_native_port_output/audio_original_binary/audio_3705_stonetool_hit_miss_4.fsb,PASS
+3706,UI_Crafting_Next,2,48000,16,0.9173333048820496,1,FSB5,resources.resource,22812192,47808,/sdcard/stranded_native_port_output/audio_original_binary/audio_3706_UI_Crafting_Next.fsb,PASS
+3707,campfire_loop,2,44100,16,26.90188217163086,1,FSB5,resources.resource,22860000,286848,/sdcard/stranded_native_port_output/audio_original_binary/audio_3707_campfire_loop.fsb,PASS
+3708,dive-01 tk3,1,48000,16,0.3919999897480011,1,FSB5,resources.resource,23146848,4320,/sdcard/stranded_native_port_output/audio_original_binary/audio_3708_dive-01_tk3.fsb,PASS
+3709,dive-01,1,44100,16,0.5395011305809021,0,FSB5,resources.resource,23151168,47712,/sdcard/stranded_native_port_output/audio_original_binary/audio_3709_dive-01.fsb,PASS
+3710,footstep_dirt_3,2,44100,16,0.1428571492433548,1,FSB5,resources.resource,23198880,8000,/sdcard/stranded_native_port_output/audio_original_binary/audio_3710_footstep_dirt_3.fsb,PASS
+3711,knife_hit_miss_4,2,44100,16,0.38392290472984314,1,FSB5,resources.resource,23206880,7648,/sdcard/stranded_native_port_output/audio_original_binary/audio_3711_knife_hit_miss_4.fsb,PASS
+3712,Use_FlareGun,2,44100,16,4.858775615692139,1,FSB5,resources.resource,23214528,35744,/sdcard/stranded_native_port_output/audio_original_binary/audio_3712_Use_FlareGun.fsb,PASS
+3713,hammer_build_wood_3,2,44100,16,0.19328798353672028,1,FSB5,resources.resource,23250272,9984,/sdcard/stranded_native_port_output/audio_original_binary/audio_3713_hammer_build_wood_3.fsb,PASS
+3714,bow_aim,2,44100,16,0.3800680339336395,1,FSB5,resources.resource,23260256,25504,/sdcard/stranded_native_port_output/audio_original_binary/audio_3714_bow_aim.fsb,PASS
+3715,STATUS_POISON,1,44100,16,1.7807482481002808,1,FSB5,resources.resource,23285760,22176,/sdcard/stranded_native_port_output/audio_original_binary/audio_3715_STATUS_POISON.fsb,PASS
+3716,boar_damage_2,2,44100,16,0.6696372032165527,1,FSB5,resources.resource,23307936,30368,/sdcard/stranded_native_port_output/audio_original_binary/audio_3716_boar_damage_2.fsb,PASS
+3717,dive-09,1,44100,16,0.46587300300598145,0,FSB5,resources.resource,23338304,41216,/sdcard/stranded_native_port_output/audio_original_binary/audio_3717_dive-09.fsb,PASS
+3718,dive-08 tk1,1,48000,16,0.46533334255218506,1,FSB5,resources.resource,23379520,5120,/sdcard/stranded_native_port_output/audio_original_binary/audio_3718_dive-08_tk1.fsb,PASS
+3719,pick_hit_clay_2,2,44100,16,0.8265759348869324,1,FSB5,resources.resource,23384640,41472,/sdcard/stranded_native_port_output/audio_original_binary/audio_3719_pick_hit_clay_2.fsb,PASS
+3720,footstep_sand_8,2,44100,16,0.4821541905403137,1,FSB5,resources.resource,23426112,21408,/sdcard/stranded_native_port_output/audio_original_binary/audio_3720_footstep_sand_8.fsb,PASS
+3721,Use_Bandage,2,44100,16,1.5673469305038452,1,FSB5,resources.resource,23447520,11520,/sdcard/stranded_native_port_output/audio_original_binary/audio_3721_Use_Bandage.fsb,PASS
+3722,eat_squishy,2,44100,16,1.5890476703643799,1,FSB5,resources.resource,23459040,104736,/sdcard/stranded_native_port_output/audio_original_binary/audio_3722_eat_squishy.fsb,PASS
+3723,footstep_mud_small_03,2,44100,16,0.2661224603652954,0,FSB5,resources.resource,23563776,47072,/sdcard/stranded_native_port_output/audio_original_binary/audio_3723_footstep_mud_small_03.fsb,PASS
+3724,stonetool_hit_miss_2,2,44100,16,0.3928571343421936,1,FSB5,resources.resource,23610848,5632,/sdcard/stranded_native_port_output/audio_original_binary/audio_3724_stonetool_hit_miss_2.fsb,PASS
+3725,surfacing-med-04 tk1,1,48000,16,1.7480000257492065,1,FSB5,resources.resource,23616480,18784,/sdcard/stranded_native_port_output/audio_original_binary/audio_3725_surfacing-med-04_tk1.fsb,PASS
+3726,stonetool_hit_leaf_4,2,44100,16,1.1250113248825073,1,FSB5,resources.resource,23635264,48640,/sdcard/stranded_native_port_output/audio_original_binary/audio_3726_stonetool_hit_leaf_4.fsb,PASS
+3727,Player_Cough_3,1,44100,16,0.8764399290084839,0,FSB5,resources.resource,23683904,77440,/sdcard/stranded_native_port_output/audio_original_binary/audio_3727_Player_Cough_3.fsb,PASS
+3728,footstep_dirt_6,2,44100,16,0.23215419054031372,1,FSB5,resources.resource,23761344,12320,/sdcard/stranded_native_port_output/audio_original_binary/audio_3728_footstep_dirt_6.fsb,PASS
+3729,knife_hit_miss_3,2,44100,16,0.34820860624313354,1,FSB5,resources.resource,23773664,4608,/sdcard/stranded_native_port_output/audio_original_binary/audio_3729_knife_hit_miss_3.fsb,PASS
+3730,swim_abovewater_4,2,44100,16,2.0424036979675293,1,FSB5,resources.resource,23778272,63936,/sdcard/stranded_native_port_output/audio_original_binary/audio_3730_swim_abovewater_4.fsb,PASS
+3731,paddle_move_2,2,44100,16,3.317006826400757,1,FSB5,resources.resource,23842208,36736,/sdcard/stranded_native_port_output/audio_original_binary/audio_3731_paddle_move_2.fsb,PASS
+3732,Whale_Spit,2,44100,16,4.702040672302246,1,FSB5,resources.resource,23878944,44032,/sdcard/stranded_native_port_output/audio_original_binary/audio_3732_Whale_Spit.fsb,PASS
+3733,Helicopter_Loop,2,48000,16,5.808291435241699,1,FSB5,resources.resource,23922976,294432,/sdcard/stranded_native_port_output/audio_original_binary/audio_3733_Helicopter_Loop.fsb,PASS
+3734,barf-03,1,44100,16,1.7058956623077393,0,FSB5,resources.resource,24217408,150592,/sdcard/stranded_native_port_output/audio_original_binary/audio_3734_barf-03.fsb,PASS
+3735,eat-gross-06,1,44100,16,1.04818594455719,1,FSB5,resources.resource,24368000,12032,/sdcard/stranded_native_port_output/audio_original_binary/audio_3735_eat-gross-06.fsb,PASS
+3736,axe_hit_wood_1,2,44100,16,0.3223356008529663,1,FSB5,resources.resource,24380032,22464,/sdcard/stranded_native_port_output/audio_original_binary/audio_3736_axe_hit_wood_1.fsb,PASS
+3737,surfacing-med-01,1,44100,16,1.7953741550445557,0,FSB5,resources.resource,24402496,158464,/sdcard/stranded_native_port_output/audio_original_binary/audio_3737_surfacing-med-01.fsb,PASS
+3738,STATUS_SUNBLOCK,1,48000,16,0.9106666445732117,1,FSB5,resources.resource,24560960,10016,/sdcard/stranded_native_port_output/audio_original_binary/audio_3738_STATUS_SUNBLOCK.fsb,PASS
+3739,Flashlight_Off,1,48000,16,0.38608333468437195,0,FSB5,resources.resource,24570976,37184,/sdcard/stranded_native_port_output/audio_original_binary/audio_3739_Flashlight_Off.fsb,PASS
+3740,sailing_open_sail,2,44100,16,1.4174829721450806,1,FSB5,resources.resource,24608160,84352,/sdcard/stranded_native_port_output/audio_original_binary/audio_3740_sailing_open_sail.fsb,PASS
+3741,barf-03 tk1,1,48000,16,1.6653333902359009,1,FSB5,resources.resource,24692512,19200,/sdcard/stranded_native_port_output/audio_original_binary/audio_3741_barf-03_tk1.fsb,PASS
+3742,Player_Fart_3,2,44100,16,1.5,1,FSB5,resources.resource,24711712,89664,/sdcard/stranded_native_port_output/audio_original_binary/audio_3742_Player_Fart_3.fsb,PASS
+3743,footstep_mud_small_01,2,44100,16,0.2660997807979584,0,FSB5,resources.resource,24801376,47072,/sdcard/stranded_native_port_output/audio_original_binary/audio_3743_footstep_mud_small_01.fsb,PASS
+3744,dive-05 tk2,1,48000,16,0.37066665291786194,1,FSB5,resources.resource,24848448,4160,/sdcard/stranded_native_port_output/audio_original_binary/audio_3744_dive-05_tk2.fsb,PASS
+3745,skin_meat_2,2,44100,16,2.5973923206329346,1,FSB5,resources.resource,24852608,179968,/sdcard/stranded_native_port_output/audio_original_binary/audio_3745_skin_meat_2.fsb,PASS
+3746,swim_underwater_3,2,44100,16,1.3725624084472656,1,FSB5,resources.resource,25032576,46016,/sdcard/stranded_native_port_output/audio_original_binary/audio_3746_swim_underwater_3.fsb,PASS
+3747,footstep_rock_2,2,44100,16,0.23662132024765015,1,FSB5,resources.resource,25078592,18240,/sdcard/stranded_native_port_output/audio_original_binary/audio_3747_footstep_rock_2.fsb,PASS
+3748,axe_hit_leaf_4,2,44100,16,0.9062585234642029,1,FSB5,resources.resource,25096832,27424,/sdcard/stranded_native_port_output/audio_original_binary/audio_3748_axe_hit_leaf_4.fsb,PASS
+3749,boar_damage_1,2,44100,16,1.0937641859054565,1,FSB5,resources.resource,25124256,34464,/sdcard/stranded_native_port_output/audio_original_binary/audio_3749_boar_damage_1.fsb,PASS
+3750,footstep_rock_1,2,44100,16,0.24106575548648834,1,FSB5,resources.resource,25158720,15392,/sdcard/stranded_native_port_output/audio_original_binary/audio_3750_footstep_rock_1.fsb,PASS
+3751,skin_leather_1,2,44100,16,2.5940816402435303,1,FSB5,resources.resource,25174112,188576,/sdcard/stranded_native_port_output/audio_original_binary/audio_3751_skin_leather_1.fsb,PASS
+3752,footstep_sand_5,2,44100,16,0.47321996092796326,1,FSB5,resources.resource,25362688,25568,/sdcard/stranded_native_port_output/audio_original_binary/audio_3752_footstep_sand_5.fsb,PASS
+3753,knife_hit_leaf_4,2,44100,16,0.5312471389770508,1,FSB5,resources.resource,25388256,18336,/sdcard/stranded_native_port_output/audio_original_binary/audio_3753_knife_hit_leaf_4.fsb,PASS
+3754,surfacing-med-03,1,44100,16,1.777845859527588,0,FSB5,resources.resource,25406592,156928,/sdcard/stranded_native_port_output/audio_original_binary/audio_3754_surfacing-med-03.fsb,PASS
+3755,axe_hit_wood_3,2,44100,16,0.3232199549674988,1,FSB5,resources.resource,25563520,21440,/sdcard/stranded_native_port_output/audio_original_binary/audio_3755_axe_hit_wood_3.fsb,PASS
+3756,campfire_refuel_3,2,44100,16,0.27011337876319885,1,FSB5,resources.resource,25584960,13440,/sdcard/stranded_native_port_output/audio_original_binary/audio_3756_campfire_refuel_3.fsb,PASS
+3757,Player_Fart_2,2,44100,16,2.075510263442993,1,FSB5,resources.resource,25598400,122656,/sdcard/stranded_native_port_output/audio_original_binary/audio_3757_Player_Fart_2.fsb,PASS
+3758,surfacing-med-02 tk2,1,48000,16,1.621333360671997,1,FSB5,resources.resource,25721056,17376,/sdcard/stranded_native_port_output/audio_original_binary/audio_3758_surfacing-med-02_tk2.fsb,PASS
+3759,STATUS_BROKEN_BONES,1,48000,16,0.23466666042804718,1,FSB5,resources.resource,25738432,2688,/sdcard/stranded_native_port_output/audio_original_binary/audio_3759_STATUS_BROKEN_BONES.fsb,PASS
+3760,STATUS_BLEEDING,1,44100,16,0.06689342111349106,1,FSB5,resources.resource,25741120,1120,/sdcard/stranded_native_port_output/audio_original_binary/audio_3760_STATUS_BLEEDING.fsb,PASS
+3761,eat_crunchy,2,44100,16,2.074126958847046,1,FSB5,resources.resource,25742240,114752,/sdcard/stranded_native_port_output/audio_original_binary/audio_3761_eat_crunchy.fsb,PASS
+3762,STATUS_POISON,1,48000,16,1.502666711807251,1,FSB5,resources.resource,25856992,16512,/sdcard/stranded_native_port_output/audio_original_binary/audio_3762_STATUS_POISON.fsb,PASS
+3763,fruit_pick,2,44100,16,0.3918367326259613,1,FSB5,resources.resource,25873504,3360,/sdcard/stranded_native_port_output/audio_original_binary/audio_3763_fruit_pick.fsb,PASS
+3764,Fishing_Reel_Out,2,44100,16,0.12693877518177032,1,FSB5,resources.resource,25876864,10336,/sdcard/stranded_native_port_output/audio_original_binary/audio_3764_Fishing_Reel_Out.fsb,PASS
+3765,climb_ladder_2,2,44100,16,1.79464852809906,1,FSB5,resources.resource,25887200,28928,/sdcard/stranded_native_port_output/audio_original_binary/audio_3765_climb_ladder_2.fsb,PASS
+3766,barrel_hit_2,2,44100,16,0.2886621356010437,0,FSB5,resources.resource,25916128,51072,/sdcard/stranded_native_port_output/audio_original_binary/audio_3766_barrel_hit_2.fsb,PASS
+3767,airtank_use,2,44100,16,1.5565305948257446,1,FSB5,resources.resource,25967200,62144,/sdcard/stranded_native_port_output/audio_original_binary/audio_3767_airtank_use.fsb,PASS
+3768,Player_Damage_Underwater_2,1,44100,16,0.30643990635871887,0,FSB5,resources.resource,26029344,27168,/sdcard/stranded_native_port_output/audio_original_binary/audio_3768_Player_Damage_Underwater_2.fsb,PASS
+3769,boat_motor_idle,2,44100,16,3.6687073707580566,1,FSB5,resources.resource,26056512,199328,/sdcard/stranded_native_port_output/audio_original_binary/audio_3769_boat_motor_idle.fsb,PASS
+3770,smoker_attach_2,2,44100,16,0.5719274282455444,1,FSB5,resources.resource,26255840,33376,/sdcard/stranded_native_port_output/audio_original_binary/audio_3770_smoker_attach_2.fsb,PASS
+3771,footstep_grass_5,2,44100,16,0.2634013593196869,1,FSB5,resources.resource,26289216,15296,/sdcard/stranded_native_port_output/audio_original_binary/audio_3771_footstep_grass_5.fsb,PASS
+3772,COOKING_Cooked,1,11000,16,1.6718181371688843,1,FSB5,resources.resource,26304512,4928,/sdcard/stranded_native_port_output/audio_original_binary/audio_3772_COOKING_Cooked.fsb,PASS
+3773,jump-02 tk2,1,48000,16,0.20133332908153534,1,FSB5,resources.resource,26309440,2528,/sdcard/stranded_native_port_output/audio_original_binary/audio_3773_jump-02_tk2.fsb,PASS
+3774,climb_ladder_1,2,44100,16,1.2142857313156128,1,FSB5,resources.resource,26311968,22208,/sdcard/stranded_native_port_output/audio_original_binary/audio_3774_climb_ladder_1.fsb,PASS
+3775,eel_boss_attack,2,44100,16,1.3124942779541016,1,FSB5,resources.resource,26334176,36928,/sdcard/stranded_native_port_output/audio_original_binary/audio_3775_eel_boss_attack.fsb,PASS
+3776,climb_ladder_6,2,44100,16,1.2767800092697144,1,FSB5,resources.resource,26371104,28288,/sdcard/stranded_native_port_output/audio_original_binary/audio_3776_climb_ladder_6.fsb,PASS
+3777,door_close_metal,2,44100,16,1.1696372032165527,1,FSB5,resources.resource,26399392,28864,/sdcard/stranded_native_port_output/audio_original_binary/audio_3777_door_close_metal.fsb,PASS
+3778,Player_Fart_1,2,44100,16,2.536961555480957,1,FSB5,resources.resource,26428256,146368,/sdcard/stranded_native_port_output/audio_original_binary/audio_3778_Player_Fart_1.fsb,PASS
+3779,swim_abovewater_1,2,44100,16,1.8149659633636475,1,FSB5,resources.resource,26574624,51232,/sdcard/stranded_native_port_output/audio_original_binary/audio_3779_swim_abovewater_1.fsb,PASS
+3780,knife_hit_miss_2,2,44100,16,0.4151700735092163,1,FSB5,resources.resource,26625856,7040,/sdcard/stranded_native_port_output/audio_original_binary/audio_3780_knife_hit_miss_2.fsb,PASS
+3781,climb_tree_1,2,44100,16,1.0044671297073364,1,FSB5,resources.resource,26632896,60096,/sdcard/stranded_native_port_output/audio_original_binary/audio_3781_climb_tree_1.fsb,PASS
+3782,squid_boss_take_damage_2,2,44100,16,3.4389569759368896,1,FSB5,resources.resource,26692992,82368,/sdcard/stranded_native_port_output/audio_original_binary/audio_3782_squid_boss_take_damage_2.fsb,PASS
+3783,rock_resource_harvest,1,44100,16,0.8248072266578674,0,FSB5,resources.resource,26775360,72864,/sdcard/stranded_native_port_output/audio_original_binary/audio_3783_rock_resource_harvest.fsb,PASS
+3784,squid_boss_attack_push,2,44100,16,0.61149662733078,1,FSB5,resources.resource,26848224,37216,/sdcard/stranded_native_port_output/audio_original_binary/audio_3784_squid_boss_attack_push.fsb,PASS
+3785,STATUS_TIRED,1,48000,16,0.23466666042804718,1,FSB5,resources.resource,26885440,2688,/sdcard/stranded_native_port_output/audio_original_binary/audio_3785_STATUS_TIRED.fsb,PASS
+3786,putdown_leaf_04,2,44100,16,0.6155328750610352,0,FSB5,resources.resource,26888128,108736,/sdcard/stranded_native_port_output/audio_original_binary/audio_3786_putdown_leaf_04.fsb,PASS
+3787,eel_boss_take_damage_3,2,44100,16,2.7053515911102295,1,FSB5,resources.resource,26996864,53408,/sdcard/stranded_native_port_output/audio_original_binary/audio_3787_eel_boss_take_damage_3.fsb,PASS
+3788,stonetool_hit_leaf_3,2,44100,16,1.2410657405853271,1,FSB5,resources.resource,27050272,42112,/sdcard/stranded_native_port_output/audio_original_binary/audio_3788_stonetool_hit_leaf_3.fsb,PASS
+3789,stonetool_hit_leaf_2,2,44100,16,1.2187528610229492,1,FSB5,resources.resource,27092384,47872,/sdcard/stranded_native_port_output/audio_original_binary/audio_3789_stonetool_hit_leaf_2.fsb,PASS
+3790,UI_Storage_Locker_Close,2,48000,16,1.9106874465942383,0,FSB5,resources.resource,27140256,367008,/sdcard/stranded_native_port_output/audio_original_binary/audio_3790_UI_Storage_Locker_Close.fsb,PASS
+3791,jump-03 tk1,1,48000,16,0.41066667437553406,1,FSB5,resources.resource,27507264,4416,/sdcard/stranded_native_port_output/audio_original_binary/audio_3791_jump-03_tk1.fsb,PASS
+3792,Fishing_Rod_Tension,1,44100,16,0.8097959160804749,1,FSB5,resources.resource,27511680,16032,/sdcard/stranded_native_port_output/audio_original_binary/audio_3792_Fishing_Rod_Tension.fsb,PASS
+3793,UI_Window_PopIn,1,44100,16,0.31346938014030457,1,FSB5,resources.resource,27527712,2144,/sdcard/stranded_native_port_output/audio_original_binary/audio_3793_UI_Window_PopIn.fsb,PASS
+3794,boss_land_water,2,44100,16,3.2365987300872803,1,FSB5,resources.resource,27529856,94656,/sdcard/stranded_native_port_output/audio_original_binary/audio_3794_boss_land_water.fsb,PASS
+3795,dive-04,1,44100,16,0.46587300300598145,0,FSB5,resources.resource,27624512,41216,/sdcard/stranded_native_port_output/audio_original_binary/audio_3795_dive-04.fsb,PASS
+3796,footstep_metal_seafort_R3,2,44100,16,0.3928571343421936,1,FSB5,resources.resource,27665728,9248,/sdcard/stranded_native_port_output/audio_original_binary/audio_3796_footstep_metal_seafort_R3.fsb,PASS
+3797,footstep_mud_small_04,2,44100,16,0.2660997807979584,0,FSB5,resources.resource,27674976,47072,/sdcard/stranded_native_port_output/audio_original_binary/audio_3797_footstep_mud_small_04.fsb,PASS
+3798,footstep_rock_4,2,44100,16,0.25,1,FSB5,resources.resource,27722048,17408,/sdcard/stranded_native_port_output/audio_original_binary/audio_3798_footstep_rock_4.fsb,PASS
+3799,Player_Damage_Underwater_2 tk1,1,48000,16,0.3866666555404663,1,FSB5,resources.resource,27739456,4480,/sdcard/stranded_native_port_output/audio_original_binary/audio_3799_Player_Damage_Underwater_2_tk1.fsb,PASS
+3800,Helicopter_Start,2,44100,16,0.23086167871952057,0,FSB5,resources.resource,27743936,40864,/sdcard/stranded_native_port_output/audio_original_binary/audio_3800_Helicopter_Start.fsb,PASS
+3801,STATUS_ILLNESS,1,48000,16,0.23466666042804718,1,FSB5,resources.resource,27784800,2688,/sdcard/stranded_native_port_output/audio_original_binary/audio_3801_STATUS_ILLNESS.fsb,PASS
+3802,dive-09 tk2,1,48000,16,0.3479999899864197,1,FSB5,resources.resource,27787488,3840,/sdcard/stranded_native_port_output/audio_original_binary/audio_3802_dive-09_tk2.fsb,PASS
+3803,UI_Skill_Level_Up,2,48000,16,3.036770820617676,1,FSB5,resources.resource,27791328,162272,/sdcard/stranded_native_port_output/audio_original_binary/audio_3803_UI_Skill_Level_Up.fsb,PASS
+3804,sonofa02,1,44100,16,0.754693865776062,0,FSB5,resources.resource,27953600,66688,/sdcard/stranded_native_port_output/audio_original_binary/audio_3804_sonofa02.fsb,PASS
+3805,palm_tree_cut,2,44100,16,1.2321542501449585,1,FSB5,resources.resource,28020288,59456,/sdcard/stranded_native_port_output/audio_original_binary/audio_3805_palm_tree_cut.fsb,PASS
+3806,skin_meat_1,2,44100,16,2.6023130416870117,1,FSB5,resources.resource,28079744,180704,/sdcard/stranded_native_port_output/audio_original_binary/audio_3806_skin_meat_1.fsb,PASS
+3807,eat-gross-06 tk3,1,48000,16,0.843999981880188,1,FSB5,resources.resource,28260448,9248,/sdcard/stranded_native_port_output/audio_original_binary/audio_3807_eat-gross-06_tk3.fsb,PASS
+3808,shark_attack_1,2,44100,16,1.1824716329574585,1,FSB5,resources.resource,28269696,54144,/sdcard/stranded_native_port_output/audio_original_binary/audio_3808_shark_attack_1.fsb,PASS
+3809,footstep_wood_1,2,44100,16,0.28117913007736206,1,FSB5,resources.resource,28323840,13184,/sdcard/stranded_native_port_output/audio_original_binary/audio_3809_footstep_wood_1.fsb,PASS
+3810,tool_hit_flesh_2,2,44100,16,0.43641722202301025,1,FSB5,resources.resource,28337024,21472,/sdcard/stranded_native_port_output/audio_original_binary/audio_3810_tool_hit_flesh_2.fsb,PASS
+3811,UI_Inventory_Popped,2,44100,16,0.6633106470108032,0,FSB5,resources.resource,28358496,117152,/sdcard/stranded_native_port_output/audio_original_binary/audio_3811_UI_Inventory_Popped.fsb,PASS
+3812,UI_Storage_Crate_Close,2,44100,16,0.17603175342082977,0,FSB5,resources.resource,28475648,31200,/sdcard/stranded_native_port_output/audio_original_binary/audio_3812_UI_Storage_Crate_Close.fsb,PASS
+3813,footstep_dirt_5,2,44100,16,0.17410430312156677,1,FSB5,resources.resource,28506848,9472,/sdcard/stranded_native_port_output/audio_original_binary/audio_3813_footstep_dirt_5.fsb,PASS
+3814,knife_hit_wood_2,2,44100,16,0.19643990695476532,1,FSB5,resources.resource,28516320,9984,/sdcard/stranded_native_port_output/audio_original_binary/audio_3814_knife_hit_wood_2.fsb,PASS
+3815,surfacing-light-04 tk1,1,48000,16,2.2893333435058594,1,FSB5,resources.resource,28526304,24544,/sdcard/stranded_native_port_output/audio_original_binary/audio_3815_surfacing-light-04_tk1.fsb,PASS
+3816,squid_boss_take_damage_3,2,44100,16,2.6632652282714844,1,FSB5,resources.resource,28550848,92640,/sdcard/stranded_native_port_output/audio_original_binary/audio_3816_squid_boss_take_damage_3.fsb,PASS
+3817,shark_attack_2,2,44100,16,1.17002272605896,1,FSB5,resources.resource,28643488,56096,/sdcard/stranded_native_port_output/audio_original_binary/audio_3817_shark_attack_2.fsb,PASS
+3818,climb_ladder_5,2,44100,16,1.7812471389770508,1,FSB5,resources.resource,28699584,41376,/sdcard/stranded_native_port_output/audio_original_binary/audio_3818_climb_ladder_5.fsb,PASS
+3819,Player_Broken_Bones tk2,1,48000,16,0.5559999942779541,1,FSB5,resources.resource,28740960,6208,/sdcard/stranded_native_port_output/audio_original_binary/audio_3819_Player_Broken_Bones_tk2.fsb,PASS
+3820,dive-06 tk2,1,48000,16,0.34933334589004517,1,FSB5,resources.resource,28747168,3936,/sdcard/stranded_native_port_output/audio_original_binary/audio_3820_dive-06_tk2.fsb,PASS
+3821,footstep_rock_3,2,44100,16,0.20535147190093994,1,FSB5,resources.resource,28751104,14528,/sdcard/stranded_native_port_output/audio_original_binary/audio_3821_footstep_rock_3.fsb,PASS
+3822,hammer_build_brick_3,2,44100,16,0.12850339710712433,1,FSB5,resources.resource,28765632,6368,/sdcard/stranded_native_port_output/audio_original_binary/audio_3822_hammer_build_brick_3.fsb,PASS
+3823,pickup_leaf_03,2,44100,16,0.7113378643989563,0,FSB5,resources.resource,28772000,125632,/sdcard/stranded_native_port_output/audio_original_binary/audio_3823_pickup_leaf_03.fsb,PASS
+3824,Helicopter_Warning,1,48000,16,0.34156250953674316,1,FSB5,resources.resource,28897632,4128,/sdcard/stranded_native_port_output/audio_original_binary/audio_3824_Helicopter_Warning.fsb,PASS
+3825,Whale_Noise,2,44100,16,4.5714287757873535,1,FSB5,resources.resource,28901760,30048,/sdcard/stranded_native_port_output/audio_original_binary/audio_3825_Whale_Noise.fsb,PASS
+3826,skin_crab_2,2,44100,16,2.666099786758423,1,FSB5,resources.resource,28931808,187264,/sdcard/stranded_native_port_output/audio_original_binary/audio_3826_skin_crab_2.fsb,PASS
+3827,UI_Storage_Crate_Open,2,44100,16,0.19385486841201782,0,FSB5,resources.resource,29119072,34336,/sdcard/stranded_native_port_output/audio_original_binary/audio_3827_UI_Storage_Crate_Open.fsb,PASS
+3828,buoyball_harvest,2,44100,16,1.0710203647613525,1,FSB5,resources.resource,29153408,8192,/sdcard/stranded_native_port_output/audio_original_binary/audio_3828_buoyball_harvest.fsb,PASS
+3829,Buoy_Loop,2,44100,16,29.05231285095215,1,FSB5,resources.resource,29161600,2013920,/sdcard/stranded_native_port_output/audio_original_binary/audio_3829_Buoy_Loop.fsb,PASS
+3830,squid_boss_attack_bite,2,44100,16,2.9982993602752686,1,FSB5,resources.resource,31175520,35264,/sdcard/stranded_native_port_output/audio_original_binary/audio_3830_squid_boss_attack_bite.fsb,PASS
+3831,jump-land-02 tk2,1,48000,16,0.2720000147819519,1,FSB5,resources.resource,31210784,3072,/sdcard/stranded_native_port_output/audio_original_binary/audio_3831_jump-land-02_tk2.fsb,PASS
+3832,surfacing-med-01 tk1,1,48000,16,1.937333345413208,1,FSB5,resources.resource,31213856,21376,/sdcard/stranded_native_port_output/audio_original_binary/audio_3832_surfacing-med-01_tk1.fsb,PASS
+3833,STATUS_HYPOTHERMIA,1,44100,16,0.2980272173881531,0,FSB5,resources.resource,31235232,26400,/sdcard/stranded_native_port_output/audio_original_binary/audio_3833_STATUS_HYPOTHERMIA.fsb,PASS
+3834,pick_hit_clay_3,2,44100,16,0.8426757454872131,1,FSB5,resources.resource,31261632,40608,/sdcard/stranded_native_port_output/audio_original_binary/audio_3834_pick_hit_clay_3.fsb,PASS
+3835,STATUS_DIARRHOEA,1,44100,16,0.06689342111349106,1,FSB5,resources.resource,31302240,1120,/sdcard/stranded_native_port_output/audio_original_binary/audio_3835_STATUS_DIARRHOEA.fsb,PASS
+3836,Player_Damage_3 tk3,1,48000,16,0.5080000162124634,1,FSB5,resources.resource,31303360,6112,/sdcard/stranded_native_port_output/audio_original_binary/audio_3836_Player_Damage_3_tk3.fsb,PASS
+3837,snake_attack_1,2,44100,16,2.200453519821167,1,FSB5,resources.resource,31309472,59872,/sdcard/stranded_native_port_output/audio_original_binary/audio_3837_snake_attack_1.fsb,PASS
+3838,eel_boss_take_damage_2,2,44100,16,2.602675676345825,1,FSB5,resources.resource,31369344,50848,/sdcard/stranded_native_port_output/audio_original_binary/audio_3838_eel_boss_take_damage_2.fsb,PASS
+3839,coconut_hit,2,44100,16,0.15671202540397644,1,FSB5,resources.resource,31420192,8736,/sdcard/stranded_native_port_output/audio_original_binary/audio_3839_coconut_hit.fsb,PASS
+3840,hammer_build_wood_2,2,44100,16,0.2922222316265106,1,FSB5,resources.resource,31428928,14144,/sdcard/stranded_native_port_output/audio_original_binary/audio_3840_hammer_build_wood_2.fsb,PASS
+3841,swim_abovewater_2,2,44100,16,2.0100226402282715,1,FSB5,resources.resource,31443072,43328,/sdcard/stranded_native_port_output/audio_original_binary/audio_3841_swim_abovewater_2.fsb,PASS
+3842,dive-02,1,44100,16,0.554943323135376,0,FSB5,resources.resource,31486400,49088,/sdcard/stranded_native_port_output/audio_original_binary/audio_3842_dive-02.fsb,PASS
+3843,footstep_dirt_1,2,44100,16,0.2544671297073364,1,FSB5,resources.resource,31535488,13888,/sdcard/stranded_native_port_output/audio_original_binary/audio_3843_footstep_dirt_1.fsb,PASS
+3844,Eel_Awaken,2,44100,16,8.071836471557617,1,FSB5,resources.resource,31549376,100288,/sdcard/stranded_native_port_output/audio_original_binary/audio_3844_Eel_Awaken.fsb,PASS
+3845,Player_Cough_1,1,44100,16,0.8644444346427917,0,FSB5,resources.resource,31649664,76384,/sdcard/stranded_native_port_output/audio_original_binary/audio_3845_Player_Cough_1.fsb,PASS
+3846,STATUS_SUNBLOCK,1,44100,16,1.2674376964569092,1,FSB5,resources.resource,31726048,17568,/sdcard/stranded_native_port_output/audio_original_binary/audio_3846_STATUS_SUNBLOCK.fsb,PASS
+3847,surfacing-med-02,1,44100,16,1.2126303911209106,0,FSB5,resources.resource,31743616,107072,/sdcard/stranded_native_port_output/audio_original_binary/audio_3847_surfacing-med-02.fsb,PASS
+3848,footstep_wood_6,2,44100,16,0.36931973695755005,1,FSB5,resources.resource,31850688,19328,/sdcard/stranded_native_port_output/audio_original_binary/audio_3848_footstep_wood_6.fsb,PASS
+3849,Player_Damage_Underwater_1,1,44100,16,0.32687073945999146,0,FSB5,resources.resource,31870016,28960,/sdcard/stranded_native_port_output/audio_original_binary/audio_3849_Player_Damage_Underwater_1.fsb,PASS
+3850,Tyre_Harvest,2,44100,16,1.0710203647613525,1,FSB5,resources.resource,31898976,8192,/sdcard/stranded_native_port_output/audio_original_binary/audio_3850_Tyre_Harvest.fsb,PASS
+3851,axe_hit_wood_4,2,44100,16,0.3142857253551483,1,FSB5,resources.resource,31907168,22016,/sdcard/stranded_native_port_output/audio_original_binary/audio_3851_axe_hit_wood_4.fsb,PASS
+3852,STATUS_END_OBJECTIVES_COMPLETED,1,44100,16,0.2980272173881531,0,FSB5,resources.resource,31929184,26400,/sdcard/stranded_native_port_output/audio_original_binary/audio_3852_STATUS_END_OBJECTIVES_COMPLETED.fsb,PASS
+3853,ah03 tk4,1,48000,16,0.4586666524410248,1,FSB5,resources.resource,31955584,5280,/sdcard/stranded_native_port_output/audio_original_binary/audio_3853_ah03_tk4.fsb,PASS
+3854,footstep_sand_1,2,44100,16,0.5535827875137329,1,FSB5,resources.resource,31960864,24608,/sdcard/stranded_native_port_output/audio_original_binary/audio_3854_footstep_sand_1.fsb,PASS
+3855,stonetool_hit_wood_4,2,44100,16,0.3138548731803894,1,FSB5,resources.resource,31985472,21888,/sdcard/stranded_native_port_output/audio_original_binary/audio_3855_stonetool_hit_wood_4.fsb,PASS
+3856,eat-gross-05,1,44100,16,1.2331745624542236,1,FSB5,resources.resource,32007360,14720,/sdcard/stranded_native_port_output/audio_original_binary/audio_3856_eat-gross-05.fsb,PASS
+3857,drink_medical_1,2,44100,16,0.7593650817871094,1,FSB5,resources.resource,32022080,43136,/sdcard/stranded_native_port_output/audio_original_binary/audio_3857_drink_medical_1.fsb,PASS
+3858,campfire_Rubbing_1,2,44100,16,0.24823129177093506,1,FSB5,resources.resource,32065216,15904,/sdcard/stranded_native_port_output/audio_original_binary/audio_3858_campfire_Rubbing_1.fsb,PASS
+3859,bow_reload,2,44100,16,0.7008843421936035,1,FSB5,resources.resource,32081120,16704,/sdcard/stranded_native_port_output/audio_original_binary/audio_3859_bow_reload.fsb,PASS
+3860,jump-01 tk1,1,48000,16,0.20533333718776703,1,FSB5,resources.resource,32097824,2272,/sdcard/stranded_native_port_output/audio_original_binary/audio_3860_jump-01_tk1.fsb,PASS
+3861,footstep_rock_6,2,44100,16,0.2857142984867096,1,FSB5,resources.resource,32100096,19872,/sdcard/stranded_native_port_output/audio_original_binary/audio_3861_footstep_rock_6.fsb,PASS
+3862,liferaft_seaAnchor_deploy,2,44100,16,2.6259636878967285,1,FSB5,resources.resource,32119968,184704,/sdcard/stranded_native_port_output/audio_original_binary/audio_3862_liferaft_seaAnchor_deploy.fsb,PASS
+3863,Use_Flaregun_Empty,2,44100,16,0.6269387602806091,1,FSB5,resources.resource,32304672,3680,/sdcard/stranded_native_port_output/audio_original_binary/audio_3863_Use_Flaregun_Empty.fsb,PASS
+3864,putdown_food_03,2,44100,16,0.18571428954601288,0,FSB5,resources.resource,32308352,32896,/sdcard/stranded_native_port_output/audio_original_binary/audio_3864_putdown_food_03.fsb,PASS
+3865,axe_hit_miss_2,2,44100,16,0.6249886751174927,1,FSB5,resources.resource,32341248,11808,/sdcard/stranded_native_port_output/audio_original_binary/audio_3865_axe_hit_miss_2.fsb,PASS
+3866,swim_underwater_4,2,44100,16,2.128934144973755,1,FSB5,resources.resource,32353056,48096,/sdcard/stranded_native_port_output/audio_original_binary/audio_3866_swim_underwater_4.fsb,PASS
+3867,stonetool_hit_leaf_1,2,44100,16,1.0982086658477783,1,FSB5,resources.resource,32401152,44032,/sdcard/stranded_native_port_output/audio_original_binary/audio_3867_stonetool_hit_leaf_1.fsb,PASS
+3868,STATUS_END_OBJECTIVES_COMPLETED,1,48000,16,0.23466666042804718,1,FSB5,resources.resource,32445184,2688,/sdcard/stranded_native_port_output/audio_original_binary/audio_3868_STATUS_END_OBJECTIVES_COMPLETED.fsb,PASS
+3869,STATUS_HEALTH_REGENERATION,1,44100,16,0.06689342111349106,1,FSB5,resources.resource,32447872,1120,/sdcard/stranded_native_port_output/audio_original_binary/audio_3869_STATUS_HEALTH_REGENERATION.fsb,PASS
+3870,putdown_leaf_01,2,44100,16,0.5915419459342957,0,FSB5,resources.resource,32448992,104480,/sdcard/stranded_native_port_output/audio_original_binary/audio_3870_putdown_leaf_01.fsb,PASS
+3871,container_metal_close,2,44100,16,0.7791836857795715,1,FSB5,resources.resource,32553472,45024,/sdcard/stranded_native_port_output/audio_original_binary/audio_3871_container_metal_close.fsb,PASS
+3872,STATUS_SUNBURN,1,44100,16,1.1818140745162964,0,FSB5,resources.resource,32598496,104352,/sdcard/stranded_native_port_output/audio_original_binary/audio_3872_STATUS_SUNBURN.fsb,PASS
+3873,Wrist watch single beep,2,44100,16,0.3395918309688568,1,FSB5,resources.resource,32702848,2560,/sdcard/stranded_native_port_output/audio_original_binary/audio_3873_Wrist_watch_single_beep.fsb,PASS
+3874,STATUS_BLEEDING,1,44100,16,0.06689342111349106,1,FSB5,resources.resource,32705408,1120,/sdcard/stranded_native_port_output/audio_original_binary/audio_3874_STATUS_BLEEDING.fsb,PASS
+3875,footstep_metal_seafort_R4,2,44100,16,0.43027210235595703,1,FSB5,resources.resource,32706528,10208,/sdcard/stranded_native_port_output/audio_original_binary/audio_3875_footstep_metal_seafort_R4.fsb,PASS
+3876,Player_Damage_1 tk1,1,48000,16,0.4546666741371155,1,FSB5,resources.resource,32716736,5472,/sdcard/stranded_native_port_output/audio_original_binary/audio_3876_Player_Damage_1_tk1.fsb,PASS
+3877,UI_Storage_Locker_Open,2,48000,16,1.0080000162124634,1,FSB5,resources.resource,32722208,9568,/sdcard/stranded_native_port_output/audio_original_binary/audio_3877_UI_Storage_Locker_Open.fsb,PASS
+3878,dive-07,1,44100,16,0.554943323135376,0,FSB5,resources.resource,32731776,49088,/sdcard/stranded_native_port_output/audio_original_binary/audio_3878_dive-07.fsb,PASS
+3879,eel_boss_take_damage_1,2,44100,16,2.647324323654175,1,FSB5,resources.resource,32780864,50208,/sdcard/stranded_native_port_output/audio_original_binary/audio_3879_eel_boss_take_damage_1.fsb,PASS
+3880,swim_underwater_2,2,44100,16,1.7265759706497192,1,FSB5,resources.resource,32831072,43168,/sdcard/stranded_native_port_output/audio_original_binary/audio_3880_swim_underwater_2.fsb,PASS
+3881,STATUS_DEHYDRATION,1,48000,16,0.23466666042804718,1,FSB5,resources.resource,32874240,2688,/sdcard/stranded_native_port_output/audio_original_binary/audio_3881_STATUS_DEHYDRATION.fsb,PASS
+3882,drift_wood_harvest_1,2,44100,16,1.04464852809906,1,FSB5,resources.resource,32876928,41376,/sdcard/stranded_native_port_output/audio_original_binary/audio_3882_drift_wood_harvest_1.fsb,PASS
+3883,surfacing-light-02 tk1,1,48000,16,0.7506666779518127,1,FSB5,resources.resource,32918304,8064,/sdcard/stranded_native_port_output/audio_original_binary/audio_3883_surfacing-light-02_tk1.fsb,PASS
+3884,tool_hit_flesh_1,2,44100,16,0.39090701937675476,1,FSB5,resources.resource,32926368,19776,/sdcard/stranded_native_port_output/audio_original_binary/audio_3884_tool_hit_flesh_1.fsb,PASS
+3885,footstep_dirt_2,2,44100,16,0.16072562336921692,1,FSB5,resources.resource,32946144,9088,/sdcard/stranded_native_port_output/audio_original_binary/audio_3885_footstep_dirt_2.fsb,PASS
+3886,surfacing-med-03 tk1,1,48000,16,2.0213332176208496,1,FSB5,resources.resource,32955232,20640,/sdcard/stranded_native_port_output/audio_original_binary/audio_3886_surfacing-med-03_tk1.fsb,PASS
+3887,Fishing_Reel_Loose,2,44100,16,0.8620408177375793,1,FSB5,resources.resource,32975872,29184,/sdcard/stranded_native_port_output/audio_original_binary/audio_3887_Fishing_Reel_Loose.fsb,PASS
+3888,plot_plant_seed2,2,44100,16,0.9464399218559265,1,FSB5,resources.resource,33005056,22592,/sdcard/stranded_native_port_output/audio_original_binary/audio_3888_plot_plant_seed2.fsb,PASS

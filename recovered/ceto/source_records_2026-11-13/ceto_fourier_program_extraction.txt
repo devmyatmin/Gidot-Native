@@ -1,0 +1,200 @@
+SHADER: Ceto/Fourier
+
+PLATFORM 4: decompressed=10624, entries=9
+DXBC ENTRY 0: offset=112, size=1008, inner_offset=70, extracted=676, sha256=694e61bdcb9c177688235d006d4bb7f2aee6f41ac0cf4564e9c1406741684449
+DXBC ENTRY 1: offset=1120, size=756, inner_offset=70, extracted=652, sha256=26ff84ccb3a8794086a4645997ac495df7bb0b05b416e3b10dc3aa01c554ab2f
+DXBC ENTRY 2: offset=1876, size=756, inner_offset=70, extracted=652, sha256=69b612a2af3c583eef33eaff8776eeae322efca270e66b3c50db3e9862f54296
+DXBC ENTRY 3: offset=2632, size=1044, inner_offset=70, extracted=940, sha256=13d581393ea7ab558d81241296781d13df99f4254554f5c8040ac84ef1285a77
+DXBC ENTRY 4: offset=3676, size=1044, inner_offset=70, extracted=940, sha256=e0c037890212bde23d1d5f6b04ed443bdb3aacf7d891672f0f780511dc7d4150
+DXBC ENTRY 5: offset=4720, size=1332, inner_offset=70, extracted=1228, sha256=139464b7dd81b9c6d2a76a707d5a933915845a06a18eef95848fd1c939825cce
+DXBC ENTRY 6: offset=6052, size=1332, inner_offset=70, extracted=1228, sha256=cb7494eeb0bc33879ad1092b2f7be7e092e97103d70c13c1a8caad75773f066e
+DXBC ENTRY 7: offset=7384, size=1620, inner_offset=70, extracted=1516, sha256=1638fbb20e6b51b4b679615ba87c7415a06b68beeaee37d02578dd0705955794
+DXBC ENTRY 8: offset=9004, size=1620, inner_offset=70, extracted=1516, sha256=f331ca354de185fcd54d28cf541f32a475209372322c7fbd5d17e457d2349aac
+
+PLATFORM 15: decompressed=29060, entries=8
+
+GLSL ENTRY 0: offset=100, size=2892, source_offset=46, source_size=2621
+SHA256: 6b36eb4924785c41667b988d1ecdb2e604bb7335db783c2dd039e78cfc9e4986
+  L1: #version 150
+  L3: #ifdef GL_ARB_shader_bit_encoding
+  L5: #endif
+  L8: #if HLSLCC_ENABLE_UNIFORM_BUFFERS
+  L10: #else
+  L12: #endif
+  L14: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L17: #else
+  L20: #endif
+  L28: void main()
+  L42: #endif
+  L43: #ifdef FRAGMENT
+  L44: #version 150
+  L46: #ifdef GL_ARB_shader_bit_encoding
+  L48: #endif
+  L51: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L54: #else
+  L57: #endif
+  L66: void main()
+  L84: #endif
+
+GLSL ENTRY 1: offset=2992, size=2892, source_offset=46, source_size=2621
+SHA256: 852ba9a39d1254d2585d662dcce57e2c01b24cfd0f78312300263024a3d97f25
+  L1: #version 150
+  L3: #ifdef GL_ARB_shader_bit_encoding
+  L5: #endif
+  L8: #if HLSLCC_ENABLE_UNIFORM_BUFFERS
+  L10: #else
+  L12: #endif
+  L14: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L17: #else
+  L20: #endif
+  L28: void main()
+  L42: #endif
+  L43: #ifdef FRAGMENT
+  L44: #version 150
+  L46: #ifdef GL_ARB_shader_bit_encoding
+  L48: #endif
+  L51: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L54: #else
+  L57: #endif
+  L66: void main()
+  L84: #endif
+
+GLSL ENTRY 2: offset=5884, size=3384, source_offset=46, source_size=3079
+SHA256: 7824e3f9058c5f1d4dac177a3abb52f4df84fe58eb033b3747f20fc23a97aff8
+  L1: #version 150
+  L3: #ifdef GL_ARB_shader_bit_encoding
+  L5: #endif
+  L8: #if HLSLCC_ENABLE_UNIFORM_BUFFERS
+  L10: #else
+  L12: #endif
+  L14: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L17: #else
+  L20: #endif
+  L28: void main()
+  L42: #endif
+  L43: #ifdef FRAGMENT
+  L44: #version 150
+  L46: #ifdef GL_ARB_shader_bit_encoding
+  L48: #endif
+  L51: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L54: #else
+  L57: #endif
+  L70: void main()
+  L95: #endif
+
+GLSL ENTRY 3: offset=9268, size=3384, source_offset=46, source_size=3079
+SHA256: e91b52bade97986c105b5f29898730097ec3d79b3a13ae265e95956faa8a7290
+  L1: #version 150
+  L3: #ifdef GL_ARB_shader_bit_encoding
+  L5: #endif
+  L8: #if HLSLCC_ENABLE_UNIFORM_BUFFERS
+  L10: #else
+  L12: #endif
+  L14: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L17: #else
+  L20: #endif
+  L28: void main()
+  L42: #endif
+  L43: #ifdef FRAGMENT
+  L44: #version 150
+  L46: #ifdef GL_ARB_shader_bit_encoding
+  L48: #endif
+  L51: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L54: #else
+  L57: #endif
+  L70: void main()
+  L95: #endif
+
+GLSL ENTRY 4: offset=12652, size=3868, source_offset=46, source_size=3524
+SHA256: 17261b3e9dbab9338a7f49f8ffeb14d914b6257b544888dab71950265d72c543
+  L1: #version 150
+  L3: #ifdef GL_ARB_shader_bit_encoding
+  L5: #endif
+  L8: #if HLSLCC_ENABLE_UNIFORM_BUFFERS
+  L10: #else
+  L12: #endif
+  L14: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L17: #else
+  L20: #endif
+  L28: void main()
+  L42: #endif
+  L43: #ifdef FRAGMENT
+  L44: #version 150
+  L46: #ifdef GL_ARB_shader_bit_encoding
+  L48: #endif
+  L51: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L54: #else
+  L57: #endif
+  L73: void main()
+  L105: #endif
+
+GLSL ENTRY 5: offset=16520, size=3868, source_offset=46, source_size=3524
+SHA256: 106ef95b2f736cdd274e9a9bd641ddbe684fa6434c68e3701dbb0e370bb0c040
+  L1: #version 150
+  L3: #ifdef GL_ARB_shader_bit_encoding
+  L5: #endif
+  L8: #if HLSLCC_ENABLE_UNIFORM_BUFFERS
+  L10: #else
+  L12: #endif
+  L14: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L17: #else
+  L20: #endif
+  L28: void main()
+  L42: #endif
+  L43: #ifdef FRAGMENT
+  L44: #version 150
+  L46: #ifdef GL_ARB_shader_bit_encoding
+  L48: #endif
+  L51: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L54: #else
+  L57: #endif
+  L73: void main()
+  L105: #endif
+
+GLSL ENTRY 6: offset=20388, size=4336, source_offset=46, source_size=3955
+SHA256: c62bdb2c6eaa65ef4dd7d382bd57a07fc85e1608a2af1f823e92133faa30f13f
+  L1: #version 150
+  L3: #ifdef GL_ARB_shader_bit_encoding
+  L5: #endif
+  L8: #if HLSLCC_ENABLE_UNIFORM_BUFFERS
+  L10: #else
+  L12: #endif
+  L14: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L17: #else
+  L20: #endif
+  L28: void main()
+  L42: #endif
+  L43: #ifdef FRAGMENT
+  L44: #version 150
+  L46: #ifdef GL_ARB_shader_bit_encoding
+  L48: #endif
+  L51: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L54: #else
+  L57: #endif
+  L75: void main()
+  L114: #endif
+
+GLSL ENTRY 7: offset=24724, size=4336, source_offset=46, source_size=3955
+SHA256: 1c104748fbd4b4822cd285a76a69e8e0e918d3728d5fb91623ced0ba831cbf67
+  L1: #version 150
+  L3: #ifdef GL_ARB_shader_bit_encoding
+  L5: #endif
+  L8: #if HLSLCC_ENABLE_UNIFORM_BUFFERS
+  L10: #else
+  L12: #endif
+  L14: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L17: #else
+  L20: #endif
+  L28: void main()
+  L42: #endif
+  L43: #ifdef FRAGMENT
+  L44: #version 150
+  L46: #ifdef GL_ARB_shader_bit_encoding
+  L48: #endif
+  L51: #if UNITY_SUPPORTS_UNIFORM_LOCATION
+  L54: #else
+  L57: #endif
+  L75: void main()
+  L114: #endif
+
+OUTPUT DIRECTORY: output/ceto_fourier_programs

@@ -1,0 +1,280 @@
+NYAMIST / ENDING CASTAWAY DEPTHS
+PHASE 1 — UPLOADED SOURCE ARCHIVE AUDIT
+Date: 2026-11-15
+Scope: Read.zip and Read_Original_Logic.zip supplied in this conversation.
+Method: Archive extraction to temporary workspace; read-only inspection; no archive or source payload modified.
+
+============================================================
+1. INPUTS ACTUALLY INSPECTED
+============================================================
+
+Read.zip
+- 300 ZIP entries including Git metadata.
+- 62 non-Git files, approximately 1.53 MB uncompressed.
+- Contains the Read documentation/research repository, extraction reports,
+  CSV inventories, Ceto IL records, GLSL and SPIR-V modules, and Python tools.
+- Git repository HEAD: e5d7117.
+- Recorded history: initial commit, FourierGPU extraction, token resolution,
+  Ceto support IL extraction, asset-report archival, Vulkan module validation,
+  and later Ceto IL archival commits (2026-11-13).
+
+Read_Original_Logic.zip
+- 16 files, approximately 17.15 MB uncompressed.
+- Contains hardware/Vulkan probe transcript, P/Invoke reports and scanner
+  scripts, SHA-256 manifest, EOS targeted-screen report, seven command logs,
+  one combined log, and an MP4 screen recording.
+
+IMPORTANT SCOPE LIMIT:
+These two ZIPs do not contain the raw APKs, the raw Real3D ELF shared library,
+Unity resources.assets/sharedassets*.assets payloads, or the extracted OBJ/PNG/FSB5
+payload directories. They contain records, scripts, inventories, shader artifacts,
+and terminal transcripts that refer to those external files. Therefore binary
+claims below are classified as transcript-backed, not freshly re-parsed from
+raw binary payloads in these ZIPs.
+
+============================================================
+2. ORIGINAL UNITY EXTRACTION RECORDS
+============================================================
+
+Audio report:
+- Unity ClassID 83 (AudioClip): 430 total; PASS 430; EMPTY 0; ERROR 0.
+- Report says original FMOD FSB5 files were written to
+  /sdcard/stranded_native_port_output/audio_original_binary/.
+- audio_inventory.csv has 430 data rows plus header; 430 unique full rows.
+
+Mesh report:
+- Unity ClassID 43 (Mesh): 1,113 extracted; Failed 0; stated 100% PASS.
+- Index widths: 16-bit 1,112; 32-bit 1.
+- The 32-bit mesh is PathID 2206, Shipwreck_13_LOD0, 39 submeshes,
+  182,346 vertices.
+- Attribute counts in report: Position 1,113; Normals 1,111;
+  Tangents 1,039; UV0 1,110; UV1 855; UV2 16.
+- mesh_index_validation_all_v2.csv has 1,113 data rows plus header;
+  1,113 unique full rows.
+
+Texture report:
+- Unity ClassID 28 (Texture2D): 1,498 original; 1,463 lossless PNG;
+  35 skipped; 0 failed.
+- Format counts: DXT5 1,014; DXT1 379; RGBA32 74; RGB24 13;
+  BC7 9; Alpha8 9.
+
+These are recorded extraction results. Raw payloads were not included in
+Read.zip, so image/audio/mesh contents and their hash-level provenance were
+not independently revalidated here.
+
+============================================================
+3. CETО / FOURIER LOGIC CHAIN
+============================================================
+
+Present in Read.zip:
+- Ceto FourierGPU IL and token-resolved IL.
+- Fourier support IL, token-resolved support IL, and token reports.
+- Ceto ocean core IL and resolved IL, metadata, method index, and candidates.
+- Extractor, resolver, stage-splitter, and decompression-test Python scripts.
+- Nine SPIR-V modules and nine matching GLSL source files in
+  ceto/shaders_2026-11-13/.
+
+FourierGPU methods evidenced in IL records:
+- Release
+- BitReverse
+- Make1DTex
+- ComputeButterflyLookupTable
+- PeformFFT (multiple overloads / RVAs)
+- Support records also include get_size, get_passes, constructor,
+  and Ceto.Common.Unity.Utility.RTUtility::MultiTargetBlit.
+
+Ceto ocean method inventory includes lifecycle, scheduling, wave-query,
+reflection, mask and depth methods. Examples recorded in candidates/index:
+- Ocean Awake, Start, Update, OnEnable, OnDisable, OnDestroy
+- CalculateWindDirVector, QueryNormal, QueryWaves
+- OceanOnPreRender, OceanOnPreCull, OceanOnPostRender
+- RenderWaveOverlays, RenderReflection, RenderOceanMask, RenderOceanDepth
+- Buoyancy.FixedUpdate, UpdateProperties, UpdateForces, CalculateSubmersion
+- DisplacementBufferCPU.QueryWaves and DisplacementBufferGPU.QueryWaves
+
+Original shader payload extraction record:
+- Ceto/Fourier shader.
+- Platform 4 payload decompressed to 10,624 bytes with 9 DXBC entries.
+- Platform 15 payload decompressed to 29,060 bytes with 8 GLSL entries.
+- Decompression test record says both payloads decompressed successfully.
+- Program table maps eight passes to a shared vertex program and fragment
+  program indices 1..8.
+
+Vulkan shader module validation record:
+- Device recorded as Mali-G925-Immortalis MC12, Vulkan 1.3.278.
+- 1 vertex + 8 fragment SPIR-V modules.
+- Reported vkCreateShaderModule result: 9/9 PASS; vkDeviceWaitIdle PASS.
+- This proves module creation acceptance as recorded; it does not prove
+  graphics-pipeline creation, descriptor compatibility, MRT execution,
+  FFT numerical correctness, or complete Ceto ocean rendering.
+
+Artifact integrity checks performed here:
+- All 9 SPIR-V files have SPIR-V magic 03 02 23 07 and byte sizes divisible
+  by 4; SHA-256 values are recorded in this audit's working notes, not inferred
+  from the original game.
+- All 9 GLSL files have #version 450 and one void main each.
+- Python scripts in the Ceto source_records folder parse successfully with
+  Python AST syntax parsing. This is syntax-only, not runtime execution.
+
+============================================================
+4. BINARY / APK / VULKAN TRANSCRIPT EVIDENCE
+============================================================
+
+The second ZIP includes text transcripts, not the ELF/APK files themselves.
+The bundled NYAMIST_0zip_3txt_audit.md records the following observations:
+- Real3D ELF identified as ELF64 little-endian AArch64.
+- renderLoop() at 0x13d298, reported size 1,460 bytes.
+- kMeshVerts at 0x2ba8, reported size 1,271,268 bytes.
+- Disassembly records a Vulkan path through acquire, command-buffer setup,
+  render pass, pipeline bind, push constants, vkCmdDraw, queue submit and present.
+- vkCmdDraw vertexCount recorded as 35,313.
+- 1,271,268 / 35,313 = exactly 36 bytes per drawn vertex.
+- The report explicitly says the 36-byte vertex attribute layout is unknown.
+- Transcript SHA-256 for the audited Real3D library:
+  def25443058820e2236c7a109c615c94c7a18ebab93cd214229727d209534dbb.
+
+Hardware transcript records:
+- Mali-G925-Immortalis MC12.
+- Vulkan API 1.3.278; vendor 0x13B5; device 0xD8300010.
+- 152 device extensions enumerated in the transcript.
+- It also records a diagnostic about the Mali large_page_conf parameter file;
+  the transcript says device and shader-module creation continued successfully.
+
+Interpretation:
+The disassembly transcript is strong static evidence of an implemented
+Vulkan draw/present path. It is not raw-binary re-verification in this phase,
+and it does not establish that every Vulkan call succeeds at runtime or that
+the displayed mesh is original-game geometry.
+
+============================================================
+5. P/INVOKE / MANAGED BINARY ANALYSIS
+============================================================
+
+Read_Original_Logic.zip contains:
+- pinvoke_stage3_scan.py (initial scanner)
+- pinvoke_stage3_scan_fixed.py (version 3.1.0-audit)
+- PINVOKE_STAGE3_AGGREGATION_20261114.txt
+- PInvoke_SHA256_MANIFEST.txt (119 entries)
+- STAGE4_EOS_TARGETED_SCREEN_SUMMARY.txt
+
+Manifest evidence includes hashes for Assembly-CSharp.dll,
+Assembly-CSharp-firstpass.dll, Photon3Unity3D.dll, PhotonBolt.dll,
+PhotonRealtime.dll and many other managed assemblies.
+
+The Stage 3 aggregation report records:
+- 4,318 MethodDef linked-call rows.
+- 8,109 joined rows.
+- 4,335 unique callsite keys.
+- 17 duplicate callsite keys / join-multiplicity cases.
+- Large multiplicity examples include a blank caller identity for
+  Assembly-CSharp.dll matching 360 declarations and other broad matches.
+
+This is a material audit warning: the aggregation output contains join
+multiplicity that can inflate or ambiguously associate declarations. The
+fixed scanner's code uses assembly identity + declaring type + method name +
+raw signature bytes for MemberRef/MethodSpec P/Invoke association and labels
+ambiguous matches rather than silently choosing one. However, the supplied
+aggregation report has not been proven to have been generated by that exact
+fixed scanner revision. The two outputs must be reconciled before treating
+all aggregated call links as exact.
+
+The fixed scanner also declares fatal validation counters for file errors,
+method-body parse errors, ImplMap resolution errors, P/Invoke flag errors,
+missing ImplMap rows, orphan ImplMap rows and duplicate method rows. Its
+script was syntax-inspected only; it was not run because the managed DLL
+payload directory is not included in these two ZIPs.
+
+============================================================
+6. CONCRETE REPRODUCIBLE DEFECT FOUND
+============================================================
+
+Both token resolver scripts contain a report-writing expression equivalent to:
+    f.write("\\n".join(lines) + "\\n")
+
+That writes literal backslash+n characters instead of newline characters.
+The archived token report files confirm this formatting defect: the main
+fourier_gpu_token_report.txt and ceto/fourier_support_token_report.txt have
+zero actual LF bytes and many literal \\n sequences. The resolved IL output
+is written separately from the original source string, so this particular
+bug affects the human-readable token report formatting, not the IL token
+replacement operation itself.
+
+No source files were modified during this audit. This is recorded as a
+contained reporting defect to fix later, after confirming the canonical
+script copy in the full research world.
+
+============================================================
+7. PATH / REPRODUCIBILITY NOTES
+============================================================
+
+Some archived Ceto scripts hard-code the original game path as:
+/sdcard/Download/3zip/Stranded Deep/Stranded_Deep_Data
+
+The user's current stated original-game path is:
+Download/Stranded Deep
+
+The archive scripts therefore appear to refer to an earlier folder layout.
+Before rerunning any extractor, reconcile its configured ROOT/DLL paths with
+the actual current path. The scripts also write to relative output folders
+such as output/ and logic/; do not execute them in the live research world
+until output targets and overwrite behavior are reviewed.
+
+============================================================
+8. PROVENANCE CLASSIFICATION — CURRENT EVIDENCE
+============================================================
+
+ORIGINAL-DERIVED RECORDS
+- Asset extraction reports and CSV inventories.
+- Unity Ceto Fourier shader payload decompression records.
+- Ceto managed IL extracted from Assembly-CSharp.dll (as recorded).
+- Original managed DLL SHA-256 manifest entries.
+
+EXTRACTOR / ANALYZER TOOLS
+- UnityPy + LZ4 shader payload extractor scripts.
+- dnfile/dncil IL extraction and token-resolution scripts.
+- P/Invoke Stage 3 scanners.
+
+RECONSTRUCTED / CONVERTED ARTIFACTS
+- Extracted GLSL stage files and converted Vulkan GLSL/SPIR-V modules.
+- These are downstream artifacts; equivalence to original DXBC/GLSL semantics
+  still needs shader-level validation.
+
+NATIVE IMPLEMENTATION EVIDENCE
+- Real3D Vulkan ELF symbols/disassembly and mesh payload details are currently
+  represented by transcripts only in the supplied archive.
+
+VALIDATION RECORDS
+- Mesh index validation CSV/report.
+- Ceto decompression test transcript.
+- Vulkan shader-module creation validation report.
+- Hardware Vulkan probe transcript.
+
+UNVERIFIED / NOT PRESENT IN THESE ZIPS
+- Raw APK and ELF files for fresh symbol/disassembly/hash verification.
+- Original Unity serialized asset containers and extracted OBJ/PNG/FSB5 payloads.
+- Current full 20GB research-world source tree and canonical copies of every
+  C++/Python pipeline version.
+- Direct geometry comparison between kMeshVerts and original extracted meshes.
+- Graphics-pipeline / MRT / FFT output runtime validation.
+- End-to-end APK rendering fidelity against original Stranded Deep.
+
+============================================================
+9. NEXT ENGINEERING ORDER
+============================================================
+
+1. Establish canonical source versions from the full research world using
+   hashes, Git history, and output manifests; do not choose newest by timestamp.
+2. Reconcile P/Invoke aggregation output with pinvoke_stage3_scan_fixed.py
+   and its exact-signature/ambiguity logic.
+3. Fix token report newline handling in the canonical resolver scripts only.
+4. Reconcile old hard-coded game paths and isolate all extractor outputs.
+5. Obtain raw Real3D ELF/APKs and original Unity assets for fresh binary hashes,
+   symbol/disassembly inspection, and asset-level comparisons.
+6. Decode the 36-byte native vertex layout and compare positions/bounds/topology
+   against original extracted mesh candidates.
+7. Progress Ceto validation from shader-module creation to pipeline creation,
+   descriptor compatibility, MRT, GPU execution, and numerical FFT comparison.
+8. Only after provenance and validation are clear, integrate verified assets
+   and logic into the native Android APK.
+
+END OF PHASE 1 ARCHIVE AUDIT

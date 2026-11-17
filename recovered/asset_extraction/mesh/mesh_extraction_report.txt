@@ -1,0 +1,30 @@
+STRANDED DEEP - ORIGINAL MESH EXTRACTION
+
+Unity ClassID: 43 (Mesh)
+Total extracted: 1,113
+Failed: 0
+Verification: 100% PASS
+
+Index formats:
+16-bit: 1,112
+32-bit: 1
+
+32-bit Mesh:
+PathID: 2206
+Name: Shipwreck_13_LOD0
+SubMeshes: 39
+Vertices: 182,346
+
+Vertex attributes:
+Position: 1,113
+Normals: 1,111
+Tangents: 1,039
+UV0: 1,110
+UV1: 855
+UV2: 16
+
+OBJ directory:
+/sdcard/stranded_native_port_output/run_20261112_094649/reconstructed_v5/obj/
+
+Validation CSV:
+mesh_index_validation_all_v2.csv

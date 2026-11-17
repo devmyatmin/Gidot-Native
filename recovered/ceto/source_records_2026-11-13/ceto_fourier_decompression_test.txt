@@ -1,0 +1,105 @@
+SHADER: Ceto/Fourier
+BLOB SIZE: 3276
+PLATFORMS: [4, 15]
+
+PAYLOAD: 0
+OFFSET: 0
+COMPRESSED: 1665
+EXPECTED DECOMPRESSED: 10624
+SHA256 COMPRESSED: a0553f8fa2d5df309fa60d44d89ca16350557276176354414eac56b76f796285
+DECOMPRESS: PASS
+ACTUAL SIZE: 10624
+SHA256 RAW: b6c5d5454695543ede9cb871cea4cc7f306582df4cf9157caeceed5d3fa6695a
+PREFIX: 0900000070000000f00300000000000060040000f40200000000000054070000
+SIGNATURE: OTHER
+TEXT PREVIEW:
+	...p...........`...........T...........H
+..........\...........p...4...........4...........T.......,#..T........u
+...................................................................DXBC<?<u....a...w&.Q............,...........ISGNl...........P.......................Y.......................`.......................POSITION.NORMAL.TEXCOORD....OSGNP...........8.......................D.......................SV_POSITION.TEXCOORD....SHDR....@...i...Y...F. .........Y...F. ........._...r......._...2.....
+
+PAYLOAD: 1
+OFFSET: 1665
+COMPRESSED: 1611
+EXPECTED DECOMPRESSED: 29060
+SHA256 COMPRESSED: 017aca9f1e96c02c729fd172cf3bf2a530fb87c9d472294ba39b613a19067091
+DECOMPRESS: PASS
+ACTUAL SIZE: 29060
+SHA256 RAW: ce5dbc3300643e8a1a0802a1d4e8357051113876de22e879063664b80d723d6b
+PREFIX: 08000000640000004c0b000000000000b00b00004c0b000000000000fc160000
+SIGNATURE: OTHER
+TEXT PREVIEW:
+....d...L...........L...........8......4$..8......l1...........@...........O...........`...........u
+.........................K
+..#ifdef VERTEX
+#version 150
+#extension GL_ARB_explicit_attrib_location : require
+#ifdef GL_ARB_shader_bit_encoding
+#extension GL_ARB_shader_bit_encoding : enable
+#endif
+
+#define HLSLCC_ENABLE_UNIFORM_BUFFERS 1
+#if HLSLCC_ENABLE_UNIFORM_BUFFERS
+#define UNITY_UNIFORM
+#else
+#define UNITY_UNIFORM uniform
+#endif
+#define UNITY_SUPPORTS_UNIFORM_LOCATION 1
+#if UNITY_SUPPORTS
+
+=== SUBPROGRAM INDEX MAP ===
+
+PASS 0
+  PLATFORMS: [4, 15]
+  PROGRAM MASK: 6
+  progVertex BlobIndex: 0 GpuProgramType: 15 HardwareTier: 3
+  progVertex BlobIndex: 0 GpuProgramType: 6 HardwareTier: 3
+  progFragment BlobIndex: 1 GpuProgramType: 17 HardwareTier: 3
+
+PASS 1
+  PLATFORMS: [4, 15]
+  PROGRAM MASK: 6
+  progVertex BlobIndex: 0 GpuProgramType: 15 HardwareTier: 3
+  progVertex BlobIndex: 1 GpuProgramType: 6 HardwareTier: 3
+  progFragment BlobIndex: 2 GpuProgramType: 17 HardwareTier: 3
+
+PASS 2
+  PLATFORMS: [4, 15]
+  PROGRAM MASK: 6
+  progVertex BlobIndex: 0 GpuProgramType: 15 HardwareTier: 3
+  progVertex BlobIndex: 2 GpuProgramType: 6 HardwareTier: 3
+  progFragment BlobIndex: 3 GpuProgramType: 17 HardwareTier: 3
+
+PASS 3
+  PLATFORMS: [4, 15]
+  PROGRAM MASK: 6
+  progVertex BlobIndex: 0 GpuProgramType: 15 HardwareTier: 3
+  progVertex BlobIndex: 3 GpuProgramType: 6 HardwareTier: 3
+  progFragment BlobIndex: 4 GpuProgramType: 17 HardwareTier: 3
+
+PASS 4
+  PLATFORMS: [4, 15]
+  PROGRAM MASK: 6
+  progVertex BlobIndex: 0 GpuProgramType: 15 HardwareTier: 3
+  progVertex BlobIndex: 4 GpuProgramType: 6 HardwareTier: 3
+  progFragment BlobIndex: 5 GpuProgramType: 17 HardwareTier: 3
+
+PASS 5
+  PLATFORMS: [4, 15]
+  PROGRAM MASK: 6
+  progVertex BlobIndex: 0 GpuProgramType: 15 HardwareTier: 3
+  progVertex BlobIndex: 5 GpuProgramType: 6 HardwareTier: 3
+  progFragment BlobIndex: 6 GpuProgramType: 17 HardwareTier: 3
+
+PASS 6
+  PLATFORMS: [4, 15]
+  PROGRAM MASK: 6
+  progVertex BlobIndex: 0 GpuProgramType: 15 HardwareTier: 3
+  progVertex BlobIndex: 6 GpuProgramType: 6 HardwareTier: 3
+  progFragment BlobIndex: 7 GpuProgramType: 17 HardwareTier: 3
+
+PASS 7
+  PLATFORMS: [4, 15]
+  PROGRAM MASK: 6
+  progVertex BlobIndex: 0 GpuProgramType: 15 HardwareTier: 3
+  progVertex BlobIndex: 7 GpuProgramType: 6 HardwareTier: 3
+  progFragment BlobIndex: 8 GpuProgramType: 17 HardwareTier: 3

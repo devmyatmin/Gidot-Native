@@ -1,0 +1,18 @@
+STRANDED DEEP - ORIGINAL TEXTURE EXTRACTION
+
+Unity ClassID: 28 (Texture2D)
+Original objects: 1,498
+Extracted lossless PNG: 1,463
+Skipped: 35
+Failed: 0
+
+Original format breakdown:
+DXT5: 1,014
+DXT1: 379
+RGBA32: 74
+RGB24: 13
+BC7: 9
+Alpha8: 9
+
+PNG directory:
+/sdcard/stranded_native_port_output/run_20261112_094649/previews/
