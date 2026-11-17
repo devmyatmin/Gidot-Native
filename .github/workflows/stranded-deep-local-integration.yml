@@ -1,0 +1,58 @@
+name: Stranded Deep Local CSharp Integration
+
+on:
+  workflow_dispatch:
+    inputs:
+      data_dir:
+        description: "Local Stranded_Deep_Data path on this runner"
+        required: true
+        default: "/sdcard/Download/Stranded_Deep_Data"
+        type: string
+      threezip_dir:
+        description: "Local 3zip path on this runner"
+        required: true
+        default: "/sdcard/Download/3zip"
+        type: string
+      godot_dir:
+        description: "Local Godot project path on this runner"
+        required: true
+        default: "/sdcard/Download/godot"
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  integrate-local-files:
+    runs-on: [self-hosted, linux, ARM64]
+    timeout-minutes: 60
+    steps:
+      - name: Checkout workflow tool
+        uses: actions/checkout@v4
+      - name: Verify local folders
+        shell: bash
+        run: |
+          set -euo pipefail
+          for p in "\${{ inputs.data_dir }}" "\${{ inputs.threezip_dir }}" "\${{ inputs.godot_dir }}"; do
+            test -d "$p" || { echo "::error::Local directory not found: $p"; exit 2; }
+          done
+          test -d "\${{ inputs.data_dir }}/Managed"
+          test -d "\${{ inputs.threezip_dir }}/Libraries/GameLogic"
+      - name: Stage CSharp assemblies and create reports
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 tools/stranded_deep_local_integrate.py \
+            --data "\${{ inputs.data_dir }}" \
+            --threezip "\${{ inputs.threezip_dir }}" \
+            --godot "\${{ inputs.godot_dir }}"
+      - name: Upload text reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: stranded-deep-assembly-integration-reports
+          path: |
+            \${{ inputs.godot_dir }}/SourceLogic/AssemblyIntegration/Reports/*.csv
+            \${{ inputs.godot_dir }}/SourceLogic/AssemblyIntegration/Reports/*.json
+            \${{ inputs.godot_dir }}/SourceLogic/AssemblyIntegration/Reports/*.txt
+          if-no-files-found: error
+          retention-days: 14
