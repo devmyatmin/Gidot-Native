@@ -32,3 +32,16 @@ textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 viewport/default_clear_color=Color(0, 0, 0, 1)
+
+[input]
+
+move_left={"deadzone":0.2,"events":[]}
+move_right={"deadzone":0.2,"events":[]}
+move_forward={"deadzone":0.2,"events":[]}
+move_backward={"deadzone":0.2,"events":[]}
+jump={"deadzone":0.5,"events":[]}
+interact={"deadzone":0.5,"events":[]}
+crouch={"deadzone":0.5,"events":[]}
+sprint={"deadzone":0.5,"events":[]}
+inventory={"deadzone":0.5,"events":[]}
+pause={"deadzone":0.5,"events":[]}
