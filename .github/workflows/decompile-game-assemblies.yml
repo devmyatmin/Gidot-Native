@@ -1,0 +1,130 @@
+name: Decompile Stranded Deep gameplay assemblies
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/decompile-game-assemblies.yml"
+      - "Libraries/GameLogic/**"
+      - "Libraries/UnityEngine/**"
+      - "Libraries/Framework/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  decompile-gameplay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository and fetch Git LFS objects
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Set up .NET 10
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Verify real gameplay DLL payloads
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, json, sys
+          expected = {
+              "Libraries/GameLogic/Assembly-CSharp.dll": {
+                  "size": 3432448,
+                  "sha256": "d5501ae7a2c09499cdf569c5b52578401f039c2f4aa5e7e9240c22faeef214bc"
+              },
+              "Libraries/GameLogic/Assembly-CSharp-firstpass.dll": {
+                  "size": 642048,
+                  "sha256": "05dc598d55fcd2440946fceb7a47a829fa23de26f7c05283080013e4c1c588ae"
+              }
+          }
+          result = {}
+          for name, spec in expected.items():
+              p = Path(name)
+              if not p.is_file():
+                  raise SystemExit(f"MISSING_DLL: {name}")
+              data = p.read_bytes()
+              if data.startswith(b"version https://git-lfs.github.com/spec/v1"):
+                  raise SystemExit(f"LFS_POINTER_NOT_DOWNLOADED: {name}")
+              digest = hashlib.sha256(data).hexdigest()
+              item = {"size_bytes": len(data), "sha256": digest}
+              result[name] = item
+              if len(data) != spec["size"] or digest != spec["sha256"]:
+                  raise SystemExit(f"STRICT_BINARY_MISMATCH: {name}: {item}")
+          Path("artifacts").mkdir(exist_ok=True)
+          Path("artifacts/binary_verification.json").write_text(json.dumps(result, indent=2) + "\n")
+          print(json.dumps(result, indent=2))
+          PY
+
+      - name: Install ILSpy command-line decompiler
+        shell: bash
+        run: |
+          set -euo pipefail
+          dotnet tool install ilspycmd --version 11.2.0.10050 --tool-path "$HOME/.dotnet/tools"
+          echo "$HOME/.dotnet/tools" >> "$GITHUB_PATH"
+          "$HOME/.dotnet/tools/ilspycmd" --version
+
+      - name: Decompile gameplay assemblies and resolve library references
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts/decompiled
+          mapfile -t REF_DIRS < <(find Libraries -type d -print | sort)
+          ILSPY="$HOME/.dotnet/tools/ilspycmd"
+          for dll in Libraries/GameLogic/Assembly-CSharp.dll Libraries/GameLogic/Assembly-CSharp-firstpass.dll; do
+            name="$(basename "$dll" .dll)"
+            out="artifacts/decompiled/$name"
+            mkdir -p "$out"
+            args=()
+            for dir in "${REF_DIRS[@]}"; do args+=("-r" "$dir"); done
+            "$ILSPY" -p --nested-directories --disable-updatecheck "${args[@]}" -o "$out" "$dll"
+            "$ILSPY" -l c "${args[@]}" "$dll" > "$out/classes.txt"
+            "$ILSPY" -l i "${args[@]}" "$dll" > "$out/interfaces.txt"
+            test -s "$out/$name.csproj"
+            find "$out" -type f -name '*.cs' -print0 | sort -z | xargs -0 -r sha256sum > "$out/source_sha256.txt"
+          done
+
+      - name: Create decompilation manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, json
+          root = Path("artifacts/decompiled")
+          report = {"assemblies": []}
+          for folder in sorted(p for p in root.iterdir() if p.is_dir()):
+              files = sorted(folder.rglob("*.cs"))
+              report["assemblies"].append({
+                  "assembly": folder.name,
+                  "csharp_file_count": len(files),
+                  "csharp_bytes": sum(p.stat().st_size for p in files),
+                  "class_inventory": str(folder / "classes.txt"),
+                  "interface_inventory": str(folder / "interfaces.txt"),
+                  "project_file": str(folder / (folder.name + ".csproj")),
+                  "source_files": [
+                      {"path": str(p.relative_to(root)), "bytes": p.stat().st_size,
+                       "sha256": hashlib.sha256(p.read_bytes()).hexdigest()}
+                      for p in files
+                  ]
+              })
+          Path("artifacts/decompilation_manifest.json").write_text(json.dumps(report, indent=2) + "\n")
+          print(json.dumps({k: [{a:b for a,b in x.items() if a != "source_files"} for x in v] if isinstance(v,list) else v for k,v in report.items()}, indent=2))
+          if not report["assemblies"] or any(x["csharp_file_count"] == 0 for x in report["assemblies"]):
+              raise SystemExit("NO_DECOMPILED_SOURCE")
+          PY
+
+      - name: Upload decompiled gameplay source and inventories
+        uses: actions/upload-artifact@v4
+        with:
+          name: stranded-deep-gameplay-decompiled
+          path: artifacts/
+          if-no-files-found: error
+          retention-days: 14
