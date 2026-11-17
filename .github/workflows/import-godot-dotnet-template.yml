@@ -1,0 +1,117 @@
+name: Import Godot .NET project templates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/import-godot-dotnet-template.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-template:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Download pinned official Godot C# template files
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE="https://raw.githubusercontent.com/godotengine/godot-demo-projects/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/mono/pong"
+          mkdir -p /tmp/godot-template GodotProject
+          curl --fail --location --retry 3 "$BASE/project.godot" -o /tmp/godot-template/project.godot
+          curl --fail --location --retry 3 "$BASE/Pong%20with%20C%23.csproj" -o /tmp/godot-template/template.csproj
+          curl --fail --location --retry 3 "$BASE/Pong%20with%20C%23.sln" -o /tmp/godot-template/template.sln
+          curl --fail --location --retry 3 "https://raw.githubusercontent.com/godotengine/godot-demo-projects/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/LICENSE.md" -o /tmp/godot-template/LICENSE.md
+
+      - name: Adapt project files for Stranded Deep integration workspace
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, json, re
+
+          src = Path("/tmp/godot-template")
+          out = Path("GodotProject")
+          project = (src / "project.godot").read_text(encoding="utf-8")
+          # The upstream Pong demo's scene and input actions are demo-specific.
+          # Keep its Godot 4.7/.NET configuration and mobile-compatible renderer,
+          # but do not reference assets/scenes that are not part of this project.
+          project = re.sub(r'(?m)^config/name=.*$', 'config/name="Stranded Deep Godot Port"', project)
+          project = re.sub(r'(?m)^config/description=.*(?:\n.*)?$', 'config/description="Stranded Deep integration workspace."', project, count=1)
+          project = re.sub(r'(?m)^config/tags=.*$', 'config/tags=PackedStringArray("3d", "android", "arm64", "port")', project)
+          project = re.sub(r'(?m)^config/features=.*$', 'config/features=PackedStringArray("4.7", "C#")', project)
+          project = re.sub(r'(?m)^config/icon=.*\n', '', project)
+          project = re.sub(r'(?m)^run/main_scene=.*\n', '', project)
+          project = re.sub(r'(?m)^project/assembly_name=.*$', 'project/assembly_name="StrandedDeep"', project)
+          # Remove the Pong-only InputMap section; gameplay input mappings will
+          # be generated from the recovered input dependency map later.
+          project = re.sub(r'(?ms)^\[input\]\n.*?(?=^\[rendering\])', '', project)
+          (out / "project.godot").write_text(project, encoding="utf-8")
+
+          csproj = (src / "template.csproj").read_text(encoding="utf-8")
+          csproj = csproj.replace("<RootNamespace>Pong</RootNamespace>", "<RootNamespace>StrandedDeep</RootNamespace>")
+          (out / "StrandedDeep.csproj").write_text(csproj, encoding="utf-8")
+
+          sln = (src / "template.sln").read_text(encoding="utf-8")
+          sln = sln.replace("Pong with C#", "StrandedDeep").replace("Pong with C#.csproj", "StrandedDeep.csproj")
+          (out / "StrandedDeep.sln").write_text(sln, encoding="utf-8")
+          (out / "GODOT_DEMO_PROJECTS_LICENSE.md").write_text((src / "LICENSE.md").read_text(encoding="utf-8"), encoding="utf-8")
+
+          source_files = {
+              "project.godot": "mono/pong/project.godot",
+              "StrandedDeep.csproj": "mono/pong/Pong with C#.csproj",
+              "StrandedDeep.sln": "mono/pong/Pong with C#.sln",
+              "GODOT_DEMO_PROJECTS_LICENSE.md": "LICENSE.md"
+          }
+          manifest = {
+              "upstream_repository": "https://github.com/godotengine/godot-demo-projects",
+              "upstream_commit": "b761b4cd5718a7118f2c95eb55f181d0a5f004f1",
+              "upstream_branch_at_import": "master",
+              "source_files": source_files,
+              "adaptations": [
+                  "Renamed application and .NET assembly to Stranded Deep",
+                  "Removed Pong main scene, icon, and Pong-only InputMap actions",
+                  "Retained Godot 4.7 C# project configuration and mobile-compatible renderer defaults",
+                  "No game source files, scenes, assets, or shaders were imported"
+              ],
+              "sha256": {}
+          }
+          for name in source_files:
+              manifest["sha256"][name] = hashlib.sha256((out / name).read_bytes()).hexdigest()
+          (out / "TEMPLATE_IMPORT_MANIFEST.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+          PY
+
+      - name: Validate imported project metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s GodotProject/project.godot
+          test -s GodotProject/StrandedDeep.csproj
+          test -s GodotProject/StrandedDeep.sln
+          grep -q 'Godot.NET.Sdk/4.7.0' GodotProject/StrandedDeep.csproj
+          grep -q 'TargetFramework>net8.0' GodotProject/StrandedDeep.csproj
+          grep -q 'config/features=PackedStringArray("4.7", "C#")' GodotProject/project.godot
+          ! grep -q 'pong.tscn' GodotProject/project.godot
+          python3 -m json.tool GodotProject/TEMPLATE_IMPORT_MANIFEST.json >/dev/null
+
+      - name: Commit imported project files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add GodotProject/
+          if git diff --cached --quiet; then
+            echo "No project template changes to commit."
+            exit 0
+          fi
+          git commit -m "Import Godot 4.7 .NET project template"
+          git push origin HEAD:main
