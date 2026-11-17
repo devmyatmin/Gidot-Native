@@ -7,28 +7,34 @@
   "extracted_bytes": 17889321,
   "csharp_source_files": 1913,
   "project_file_counts": {
-    ".sln": 1,
-    ".slnf": 2,
     ".slnx": 2,
+    ".slnf": 2,
+    ".sln": 1,
     ".csproj": 21
   },
   "target_framework_counts": {
+    "net472": 2,
+    "net11.0-windows": 2,
     "net11.0": 5,
     "net10.0": 9,
-    "net472": 2,
-    "netstandard2.0": 3,
-    "net11.0-windows": 2
+    "netstandard2.0": 3
   },
   "key_project_files": [],
   "decompiler_cli_projects": [
     {
-      "path": "ILSpy-11.2/ICSharpCode.ILSpyCmd.Tests/ICSharpCode.ILSpyCmd.Tests.csproj",
+      "path": "ILSpy-11.2/ICSharpCode.Decompiler.Tests/ICSharpCode.Decompiler.Tests.csproj",
       "target_frameworks": [
         "net11.0"
       ]
     },
     {
-      "path": "ILSpy-11.2/ILSpy.BamlDecompiler.Tests/ILSpy.BamlDecompiler.Tests.csproj",
+      "path": "ILSpy-11.2/ICSharpCode.Decompiler.AotTest/ICSharpCode.Decompiler.AotTest.csproj",
+      "target_frameworks": [
+        "net10.0"
+      ]
+    },
+    {
+      "path": "ILSpy-11.2/ICSharpCode.ILSpyCmd.Tests/ICSharpCode.ILSpyCmd.Tests.csproj",
       "target_frameworks": [
         "net11.0"
       ]
@@ -40,13 +46,19 @@
       ]
     },
     {
-      "path": "ILSpy-11.2/ICSharpCode.Decompiler.TestRunner/ICSharpCode.Decompiler.TestRunner.csproj",
+      "path": "ILSpy-11.2/ICSharpCode.BamlDecompiler/ICSharpCode.BamlDecompiler.csproj",
       "target_frameworks": [
-        "net11.0"
+        "net10.0"
       ]
     },
     {
-      "path": "ILSpy-11.2/ICSharpCode.Decompiler.Tests/ICSharpCode.Decompiler.Tests.csproj",
+      "path": "ILSpy-11.2/ICSharpCode.Decompiler/ICSharpCode.Decompiler.csproj",
+      "target_frameworks": [
+        "netstandard2.0"
+      ]
+    },
+    {
+      "path": "ILSpy-11.2/ICSharpCode.Decompiler.TestRunner/ICSharpCode.Decompiler.TestRunner.csproj",
       "target_frameworks": [
         "net11.0"
       ]
@@ -58,9 +70,9 @@
       ]
     },
     {
-      "path": "ILSpy-11.2/ICSharpCode.BamlDecompiler/ICSharpCode.BamlDecompiler.csproj",
+      "path": "ILSpy-11.2/ILSpy.BamlDecompiler.Tests.Windows/ILSpy.BamlDecompiler.Tests.Windows.csproj",
       "target_frameworks": [
-        "net10.0"
+        "net11.0-windows"
       ]
     },
     {
@@ -76,21 +88,9 @@
       ]
     },
     {
-      "path": "ILSpy-11.2/ICSharpCode.Decompiler.AotTest/ICSharpCode.Decompiler.AotTest.csproj",
+      "path": "ILSpy-11.2/ILSpy.BamlDecompiler.Tests/ILSpy.BamlDecompiler.Tests.csproj",
       "target_frameworks": [
-        "net10.0"
-      ]
-    },
-    {
-      "path": "ILSpy-11.2/ICSharpCode.Decompiler/ICSharpCode.Decompiler.csproj",
-      "target_frameworks": [
-        "netstandard2.0"
-      ]
-    },
-    {
-      "path": "ILSpy-11.2/ILSpy.BamlDecompiler.Tests.Windows/ILSpy.BamlDecompiler.Tests.Windows.csproj",
-      "target_frameworks": [
-        "net11.0-windows"
+        "net11.0"
       ]
     }
   ],
