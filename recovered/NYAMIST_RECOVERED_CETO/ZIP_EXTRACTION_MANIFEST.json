@@ -1,0 +1,381 @@
+{
+  "archive": "NYAMIST_RECOVERED_CETO.zip",
+  "archive_bytes": 3612631,
+  "archive_sha256": "42350382af7817115fc7a0f7bff4835972d2dd379676fd05b653574668dffdb1",
+  "zip_integrity": "PASS",
+  "file_count": 74,
+  "added_count": 0,
+  "already_identical_count": 74,
+  "files": [
+    {
+      "path": "K80Ultra-Full-Hardware.txt",
+      "bytes": 12401,
+      "sha256": "ae585799b8385a229651c4e9340d56cb9b8a047639c2a1d8e1d93680550aea70"
+    },
+    {
+      "path": "NYAMIST_0zip_3txt_audit.md",
+      "bytes": 6635,
+      "sha256": "2caca582ab5f1cfd504514540b84e7a2af047a2b09734dad5457f1e474f172cb"
+    },
+    {
+      "path": "NYAMIST_ALL_TXT_REPORT.txt",
+      "bytes": 415996,
+      "sha256": "0d1b89783fc054840d1f40421ffd1a51ab2d8b5ef19e770ba6cff5c7c6e90018"
+    },
+    {
+      "path": "NYAMIST_FULL_LOGIC_MAP.txt",
+      "bytes": 254501,
+      "sha256": "7e7eabc69dd69cf0fc94d273bc53a9666023861b2e9d3c0de0f737a0e8c0f276"
+    },
+    {
+      "path": "NYAMIST_PHASE1_SOURCE_ARCHIVE_AUDIT.txt",
+      "bytes": 13346,
+      "sha256": "26f5bafbb3284eaaee4e7c36b01fa9650f29faaa4452fca7d32ed314e932a85d"
+    },
+    {
+      "path": "PINVOKE_STAGE3_AGGREGATION_20261114.txt",
+      "bytes": 90964,
+      "sha256": "92447aa6ed42ee3a5935d7b14d6ff0631f8b1e61864bc4754fa9fe42353ed9af"
+    },
+    {
+      "path": "PINVOKE_STAGE3_SCHEMA_AUDIT_20261114.txt",
+      "bytes": 6875,
+      "sha256": "82f57569288e53704841a18729906b5ba4b7424091164de3dc716717a5e1fb85"
+    },
+    {
+      "path": "PInvoke_SHA256_MANIFEST.txt",
+      "bytes": 14508,
+      "sha256": "be3c60f2f549f5b223edcf0d58b1fff21ef7ec7627e28b769cdc857f2ab5f616"
+    },
+    {
+      "path": "STAGE4_EOS_TARGETED_SCREEN_SUMMARY.txt",
+      "bytes": 542332,
+      "sha256": "8e11bb466683e02e808efb01badf38c7a8e9c48385b70ce9ebce3a5d748f315c"
+    },
+    {
+      "path": "asset_extraction/README.md",
+      "bytes": 497,
+      "sha256": "9b1e812b9a5a56b3b38f6b55d8c0ec2925e3bb8f1c4cc90299229d6753bac1de"
+    },
+    {
+      "path": "asset_extraction/audio/audio_extraction_report.txt",
+      "bytes": 267,
+      "sha256": "c28545f514f429ff66d65b12aa890d59f7fb0135d3bf72ef28c63b7de69a66c0"
+    },
+    {
+      "path": "asset_extraction/audio/audio_inventory.csv",
+      "bytes": 81106,
+      "sha256": "488da872e364dbd4c4e5e38ca49bd1189cdd8801ea3e5356863198b18aab359f"
+    },
+    {
+      "path": "asset_extraction/mesh/mesh_extraction_report.txt",
+      "bytes": 486,
+      "sha256": "83ef1c09c11e9e64afa577e08c8262b108cb31f4651de5d3e1ff59465e24262f"
+    },
+    {
+      "path": "asset_extraction/mesh/mesh_index_validation_all_v2.csv",
+      "bytes": 61113,
+      "sha256": "3c05e0e99a111e7e7af214d93b8fa9ce258ad76233882b01df7aaba2f63b1283"
+    },
+    {
+      "path": "asset_extraction/textures/texture_extraction_report.txt",
+      "bytes": 321,
+      "sha256": "d5d35dc3f84703973ef2b7afd4a40cfb310219b76fb2fb08e53d94f09c19cc13"
+    },
+    {
+      "path": "ceto/fourier_support_il_resolved.txt",
+      "bytes": 42649,
+      "sha256": "09f1602528f49f77bd8eb3ff5fd97b7f125ae2337726a3d3de454d62c7e0904c"
+    },
+    {
+      "path": "ceto/fourier_support_token_report.txt",
+      "bytes": 3911,
+      "sha256": "c0519d0456eec3cc33228b81d188f34ae33b8ebf157f5ba7b61cf8056ca55c35"
+    },
+    {
+      "path": "ceto/reports/ceto_il_inventory_2026-11-13.txt",
+      "bytes": 111938,
+      "sha256": "d7818ceee25a670cadf08cc0e8cc551ec0549ad557f38a259c3c0fadd52b1856"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_0_fragment_vk.glsl",
+      "bytes": 1093,
+      "sha256": "33ec72be5270bd4a3c89164b934233fa1cad9d93e005c6598913ddf337806821"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_0_fragment_vk.spv",
+      "bytes": 2368,
+      "sha256": "fef4102343b7b958227c899bfe57b54a4648139fad7fc1f7a36a095bc8af81de"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_0_vertex_vk.glsl",
+      "bytes": 1347,
+      "sha256": "def6df83be070ed49e6e2a5da1489e88d740e1d5a8481ec5e24f3133c115fee9"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_0_vertex_vk.spv",
+      "bytes": 2520,
+      "sha256": "b0bda28161eac001d53d38bf002b9ad3a36a4de704d17cd5139f1ed53b7c262b"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_1_fragment_vk.glsl",
+      "bytes": 1093,
+      "sha256": "e0e7d6322576ea3ad6beb7035a703ac453455d6610095d29655f7987aa46708c"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_1_fragment_vk.spv",
+      "bytes": 2396,
+      "sha256": "87df4df643ccd602498970346e3c802935460dc5488e1734c8d76b36b94f737d"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_2_fragment_vk.glsl",
+      "bytes": 1556,
+      "sha256": "b1ef86792fa4b985050605e1331e60c8ac1adbc28d75655f86a92c10f189b874"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_2_fragment_vk.spv",
+      "bytes": 3608,
+      "sha256": "89411d29538f0e0e0d1ae99abfa515acf420feb0d9d094eaff5428699c1826cf"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_3_fragment_vk.glsl",
+      "bytes": 1556,
+      "sha256": "99a7bcafa8f5f8e00ae82dfff2291d2be1b1000f0236a1a609b94c2dd8dd3ff0"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_3_fragment_vk.spv",
+      "bytes": 3636,
+      "sha256": "204a19503d658f11ab6ada5f38c0dedd3fbf090da89a1cb86794cb95c905b342"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_4_fragment_vk.glsl",
+      "bytes": 2008,
+      "sha256": "79772e963b537516526ff802162150023b36d6e212b96de6ba4fd998fd258e8f"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_4_fragment_vk.spv",
+      "bytes": 4712,
+      "sha256": "3dc30d790a5b7537c4ce6d9ce371a690b9115d66b16d4e7616e3fc5af64fcddf"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_5_fragment_vk.glsl",
+      "bytes": 2008,
+      "sha256": "489da574c58645b86dd066a035f46af8e2273f71b5bc30c48b7260207a860c08"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_5_fragment_vk.spv",
+      "bytes": 4740,
+      "sha256": "1cf53c477c309b8a736cd8efd9f581cef206ce979b7091d21e6e394e73a2b7b3"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_6_fragment_vk.glsl",
+      "bytes": 2445,
+      "sha256": "3b9000034648bee2d5bcaf977a89f6b9c56732a9413fc6960ccc149a052947c8"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_6_fragment_vk.spv",
+      "bytes": 5760,
+      "sha256": "e1eb508308e5a03b5bfa6745dbc16e44e316421a94550f6f1d41e526c55d5ac6"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_7_fragment_vk.glsl",
+      "bytes": 2445,
+      "sha256": "51194dc4f064df864748b24e48d8767b10f741d6d3eb6c11c30ef2655de6b006"
+    },
+    {
+      "path": "ceto/shaders_2026-11-13/entry_7_fragment_vk.spv",
+      "bytes": 5788,
+      "sha256": "39ef728b5a49d490a5e7b8d30e7f047bc0d439d5032fd0fbfb375d6e02efd0f1"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/ceto_fourier_decompression_test.txt",
+      "bytes": 3677,
+      "sha256": "53af91ed5038706e7398ddab7ae31d8261c20f3bcb4ac43780152a61a2dec9ae"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/ceto_fourier_program_extraction.txt",
+      "bytes": 6162,
+      "sha256": "6bf452310ec1383e5cd5f18d513541aeb7e7471572bd8704ed780a1956471550"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/ceto_fourier_program_table.txt",
+      "bytes": 7672,
+      "sha256": "352448d6876798ddd20f78efd4acf8e417bb824815dc2ee683331e354cf87bba"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/ceto_fourier_stage_split.txt",
+      "bytes": 3780,
+      "sha256": "2d0750981f92ca2fe31d84d867f74dbccde78d8a4b9e216edd603e3b131d8390"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/ceto_fourier_stage_split_v2.txt",
+      "bytes": 5511,
+      "sha256": "450e93d07c4a10d8b3e8c56caa830dfcb412929481c78ae6d10dac46e987104d"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/ceto_ocean_candidates.txt",
+      "bytes": 20366,
+      "sha256": "0f4b248418a7b3c35a12b92315178bf47353bd1e4f87771d3dd64904725749c8"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/ceto_ocean_core_il.txt",
+      "bytes": 265997,
+      "sha256": "6322bcf83250f7e4c1146485b2a6537c278bc9386f2ccd09597960753a89ce54"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/ceto_ocean_core_il_resolved.txt",
+      "bytes": 408725,
+      "sha256": "a8156b6d3272f201b0c56f917f431ad9ad53acb9697dd4820624c6e5aa2304d4"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/ceto_ocean_metadata.txt",
+      "bytes": 76309,
+      "sha256": "f12a1a89fbf1e0aee56954955e0f846deb13db65aa265a631b3b6383b00a4d99"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/ceto_ocean_method_index.txt",
+      "bytes": 22787,
+      "sha256": "7b38b8d5b2381013529d5c9f6a2d29a8cc0aa21ee5bd0c616ed9c61c7397cb9c"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/ceto_ocean_resolved_calls.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/extract_ceto_fourier_programs.py",
+      "bytes": 3412,
+      "sha256": "78ede1aeb5512348169ce42009e9001fed43d7a3850f99c2a931dcd9a5fe68f1"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/extract_fourier_gpu_il.py",
+      "bytes": 2268,
+      "sha256": "94b8c027134c3f258cecf669b5c72d9792a7617d82982e2ace7822472c8a146a"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/extract_fourier_support.py",
+      "bytes": 2676,
+      "sha256": "03f1a60be2cc6a16b2182f22e7fec33992732ade63544376dd563807a1b14a05"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/fourier_extractor_source.txt",
+      "bytes": 10469,
+      "sha256": "cb60db0b32b644885008223e6dcfdba2af7c659aa1225c3f316e00a85f48e66c"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/fourier_gpu_il.txt",
+      "bytes": 25606,
+      "sha256": "9df8e98b75d76438f493013860c3d8f60bae97f76e3b0b76f82fb55f2f491204"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/fourier_gpu_il_resolved.txt",
+      "bytes": 35641,
+      "sha256": "b3380859907db8bb9056b3cf4b0d804c209b226d4c86fa91ffcbabc863ffdeb5"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/fourier_gpu_token_report.txt",
+      "bytes": 2683,
+      "sha256": "06a7b4f33b854ff666743f57e7853a01ee3c044ca110f9161119902213c4218d"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/fourier_support_il.txt",
+      "bytes": 30197,
+      "sha256": "e695675dd076bc96cc69cf16fa9294c6cd0a819d284822e0234b7f7e0808de3c"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/fourier_support_il_resolved.txt",
+      "bytes": 41987,
+      "sha256": "032e09f9ae63625472db65f5216bc2a91b5d6b50d79f5e972bd5b61add6b60b6"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/fourier_support_token_report.txt",
+      "bytes": 3912,
+      "sha256": "814f1d60929b43b252de7f2179e9ead86fc7a9b86d6001c24637f5c52458552d"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/inspect_ceto_fourier_program_table.py",
+      "bytes": 2152,
+      "sha256": "778f19673d38e6b040d641a9d5e8c80e52f0848071e86858a490397b2928df18"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/resolve_fourier_gpu_tokens.py",
+      "bytes": 4725,
+      "sha256": "b485542fdda17078135918892dc75aca75c29450a0dd6af1e0935eb665cd62b7"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/resolve_fourier_support_tokens.py",
+      "bytes": 4737,
+      "sha256": "3cfe365d1744e8315d5e2747514b4326b2764ae4c1ead94b2e84a224f22e2e64"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/split_ceto_fourier_stages.py",
+      "bytes": 2215,
+      "sha256": "8126d5ccaf572a22c37daac06e7bc298737ecd150707b16eb4c3869d6acc1131"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/split_ceto_fourier_stages_v2.py",
+      "bytes": 2267,
+      "sha256": "4312f530556c69bbba63bf3640ae2b566e26a0f35d33d3e738bd836e7923640c"
+    },
+    {
+      "path": "ceto/source_records_2026-11-13/test_ceto_fourier_decompression.py",
+      "bytes": 2696,
+      "sha256": "5c2b12aebf6f33af00a04ac0b920b9ebe99369211d71057cd836fa98eb749720"
+    },
+    {
+      "path": "ceto/vulkan_shader_module_validation_2026-11-13.md",
+      "bytes": 2211,
+      "sha256": "0315c357362ee9fa7173a1c7929d3dcee524de1d8af6bb137cacbb5f8aecc157"
+    },
+    {
+      "path": "ceto_ocean_core_il.txt",
+      "bytes": 265997,
+      "sha256": "6322bcf83250f7e4c1146485b2a6537c278bc9386f2ccd09597960753a89ce54"
+    },
+    {
+      "path": "ceto_ocean_core_il_resolved.txt",
+      "bytes": 408725,
+      "sha256": "a8156b6d3272f201b0c56f917f431ad9ad53acb9697dd4820624c6e5aa2304d4"
+    },
+    {
+      "path": "fourier_extractor_source.txt",
+      "bytes": 10469,
+      "sha256": "cb60db0b32b644885008223e6dcfdba2af7c659aa1225c3f316e00a85f48e66c"
+    },
+    {
+      "path": "fourier_gpu_il.txt",
+      "bytes": 26225,
+      "sha256": "f67636be2ee232532a87dda933a96a5bf97154622553445198cdce08214c1282"
+    },
+    {
+      "path": "fourier_gpu_il_resolved.txt",
+      "bytes": 36260,
+      "sha256": "123c548cbbdb3ac27f960037df1f9e8e331a8fc7b868e8c7160bd38a49314383"
+    },
+    {
+      "path": "fourier_gpu_token_report.txt",
+      "bytes": 2682,
+      "sha256": "9eb42a16a08c56fc8fc1f9735ef49c50d0aadc138b91afd179e3c5e5792add38"
+    },
+    {
+      "path": "fourier_support_il.txt",
+      "bytes": 30859,
+      "sha256": "2f45272a3f257739c876f6465175888477f8eb022a9e85b9b21ccb52c24df971"
+    },
+    {
+      "path": "pinvoke_stage3_scan.py",
+      "bytes": 10825,
+      "sha256": "347b2989687d5220fc5101e50bc21512b134497d7e6efc5db61ed967e0a130bf"
+    },
+    {
+      "path": "pinvoke_stage3_scan_fixed.py",
+      "bytes": 23252,
+      "sha256": "754c331afde0fc55f781f138128271451d3002381731a0ee09e6804eeb25e402"
+    },
+    {
+      "path": "text.txt",
+      "bytes": 69185,
+      "sha256": "55dac123ad39d7e28b761b90852be5101e0f6eaceffeac3dfa17d5407cb98d42"
+    }
+  ]
+}\n
