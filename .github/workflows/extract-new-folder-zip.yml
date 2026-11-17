@@ -1,4 +1,4 @@
-name: Inspect New Folder ZIP
+name: Extract NYAMIST Recovered CETO ZIP
 
 on:
   push:
@@ -7,73 +7,146 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: extract-nyamist-recovered-ceto
+  cancel-in-progress: false
 
 jobs:
-  inspect:
+  extract-and-commit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          lfs: true
 
-      - name: Extract and inventory
+      - name: Verify and safely extract CETO archive
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          from pathlib import Path
+          from pathlib import Path, PurePosixPath
           from zipfile import ZipFile
-          import hashlib, json
-          zips = list(Path(".").rglob("New Folder.zip"))
-          if len(zips) != 1:
-              raise SystemExit(f"Expected one New Folder.zip, found {len(zips)}")
-          archive = zips[0]
-          out = Path("/tmp/inspect")
-          out.mkdir(parents=True, exist_ok=True)
+          import hashlib, json, shutil, stat
+
+          archive = Path("NYAMIST_RECOVERED_CETO.zip")
+          destination = Path("recovered/NYAMIST_RECOVERED_CETO")
+          manifest_path = destination / "ZIP_EXTRACTION_MANIFEST.json"
+
+          if not archive.is_file():
+              raise SystemExit(f"FAIL: archive not found: {archive}")
+
+          archive_bytes = archive.read_bytes()
+          archive_sha256 = hashlib.sha256(archive_bytes).hexdigest()
+          temp = Path("/tmp/nyamist_ceto_extract")
+          if temp.exists():
+              shutil.rmtree(temp)
+          temp.mkdir(parents=True)
+
           with ZipFile(archive) as z:
               bad = z.testzip()
-              if bad: raise SystemExit(f"ZIP integrity FAIL: {bad}")
-              for i in z.infolist():
-                  target = (out / i.filename).resolve()
-                  if not target.is_relative_to(out.resolve()):
-                      raise SystemExit(f"Unsafe ZIP path: {i.filename}")
-              z.extractall(out)
-          files = sorted(p for p in out.rglob("*") if p.is_file())
-          rows = []
-          for p in files:
-              b = p.read_bytes()
-              rows.append({"path":str(p.relative_to(out)),"bytes":len(b),"sha256":hashlib.sha256(b).hexdigest()})
-          report = {"archive":str(archive),"archive_bytes":archive.stat().st_size,"archive_sha256":hashlib.sha256(archive.read_bytes()).hexdigest(),"zip_integrity":"PASS","file_count":len(rows),"files":rows}
-          Path("/tmp/ZIP_INVENTORY.json").write_text(json.dumps(report,indent=2),encoding="utf-8")
-          Path("/tmp/ZIP_FILE_LIST.txt").write_text("\\n".join(f'{x["bytes"]:>10} {x["path"]}' for x in rows),encoding="utf-8")
-          print(json.dumps({k:v for k,v in report.items() if k!="files"},indent=2))
-          print(Path("/tmp/ZIP_FILE_LIST.txt").read_text())
+              if bad:
+                  raise SystemExit(f"ZIP CRC FAIL: {bad}")
+
+              infos = [i for i in z.infolist() if not i.is_dir()]
+              if len(infos) > 50000:
+                  raise SystemExit(f"FAIL: unreasonable file count: {len(infos)}")
+              total_uncompressed = sum(i.file_size for i in infos)
+              if total_uncompressed > 512 * 1024 * 1024:
+                  raise SystemExit(f"FAIL: uncompressed size exceeds 512 MiB: {total_uncompressed}")
+
+              # Strip one archive wrapper directory only when it matches the ZIP filename.
+              wrapper = Path(archive.stem).name
+              planned = []
+              seen = {}
+              for info in infos:
+                  raw = info.filename
+                  p = PurePosixPath(raw)
+                  if p.is_absolute() or any(part in ("", ".", "..") for part in p.parts):
+                      raise SystemExit(f"UNSAFE ZIP PATH: {raw}")
+                  mode = (info.external_attr >> 16) & 0xFFFF
+                  if stat.S_ISLNK(mode):
+                      raise SystemExit(f"UNSAFE ZIP SYMLINK: {raw}")
+                  parts = list(p.parts)
+                  if parts and parts[0] == wrapper:
+                      parts = parts[1:]
+                  if not parts:
+                      continue
+                  rel = PurePosixPath(*parts)
+                  if rel in seen:
+                      raise SystemExit(f"DUPLICATE ZIP PATH: {rel}")
+                  seen[rel] = info
+                  planned.append((info, rel))
+
+              extracted = []
+              for info, rel in planned:
+                  target = temp.joinpath(*rel.parts)
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  with z.open(info, "r") as src, target.open("wb") as dst:
+                      shutil.copyfileobj(src, dst)
+                  data = target.read_bytes()
+                  extracted.append({
+                      "path": rel.as_posix(),
+                      "bytes": len(data),
+                      "sha256": hashlib.sha256(data).hexdigest()
+                  })
+
+          destination.mkdir(parents=True, exist_ok=True)
+          added, identical = [], []
+          for row in extracted:
+              rel = PurePosixPath(row["path"])
+              src = temp.joinpath(*rel.parts)
+              dst = destination.joinpath(*rel.parts)
+              if dst.exists():
+                  if not dst.is_file():
+                      raise SystemExit(f"CONFLICT: destination is not a file: {dst}")
+                  existing = dst.read_bytes()
+                  if hashlib.sha256(existing).hexdigest() != row["sha256"] or len(existing) != row["bytes"]:
+                      raise SystemExit(f"CONFLICT: existing file differs; refusing overwrite: {dst}")
+                  identical.append(row["path"])
+              else:
+                  dst.parent.mkdir(parents=True, exist_ok=True)
+                  shutil.copy2(src, dst)
+                  added.append(row["path"])
+
+          manifest = {
+              "archive": archive.name,
+              "archive_bytes": len(archive_bytes),
+              "archive_sha256": archive_sha256,
+              "zip_integrity": "PASS",
+              "file_count": len(extracted),
+              "added_count": len(added),
+              "already_identical_count": len(identical),
+              "files": extracted
+          }
+          manifest_path.write_text(json.dumps(manifest, indent=2) + "\\n", encoding="utf-8")
+          print(json.dumps({
+              "archive": manifest["archive"],
+              "archive_bytes": manifest["archive_bytes"],
+              "archive_sha256": archive_sha256,
+              "zip_integrity": "PASS",
+              "file_count": len(extracted),
+              "added_count": len(added),
+              "already_identical_count": len(identical),
+              "destination": str(destination)
+          }, indent=2))
           PY
 
-      - name: Decompile C# assemblies
+      - name: Commit extracted folder to repository
         shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          mkdir -p /tmp/decompiled
-          mapfile -d '' DLLS < <(find /tmp/inspect -type f -iname '*.dll' -print0)
-          echo "DLL_COUNT=${#DLLS[@]}"
-          if [ "${#DLLS[@]}" -gt 0 ]; then
-            dotnet tool install ilspycmd --tool-path /tmp/ilspy
-            for dll in "${DLLS[@]}"; do
-              rel="${dll#/tmp/inspect/}"
-              safe=$(echo "$rel" | tr '/ ' '__')
-              mkdir -p "/tmp/decompiled/$safe"
-              /tmp/ilspy/ilspycmd -p -o "/tmp/decompiled/$safe" "$dll" || echo "DECOMPILE_FAILED $rel"
-            done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add recovered/NYAMIST_RECOVERED_CETO
+          if git diff --cached --quiet; then
+            echo "NO_CHANGES: extracted files already match repository contents."
+            exit 0
           fi
-          cp /tmp/ZIP_INVENTORY.json /tmp/inspect/
-          cp /tmp/ZIP_FILE_LIST.txt /tmp/inspect/
-
-      - name: Upload private review artifact (not committed to repository)
-        uses: actions/upload-artifact@v4
-        with:
-          name: new-folder-zip-review
-          path: |
-            /tmp/inspect/
-            /tmp/decompiled/
-          if-no-files-found: error
-          retention-days: 14
+          git commit -m "Extract NYAMIST recovered CETO archive"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
