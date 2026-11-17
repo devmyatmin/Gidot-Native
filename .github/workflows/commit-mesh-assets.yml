@@ -1,0 +1,87 @@
+name: Commit original mesh assets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/commit-mesh-assets.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: commit-original-mesh-assets
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Download verified Step 1 artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: 01_MESH_ASSETS
+          repository: devmyatmin/Gidot-Native
+          run-id: 44113678874
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: _mesh_artifact
+
+      - name: Validate and place original files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ -e "01_MESH_ASSETS" ]; then
+            echo "::error::01_MESH_ASSETS already exists; refusing to overwrite repository content."
+            exit 1
+          fi
+
+          if [ -d "_mesh_artifact/01_MESH_ASSETS" ]; then
+            SRC="_mesh_artifact/01_MESH_ASSETS"
+          else
+            SRC="_mesh_artifact"
+          fi
+
+          BIN_COUNT=$(find "$SRC" -type f -name '*.bin' | wc -l)
+          OBJ_COUNT=$(find "$SRC" -type f -name '*.obj' | wc -l)
+          CSV_COUNT=$(find "$SRC" -type f -name '*.csv' | wc -l)
+          FILE_COUNT=$(find "$SRC" -type f | wc -l)
+
+          echo "BIN=$BIN_COUNT OBJ=$OBJ_COUNT CSV=$CSV_COUNT FILES=$FILE_COUNT"
+          test "$BIN_COUNT" -eq 1113
+          test "$OBJ_COUNT" -eq 1113
+          test "$CSV_COUNT" -eq 7
+          test "$FILE_COUNT" -eq 2233
+
+          MAX_BYTES=$(find "$SRC" -type f -printf '%s\n' | sort -nr | head -1)
+          echo "Largest source file bytes=$MAX_BYTES"
+          test "$MAX_BYTES" -lt 100000000
+
+          mkdir -p 01_MESH_ASSETS
+          cp -a "$SRC"/. 01_MESH_ASSETS/
+          rm -rf _mesh_artifact
+
+          git add -- 01_MESH_ASSETS
+          git diff --cached --check
+          git diff --cached --stat
+
+      - name: Commit and push source assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --cached --quiet; then
+            echo "No mesh asset changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Import original Stranded Deep mesh assets"
+          git push origin HEAD:main
