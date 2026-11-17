@@ -89,6 +89,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Tools/ILSpy-11.2-Source Reports/ILSpy-11.2-source-audit.json Reports/ILSpy-11.2-source-file-list.txt
+          # Preserve editor configuration files that repository/global ignore rules may hide.
+          git add -f Tools/ILSpy-11.2-Source/ILSpy-11.2/.vscode
+          git add -f Tools/ILSpy-11.2-Source/ILSpy-11.2/ICSharpCode.ILSpyX/MermaidDiagrammer/html/.vscode
           if git diff --cached --quiet; then
             echo "No extracted source changes."
           else
