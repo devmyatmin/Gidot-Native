@@ -1,0 +1,175 @@
+name: Audit Mesh Assets for Logic Integration
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit-mesh-input:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Audit original mesh files, metadata, OBJ structure, and C# inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import csv, json, re, hashlib
+          from pathlib import Path
+          from collections import Counter
+
+          root = Path(".")
+          asset = root / "01_MESH_ASSETS"
+          report_dir = root / "audit-output"
+          report_dir.mkdir(exist_ok=True)
+
+          def read_csv(path):
+              with path.open("r", encoding="utf-8-sig", newline="") as f:
+                  return list(csv.DictReader(f))
+
+          def path_id(path, pattern):
+              m = re.match(pattern, path.name, re.IGNORECASE)
+              return int(m.group(1)) if m else None
+
+          bins = sorted((asset / "meshes").glob("*.bin"))
+          objs = sorted((asset / "reconstructed_v5" / "obj").glob("*.obj"))
+          bin_ids = {path_id(p, r"mesh_(-?\d+)\.object\.bin") for p in bins}
+          obj_ids = {path_id(p, r"mesh_(-?\d+)_.*\.obj") for p in objs}
+          bin_ids.discard(None); obj_ids.discard(None)
+
+          inventory_path = asset / "mesh_inventory_named.csv"
+          index_path = asset / "mesh_index_validation_all_v2.csv"
+          objects_path = asset / "objects.csv"
+          geometry_path = asset / "reconstructed_v5" / "geometry_validation_report.csv"
+          reconstruction_path = asset / "reconstructed_v5" / "mesh_3d_reconstruction_report.csv"
+          quality_path = asset / "reconstructed_v5" / "mesh_attribute_quality_report.csv"
+          anomaly_path = asset / "reconstructed_v5" / "mesh_anomaly_details.csv"
+          required = [inventory_path,index_path,objects_path,geometry_path,reconstruction_path,quality_path,anomaly_path]
+          missing = [str(p) for p in required if not p.is_file()]
+          errors = []
+
+          inventory = read_csv(inventory_path) if inventory_path.is_file() else []
+          index_rows = read_csv(index_path) if index_path.is_file() else []
+          object_rows = read_csv(objects_path) if objects_path.is_file() else []
+          geometry = read_csv(geometry_path) if geometry_path.is_file() else []
+          reconstruction = read_csv(reconstruction_path) if reconstruction_path.is_file() else []
+          quality = read_csv(quality_path) if quality_path.is_file() else []
+          anomalies = read_csv(anomaly_path) if anomaly_path.is_file() else []
+
+          inv_by_id = {int(r["PathID"]): r for r in inventory if r.get("PathID","").lstrip("-").isdigit()}
+          index_by_id = {int(r["PathID"]): r for r in index_rows if r.get("PathID","").lstrip("-").isdigit()}
+          mesh_object_ids = {int(r["PathID"]) for r in object_rows if r.get("ClassID") == "43" and r.get("PathID","").lstrip("-").isdigit()}
+          geometry_by_name = {r.get("OBJ",""): r for r in geometry}
+          reconstruction_by_id = {int(r["PathID"]): r for r in reconstruction if r.get("PathID","").lstrip("-").isdigit()}
+
+          size_mismatches = []
+          for pid, row in inv_by_id.items():
+              raw = asset / row["RawFile"]
+              if not raw.is_file():
+                  size_mismatches.append({"PathID":pid,"issue":"BIN_NOT_FOUND","path":row["RawFile"]})
+              elif raw.stat().st_size != int(row["ByteSize"]):
+                  size_mismatches.append({"PathID":pid,"issue":"BIN_SIZE_MISMATCH","expected":int(row["ByteSize"]),"actual":raw.stat().st_size})
+
+          obj_parse_errors = []
+          obj_counts = {}
+          for p in objs:
+              pid = path_id(p, r"mesh_(-?\d+)_.*\.obj")
+              counts = Counter()
+              try:
+                  with p.open("r", encoding="utf-8", errors="strict") as f:
+                      for line_no, line in enumerate(f, 1):
+                          if line.startswith("v "): counts["Vertices"] += 1
+                          elif line.startswith("vt "): counts["UVs"] += 1
+                          elif line.startswith("vn "): counts["Normals"] += 1
+                          elif line.startswith("f "): counts["Faces"] += 1
+              except Exception as e:
+                  obj_parse_errors.append({"file":str(p),"error":repr(e)})
+                  continue
+              obj_counts[p.name] = dict(counts)
+              expected = geometry_by_name.get(p.name)
+              if expected:
+                  for key in ("Vertices","UVs","Normals","Faces"):
+                      if int(expected[key]) != counts[key]:
+                          obj_parse_errors.append({"file":p.name,"field":key,"expected":int(expected[key]),"actual":counts[key]})
+
+          # Check that OBJ-reported PathIDs map to exactly one BIN and metadata record.
+          missing_inventory = sorted(bin_ids - set(inv_by_id))
+          missing_index = sorted(bin_ids - set(index_by_id))
+          missing_mesh_objects = sorted(bin_ids - mesh_object_ids)
+          missing_reconstruction = sorted(bin_ids - set(reconstruction_by_id))
+
+          cs_files = []
+          for p in root.rglob("*.cs"):
+              if any(part in {".git","bin","obj","audit-output"} for part in p.parts):
+                  continue
+              cs_files.append(str(p))
+          csprojs = []
+          for p in root.rglob("*.csproj"):
+              if any(part in {".git","bin","obj","audit-output"} for part in p.parts):
+                  continue
+              try:
+                  txt = p.read_text(encoding="utf-8", errors="replace")
+                  frameworks = re.findall(r"<TargetFrameworks?>(.*?)</TargetFrameworks?>", txt, re.S)
+                  csprojs.append({"path":str(p),"target_frameworks":[x.strip() for x in frameworks]})
+              except Exception as e:
+                  csprojs.append({"path":str(p),"error":repr(e)})
+
+          project_godot = root / "GodotProject" / "project.godot"
+          godot_config = project_godot.read_text(encoding="utf-8", errors="replace") if project_godot.is_file() else ""
+          report = {
+            "scope":"read-only audit; no source asset or project file is modified",
+            "counts":{
+              "bin_files":len(bins),"obj_files":len(objs),
+              "unique_bin_pathids":len(bin_ids),"unique_obj_pathids":len(obj_ids),
+              "inventory_rows":len(inventory),"index_validation_rows":len(index_rows),
+              "classid_43_mesh_objects":len(mesh_object_ids),
+              "geometry_rows":len(geometry),"reconstruction_rows":len(reconstruction),
+              "attribute_quality_rows":len(quality),"anomaly_rows":len(anomalies),
+              "csharp_source_files":len(cs_files),"csproj_files":len(csprojs)
+            },
+            "pathid_set_match":bin_ids == obj_ids,
+            "bin_obj_missing_ids":{"bin_only":sorted(bin_ids-obj_ids),"obj_only":sorted(obj_ids-bin_ids)},
+            "metadata_gaps":{"inventory":missing_inventory,"index_validation":missing_index,
+                             "classid_43_objects":missing_mesh_objects,"reconstruction":missing_reconstruction},
+            "bin_size_mismatches":size_mismatches,
+            "obj_parse_errors":obj_parse_errors,
+            "missing_required_files":missing,
+            "csproj":csprojs,
+            "csharp_sources":sorted(cs_files),
+            "godot_input_actions_present":bool(re.search(r"^\[input\]",godot_config,re.M)),
+            "godot_config_present":project_godot.is_file()
+          }
+          (report_dir/"mesh_logic_input_audit.json").write_text(json.dumps(report,indent=2),encoding="utf-8")
+          summary = [
+            "MESH / LOGIC INPUT AUDIT",
+            json.dumps(report["counts"],indent=2),
+            f"PathID sets match: {report['pathid_set_match']}",
+            f"Missing required files: {len(missing)}",
+            f"BIN size mismatches: {len(size_mismatches)}",
+            f"OBJ parse/count errors: {len(obj_parse_errors)}",
+            f"C# source files discovered: {len(cs_files)}",
+            "Source files modified: NO"
+          ]
+          (report_dir/"mesh_logic_input_audit.txt").write_text("\n".join(summary)+"\n",encoding="utf-8")
+          print("\n".join(summary))
+
+          # Audit must fail closed if required source inputs are incomplete or inconsistent.
+          if missing or len(bins)!=1113 or len(objs)!=1113 or bin_ids!=obj_ids or size_mismatches or obj_parse_errors:
+              raise SystemExit("AUDIT_FAIL: mesh input integrity checks did not all pass")
+          PY
+
+      - name: Upload audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mesh-logic-input-audit
+          path: audit-output/
+          if-no-files-found: warn
+          retention-days: 14
