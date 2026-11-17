@@ -1,10 +1,11 @@
-name: Extract ZIP into repository
+name: Stranded Deep - Godot GLB validation
 
 on:
   push:
     branches: [main]
     paths:
       - "NYAMIST_RECOVERED_CETO.zip"
+      - "Github/reconstructed_v5/Stranded_Deep_No_Impostors.glb"
       - ".github/workflows/gidot-native-ci.yml"
   workflow_dispatch:
 
@@ -12,13 +13,31 @@ permissions:
   contents: write
 
 jobs:
-  extract-and-commit:
+  extract-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           persist-credentials: true
+
+      - name: Install workflow dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl unzip
+
+      - name: Install Godot 4.7.2
+        run: |
+          curl -fL --retry 3 \
+            "https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_linux.x86_64.zip" \
+            -o /tmp/godot.zip
+          mkdir -p "$HOME/.local/bin"
+          unzip -q /tmp/godot.zip -d /tmp/godot
+          GODOT_BIN="$(find /tmp/godot -maxdepth 2 -type f -name 'Godot_v4.7.2-stable_linux.x86_64' -print -quit)"
+          test -n "$GODOT_BIN"
+          chmod +x "$GODOT_BIN"
+          echo "GODOT_BIN=$GODOT_BIN" >> "$GITHUB_ENV"
+          "$GODOT_BIN" --headless --version
 
       - name: Extract archive safely
         run: |
@@ -63,6 +82,45 @@ jobs:
 
           print(f"Extracted {count} files ({total} uncompressed bytes) into recovered/")
           PY
+
+      - name: Import and load-test GLB with Godot
+        run: |
+          GLB="Github/reconstructed_v5/Stranded_Deep_No_Impostors.glb"
+          test -s "$GLB"
+          mkdir -p .ci-godot-project
+          cp "$GLB" .ci-godot-project/Stranded_Deep_No_Impostors.glb
+          cat > .ci-godot-project/project.godot <<'EOF'
+          config_version=5
+
+          [application]
+          config/name="Stranded Deep GLB CI Test"
+          EOF
+          cat > .ci-godot-project/ci_validate_glb.gd <<'EOF'
+          extends SceneTree
+
+          func _initialize() -> void:
+              var path := "res://Stranded_Deep_No_Impostors.glb"
+              var packed := ResourceLoader.load(path) as PackedScene
+              if packed == null:
+                  push_error("GLB_LOAD_FAIL: ResourceLoader did not return a PackedScene")
+                  quit(1)
+                  return
+
+              var instance := packed.instantiate()
+              if instance == null:
+                  push_error("GLB_INSTANTIATE_FAIL: PackedScene could not be instantiated")
+                  quit(1)
+                  return
+
+              print("GLB_LOAD_PASS: ", path)
+              print("ROOT_TYPE: ", instance.get_class())
+              print("ROOT_CHILDREN: ", instance.get_child_count())
+              instance.free()
+              quit(0)
+          EOF
+
+          "$GODOT_BIN" --headless --editor --path .ci-godot-project --import --quit
+          "$GODOT_BIN" --headless --path .ci-godot-project --script res://ci_validate_glb.gd
 
       - name: Commit extracted files
         run: |
