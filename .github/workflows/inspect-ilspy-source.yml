@@ -1,0 +1,70 @@
+name: Inspect ILSpy 11.2 Source Archive
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Inspect source archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import zipfile, pathlib, re, json, hashlib, collections
+          archive = pathlib.Path("ILSpy-11.2.zip")
+          if not archive.is_file():
+              raise SystemExit("ILSpy-11.2.zip is missing from repository checkout")
+          raw = archive.read_bytes()
+          z = zipfile.ZipFile(archive)
+          names = [n for n in z.namelist() if not n.endswith("/")]
+          cs = [n for n in names if n.lower().endswith(".cs")]
+          projects = [n for n in names if n.lower().endswith((".csproj", ".sln", ".slnx", ".slnf"))]
+          counts = collections.Counter()
+          tfms = collections.defaultdict(list)
+          for p in projects:
+              ext = pathlib.PurePosixPath(p).suffix.lower()
+              counts[ext] += 1
+              if ext == ".csproj":
+                  try:
+                      s = z.read(p).decode("utf-8", "replace")
+                  except Exception:
+                      continue
+                  vals = re.findall(r"<TargetFrameworks?>(.*?)</TargetFrameworks?>", s, re.I|re.S)
+                  for v in vals:
+                      tfms[v.strip()].append(p)
+          roots = sorted({n.split("/")[0] for n in names if "/" in n})
+          cli = [p for p in projects if "ILSpyCmd" in p or "XPlat.slnf" in p]
+          decompiler = [p for p in projects if "Decompiler" in p and p.endswith(".csproj")]
+          report = {
+            "archive": archive.name,
+            "bytes": len(raw),
+            "sha256": hashlib.sha256(raw).hexdigest(),
+            "zip_entries": len(z.namelist()),
+            "source_cs_files": len(cs),
+            "project_file_counts": dict(counts),
+            "target_frameworks": {k: len(v) for k,v in tfms.items()},
+            "top_level_directories": roots,
+            "cli_and_cross_platform_project_files": cli,
+            "decompiler_project_files": decompiler,
+            "sample_project_files": projects[:250],
+            "sample_source_files": cs[:120]
+          }
+          pathlib.Path("ilspy-archive-report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
+          print(json.dumps({k:v for k,v in report.items() if k not in ("sample_project_files","sample_source_files")}, indent=2))
+          PY
+
+      - name: Upload inspection report
+        uses: actions/upload-artifact@v4
+        with:
+          name: ilspy-11.2-source-inspection
+          path: ilspy-archive-report.json
+          if-no-files-found: error
