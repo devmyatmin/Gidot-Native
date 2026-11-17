@@ -1,0 +1,122 @@
+name: Import Google Drive archive into new repository folder
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/import-google-drive-archive.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-google-drive-11n-udp
+  cancel-in-progress: false
+
+jobs:
+  download-extract-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          lfs: true
+
+      - name: Download public Google Drive file
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check gdown
+          mkdir -p /tmp/drive-import
+          gdown --fuzzy "https://drive.google.com/file/d/11N_udpAEFXNuz3lf44GURLSadWRWJecz/view?usp=drivesdk" -O /tmp/drive-import/source.zip
+          test -s /tmp/drive-import/source.zip
+          file /tmp/drive-import/source.zip
+          python - <<'PY'
+          from pathlib import Path
+          p=Path("/tmp/drive-import/source.zip")
+          with p.open("rb") as f:
+              sig=f.read(4)
+          if sig[:2] != b"PK":
+              raise SystemExit("FAIL: Drive download is not a ZIP archive (possibly private/permission denied or a Google confirmation page).")
+          print(f"ZIP download verified: {p.stat().st_size} bytes")
+          PY
+
+      - name: Safely extract into a new folder and validate
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path, PurePosixPath
+          from zipfile import ZipFile
+          import hashlib, json, shutil, stat
+
+          archive=Path("/tmp/drive-import/source.zip")
+          dest=Path("Github/Drive_Import_11N_udp")
+          temp=Path("/tmp/drive-import/extracted")
+          if dest.exists():
+              raise SystemExit(f"REFUSING: destination already exists: {dest}")
+          temp.mkdir(parents=True, exist_ok=True)
+          with ZipFile(archive) as z:
+              bad=z.testzip()
+              if bad:
+                  raise SystemExit(f"ZIP CRC FAIL: {bad}")
+              infos=[i for i in z.infolist() if not i.is_dir()]
+              if not infos:
+                  raise SystemExit("FAIL: ZIP contains no files")
+              if len(infos)>100000:
+                  raise SystemExit(f"FAIL: too many files: {len(infos)}")
+              total=sum(i.file_size for i in infos)
+              if total>4*1024*1024*1024:
+                  raise SystemExit(f"FAIL: uncompressed size exceeds 4 GiB: {total}")
+              rows=[]
+              seen=set()
+              for i in infos:
+                  p=PurePosixPath(i.filename)
+                  if p.is_absolute() or not p.parts or any(x in ("", ".", "..") for x in p.parts):
+                      raise SystemExit(f"UNSAFE ZIP PATH: {i.filename}")
+                  mode=(i.external_attr>>16)&0xffff
+                  if stat.S_ISLNK(mode):
+                      raise SystemExit(f"UNSAFE ZIP SYMLINK: {i.filename}")
+                  if p in seen:
+                      raise SystemExit(f"DUPLICATE ZIP PATH: {i.filename}")
+                  seen.add(p)
+                  out=temp.joinpath(*p.parts)
+                  out.parent.mkdir(parents=True, exist_ok=True)
+                  with z.open(i) as src, out.open("wb") as dst:
+                      shutil.copyfileobj(src,dst)
+                  data=out.read_bytes()
+                  rows.append({"path":p.as_posix(),"bytes":len(data),"sha256":hashlib.sha256(data).hexdigest()})
+          dest.mkdir(parents=True)
+          for row in rows:
+              src=temp.joinpath(*PurePosixPath(row["path"]).parts)
+              target=dest.joinpath(*PurePosixPath(row["path"]).parts)
+              target.parent.mkdir(parents=True,exist_ok=True)
+              shutil.copy2(src,target)
+          manifest={
+              "source_drive_file_id":"11N_udpAEFXNuz3lf44GURLSadWRWJecz",
+              "archive_bytes":archive.stat().st_size,
+              "archive_sha256":hashlib.sha256(archive.read_bytes()).hexdigest(),
+              "zip_crc":"PASS",
+              "file_count":len(rows),
+              "uncompressed_bytes":total,
+              "files":rows
+          }
+          (dest/"EXTRACTION_MANIFEST.json").write_text(json.dumps(manifest,indent=2)+"\\n",encoding="utf-8")
+          print(json.dumps({k:v for k,v in manifest.items() if k!="files"},indent=2))
+          print(f"DESTINATION={dest}")
+          PY
+
+      - name: Commit extracted files without overwriting existing repository content
+        shell: bash
+        run: |
+          set -euo pipefail
+          git lfs install
+          git lfs track "Github/Drive_Import_11N_udp/**"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .gitattributes Github/Drive_Import_11N_udp
+          git diff --cached --check
+          git commit -m "Import and extract Google Drive archive"
+          git push origin HEAD:main
