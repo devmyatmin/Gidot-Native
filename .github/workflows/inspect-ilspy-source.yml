@@ -53,11 +53,11 @@ jobs:
               if p.suffix.lower()==".csproj":
                   s=p.read_text(encoding="utf-8",errors="replace")
                   vals=re.findall(r"<TargetFrameworks?>(.*?)</TargetFrameworks?>",s,re.I|re.S)
-                  vals=[re.sub(r"\\s+"," ",v.strip()) for v in vals]
+                  vals=[re.sub(r"\s+"," ",v.strip()) for v in vals]
                   for v in vals: frameworks[v]+=1
                   if any(k in p.name.lower() for k in ("ilspycmd","decompiler","ilspyx")):
                       project_details.append({"path":p.relative_to(dest).as_posix(),"target_frameworks":vals})
-          key = [p for p in rels if re.search(r"(ILSpy\\.XPlat\\.slnf|ILSpyCmd.*\\.csproj|ICSharpCode\\.Decompiler\\.csproj|Directory\\.Build\\.(props|targets)|global\\.json)$",p,re.I)]
+          key = [p for p in rels if re.search(r"(?:^|/)(?:ILSpy\.XPlat\.slnf|ICSharpCode\.ILSpyCmd.*\.csproj|ICSharpCode\.Decompiler\.csproj|Directory\.Build\.(?:props|targets)|global\.json)$",p,re.I)]
           hashes=[]
           for p in sorted(files):
               b=p.read_bytes()
@@ -78,7 +78,7 @@ jobs:
           }
           pathlib.Path("Reports").mkdir(exist_ok=True)
           pathlib.Path("Reports/ILSpy-11.2-source-audit.json").write_text(json.dumps(report,indent=2),encoding="utf-8")
-          pathlib.Path("Reports/ILSpy-11.2-source-file-list.txt").write_text("\\n".join(sorted(rels))+"\\n",encoding="utf-8")
+          pathlib.Path("Reports/ILSpy-11.2-source-file-list.txt").write_text("\n".join(sorted(rels))+"\n",encoding="utf-8")
           print(json.dumps({k:v for k,v in report.items() if k!="files"},indent=2))
           PY
 
@@ -89,12 +89,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Tools/ILSpy-11.2-Source Reports/ILSpy-11.2-source-audit.json Reports/ILSpy-11.2-source-file-list.txt
-          # Preserve editor configuration files that repository/global ignore rules may hide.
           git add -f Tools/ILSpy-11.2-Source/ILSpy-11.2/.vscode
           git add -f Tools/ILSpy-11.2-Source/ILSpy-11.2/ICSharpCode.ILSpyX/MermaidDiagrammer/html/.vscode
           if git diff --cached --quiet; then
             echo "No extracted source changes."
           else
-            git commit -m "Extract and audit ILSpy 11.2 source"
+            git commit -m "Fix ILSpy 11.2 source audit and inventory output"
             git push
           fi

@@ -8,6 +8,7 @@ on:
       - "Libraries/GameLogic/**"
       - "Libraries/UnityEngine/**"
       - "Libraries/Framework/**"
+      - "Tools/ILSpy-11.2-Source/**"
   workflow_dispatch:
 
 permissions:
@@ -16,17 +17,23 @@ permissions:
 jobs:
   decompile-gameplay:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - name: Checkout repository and fetch Git LFS objects
         uses: actions/checkout@v4
         with:
           lfs: true
 
-      - name: Set up .NET 10
+      - name: Set up .NET 10 runtime
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: "10.0.x"
+
+      - name: Set up ILSpy source SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "11.0.x"
+          include-prerelease: true
 
       - name: Verify real gameplay DLL payloads
         shell: bash
@@ -34,7 +41,7 @@ jobs:
           set -euo pipefail
           python3 - <<'PY'
           from pathlib import Path
-          import hashlib, json, sys
+          import hashlib, json
           expected = {
               "Libraries/GameLogic/Assembly-CSharp.dll": {
                   "size": 3432448,
@@ -63,13 +70,23 @@ jobs:
           print(json.dumps(result, indent=2))
           PY
 
-      - name: Install ILSpy command-line decompiler
+      - name: Build ILSpy 11.2 CLI from the supplied source archive
         shell: bash
+        working-directory: Tools/ILSpy-11.2-Source/ILSpy-11.2
         run: |
           set -euo pipefail
-          dotnet tool install ilspycmd --version 11.2.0.10050 --tool-path "$HOME/.dotnet/tools"
-          echo "$HOME/.dotnet/tools" >> "$GITHUB_PATH"
-          "$HOME/.dotnet/tools/ilspycmd" --version
+          test -s global.json
+          test -s ICSharpCode.ILSpyCmd/ICSharpCode.ILSpyCmd.csproj
+          test -s ICSharpCode.Decompiler/ICSharpCode.Decompiler.csproj
+          test -s ICSharpCode.ILSpyX/ICSharpCode.ILSpyX.csproj
+          dotnet --version
+          command -v pwsh
+          dotnet restore ICSharpCode.ILSpyCmd/ICSharpCode.ILSpyCmd.csproj --locked-mode
+          dotnet build ICSharpCode.ILSpyCmd/ICSharpCode.ILSpyCmd.csproj -c Release --no-restore -p:GeneratePackageOnBuild=false
+          ILSPY_DLL="$GITHUB_WORKSPACE/Tools/ILSpy-11.2-Source/ILSpy-11.2/ICSharpCode.ILSpyCmd/bin/Release/net10.0/ilspycmd.dll"
+          test -s "$ILSPY_DLL"
+          dotnet "$ILSPY_DLL" --version
+          echo "ILSPY_DLL=$ILSPY_DLL" >> "$GITHUB_ENV"
 
       - name: Decompile gameplay assemblies and resolve library references
         shell: bash
@@ -77,16 +94,15 @@ jobs:
           set -euo pipefail
           mkdir -p artifacts/decompiled
           mapfile -t REF_DIRS < <(find Libraries -type d -print | sort)
-          ILSPY="$HOME/.dotnet/tools/ilspycmd"
           for dll in Libraries/GameLogic/Assembly-CSharp.dll Libraries/GameLogic/Assembly-CSharp-firstpass.dll; do
             name="$(basename "$dll" .dll)"
             out="artifacts/decompiled/$name"
             mkdir -p "$out"
             args=()
             for dir in "${REF_DIRS[@]}"; do args+=("-r" "$dir"); done
-            "$ILSPY" -p --nested-directories --disable-updatecheck "${args[@]}" -o "$out" "$dll"
-            "$ILSPY" -l c "${args[@]}" "$dll" > "$out/classes.txt"
-            "$ILSPY" -l i "${args[@]}" "$dll" > "$out/interfaces.txt"
+            dotnet "$ILSPY_DLL" -p --nested-directories --disable-updatecheck "${args[@]}" -o "$out" "$dll"
+            dotnet "$ILSPY_DLL" -l c "${args[@]}" "$dll" > "$out/classes.txt"
+            dotnet "$ILSPY_DLL" -l i "${args[@]}" "$dll" > "$out/interfaces.txt"
             test -s "$out/$name.csproj"
             find "$out" -type f -name '*.cs' -print0 | sort -z | xargs -0 -r sha256sum > "$out/source_sha256.txt"
           done
