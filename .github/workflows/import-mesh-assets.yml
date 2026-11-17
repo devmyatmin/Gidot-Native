@@ -1,0 +1,86 @@
+name: Import Original Mesh Assets from Drive
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  download-and-extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Download original ZIP from Google Drive
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check gdown
+          mkdir -p /tmp/mesh-source
+          gdown 'https://drive.google.com/file/d/1iQVMJ1_tR6ca8P6iu_XuZZtTB57emP_R/view?usp=drivesdk' -O /tmp/mesh-source/original.zip
+          test -s /tmp/mesh-source/original.zip
+          size=$(stat -c '%s' /tmp/mesh-source/original.zip)
+          echo "Downloaded bytes: $size"
+          if [ "$size" -lt 200000000 ] || [ "$size" -gt 500000000 ]; then
+            echo "::error::Downloaded file size is outside the expected 200-500 MB range; refusing extraction."
+            exit 1
+          fi
+          file /tmp/mesh-source/original.zip
+      - name: Validate and extract without modifying source files
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import os, stat, zipfile
+          from pathlib import PurePosixPath
+          from pathlib import Path
+
+          archive = Path('/tmp/mesh-source/original.zip')
+          destination = Path('01_MESH_ASSETS/00_SOURCE_EXTRACTED')
+          destination.mkdir(parents=True, exist_ok=True)
+
+          with zipfile.ZipFile(archive) as z:
+              bad = z.testzip()
+              if bad:
+                  raise SystemExit(f'ZIP integrity failure: {bad}')
+              entries = z.infolist()
+              if not entries:
+                  raise SystemExit('ZIP is empty')
+              for item in entries:
+                  name = item.filename
+                  p = PurePosixPath(name)
+                  if p.is_absolute() or '..' in p.parts or '\\\\' in name:
+                      raise SystemExit(f'Unsafe archive path rejected: {name!r}')
+                  mode = item.external_attr >> 16
+                  if stat.S_ISLNK(mode):
+                      raise SystemExit(f'Symlink entry rejected: {name!r}')
+              for item in entries:
+                  target = destination.joinpath(*PurePosixPath(item.filename).parts)
+                  if item.is_dir():
+                      target.mkdir(parents=True, exist_ok=True)
+                      continue
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  with z.open(item, 'r') as src, target.open('wb') as dst:
+                      while True:
+                          block = src.read(1024 * 1024)
+                          if not block:
+                              break
+                          dst.write(block)
+
+          bins = sum(1 for p in destination.rglob('*') if p.is_file() and p.suffix.lower() == '.bin')
+          objs = sum(1 for p in destination.rglob('*') if p.is_file() and p.suffix.lower() == '.obj')
+          print(f'Extracted original files: {sum(1 for p in destination.rglob("*") if p.is_file())}')
+          print(f'.bin count: {bins}')
+          print(f'.obj count: {objs}')
+          if bins != 1113 or objs != 1113:
+              raise SystemExit(f'Count validation failed: expected 1113 .bin and 1113 .obj; got {bins} and {objs}')
+          PY
+      - name: Publish extracted originals as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 01_MESH_ASSETS
+          path: 01_MESH_ASSETS/00_SOURCE_EXTRACTED/
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
