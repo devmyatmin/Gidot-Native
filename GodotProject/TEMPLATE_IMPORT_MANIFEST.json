@@ -1,0 +1,23 @@
+{
+  "upstream_repository": "https://github.com/godotengine/godot-demo-projects",
+  "upstream_commit": "b761b4cd5718a7118f2c95eb55f181d0a5f004f1",
+  "upstream_branch_at_import": "master",
+  "source_files": {
+    "project.godot": "mono/pong/project.godot",
+    "StrandedDeep.csproj": "mono/pong/Pong with C#.csproj",
+    "StrandedDeep.sln": "mono/pong/Pong with C#.sln",
+    "GODOT_DEMO_PROJECTS_LICENSE.md": "LICENSE.md"
+  },
+  "adaptations": [
+    "Renamed application and .NET assembly to Stranded Deep",
+    "Removed Pong main scene, icon, and Pong-only InputMap actions",
+    "Retained Godot 4.7 C# project configuration and mobile-compatible renderer defaults",
+    "No game source files, scenes, assets, or shaders were imported"
+  ],
+  "sha256": {
+    "project.godot": "45e5b8926b55043bcd7aff2e7dbbdc23249850a12763e077bc3e1efb85c0e14d",
+    "StrandedDeep.csproj": "d72c16f4aa737139a809db3478e7f6d51815960fe0b993fd26a0430c66c6764e",
+    "StrandedDeep.sln": "5c1ce8b2b642466ed748d7af3355648e29cc485b81c979795f405b4c0e92e1f6",
+    "GODOT_DEMO_PROJECTS_LICENSE.md": "0339177149b474f7ff676d32218ecb3a8f2538955610023c3769763720d09e4c"
+  }
+}
