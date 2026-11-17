@@ -1,70 +1,97 @@
-name: Inspect ILSpy 11.2 Source Archive
+name: Extract and Audit ILSpy 11.2 Source
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "ILSpy-11.2.zip"
+      - ".github/workflows/inspect-ilspy-source.yml"
 
 permissions:
-  contents: read
-  actions: read
+  contents: write
 
 jobs:
-  inspect:
+  extract-audit:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Inspect source archive
+      - name: Extract and inspect archive
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import zipfile, pathlib, re, json, hashlib, collections
+          import zipfile, pathlib, re, json, hashlib, collections, shutil
           archive = pathlib.Path("ILSpy-11.2.zip")
           if not archive.is_file():
-              raise SystemExit("ILSpy-11.2.zip is missing from repository checkout")
+              raise SystemExit("ILSpy-11.2.zip is missing")
           raw = archive.read_bytes()
           z = zipfile.ZipFile(archive)
-          names = [n for n in z.namelist() if not n.endswith("/")]
-          cs = [n for n in names if n.lower().endswith(".cs")]
-          projects = [n for n in names if n.lower().endswith((".csproj", ".sln", ".slnx", ".slnf"))]
-          counts = collections.Counter()
-          tfms = collections.defaultdict(list)
-          for p in projects:
-              ext = pathlib.PurePosixPath(p).suffix.lower()
-              counts[ext] += 1
-              if ext == ".csproj":
-                  try:
-                      s = z.read(p).decode("utf-8", "replace")
-                  except Exception:
-                      continue
-                  vals = re.findall(r"<TargetFrameworks?>(.*?)</TargetFrameworks?>", s, re.I|re.S)
-                  for v in vals:
-                      tfms[v.strip()].append(p)
-          roots = sorted({n.split("/")[0] for n in names if "/" in n})
-          cli = [p for p in projects if "ILSpyCmd" in p or "XPlat.slnf" in p]
-          decompiler = [p for p in projects if "Decompiler" in p and p.endswith(".csproj")]
-          report = {
-            "archive": archive.name,
-            "bytes": len(raw),
-            "sha256": hashlib.sha256(raw).hexdigest(),
-            "zip_entries": len(z.namelist()),
-            "source_cs_files": len(cs),
-            "project_file_counts": dict(counts),
-            "target_frameworks": {k: len(v) for k,v in tfms.items()},
-            "top_level_directories": roots,
-            "cli_and_cross_platform_project_files": cli,
-            "decompiler_project_files": decompiler,
-            "sample_project_files": projects[:250],
-            "sample_source_files": cs[:120]
+          bad = z.testzip()
+          if bad:
+              raise SystemExit(f"ZIP CRC failure: {bad}")
+          entries = [i for i in z.infolist() if not i.is_dir()]
+          for i in entries:
+              p = pathlib.PurePosixPath(i.filename)
+              if p.is_absolute() or ".." in p.parts:
+                  raise SystemExit(f"Unsafe archive path: {i.filename}")
+          dest = pathlib.Path("Tools/ILSpy-11.2-Source")
+          if dest.exists():
+              shutil.rmtree(dest)
+          dest.mkdir(parents=True)
+          z.extractall(dest)
+          files = [p for p in dest.rglob("*") if p.is_file()]
+          rels = [p.relative_to(dest).as_posix() for p in files]
+          cs = [p for p in files if p.suffix.lower()==".cs"]
+          proj = [p for p in files if p.suffix.lower() in (".csproj",".sln",".slnx",".slnf")]
+          counts = collections.Counter(p.suffix.lower() for p in proj)
+          frameworks = collections.Counter()
+          project_details = []
+          for p in proj:
+              if p.suffix.lower()==".csproj":
+                  s=p.read_text(encoding="utf-8",errors="replace")
+                  vals=re.findall(r"<TargetFrameworks?>(.*?)</TargetFrameworks?>",s,re.I|re.S)
+                  vals=[re.sub(r"\\s+"," ",v.strip()) for v in vals]
+                  for v in vals: frameworks[v]+=1
+                  if any(k in p.name.lower() for k in ("ilspycmd","decompiler","ilspyx")):
+                      project_details.append({"path":p.relative_to(dest).as_posix(),"target_frameworks":vals})
+          key = [p for p in rels if re.search(r"(ILSpy\\.XPlat\\.slnf|ILSpyCmd.*\\.csproj|ICSharpCode\\.Decompiler\\.csproj|Directory\\.Build\\.(props|targets)|global\\.json)$",p,re.I)]
+          hashes=[]
+          for p in sorted(files):
+              b=p.read_bytes()
+              hashes.append({"path":p.relative_to(dest).as_posix(),"size":len(b),"sha256":hashlib.sha256(b).hexdigest()})
+          report={
+            "archive":"ILSpy-11.2.zip",
+            "archive_bytes":len(raw),
+            "archive_sha256":hashlib.sha256(raw).hexdigest(),
+            "zip_entries_including_dirs":len(z.infolist()),
+            "extracted_files":len(files),
+            "extracted_bytes":sum(x["size"] for x in hashes),
+            "csharp_source_files":len(cs),
+            "project_file_counts":dict(counts),
+            "target_framework_counts":dict(frameworks),
+            "key_project_files":key,
+            "decompiler_cli_projects":project_details,
+            "files":hashes
           }
-          pathlib.Path("ilspy-archive-report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
-          print(json.dumps({k:v for k,v in report.items() if k not in ("sample_project_files","sample_source_files")}, indent=2))
+          pathlib.Path("Reports").mkdir(exist_ok=True)
+          pathlib.Path("Reports/ILSpy-11.2-source-audit.json").write_text(json.dumps(report,indent=2),encoding="utf-8")
+          pathlib.Path("Reports/ILSpy-11.2-source-file-list.txt").write_text("\\n".join(sorted(rels))+"\\n",encoding="utf-8")
+          print(json.dumps({k:v for k,v in report.items() if k!="files"},indent=2))
           PY
 
-      - name: Upload inspection report
-        uses: actions/upload-artifact@v4
-        with:
-          name: ilspy-11.2-source-inspection
-          path: ilspy-archive-report.json
-          if-no-files-found: error
+      - name: Commit extracted source and audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Tools/ILSpy-11.2-Source Reports/ILSpy-11.2-source-audit.json Reports/ILSpy-11.2-source-file-list.txt
+          if git diff --cached --quiet; then
+            echo "No extracted source changes."
+          else
+            git commit -m "Extract and audit ILSpy 11.2 source"
+            git push
+          fi
