@@ -161,7 +161,7 @@ jobs:
           print("\n".join(summary))
 
           # Audit must fail closed if required source inputs are incomplete or inconsistent.
-          if missing or len(bins)!=1113 or len(objs)!=1113 or bin_ids!=obj_ids or size_mismatches or obj_parse_errors:
+          if (missing or len(bins)!=1113 or len(objs)!=1113 or bin_ids!=obj_ids or size_mismatches or obj_parse_errors\n              or len(inventory)!=1113 or len(index_rows)!=1113 or len(geometry)!=1113\n              or len(reconstruction)!=1113 or len(quality)!=1113 or len(mesh_object_ids)!=1113\n              or missing_inventory or missing_index or missing_mesh_objects or missing_reconstruction):
               raise SystemExit("AUDIT_FAIL: mesh input integrity checks did not all pass")
           PY
 
