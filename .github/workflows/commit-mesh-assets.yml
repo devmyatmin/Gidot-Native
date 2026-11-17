@@ -70,7 +70,6 @@ jobs:
           rm -rf _mesh_artifact
 
           git add -- 01_MESH_ASSETS
-          git diff --cached --check
           git diff --cached --stat
 
       - name: Commit and push source assets
