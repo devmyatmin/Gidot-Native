@@ -1,4 +1,4 @@
-name: Extract New Folder ZIP
+name: Extract and inspect New Folder ZIP
 
 on:
   push:
@@ -10,76 +10,78 @@ permissions:
   contents: read
 
 jobs:
-  extract-and-audit:
+  extract-inspect:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
-      - name: Extract and audit ZIP safely
+      - name: Extract ZIP and create complete inventory
         shell: bash
         run: |
+          set -euo pipefail
           python3 - <<'PY'
           from pathlib import Path
-          from zipfile import ZipFile, BadZipFile
+          from zipfile import ZipFile
           import hashlib, json
-
-          candidates = list(Path(".").rglob("New Folder.zip"))
-          if len(candidates) != 1:
-              raise SystemExit(f"Expected exactly one 'New Folder.zip'; found {len(candidates)}: {candidates}")
-
-          archive = candidates[0]
-          out = Path("extracted/New_Folder")
+          zips = list(Path(".").rglob("New Folder.zip"))
+          if len(zips) != 1:
+              raise SystemExit(f"Expected one New Folder.zip, found {len(zips)}: {zips}")
+          archive = zips[0]
+          out = Path("/tmp/new-folder-extracted")
           out.mkdir(parents=True, exist_ok=True)
-
-          entries = []
-          total_bytes = 0
           with ZipFile(archive) as z:
               bad = z.testzip()
-              if bad:
-                  raise SystemExit(f"ZIP integrity failure at: {bad}")
-
-              for info in z.infolist():
-                  name = info.filename
-                  target = (out / name).resolve()
-                  if not target.is_relative_to(out.resolve()):
-                      raise SystemExit(f"Unsafe ZIP path rejected: {name}")
-                  entries.append({
-                      "path": name,
-                      "size": info.file_size,
-                      "compressed_size": info.compress_size,
-                      "is_dir": info.is_dir()
-                  })
-                  total_bytes += info.file_size
-
+              if bad: raise SystemExit(f"Corrupt ZIP member: {bad}")
+              for i in z.infolist():
+                  dest = (out / i.filename).resolve()
+                  if not dest.is_relative_to(out.resolve()):
+                      raise SystemExit(f"Unsafe path: {i.filename}")
               z.extractall(out)
-
-          files = [p for p in out.rglob("*") if p.is_file()]
-          manifest = {
-              "archive": str(archive),
-              "archive_size": archive.stat().st_size,
-              "sha256": hashlib.sha256(archive.read_bytes()).hexdigest(),
-              "zip_entries": len(entries),
-              "extracted_files": len(files),
-              "uncompressed_bytes": total_bytes,
-              "entries": entries,
-              "extracted_file_list": [str(p.relative_to(out)) for p in files]
-          }
-          Path("extracted/ZIP_AUDIT.json").write_text(
-              json.dumps(manifest, indent=2), encoding="utf-8"
-          )
-          print(json.dumps({k:v for k,v in manifest.items() if k not in ("entries","extracted_file_list")}, indent=2))
-          print("\nEXTRACTED CONTENTS:")
+          files = sorted(p for p in out.rglob("*") if p.is_file())
+          rows = []
           for p in files:
-              print(f"{p.stat().st_size:>12}  {p.relative_to(out)}")
+              b = p.read_bytes()
+              rows.append({"path":str(p.relative_to(out)),"size":len(b),"sha256":hashlib.sha256(b).hexdigest()})
+          report = {
+              "archive":str(archive),
+              "archive_bytes":archive.stat().st_size,
+              "archive_sha256":hashlib.sha256(archive.read_bytes()).hexdigest(),
+              "zip_integrity":"PASS",
+              "file_count":len(rows),
+              "files":rows
+          }
+          Path("/tmp/new-folder-inventory.json").write_text(json.dumps(report,indent=2),encoding="utf-8")
+          Path("/tmp/new-folder-file-list.txt").write_text("\\n".join(f'{x["size"]:>10}  {x["path"]}' for x in rows),encoding="utf-8")
+          print(json.dumps({k:v for k,v in report.items() if k!="files"},indent=2))
+          print(Path("/tmp/new-folder-file-list.txt").read_text())
           PY
 
-      - name: Upload extracted files and audit
+      - name: Decompile managed assemblies when present
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/new-folder-decompiled
+          mapfile -d '' DLLS < <(find /tmp/new-folder-extracted -type f -iname '*.dll' -print0)
+          echo "DLL_COUNT=${#DLLS[@]}"
+          if [ "${#DLLS[@]}" -gt 0 ]; then
+            dotnet tool install ilspycmd --tool-path /tmp/ilspy-tools
+            for dll in "${DLLS[@]}"; do
+              name=$(basename "$dll" .dll)
+              mkdir -p "/tmp/new-folder-decompiled/$name"
+              /tmp/ilspy-tools/ilspycmd -p -o "/tmp/new-folder-decompiled/$name" "$dll" || echo "DECOMPILE_FAILED: $dll"
+            done
+          fi
+          cp /tmp/new-folder-inventory.json /tmp/new-folder-extracted/
+          cp /tmp/new-folder-file-list.txt /tmp/new-folder-extracted/
+
+      - name: Package inspection results for ChatGPT review
         uses: actions/upload-artifact@v4
         with:
-          name: new-folder-zip-extracted
-          path: extracted/
+          name: new-folder-zip-inspection
+          path: |
+            /tmp/new-folder-extracted/
+            /tmp/new-folder-decompiled/
           if-no-files-found: error
           retention-days: 14
