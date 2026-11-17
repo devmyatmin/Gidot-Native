@@ -1,0 +1,85 @@
+name: Extract New Folder ZIP
+
+on:
+  push:
+    paths:
+      - ".github/workflows/extract-new-folder-zip.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  extract-and-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Extract and audit ZIP safely
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile, BadZipFile
+          import hashlib, json
+
+          candidates = list(Path(".").rglob("New Folder.zip"))
+          if len(candidates) != 1:
+              raise SystemExit(f"Expected exactly one 'New Folder.zip'; found {len(candidates)}: {candidates}")
+
+          archive = candidates[0]
+          out = Path("extracted/New_Folder")
+          out.mkdir(parents=True, exist_ok=True)
+
+          entries = []
+          total_bytes = 0
+          with ZipFile(archive) as z:
+              bad = z.testzip()
+              if bad:
+                  raise SystemExit(f"ZIP integrity failure at: {bad}")
+
+              for info in z.infolist():
+                  name = info.filename
+                  target = (out / name).resolve()
+                  if not target.is_relative_to(out.resolve()):
+                      raise SystemExit(f"Unsafe ZIP path rejected: {name}")
+                  entries.append({
+                      "path": name,
+                      "size": info.file_size,
+                      "compressed_size": info.compress_size,
+                      "is_dir": info.is_dir()
+                  })
+                  total_bytes += info.file_size
+
+              z.extractall(out)
+
+          files = [p for p in out.rglob("*") if p.is_file()]
+          manifest = {
+              "archive": str(archive),
+              "archive_size": archive.stat().st_size,
+              "sha256": hashlib.sha256(archive.read_bytes()).hexdigest(),
+              "zip_entries": len(entries),
+              "extracted_files": len(files),
+              "uncompressed_bytes": total_bytes,
+              "entries": entries,
+              "extracted_file_list": [str(p.relative_to(out)) for p in files]
+          }
+          Path("extracted/ZIP_AUDIT.json").write_text(
+              json.dumps(manifest, indent=2), encoding="utf-8"
+          )
+          print(json.dumps({k:v for k,v in manifest.items() if k not in ("entries","extracted_file_list")}, indent=2))
+          print("\nEXTRACTED CONTENTS:")
+          for p in files:
+              print(f"{p.stat().st_size:>12}  {p.relative_to(out)}")
+          PY
+
+      - name: Upload extracted files and audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: new-folder-zip-extracted
+          path: extracted/
+          if-no-files-found: error
+          retention-days: 14
