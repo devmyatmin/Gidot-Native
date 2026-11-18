@@ -59,6 +59,33 @@ The script must:
 → **FRESH-EXTRACT ALL OTHER REQUIRED ITEMS FROM LOCAL ORIGINAL DATA**
 → **STRICT VALIDATION AND REPORTING**
 
+
+## 6. MANDATORY REPOSITORY REFERENCE AUDIT — OBJECT METADATA ONLY
+
+**IMPORTANT — READ THIS BEFORE WRITING OR RUNNING ANY EXTRACTION SCRIPT.**
+
+**THE GITHUB REPOSITORY IS THE REFERENCE CATALOG. INSPECT ITS EXISTING FILES, CODE, REPORTS, MANIFESTS, TABLES, AND DOCUMENTATION FOR OBJECT IDENTIFIERS AND METADATA. DO NOT GUESS IDENTIFIERS. DO NOT IGNORE EXISTING REFERENCE DATA. DO NOT RE-EXTRACT ITEMS THAT ARE ALREADY VERIFIED AS CURRENT GODOT PASS.**
+
+For every required object, collect and preserve all available reference fields before writing the local extraction script:
+
+- Original object name and any alternate/name fields.
+- Source container / original asset filename.
+- PathID and any other asset/object ID; always record the container alongside the ID because PathIDs are not globally unique.
+- Unity ClassID, serialized object type, and asset format.
+- Object category: GameObject, Transform, Mesh, Texture2D, Material, Shader, Font, Sprite, Audio, Animation, Prefab, or other actual type found in the repository.
+- Mesh/model identifiers and linked renderer, material, and texture references.
+- Texture identifiers, dimensions, format, mipmap data, and linked material references when recorded.
+- Material and Shader names/IDs and their texture/property references when recorded.
+- Font name/family, Font or TMP font asset name/ID, source font file/extension, atlas/texture ID, material ID, and any character/glyph metadata available in the repository.
+- Object relationships and dependency/reference mappings.
+- Existing extraction state, exact output path, validation evidence, and whether it is explicitly verified as PASS for the current Godot project.
+
+Create a traceable reference record for each object. Keep unknown fields explicitly marked UNKNOWN; never invent a name, ID, font, relationship, output path, or validation result. Where references conflict, record the conflict and resolve it against the original local source before extraction.
+
+**SCRIPT RULE:** The new Termux script must consume the verified reference catalog (names, container + PathID, ClassID/type, font/model/texture/material IDs, relationships, and current-Godot PASS exclusions). It must extract only from the original local `Documents/Stranded Deep` data. GitHub is never an extraction source.
+
+**NO SHORTCUTS:** Do not focus on one subsystem (for example Ceto) while ignoring the rest of the required object catalog. Do not write a selective extraction script until the repository reference inventory and current-Godot PASS inventory have been checked.
+
 ## NON-NEGOTIABLE RULE
 
 **GitHub is for reference information only. The original local `Documents/Stranded Deep` game data is the extraction source. Only items already verified as PASS for the current Godot project are exempt. Everything else required must be freshly extracted.**
