@@ -141,3 +141,49 @@ Produce explicit PASS / FAIL / MISSING reports for required ocean components and
 **GitHub is for reference information only. The original local `Documents/Stranded Deep` game data is the extraction source. Only items already verified as PASS for the current Godot project are exempt. Everything else required must be freshly extracted.**
 
 Do not reuse other old extraction outputs. Do not treat old extraction success as Godot PASS. Do not restart extraction from GitHub.
+
+## 8. FULL-LENGTH DIAGNOSTICS, EXPLANATIONS, AND OUTPUT POLICY
+
+**MANDATORY: DO NOT TRUNCATE, SUMMARIZE AWAY, OR SILENTLY OMIT TECHNICAL RESULTS. FULL REPORTS MUST BE SAVED AS FILES.**
+
+### FULL REPORT REQUIREMENTS
+
+For every scan, extraction, conversion, or validation run:
+
+- Preserve the complete result set. Do not cap the number of errors, warnings, objects, candidates, dependencies, or validation records.
+- Write both machine-readable reports (JSON/CSV where appropriate) and a complete human-readable TXT report.
+- Include every record, not only samples or the first/last few entries.
+- For every error, record its sequence number, stage, source container and file path, container hash when available, object name, PathID, ClassID/type, exception class, complete message, exception representation, and full traceback.
+- Include per-container totals, object totals, success/failure counts, candidate counts, exact error-group counts, and representative samples in the summary. The full report must still contain every error, including errors not shown in the summary.
+- Preserve previous-run reports before replacing them. Label each run with a timestamp and identify which source files and script version were used.
+- If a field cannot be retrieved, write UNKNOWN or NOT AVAILABLE and explain why. Never fabricate missing metadata.
+- If a traceback was not captured during an earlier run, state that it cannot be reconstructed from the old summary. Do not invent a traceback.
+- Keep raw Unity data streams such as .resS and .resource inventoried separately when they are not independently parseable serialized containers. Do not count an unsupported scan attempt as a confirmed asset failure without identifying the actual stage and cause.
+- Separate SCAN, EXTRACTION, CONVERSION, IMPORT, RENDER, and GODOT VALIDATION outcomes. A successful scan or file write is not proof that an asset was extracted correctly or works in Godot.
+- PASS requires complete, explicit validation against the stated acceptance criteria. Any incomplete check, mismatch, unresolved dependency, or validation error must remain FAIL, MISSING, or NOT VERIFIED as appropriate.
+
+### EXPLANATION AND PRESENTATION
+
+- Provide detailed technical explanations when explaining findings, causes, limitations, and corrective actions. Include the evidence and distinguish verified facts from hypotheses.
+- Do not impose arbitrary short-output limits on generated reports, logs, tables, inventories, or technical documentation. Reports must be as long as necessary to preserve all evidence.
+- Chat replies to the user must remain concise: no more than 10 lines unless the user explicitly requests a longer explanation.
+- When a report is too large for chat, save the complete report to the dedicated project's Reports directory and provide its exact path. Do not replace the full report with a short sample while claiming it is complete.
+
+### OCEAN PROJECT REPORT OUTPUTS
+
+Use the separate ocean project's Reports directory:
+
+`/mnt/sdcard/Documents/StrandedDeep_OceanWorld/Reports`
+
+Maintain, where applicable:
+
+- `ocean_reference_catalog.json` — complete candidate/object reference inventory.
+- `scan_errors_full.json` — every scan error with full captured details and traceback.
+- `scan_errors_full.txt` — complete human-readable error-by-error report.
+- `scan_error_summary.txt` — grouped error counts and diagnosis summary.
+- `ocean_scan_summary.json` — run totals, statuses, and report metadata.
+- `container_scan_results.json` — per-container scan results.
+- `raw_stream_inventory.json` — separate inventory of raw resource streams.
+- Timestamped backups of previous reports — never silently destroy earlier diagnostic evidence.
+
+**FINAL RULE: FULL EVIDENCE IN FILES; CONCISE CHAT UPDATES (10 LINES MAXIMUM UNLESS THE USER ASKS OTHERWISE). NO FALSE PASS, NO HIDDEN ERRORS, NO TRUNCATED REPORTS.**
