@@ -1,0 +1,46 @@
+ပင်လယ် Full Project — PART 1
+GitHub Repo Audit Checkpoint 01
+အခြေအနေ: အကြိုစစ်ဆေးချက်သာဖြစ်သည်။ Script မရေးရသေး။ Local Original Source ကို မထိရသေး။
+အခြေခံ Plan: PROJECT_PLAN/PART_1_OCEAN_SURFACE_ONLY.txt
+Repo: devmyatmin/Gidot-Native
+Branch: main
+စစ်ဆေးချိန်: 2026-11-18
+
+၁။ Script အတွက် ID စည်းမျဉ်း
+- Script တွင် အသုံးပြုမည့် object identifier တစ်မျိုးတည်းမှာ Unity PathID ဖြစ်ရမည်။
+- ClassID၊ TypeIndex၊ DataOffset၊ ByteSize၊ RVA၊ MetadataToken တို့ကို ဒုတိယ object identifier အဖြစ် မသုံးရ။
+- Name နှင့် မူရင်း serialized property/key များကို မူရင်းစာလုံးပေါင်းအတိုင်း ထိန်းသိမ်းရမည်။
+- GitHub objects.csv တွင် PathID တစ်ခုစီသည် ထပ်မနေကြောင်း စစ်ဆေးတွေ့ရှိသည်။ သို့သော် objects.csv တွင် မူရင်း container အမည် column မပါ။
+- ထို့ကြောင့် Local Source ရှာဖွေရာတွင် PathID ကိုသာ object ID အဖြစ်သုံးပြီး မူရင်း container filename ကို source-location scope အဖြစ် သီးခြားမှတ်တမ်းတင်ရမည်။ Container filename ကို ဒုတိယ object ID ဟု မသတ်မှတ်ရ။
+- Container မသေချာပါက UNKNOWN ဟုထားရမည်။ မခန့်မှန်းရ။
+
+၂။ ပင်လယ်ရေပြင်နှင့် တိုက်ရိုက်ဆက်စပ်နိုင်သည့် အထောက်အထား
+- C# metadata ထဲတွင် Ceto.ProjectedGrid နှင့် Ceto.Ocean ရှိကြောင်း အတည်ပြုထားသည်။
+- Ceto.ProjectedGrid တွင် CreateGrid, UpdateGrid, UpdateBounds, ApplyProjection စသည့် method အမည်များရှိသည်။
+- Ceto.Ocean တွင် Update, UpdateOceanScheduler, CalculateWindDirVector, SunDir, SunColor, RenderWaveOverlays, RenderReflection စသည့် method အမည်များရှိသည်။
+- Ceto.WaveSpectrum / FourierCPU / FourierGPU / PhillipsSpectrum / UnifiedSpectrum ဆိုင်ရာ code metadata ရှိသည်။
+- Vulkan GLSL entry shader များထဲတွင် Ceto_ButterFlyLookUp နှင့် Ceto_ReadBuffer0 ဟူသော မူရင်း shader property key များကို တွေ့ရသည်။ ဤ shader များသည် Fourier processing အတွက်ဖြစ်ကြောင်း code နှင့် shader text က ထောက်ခံသည်။
+- ဤ Ceto class/method metadata များသည် C# code metadata ဖြစ်ပြီး Unity serialized object PathID မဟုတ်ပါ။ Script ၏ object selector ထဲသို့ RVA/MetadataToken မထည့်ရ။
+
+၃။ PathID အထောက်အထားနှင့် ကန့်သတ်ချက်
+- PathID 1471 — DeepSeaBase; Texture2D; 513x513; RGB24; mip count 1; data source assets-inline; object index DataOffset 5235688; texture index payload offset 5235792; size 789507.
+- DeepSeaBase သည် အမည်အရ ocean surface candidate ဖြစ်သော်လည်း material reference ချိတ်ဆက်မှုကို မအတည်ပြုနိုင်သေး။ Confirmed surface texture ဟု မသတ်မှတ်ရ။
+- PathID 295 — Water_Splash_1 material; shader reference PathID 3119; texture reference PathID 760.
+- PathID 296 — Water_Splash_2 material; shader reference PathID 3119; texture reference PathID 1082.
+- Water_Splash_1 / Water_Splash_2 သည် splash material များဖြစ်ပြီး ocean surface material ဟု မယူဆရ။
+- PathID 3119 သည် object index တွင် ClassID 48 ဖြစ်ပြီး material record နှစ်ခု၏ shader reference ဖြစ်သည်။ Shader အမည်/ရည်ရွယ်ချက်ကို သီးခြားအတည်ပြုရန် လိုသေးသည်။
+- PathID 1471 အတွက် original owning container ကို GitHub index မှ မသိနိုင်သေး။ UNKNOWN ထားရမည်။
+
+၄။ PART 1 မှ ဖယ်ထားရမည့်အရာများ
+- Water_Still mesh များသည် mesh-material assignment အရ Rock_MAT, Stick_MAT, Coconut_Flask_MAT, Rope_MAT, Tarp_Cloth_MAT တို့နှင့် ချိတ်ဆက်ထားသော prop များဖြစ်သည်။ Ocean surface geometry ဟု မယူဆရ။
+- WaterSkin နှင့် WaterPot သည် container/prop asset များဖြစ်သည်။
+- ShorelineRock, SeaFort, SeaPlane, SeaAnchor များသည် PART 1 ရေပြင် surface မဟုတ်။
+- UnderwaterVegetation၊ underwater rendering၊ refraction၊ underwater mask/depth များကို PART 1 ရေပြင် ONLY မှ ဖယ်ထားရမည်။
+- ယခင် OBJ/PNG/BIN export များ၊ ယခင် Godot Project နှင့် ယခင် Python Script များကို အသစ်ထုတ်လုပ်ရာတွင် မသုံးရ။ ဤ checkpoint သည် metadata အထောက်အထားကိုသာ ဖတ်ရှုထားခြင်းဖြစ်သည်။
+
+၅။ လက်ရှိဆုံးဖြတ်ချက်
+- Script မရေးသေး။
+- PathID တစ်မျိုးတည်းကို object identifier အဖြစ်သုံးမည်။
+- DeepSeaBase 1471 သည် candidate သာဖြစ်ပြီး verified surface asset မဟုတ်သေး။
+- Ceto ocean system သည် code-level surface generation အတွက် အဓိက reference ဖြစ်နိုင်သော်လည်း Unity shader/material PathID ချိတ်ဆက်မှု မပြည့်စုံသေး။
+- နောက်တစ်ဆင့်မှာ ocean surface အတွက် မူရင်း PathID နှင့် fixed key/reference များကို GitHub metadata မှ ထပ်မံစစ်ဆေးပြီး unresolved link များကို UNKNOWN အဖြစ် ထိန်းသိမ်းရန်ဖြစ်သည်။
